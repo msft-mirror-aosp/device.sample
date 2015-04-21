@@ -7848,6 +7848,7 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       bearer="4"
+      profile_id="1"
   />
 
   <!-- IS95B - CDMA -->
@@ -7870,6 +7871,7 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       bearer="5"
+      profile_id="1"
   />
 
   <!-- 1xRTT - CDMA -->
@@ -7892,6 +7894,7 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       bearer="6"
+      profile_id="1"
   />
 
   <!-- EVDO_0 - CDMA -->
@@ -7914,6 +7917,7 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       bearer="7"
+      profile_id="1"
   />
 
   <!-- EVDO_A - CDMA -->
@@ -7936,6 +7940,7 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       bearer="8"
+      profile_id="1"
   />
 
   <!-- EVDO_B - CDMA -->
@@ -7958,6 +7963,7 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       bearer="12"
+      profile_id="1"
   />
 
   <apn carrier="Verizon Internet"
@@ -8605,6 +8611,7 @@
       mmsproxy="68.28.31.7"
       mmsport="80"
       bearer="6"
+      profile_id="1"
   />
 
   <!-- EVDO_0 - CDMA -->
@@ -8627,6 +8634,7 @@
       mmsproxy="68.28.31.7"
       mmsport="80"
       bearer="7"
+      profile_id="1"
   />
 
   <!-- EVDO_A - CDMA -->
@@ -8649,6 +8657,7 @@
       mmsproxy="68.28.31.7"
       mmsport="80"
       bearer="8"
+      profile_id="1"
   />
 
   <!-- EVDO_B - CDMA -->
@@ -8671,6 +8680,7 @@
       mmsproxy="68.28.31.7"
       mmsport="80"
       bearer="12"
+      profile_id="1"
   />
 
   <!-- IS95A - CDMA -->
@@ -8693,6 +8703,7 @@
       mmsproxy="68.28.31.7"
       mmsport="80"
       bearer="4"
+      profile_id="1"
   />
 
   <!-- IS95B - CDMA -->
@@ -8715,6 +8726,7 @@
       mmsproxy="68.28.31.7"
       mmsport="80"
       bearer="5"
+      profile_id="1"
   />
 
 
@@ -14094,6 +14106,7 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       bearer="4"
+      profile_id="1"
   />
 
   <!-- IS95B - CDMA -->
@@ -14116,6 +14129,7 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       bearer="5"
+      profile_id="1"
   />
 
   <!-- 1xRTT - CDMA -->
@@ -14138,6 +14152,7 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       bearer="6"
+      profile_id="1"
   />
 
   <!-- EVDO_0 - CDMA -->
@@ -14160,6 +14175,7 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       bearer="7"
+      profile_id="1"
   />
 
   <!-- EVDO_A - CDMA -->
@@ -14182,6 +14198,7 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       bearer="8"
+      profile_id="1"
   />
 
   <!-- EVDO_B - CDMA -->
@@ -14204,6 +14221,7 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       bearer="12"
+      profile_id="1"
   />
 
 
