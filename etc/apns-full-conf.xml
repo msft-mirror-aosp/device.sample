@@ -1983,6 +1983,26 @@
       mvno_match_data="214050104xxxxxx"
   />
 
+  <apn carrier="DIGI Spain"
+      carrier_id="2442"
+      mcc="214"
+      mnc="05"
+      apn="internet.digimobil.es"
+      type="default,supl"
+      mvno_type="gid"
+      mvno_match_data="44474553"
+  />
+
+  <apn carrier="DIGI Italy"
+      carrier_id="2443"
+      mcc="214"
+      mnc="05"
+      apn="digi.mobile"
+      type="default,supl"
+      mvno_type="gid"
+      mvno_match_data="44474954"
+  />
+
   <apn carrier="INTERNET GPRS"
       carrier_id = "1909"
       mcc="214"
@@ -2347,6 +2367,14 @@
       mmsproxy="37.132.0.10"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="DIGI Spain"
+      carrier_id="2442"
+      mcc="214"
+      mnc="22"
+      apn="internet.digimobil.es"
+      type="default,supl"
   />
 
   <apn carrier="Truphone"
@@ -3134,6 +3162,14 @@
         mvno_match_data="Daily Telecom"
   />
 
+  <apn carrier="DIGI Italy"
+      carrier_id="2443"
+      mcc="222"
+      mnc="36"
+      apn="digi.mobile"
+      type="default,supl"
+  />
+
   <apn carrier="Iliad"
       carrier_id = "2124"
       mcc="222"
@@ -3339,6 +3375,26 @@
       apn="internet"
       authtype="1"
       type="default,supl"
+  />
+
+  <apn carrier="DIGI Spain"
+      carrier_id="2442"
+      mcc="226"
+      mnc="05"
+      apn="internet.digimobil.es"
+      type="default,supl"
+      mvno_type="gid"
+      mvno_match_data="44474553"
+  />
+
+  <apn carrier="DIGI Italy"
+      carrier_id="2443"
+      mcc="226"
+      mnc="05"
+      apn="digi.mobile"
+      type="default,supl"
+      mvno_type="gid"
+      mvno_match_data="44474954"
   />
 
   <apn carrier="Cosmote Connect Mobile"
@@ -4359,7 +4415,7 @@
       protocol="IPV6"
       roaming_protocol="IPV6"
   />
-  
+
   <apn carrier="Internet"
       carrier_id = "2283"
       mcc="234"
@@ -6100,11 +6156,31 @@
       type="mms"
   />
 
+  <apn carrier="VTB Mobile"
+      carrier_id = "2448"
+      mcc="250"
+      mnc="26"
+      apn="vtb"
+      user=""
+      password=""
+      type="default,supl"
+  />
+
   <apn carrier="VODA internet"
       carrier_id = "1029"
       mcc="250"
       mnc="28"
       apn="vodalte.ru"
+      type="default,supl"
+  />
+
+  <apn carrier="Next Mobile"
+      carrier_id="2444"
+      mcc="250"
+      mnc="47"
+      apn="Next"
+      user=""
+      password=""
       type="default,supl"
   />
 
@@ -6969,12 +7045,12 @@
       type="dun"
   />
 
-  <apn carrier="O2 Ireland"
+  <apn carrier="3"
       carrier_id = "792"
       mcc="272"
       mnc="02"
       apn="internet"
-      mmsc="http://mmsc.mms.o2.ie:8002/"
+      mmsc="http://mms.three.ie"
       mmsproxy="62.40.32.40"
       mmsport="8080"
       type="default,supl,mms"
@@ -10112,7 +10188,7 @@
       bearer="18"
   />
 
-  <apn carrier="Project Fi - T"
+  <apn carrier="Google Fi - T"
       carrier_id = "1989"
       mcc="310"
       mnc="260"
@@ -13868,29 +13944,10 @@
       mcc="311"
       mnc="370"
       apn="mms.gci"
-      proxy="209.4.229.92"
+      proxy="24.237.158.34"
       port="9201"
-      mmsc="http://mmsc.gci.csky.us:6672"
-      mmsproxy="209.4.229.92"
-      mmsport="9201"
-      type="mms"
-  />
-
-  <apn carrier="ACS WEB"
-      carrier_id = "1843"
-      mcc="311"
-      mnc="370"
-      apn="web.acs"
-      type="default,supl"
-  />
-
-  <apn carrier="ACS MMS"
-      carrier_id = "1843"
-      mcc="311"
-      mnc="370"
-      apn="mms.acs"
-      mmsc="http://mmsc.acsalaska.net"
-      mmsproxy="209.4.229.92"
+      mmsc="http://mmsc.gci.net"
+      mmsproxy="24.237.158.34"
       mmsport="9201"
       type="mms"
   />
@@ -34837,6 +34894,5 @@
       mmsport="9028"
       type="mms"
   />
-
 
 </apns>
