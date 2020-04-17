@@ -2024,7 +2024,7 @@
       password=""
       port=""
       proxy=""
-      type="default,supl,foat,hipri"
+      type="default,supl,fota,hipri"
       roaming_protocol="IPV4V6"
       mvno_type="imsi"
       mvno_match_data="214050104xxxxxx"
@@ -2457,7 +2457,7 @@
       password=""
       port=""
       proxy=""
-      type="default,supl,foat,hipri"
+      type="default,supl,fota,hipri"
       protocol="IPV4V6"
   />
 
@@ -5165,7 +5165,7 @@
       protocol="IP"
       roaming_protocol="IP"
       mvno_type="imsi"
-      mvno_match_data="24007561"
+      mvno_match_data="240075610"
   />
 
   <apn carrier="Telenor Mobilsurf"
