@@ -9679,18 +9679,6 @@
       bearer_bitmask="1|2|3|9|10|11|15|16"
   />
 
-  <apn carrier="Carolina West Admin"
-      carrier_id = "1789"
-      mcc="310"
-      mnc="130"
-      apn="home.cww.com"
-      type="default,supl,mms,ims,cbs"
-      mmsc="http://mms.cwwmms.com/cww/mms.php"
-      mmsproxy="0.0.0.0"
-      mmsport="80"
-      bearer_bitmask="4|5|6|7|8|12"
-  />
-
   <apn carrier="Carolina West Internet"
       carrier_id = "1789"
       mcc="310"
@@ -9698,7 +9686,6 @@
       apn="home.cww.com"
       type="default,supl,mms,ims,cbs"
       mmsc="http://mms.cwwmms.com/cww/mms.php"
-      mmsproxy="0.0.0.0"
       mmsport="80"
       bearer_bitmask="4|5|6|7|8|12"
   />
@@ -9709,10 +9696,8 @@
       mnc="130"
       apn="tethering.cww.com"
       type="dun"
-      mmsc="http://mms.cwwmms.com/cww/mms.php"
-      mmsproxy="0.0.0.0"
-      mmsport="80"
       bearer_bitmask="4|5|6|7|8|12"
+      user_editable="false"
   />
 
   <apn carrier="internet"
@@ -32961,7 +32946,7 @@
       user="tim"
       password="tim"
       mmsc="http://mms.tim.br"
-      mmsproxy="200.179.66.242"
+      mmsproxy="189.40.191.96"
       mmsport="8080"
       authtype="1"
       protocol="IPV4V6"
@@ -32976,7 +32961,7 @@
       user="tim"
       password="tim"
       mmsc="http://mms.tim.br"
-      mmsproxy="200.179.66.242"
+      mmsproxy="189.40.191.96"
       mmsport="8080"
       authtype="1"
       protocol="IPV4V6"
@@ -32991,7 +32976,7 @@
       user="tim"
       password="tim"
       mmsc="http://mms.tim.br"
-      mmsproxy="200.179.66.242"
+      mmsproxy="189.40.191.96"
       mmsport="8080"
       authtype="1"
       protocol="IPV4V6"
