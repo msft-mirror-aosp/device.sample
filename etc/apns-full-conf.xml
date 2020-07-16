@@ -3254,21 +3254,21 @@
       mvno_match_data="Plintron"
   />
 
-  <apn carrier="WIND WEB"
+  <apn carrier="INTERNET"
       carrier_id = "1573"
       mcc="222"
       mnc="88"
-      apn="internet.wind"
+      apn="internet.it"
       type="default,supl"
   />
 
-  <apn carrier="WIND MMS"
+  <apn carrier="MMS"
       carrier_id = "1573"
       mcc="222"
       mnc="88"
-      apn="mms.wind"
-      mmsc="http://mms.wind.it"
-      mmsproxy="212.245.244.100"
+      apn="mms.it"
+      mmsc="http://mms.windtre.it"
+      mmsproxy="mmsproxy.windtre.it"
       mmsport="8080"
       type="mms"
   />
@@ -3297,15 +3297,23 @@
       mvno_type="gid"
   />
 
-  <apn carrier="3"
+  <apn carrier="INTERNET"
       carrier_id = "1575"
       mcc="222"
       mnc="99"
-      apn="tre.it"
-      mmsc="http://10.216.59.240:10021/mmsc"
-      mmsproxy="62.13.171.3"
-      mmsport="8799"
-      type="default,supl,mms"
+      apn="internet.it"
+      type="default,supl"
+  />
+
+  <apn carrier="MMS"
+      carrier_id = "1575"
+      mcc="222"
+      mnc="99"
+      apn="mms.it"
+      mmsc="http://mms.windtre.it"
+      mmsproxy="mmsproxy.windtre.it"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="Fastweb WEB"
@@ -34717,6 +34725,8 @@
       user=""
       password=""
       type="default,supl"
+      mvno_type="gid"
+      mvno_match_data="FA3207"
   />
   <apn carrier="Sberbank-Telecom MMS"
       carrier_id = "2251"
@@ -34729,14 +34739,18 @@
       mmsproxy="10.77.36.100"
       mmsport="8080"
       type="mms"
+      mvno_type="gid"
+      mvno_match_data="FA3207"
   />
   <apn carrier="Sberbank-Telecom IMS"
       carrier_id = "2251"
       mcc="250"
       mnc="50"
-      apn="ims.sberbank-tele.com"
+      apn="ims"
       type="ims"
       protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="FA3207"
   />
 
   <apn carrier="Unleashed"
@@ -35069,6 +35083,33 @@
       carrier_id="2472"
       apn="travelfy"
       type="default,supl"
+  />
+
+  <apn carrier="Internet WOM"
+    carrier_id="1430"
+    mcc="730"
+    mnc="09"
+    apn="internet"
+    type="default"
+    user=""
+    password=""
+    protocol="IPV4V6"
+    roaming_protocol="IPV4V6"
+    user_editable="false"
+  />
+
+  <apn carrier="IMS"
+    carrier_id="1430"
+    mcc="730"
+    mnc="09"
+    apn="ims"
+    type="ims"
+    user=""
+    password=""
+    protocol="IPV4"
+    roaming_protocol="IPV4"
+    user_editable="false"
+    user_visible="false"
   />
 
 </apns>
