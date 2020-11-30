@@ -67,18 +67,6 @@
   />
 
   <!-- bearer 13, 14 -->
-  <apn carrier="Test 800"
-      carrier_id = "1911"
-      mcc="001"
-      mnc="01"
-      apn="VZW800"
-      type="vzw800"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="13|14"
-  />
-
-  <!-- bearer 13, 14 -->
   <apn carrier="Test FOTA"
       carrier_id = "1911"
       mcc="001"
@@ -155,17 +143,6 @@
       modem_cognitive="true"
       max_conns="1023"
       max_conns_time="300"
-  />
-
-  <!-- bearer 13, 14 -->
-  <apn carrier="Test 800"
-      mcc="001"
-      mnc="010"
-      apn="VZW800"
-      type="vzw800"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="13|14"
   />
 
    <!-- bearer 13, 14 -->
@@ -384,6 +361,17 @@
       password="mvno"
       authtype="1"
       type="default,supl"
+      mvno_match_data="20403"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="MVNO NL"
+      carrier_id = "2149"
+      mcc="204"
+      mnc="03"
+      apn="ims"
+      protocol="IPV4"
+      type="ims"
       mvno_match_data="20403"
       mvno_type="imsi"
   />
@@ -5742,26 +5730,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Test 800"
-      mcc="246"
-      mnc="081"
-      apn="VZW800"
-      type="vzw800"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="13"
-  />
-
-  <apn carrier="Test 800"
-      mcc="246"
-      mnc="081"
-      apn="VZW800"
-      type="vzw800"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="14"
-  />
-
   <apn carrier="Test FOTA"
       mcc="246"
       mnc="081"
@@ -5863,26 +5831,6 @@
       modem_cognitive="true"
       max_conns="1023"
       max_conns_time="300"
-  />
-
-  <apn carrier="Test 800"
-      mcc="246"
-      mnc="81"
-      apn="VZW800"
-      type="vzw800"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="13"
-  />
-
-  <apn carrier="Test 800"
-      mcc="246"
-      mnc="81"
-      apn="VZW800"
-      type="vzw800"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="14"
   />
 
   <apn carrier="Test FOTA"
@@ -15605,106 +15553,52 @@
       bearer_bitmask="14"
   />
 
-  <apn carrier="pinebelt"
+  <apn carrier="Pine Belt"
       carrier_id = "2160"
       mcc="311"
       mnc="670"
-      apn="CdmaNai"
-      mvno_type="spn"
-      mvno_match_data="pinebelt"
-      mmsc="http://mmsc.pinebelt.csky.us:6672/"
-      mmsproxy=""
-      mmsport=""
-      type="mms"
-      carrier_enabled="false"
+      apn="ims"
+      type="ims"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      bearer_bitmask="6"
   />
 
-  <apn carrier="Pinebelt IMS"
+  <apn carrier="Pine Belt"
       carrier_id = "2160"
       mcc="311"
       mnc="670"
-      apn="VZWIMS"
-      type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="pinebelt"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="13"
-  />
-
-  <apn carrier="Pinebelt IMS"
-      carrier_id = "2160"
-      mcc="311"
-      mnc="670"
-      apn="VZWIMS"
-      type="ims,ia"
-      mvno_type="spn"
-      mvno_match_data="pinebelt"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="14"
-  />
-
-  <apn carrier="Pinebelt FOTA"
-      carrier_id = "2160"
-      mcc="311"
-      mnc="670"
-      apn="VZWADMIN"
+      apn="lte.ota.pinebelt.net"
       type="fota"
-      mvno_type="spn"
-      mvno_match_data="pinebelt"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      bearer_bitmask="13"
   />
 
-  <apn carrier="Pinebelt FOTA"
+  <apn carrier="Pine Belt"
       carrier_id = "2160"
       mcc="311"
       mnc="670"
-      apn="VZWADMIN"
-      type="fota"
-      mvno_type="spn"
-      mvno_match_data="pinebelt"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer_bitmask="14"
-   />
-
-  <apn carrier="Pinebelt"
-      carrier_id = "2160"
-      mcc="311"
-      mnc="670"
-      apn="VZWINTERNET"
-      mmsc="http://mmsc.pinebelt.csky.us:6672/"
+      apn="lte.internet.pinebelt.net"
+      mmsc="http://mmsc.pinebelt.net:6672/"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="pinebelt"
-      type="default,mms,dun,supl"
+      type="default,mms,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      bearer_bitmask="13"
   />
 
-  <apn carrier="Pinebelt"
+  <apn carrier="Pine Belt"
       carrier_id = "2160"
       mcc="311"
       mnc="670"
-      apn="VZWINTERNET"
-      mmsc="http://mmsc.pinebelt.csky.us:6672/"
+      apn="lte.tether.pinebelt.net"
+      mmsc="http://mmsc.pinebelt.net:6672/"
       mmsproxy=""
       mmsport=""
-      mvno_type="spn"
-      mvno_match_data="pinebelt"
-      type="default,mms,dun,supl"
+      type="dun"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      bearer_bitmask="14"
-   />
+  />
+
   <apn carrier="TelAlaska Cellular"
       carrier_id = "2256"
       mcc="311"
@@ -26215,6 +26109,14 @@
       type="mms"
   />
 
+  <apn carrier="Annatel"
+      carrier_id = "2454"
+      mcc="425"
+      mnc="26"
+      apn="annatel"
+      type="default,supl"
+  />
+
   <apn carrier="Batelco Internet"
       carrier_id = "1372"
       mcc="426"
@@ -26747,103 +26649,33 @@
       roaming_protocol="IP"
   />
 
-  <apn carrier="DCM"
-      carrier_id = "850"
+  <apn carrier="spモード"
       mcc="440"
       mnc="10"
-      apn=""
-      type="ia"
+      apn="spmode.ne.jp"
+      type="default,supl"
+      authtype="0"
+      protocol="IPV4V6"
   />
 
-  <apn carrier="IMS"
-      carrier_id = "850"
+  <apn carrier="lte_ims"
       mcc="440"
       mnc="10"
       apn="ims"
       type="ims"
+      authtype="0"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      bearer_bitmask="14"
+  />
+
+  <apn carrier="Emergency"
+      mcc="440"
+      mnc="10"
+      apn=""
+      type="Emergency"
       protocol="IPV6"
-  />
-
-  <apn carrier="sp-mode"
-      carrier_id = "850"
-      mcc="440"
-      mnc="10"
-      apn="spmode.ne.jp"
-      user=""
-      server=""
-      password=""
-      type="default,supl"
-  />
-
-  <apn carrier="mopera U"
-      carrier_id = "850"
-      mcc="440"
-      mnc="10"
-      apn="mopera.net"
-      user=""
-      server=""
-      password=""
-      type="default,supl"
-  />
-
-  <apn carrier="b-mobile for Nexus"
-      carrier_id = "850"
-      mcc="440"
-      mnc="10"
-      apn="bmobile.ne.jp"
-      user="bmobile@nx"
-      server=""
-      password="bmobile"
-      authtype="3"
-      type="default,supl"
-  />
-
-  <apn carrier="IIJmio"
-      carrier_id = "850"
-      mcc="440"
-      mnc="10"
-      apn="iijmio.jp"
-      user="mio@iij"
-      server=""
-      password="iij"
-      authtype="3"
-      protocol="IPV4V6"
-      type="default,supl"
-  />
-
-  <apn carrier="OCN モバイル ONE (3G)"
-      carrier_id = "850"
-      mcc="440"
-      mnc="10"
-      apn="3g-d-2.ocn.ne.jp"
-      user="mobileid@ocn"
-      server=""
-      password="mobile"
-      authtype="2"
-  />
-
-  <apn carrier="OCN モバイル ONE (LTE)"
-      carrier_id = "850"
-      mcc="440"
-      mnc="10"
-      apn="lte-d.ocn.ne.jp"
-      user="mobileid@ocn"
-      server=""
-      password="mobile"
-      authtype="2"
-  />
-
-  <apn carrier="RATEL"
-      carrier_id = "850"
-      mcc="440"
-      mnc="10"
-      apn="ratel.com"
-      user="ratel@ratel.com"
-      server=""
-      password="ratel"
-      authtype="3"
-      protocol="IPV4V6"
-      type="default,supl"
+      roaming_protocol="IPV6"
   />
 
   <apn carrier="楽天(rakuten.jp)"
@@ -32813,7 +32645,7 @@
       mvno_match_data='CELULAR'
   />
 
-  <apn carrier="Movistar WAP"
+  <apn carrier="Movistar INTERNET"
       carrier_id = "1337"
       mcc="722"
       mnc="07"
@@ -32822,17 +32654,7 @@
       password="wap"
       authtype="1"
       type="default,supl"
-  />
-
-  <apn carrier="Argentina:Movistar:INTERNET"
-      carrier_id = "1337"
-      mcc="722"
-      mnc="07"
-      apn="internet.gprs.unifon.com.ar"
-      type="dun"
-      user="internet"
-      password="internet"
-      authtype="1"
+      protocol="IPV4V6"
   />
 
   <apn carrier="Movistar MMS"
@@ -34987,8 +34809,6 @@
       type="default"
       user=""
       password=""
-      mvno_type="spn"
-      mvno_match_data="ALTAN"
   />
 
   <apn carrier="Altan"
@@ -34999,8 +34819,6 @@
       type="ims"
       user=""
       password=""
-      mvno_type="spn"
-      mvno_match_data="ALTAN"
   />
 
   <apn carrier="IENTC"
