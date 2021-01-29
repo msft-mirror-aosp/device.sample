@@ -448,6 +448,17 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="Vodafone IMS"
+      carrier_id = "20"
+      mcc="204"
+      mnc="04"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="EHRPD - VZW Roaming Internet"
       carrier_id = "1839"
       mcc="204"
@@ -1108,6 +1119,17 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="Orange IMS"
+      carrier_id = "32"
+      mcc="208"
+      mnc="01"
+      apn="IMS"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="Orange MMS"
       carrier_id = "32"
       mcc="208"
@@ -1703,6 +1725,16 @@
       mmsproxy="62.201.129.226"
       mmsport="8080"
       type="default,ia,supl,mms"
+  />
+
+  <apn carrier="Bouygues IMS"
+      carrier_id = "1487"
+      mcc="208"
+      mnc="20"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="mobiledata"
@@ -3095,6 +3127,17 @@
       type="mms"
   />
 
+  <apn carrier="TIM IMS"
+      carrier_id = "33"
+      mcc="222"
+      mnc="01"
+      apn="IMS"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="Internet"
       carrier_id = "1895"
       mcc="222"
@@ -3692,6 +3735,17 @@
       type="default,ia"
   />
 
+  <apn carrier="Orange IMS"
+      carrier_id = "1011"
+      mcc="226"
+      mnc="10"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="Lycamobile"
       mcc="226"
       mnc="16"
@@ -3723,6 +3777,17 @@
       proxy="192.168.210.1"
       port="8080"
       type="default,ia,supl"
+  />
+
+  <apn carrier="Swisscom IMS"
+      carrier_id = "2366"
+      mcc="228"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Sunrise live"
@@ -3812,9 +3877,11 @@
       carrier_id = "2394"
       mcc="230"
       mnc="01"
-      apn="IMS"
+      apn="ims"
       type="ims"
       protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="T-Mobile CZ"
@@ -3981,6 +4048,17 @@
       mmsport="8001"
       authtype="1"
       type="mms"
+  />
+
+  <apn carrier="A1 IMS"
+      carrier_id = "14"
+      mcc="232"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="T-Mobile Internet"
@@ -4436,6 +4514,17 @@
       user_editable="false"
   />
 
+  <apn carrier="Vodafone UK IMS"
+      carrier_id = "28"
+      mcc="234"
+      mnc="15"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="ASDA WAP"
       mcc="234"
       mnc="15"
@@ -4546,6 +4635,17 @@
       apn="3hotspot"
       authtype="0"
       type="dun"
+  />
+
+  <apn carrier="3 IMS"
+      carrier_id = "1505"
+      mcc="234"
+      mnc="20"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Lycamobile"
@@ -4831,6 +4931,18 @@
       type="ims"
       protocol="IPV6"
       roaming_protocol="IPV6"
+      user_visible="false"
+  />
+
+  <apn carrier="EE IMS"
+      carrier_id = "718"
+      mcc="234"
+      mnc="34"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
   />
 
   <apn carrier="Truphone"
@@ -5489,6 +5601,17 @@
       mvno_type="imsi"
   />
 
+  <apn carrier="Tele2 IMS"
+      carrier_id = "1696"
+      mcc="240"
+      mnc="07"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="Jump"
       carrier_id = "2138"
       mcc="240"
@@ -5686,6 +5809,17 @@
       mmsproxy="10.10.10.11"
       mmsport="8080"
       type="default,ia,supl,mms"
+  />
+
+  <apn carrier="Telenor IMS"
+      carrier_id = "958"
+      mcc="242"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="NetCom"
@@ -7104,6 +7238,17 @@
       protocol="IPV4V6"
   />
 
+  <apn carrier="Telekom IMS"
+      carrier_id = "2395"
+      mcc="262"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="Telekom Internet"
       carrier_id = "2395"
       mcc="262"
@@ -7188,6 +7333,8 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="E-Plus Internet"
@@ -7248,6 +7395,7 @@
       type="ims"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="o2 Internet Prepaid"
