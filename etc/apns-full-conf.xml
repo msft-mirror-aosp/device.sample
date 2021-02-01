@@ -792,23 +792,34 @@
       carrier_id = "2386"
       mcc="204"
       mnc="16"
-      apn="internet"
+      apn="smartsites.t-mobile"
       authtype="1"
       type="default,ia,supl"
+      protocol="IPV4V6"
   />
 
-  <apn carrier="T-Mobile MMS"
+  <apn carrier="T-Mobile IMS"
       carrier_id = "2386"
       mcc="204"
       mnc="16"
-      apn="mms"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="HOS"
+      carrier_id = "2386"
+      mcc="204"
+      mnc="16"
+      apn="hos"
       user="tmobilemms"
       password="tmobilemms"
       authtype="1"
-      mmsc="http://t-mobilemms"
-      mmsproxy="10.10.10.11"
-      mmsport="8080"
-      type="mms"
+      type="xcap"
+      protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Ben Internet Abonnee"
@@ -936,23 +947,37 @@
       carrier_id = "2386"
       mcc="204"
       mnc="20"
-      apn="internet"
+      apn="smartsites.t-mobile"
       authtype="1"
       type="default,ia,supl"
+      protocol="IPV4V6"
   />
 
-  <apn carrier="T-Mobile MMS"
+  <apn carrier="HOS"
       carrier_id = "2386"
       mcc="204"
       mnc="20"
-      apn="mms"
+      apn="hos"
       user="tmobilemms"
       password="tmobilemms"
       authtype="1"
       mmsc="http://t-mobilemms"
       mmsproxy="10.10.10.11"
       mmsport="8080"
-      type="mms"
+      type="xcap,mms"
+      protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      carrier_id = "2386"
+      mcc="204"
+      mnc="20"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Truphone"
@@ -3717,16 +3742,6 @@
       type="mms"
   />
 
-  <apn carrier="web'n'walk"
-      mcc="226"
-      mnc="03"
-      apn="wnw"
-      user="wnw"
-      password="wnw"
-      authtype="1"
-      type="default,ia,supl"
-  />
-
   <apn carrier="MMS"
       carrier_id = "1959"
       mcc="226"
@@ -3791,15 +3806,6 @@
       mmsproxy="10.252.1.62"
       mmsport="8080"
       type="mms"
-  />
-
-  <apn carrier="web'n'walk"
-      mcc="226"
-      mnc="06"
-      apn="wnw"
-      user="wnw"
-      password="wnw"
-      type="default,ia,supl"
   />
 
   <apn carrier="Orange Internet"
@@ -4005,6 +4011,16 @@
       authtype="1"
       type="mms"
   />
+
+  <apn carrier="HOS"
+      mcc="230"
+      mnc="01"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      user_visible="false"
+  />
+
 
   <apn carrier="O2 internet"
       carrier_id = "1449"
@@ -7188,7 +7204,7 @@
       type="mms"
   />
 
-  <apn carrier="T-mobile.pl"
+  <apn carrier="T-Mobile Internet"
       carrier_id = "2367"
       mcc="260"
       mnc="02"
@@ -7202,17 +7218,32 @@
       mnc="02"
       apn="internet"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      authtype="1"
   />
 
-  <apn carrier="T-mobile.pl"
+  <apn carrier="HOS"
       carrier_id = "2367"
       mcc="260"
       mnc="02"
-      apn="mms"
+      apn="hos"
       mmsc="http://mms/servlets/mms"
       mmsproxy="213.158.194.226"
       mmsport="8080"
-      type="mms"
+      type="xcap,mms"
+      authtype="1"
+      protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Telekom IMS"
+      mcc="260"
+      mnc="02"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="heyahinternet"
@@ -7324,10 +7355,10 @@
   />
 
   <apn carrier="Telekom Internet"
-      carrier_id = "2395"
+      carrier_id = "3"
       mcc="262"
       mnc="01"
-      apn="internet.telekom"
+      apn="internet.v6.telekom"
       user="telekom"
       password="telekom"
       authtype="1"
@@ -7336,7 +7367,7 @@
   />
 
   <apn carrier="Telekom IMS"
-      carrier_id = "2395"
+      carrier_id = "3"
       mcc="262"
       mnc="01"
       apn="ims"
@@ -7346,24 +7377,8 @@
       user_visible="false"
   />
 
-  <apn carrier="Telekom Internet"
-      carrier_id = "2395"
-      mcc="262"
-      mnc="01"
-      apn="internet.telekom"
-      user="telekom"
-      password="telekom"
-      mmsc="http://mms.t-mobile.de/servlets/mms"
-      mmsproxy="109.237.176.193"
-      mmsport="8008"
-      bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17"
-      authtype="1"
-      type="mms"
-      protocol="IPV4V6"
-  />
-
-  <apn carrier="Telekom Internet"
-      carrier_id = "2395"
+  <apn carrier="HOS"
+      carrier_id = "3"
       mcc="262"
       mnc="01"
       apn="hos"
@@ -7372,9 +7387,8 @@
       mmsc="http://mms.t-mobile.de/servlets/mms"
       mmsproxy="109.237.176.193"
       mmsport="8008"
-      bearer_bitmask="18"
       authtype="1"
-      type="mms"
+      type="xcap,mms"
       protocol="IPV4V6"
       user_visible="false"
   />
@@ -7392,7 +7406,51 @@
       mmsport="8008"
       mvno_match_data="debitel"
       mvno_type="spn"
-      protocol="IP"
+  />
+
+  <apn carrier="Congstar Internet"
+      carrier_id = "2092"
+      mcc="262"
+      mnc="01"
+      apn="internet.v6.telekom"
+      user="congstar"
+      password="cs"
+      authtype="1"
+      type="default,ia,supl"
+      protocol="IPV4V6"
+      mvno_match_data="44"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Congstar IMS"
+      carrier_id = "2092"
+      mcc="262"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="44"
+      mvno_type="gid"
+      user_visible="false"
+  />
+
+  <apn carrier="Congstar HOS"
+      carrier_id = "2092"
+      mcc="262"
+      mnc="01"
+      apn="hos"
+      user="telekom"
+      password="telekom"
+      mmsc="http://mms.t-mobile.de/servlets/mms"
+      mmsproxy="109.237.176.193"
+      mmsport="8008"
+      authtype="1"
+      type="xcap,mms"
+      protocol="IPV4V6"
+      mvno_match_data="44"
+      mvno_type="gid"
+      user_visible="false"
   />
 
   <apn carrier="Vodafone DE"
@@ -7470,6 +7528,45 @@
      type="default,ia,supl"
      mvno_match_data="26203483"
      mvno_type="imsi"
+  />
+
+  <apn carrier="Telekom Internet"
+      carrier_id = "3"
+      mcc="262"
+      mnc="06"
+      apn="internet.v6.telekom"
+      user="telekom"
+      password="telekom"
+      authtype="1"
+      type="default,ia,supl"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Telekom IMS"
+      carrier_id = "3"
+      mcc="262"
+      mnc="06"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="HOS"
+      carrier_id = "3"
+      mcc="262"
+      mnc="06"
+      apn="hos"
+      user="telekom"
+      password="telekom"
+      mmsc="http://mms.t-mobile.de/servlets/mms"
+      mmsproxy="109.237.176.193"
+      mmsport="8008"
+      authtype="1"
+      type="xcap,mms"
+      protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="o2 Internet"
@@ -8363,6 +8460,7 @@
       apn="internet"
       user="internet"
       password="t-mobile"
+      authtype="1"
       type="default,ia,supl"
   />
 
@@ -8376,6 +8474,7 @@
       mmsc="http://mms.t-mobile.com.mk"
       mmsproxy="62.162.155.227"
       mmsport="8080"
+      authtype="1"
       type="mms"
   />
 
@@ -8467,33 +8566,15 @@
       type="default,ia"
   />
 
-  <apn carrier="T-Mobile MMS"
-      carrier_id = "2088"
-      mcc="297"
-      mnc="02"
-      apn="mms"
-      user="38267"
-      password="38267"
-      mmsc="http://192.168.180.100/servlets/mms"
-      mmsproxy="10.0.5.19"
-      mmsport="8080"
-      type="mms"
-      mvno_match_data="Telekom.me"
-      mvno_type="spn"
-  />
-
   <apn carrier="T-Mobile Internet"
-      carrier_id = "2088"
+      carrier_id = "2363"
       mcc="297"
       mnc="02"
-      apn="tmcg-wnw"
+      apn="tmcg-4g"
       user="38267"
       password="38267"
-      proxy="10.0.5.19"
-      port="8080"
+      authtype="1"
       type="default,ia,supl"
-      mvno_match_data="Telekom.me"
-      mvno_type="spn"
   />
 
   <apn carrier="TELUS"
