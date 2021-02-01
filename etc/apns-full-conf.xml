@@ -452,14 +452,18 @@
       mvno_match_data="547275554B3030656E"
   />
 
-  <apn carrier="Vodafone NL"
+  <apn carrier="Vodafone Internet"
+      carrier_id = "20"
       mcc="204"
       mnc="04"
       apn="live.vodafone.com"
       user="vodafone"
       password="vodafone"
       authtype="1"
-      type="default,ia,supl"
+      type="default,ia,supl,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
   />
 
   <apn carrier="Vodafone IMS"
