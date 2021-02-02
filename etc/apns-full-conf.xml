@@ -936,14 +936,36 @@
       mvno_match_data="2040439506"
   />
 
-  <apn carrier="KPN Mobile Internet"
+  <apn carrier="KPN Mobiel Internet"
       carrier_id = "1644"
       mcc="204"
       mnc="08"
       apn="internet"
-      type="default"
+      type="default,ia"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="UT-Interface"
+      carrier_id = "1644"
+      mcc="204"
+      mnc="08"
+      apn="ut"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="IMS"
+      carrier_id = "1644"
+      mcc="204"
+      mnc="08"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="MVNO NL"
@@ -1009,7 +1031,7 @@
       mcc="204"
       mnc="12"
       apn="internet"
-      type="default"
+      type="default,ia"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
@@ -1056,36 +1078,13 @@
       user_visible="false"
   />
 
-  <apn carrier="Ben Internet Abonnee"
+  <apn carrier="Ben Internet"
       carrier_id = "2095"
       mcc="204"
       mnc="16"
       apn="internet.ben"
       type="default,ia,supl"
-      mvno_match_data="BEN NL"
-      mvno_type="spn"
-  />
-
-  <apn carrier="Ben Internet PrePaid"
-      carrier_id = "2095"
-      mcc="204"
-      mnc="16"
-      apn="basic.internet.ben.data"
-      type="default,ia,supl"
-      mvno_match_data="BEN NL"
-      mvno_type="spn"
-  />
-
-  <apn carrier="Ben MMS"
-      carrier_id = "2095"
-      mcc="204"
-      mnc="16"
-      apn="mms.ben"
       authtype="1"
-      mmsc="http://benmms/"
-      mmsproxy="10.10.10.11"
-      mmsport="8080"
-      type="mms"
       mvno_match_data="BEN NL"
       mvno_type="spn"
   />
@@ -1169,6 +1168,15 @@
       user_visible="false"
   />
 
+   <apn carrier="Ziggo mobiel internet"
+      mcc="204"
+      mnc="18"
+      apn="internet.ziggo.nl"
+      type="default,ia,supl"
+      mvno_match_data="7A696731"
+      mvno_type="gid"
+  />
+
   <apn carrier="T-Mobile Internet"
       carrier_id = "2386"
       mcc="204"
@@ -1242,7 +1250,28 @@
       mcc="204"
       mnc="69"
       apn="internet"
-      type="default"
+      type="default,ia"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="UT-Interface"
+      carrier_id = "1644"
+      mcc="204"
+      mnc="69"
+      apn="ut"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="IMS"
+      carrier_id = "1644"
+      mcc="204"
+      mnc="69"
+      apn="ims"
+      type="ims"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
