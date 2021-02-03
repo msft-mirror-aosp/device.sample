@@ -3443,20 +3443,19 @@
       type="mms"
   />
 
-  <apn carrier="mt:s wap"
+  <apn carrier="MTS WAP"
       carrier_id = "1013"
       mcc="220"
       mnc="03"
       apn="gprswap"
       user="mts"
       password="064"
-      proxy="172.17.88.198"
-      port="8080"
       authtype="1"
       type="default,ia,supl"
+      server="http://m.mondo.rs"
   />
 
-  <apn carrier="mt:s mms"
+  <apn carrier="MTS MMS"
       carrier_id = "1013"
       mcc="220"
       mnc="03"
@@ -3468,17 +3467,6 @@
       mmsport="8080"
       authtype="1"
       type="mms"
-  />
-
-  <apn carrier="MTS Internet RS"
-      carrier_id = "1013"
-      mcc="220"
-      mnc="03"
-      apn="gprsinternet"
-      authtype="0"
-      user="mts"
-      password="064"
-      type="default,ia,supl,fota,dun"
   />
 
   <apn carrier="T-Mobile MMS"
@@ -3521,9 +3509,6 @@
       apn="vipmobile"
       user="vipmobile"
       password="vipmobile"
-      proxy="212.15.182.82"
-      port="8080"
-      authtype="1"
       type="default,ia,supl"
   />
 
@@ -3534,10 +3519,7 @@
       apn="vipmobile.mms"
       user="vipmobile"
       password="vipmobile"
-      mmsc="http://mmsc.vipmobile.rs"
-      mmsproxy="212.15.182.82"
-      mmsport="8080"
-      authtype="1"
+      mmsc="http://mms.vipmobile.rs"
       type="mms"
   />
 
