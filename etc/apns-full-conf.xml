@@ -3211,21 +3211,11 @@
       mvno_match_data="75687531"
   />
 
-  <apn carrier="HT Eronet WAP"
+  <apn carrier="HT Eronet WEB"
       carrier_id = "1357"
       mcc="218"
       mnc="03"
-      apn="wap.eronet.ba"
-      proxy="10.12.3.10"
-      port="8080"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="HT Eronet GPRS"
-      carrier_id = "1357"
-      mcc="218"
-      mnc="03"
-      apn="gprs.eronet.ba"
+      apn="web.eronet.ba"
       type="default,ia,supl"
   />
 
@@ -3240,21 +3230,11 @@
       type="mms"
   />
 
-  <apn carrier="m:tel"
+  <apn carrier="mtel"
       carrier_id = "1358"
       mcc="218"
       mnc="05"
-      apn="3g1"
-      proxy="192.168.61.10"
-      port="80"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="mtelgprs"
-      carrier_id = "1358"
-      mcc="218"
-      mnc="05"
-      apn="3g1"
+      apn="mtelsmart"
       type="default,ia,supl"
   />
 
