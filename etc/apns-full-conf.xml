@@ -1636,6 +1636,16 @@
       mvno_type="imsi"
   />
 
+  <apn carrier="Monaco Telecom"
+      mcc="208"
+      mnc="01"
+      apn="internet"
+      mmsc="http://mms.monaco-telecom.mc"
+      type="default,ia,supl,mms"
+      mvno_match_data="4d433032"
+      mvno_type="gid"
+  />
+
 
   <apn carrier="SFR webphone"
       carrier_id = "27"
@@ -2210,6 +2220,16 @@
       mmsproxy="10.12.0.1"
       mmsport="9028"
       type="mms"
+  />
+
+  <apn carrier="Monaco Telecom"
+      mcc="212"
+      mnc="10"
+      apn="internet"
+      mmsc="http://mms.monaco-telecom.mc"
+      type="default,ia,supl,mms"
+      mvno_match_data="4d433032"
+      mvno_type="gid"
   />
 
   <apn carrier="Mobiland"
