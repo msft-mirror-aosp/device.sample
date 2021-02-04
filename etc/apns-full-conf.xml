@@ -4408,6 +4408,21 @@
   />
 
   <apn carrier="HOS"
+      carrier_id = "2394"
+      mcc="230"
+      mnc="01"
+      apn="hos"
+      mmsc="http://mms"
+      mmsproxy="10.0.0.10"
+      mmsport="80"
+      authtype="1"
+      type="mms"
+      network_type_bitmask="18"
+      protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="HOS"
       mcc="230"
       mnc="01"
       apn="hos"
@@ -4416,13 +4431,15 @@
       user_visible="false"
   />
 
-
   <apn carrier="O2 internet"
       carrier_id = "1449"
       mcc="230"
       mnc="02"
       apn="internet"
       type="default,ia,supl"
+      authtype="0"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="O2 MMS"
@@ -4436,12 +4453,32 @@
       type="mms"
   />
 
+  <apn carrier="O2 VoLTE Hlas"
+      carrier_id = "1449"
+      mcc="230"
+      mnc="02"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      user_visible="false"
+  />
+
+  <apn carrier="O2 VoLTE"
+      carrier_id = "1449"
+      mcc="230"
+      mnc="02"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV6"
+      user_visible="false"
+  />
+
   <apn carrier="Internet"
       carrier_id = "2398"
       mcc="230"
       mnc="03"
       apn="internet"
-      type="default,ia,supl"
+      type="default,ia,supl,xcap"
   />
 
   <apn carrier="MMS"
@@ -4456,6 +4493,16 @@
       mmsport="80"
       authtype="1"
       type="mms"
+      user_editable="false"
+  />
+
+  <apn carrier="IMS"
+      carrier_id = "2398"
+      mcc="230"
+      mnc="03"
+      apn="ims"
+      type="ims"
+      user_visible="false"
   />
 
   <apn carrier="Orange SK"
