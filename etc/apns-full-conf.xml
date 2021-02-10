@@ -9468,7 +9468,7 @@
       type="mms"
   />
 
-  <apn carrier="CYTA"
+  <apn carrier="Cyta"
       carrier_id = "1447"
       mcc="280"
       mnc="01"
@@ -9479,7 +9479,7 @@
       type="default,ia,supl,mms"
   />
 
-  <apn carrier="MTN MMS"
+  <apn carrier="epic MMS"
       carrier_id = "1448"
       mcc="280"
       mnc="10"
@@ -9492,7 +9492,7 @@
       type="mms"
   />
 
-  <apn carrier="MTN Internet"
+  <apn carrier="epic Internet"
       carrier_id = "1448"
       mcc="280"
       mnc="10"
