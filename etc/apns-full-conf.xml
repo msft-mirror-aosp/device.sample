@@ -22692,6 +22692,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -22700,6 +22702,8 @@
       mnc="01"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -22710,6 +22714,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -22721,6 +22727,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -22729,6 +22737,8 @@
       mnc="03"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -22739,6 +22749,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -22750,6 +22762,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -22758,6 +22772,8 @@
       mnc="04"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -22768,6 +22784,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -22779,6 +22797,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -22787,6 +22807,8 @@
       mnc="05"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -22797,6 +22819,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -22808,6 +22832,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -22816,6 +22842,8 @@
       mnc="06"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -22826,6 +22854,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -22837,6 +22867,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -22845,6 +22877,8 @@
       mnc="07"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -22855,6 +22889,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -22866,6 +22902,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -22874,6 +22912,8 @@
       mnc="08"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -22884,6 +22924,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -22895,6 +22937,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -22903,6 +22947,8 @@
       mnc="09"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -22913,6 +22959,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -22924,6 +22972,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -22932,6 +22982,8 @@
       mnc="10"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -22942,6 +22994,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -22953,6 +23007,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -22961,6 +23017,8 @@
       mnc="11"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -22971,6 +23029,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -22982,6 +23042,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -22990,6 +23052,8 @@
       mnc="12"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -23000,6 +23064,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -23011,6 +23077,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -23019,6 +23087,8 @@
       mnc="13"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -23029,6 +23099,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -23040,6 +23112,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -23048,6 +23122,8 @@
       mnc="14"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -23058,6 +23134,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -23069,6 +23147,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -23077,6 +23157,8 @@
       mnc="15"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -23087,6 +23169,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -23098,6 +23182,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -23106,6 +23192,8 @@
       mnc="17"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -23116,6 +23204,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -23127,6 +23217,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -23135,6 +23227,8 @@
       mnc="18"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -23145,6 +23239,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -23156,6 +23252,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -23164,6 +23262,8 @@
       mnc="19"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -23174,6 +23274,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -23185,6 +23287,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -23193,6 +23297,8 @@
       mnc="20"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -23203,6 +23309,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -23214,6 +23322,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -23222,6 +23332,8 @@
       mnc="21"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -23232,6 +23344,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -23243,6 +23357,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -23251,6 +23367,8 @@
       mnc="22"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -23261,6 +23379,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Reliance MMS"
@@ -23272,6 +23392,8 @@
       mmsproxy="10.239.221.5"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Netconnect"
@@ -23280,6 +23402,8 @@
       mnc="23"
       apn="rcomnet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="RelianceMbWorld"
@@ -23290,6 +23414,8 @@
       proxy="10.239.221.5"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23300,6 +23426,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23308,6 +23436,8 @@
       mnc="025"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23319,6 +23449,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23327,6 +23459,8 @@
       mnc="026"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23337,6 +23471,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23348,6 +23484,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23356,6 +23494,8 @@
       mnc="027"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23366,6 +23506,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23377,6 +23519,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23385,6 +23529,8 @@
       mnc="028"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23395,6 +23541,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23406,6 +23554,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23414,6 +23564,8 @@
       mnc="029"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23424,6 +23576,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23435,6 +23589,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23443,6 +23599,8 @@
       mnc="030"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23453,6 +23611,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23464,6 +23624,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23472,6 +23634,8 @@
       mnc="031"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23482,6 +23646,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23493,6 +23659,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23501,6 +23669,8 @@
       mnc="032"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23511,6 +23681,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23522,6 +23694,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23530,6 +23704,8 @@
       mnc="033"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23540,6 +23716,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23551,6 +23729,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23559,6 +23739,8 @@
       mnc="034"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23569,6 +23751,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23580,6 +23764,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23588,6 +23774,8 @@
       mnc="035"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23598,6 +23786,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23609,6 +23799,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23617,6 +23809,8 @@
       mnc="036"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23627,6 +23821,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23638,6 +23834,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23646,6 +23844,8 @@
       mnc="037"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23656,6 +23856,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23667,6 +23869,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23675,6 +23879,8 @@
       mnc="038"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23685,6 +23891,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23696,6 +23904,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23704,6 +23914,8 @@
       mnc="039"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23714,6 +23926,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23725,6 +23939,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23733,6 +23949,8 @@
       mnc="040"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23743,6 +23961,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23754,6 +23974,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23762,6 +23984,8 @@
       mnc="041"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23772,6 +23996,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23783,6 +24009,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23791,6 +24019,8 @@
       mnc="042"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23801,6 +24031,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23812,6 +24044,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23820,6 +24054,8 @@
       mnc="043"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23830,6 +24066,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23841,6 +24079,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23849,6 +24089,8 @@
       mnc="044"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23859,6 +24101,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23870,6 +24114,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23878,6 +24124,8 @@
       mnc="045"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23888,6 +24136,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23899,6 +24149,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23907,6 +24159,8 @@
       mnc="046"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23917,6 +24171,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23928,6 +24184,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO INTERNET"
@@ -23936,6 +24194,8 @@
       mnc="047"
       apn="TATA.DOCOMO.INTERNET"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO DIVE-IN"
@@ -23946,6 +24206,8 @@
       proxy="10.124.94.7"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TATA DOCOMO MMS"
@@ -23957,6 +24219,8 @@
       mmsproxy="10.124.26.94"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Mobile Office"
@@ -23965,6 +24229,8 @@
       mnc="51"
       apn="airtelgprs.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="AIRTEL LIVE"
@@ -23975,6 +24241,8 @@
       proxy="100.1.200.99"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Airtel MMS"
@@ -23987,6 +24255,18 @@
       mmsproxy="100.1.201.172"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Airtel IMS"
+      carrier_id = "1961"
+      mcc="405"
+      mnc="51"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Mobile Office"
@@ -23995,6 +24275,8 @@
       mnc="52"
       apn="airtelgprs.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="AIRTEL LIVE"
@@ -24005,6 +24287,8 @@
       proxy="100.1.200.99"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Airtel MMS"
@@ -24017,6 +24301,18 @@
       mmsproxy="100.1.201.172"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Airtel IMS"
+      carrier_id = "1961"
+      mcc="405"
+      mnc="52"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Mobile Office"
@@ -24025,6 +24321,8 @@
       mnc="53"
       apn="airtelgprs.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="AIRTEL LIVE"
@@ -24035,6 +24333,8 @@
       proxy="100.1.200.99"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Airtel MMS"
@@ -24047,6 +24347,18 @@
       mmsproxy="100.1.201.172"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Airtel IMS"
+      carrier_id = "1961"
+      mcc="405"
+      mnc="53"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Mobile Office"
@@ -24055,6 +24367,8 @@
       mnc="54"
       apn="airtelgprs.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="AIRTEL LIVE"
@@ -24065,6 +24379,8 @@
       proxy="100.1.200.99"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Airtel MMS"
@@ -24077,6 +24393,18 @@
       mmsproxy="100.1.201.172"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Airtel IMS"
+      carrier_id = "1961"
+      mcc="405"
+      mnc="54"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Mobile Office"
@@ -24085,6 +24413,8 @@
       mnc="55"
       apn="airtelgprs.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="AIRTEL LIVE"
@@ -24095,6 +24425,8 @@
       proxy="100.1.200.99"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Airtel MMS"
@@ -24107,6 +24439,18 @@
       mmsproxy="100.1.201.172"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Airtel IMS"
+      carrier_id = "1961"
+      mcc="405"
+      mnc="55"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Mobile Office"
@@ -24115,6 +24459,8 @@
       mnc="56"
       apn="airtelgprs.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="AIRTEL LIVE"
@@ -24125,6 +24471,8 @@
       proxy="100.1.200.99"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Airtel MMS"
@@ -24137,6 +24485,18 @@
       mmsproxy="100.1.201.172"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Airtel IMS"
+      carrier_id = "1961"
+      mcc="405"
+      mnc="56"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone_MMS"
@@ -24148,6 +24508,8 @@
       mmsproxy="10.10.1.100"
       mmsport="9401"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafonemobileconnect"
@@ -24156,6 +24518,8 @@
       mnc="66"
       apn="www"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone live"
@@ -24166,6 +24530,8 @@
       proxy="10.10.1.100"
       port="9401"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone_MMS"
@@ -24177,6 +24543,8 @@
       mmsproxy="10.10.1.100"
       mmsport="9401"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafonemobileconnect"
@@ -24185,6 +24553,8 @@
       mnc="67"
       apn="www"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone live"
@@ -24195,6 +24565,8 @@
       proxy="10.10.1.100"
       port="9401"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Idea_Internet"
@@ -24203,6 +24575,8 @@
       mnc="70"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA GPRS"
@@ -24213,6 +24587,8 @@
       proxy="10.4.42.15"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -24224,6 +24600,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone_MMS"
@@ -24235,6 +24613,8 @@
       mmsproxy="10.10.1.100"
       mmsport="9401"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafonemobileconnect"
@@ -24243,6 +24623,8 @@
       mnc="750"
       apn="www"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone live"
@@ -24253,6 +24635,8 @@
       proxy="10.10.1.100"
       port="9401"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone_MMS"
@@ -24264,6 +24648,8 @@
       mmsproxy="10.10.1.100"
       mmsport="9401"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafonemobileconnect"
@@ -24272,6 +24658,8 @@
       mnc="751"
       apn="www"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone live"
@@ -24282,6 +24670,8 @@
       proxy="10.10.1.100"
       port="9401"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone_MMS"
@@ -24293,6 +24683,8 @@
       mmsproxy="10.10.1.100"
       mmsport="9401"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafonemobileconnect"
@@ -24301,6 +24693,8 @@
       mnc="752"
       apn="www"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone live"
@@ -24311,6 +24705,8 @@
       proxy="10.10.1.100"
       port="9401"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone_MMS"
@@ -24322,6 +24718,8 @@
       mmsproxy="10.10.1.100"
       mmsport="9401"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafonemobileconnect"
@@ -24330,6 +24728,8 @@
       mnc="753"
       apn="www"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone live"
@@ -24340,6 +24740,8 @@
       proxy="10.10.1.100"
       port="9401"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone_MMS"
@@ -24351,6 +24753,8 @@
       mmsproxy="10.10.1.100"
       mmsport="9401"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafonemobileconnect"
@@ -24359,6 +24763,8 @@
       mnc="754"
       apn="www"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone live"
@@ -24369,6 +24775,8 @@
       proxy="10.10.1.100"
       port="9401"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone_MMS"
@@ -24380,6 +24788,8 @@
       mmsproxy="10.10.1.100"
       mmsport="9401"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafonemobileconnect"
@@ -24388,6 +24798,8 @@
       mnc="755"
       apn="www"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone live"
@@ -24398,6 +24810,8 @@
       proxy="10.10.1.100"
       port="9401"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone_MMS"
@@ -24409,6 +24823,8 @@
       mmsproxy="10.10.1.100"
       mmsport="9401"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafonemobileconnect"
@@ -24417,6 +24833,8 @@
       mnc="756"
       apn="www"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone live"
@@ -24427,6 +24845,8 @@
       proxy="10.10.1.100"
       port="9401"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Idea_Internet"
@@ -24435,6 +24855,8 @@
       mnc="799"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA GPRS"
@@ -24445,6 +24867,8 @@
       proxy="10.4.42.15"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -24456,25 +24880,34 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="800"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="800"
       apn="aircelwap"
       proxy="172.17.83.69"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="800"
       apn="aircelmms"
@@ -24482,25 +24915,34 @@
       mmsproxy="172.17.83.69"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="801"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="801"
       apn="aircelwap"
       proxy="192.168.35.201"
       port="8081"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="801"
       apn="aircelmms"
@@ -24508,25 +24950,34 @@
       mmsproxy="192.168.35.196"
       mmsport="8081"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="802"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="802"
       apn="aircelwap"
       proxy="172.17.83.69"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="802"
       apn="aircelmms"
@@ -24534,25 +24985,34 @@
       mmsproxy="172.17.83.69"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="803"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="803"
       apn="aircelwap"
       proxy="192.168.35.201"
       port="8081"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="803"
       apn="aircelmms"
@@ -24560,25 +25020,34 @@
       mmsproxy="192.168.35.196"
       mmsport="8081"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="804"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="804"
       apn="aircelwap"
       proxy="172.17.83.69"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="804"
       apn="aircelmms"
@@ -24586,25 +25055,34 @@
       mmsproxy="172.17.83.69"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="805"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="805"
       apn="aircelwap"
       proxy="172.17.83.69"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="805"
       apn="aircelmms"
@@ -24612,25 +25090,34 @@
       mmsproxy="172.17.83.69"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="806"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="806"
       apn="aircelwap"
       proxy="172.17.83.69"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="806"
       apn="aircelmms"
@@ -24638,25 +25125,34 @@
       mmsproxy="172.17.83.69"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="807"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="807"
       apn="aircelwap"
       proxy="172.17.83.69"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="807"
       apn="aircelmms"
@@ -24664,25 +25160,34 @@
       mmsproxy="172.17.83.69"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="808"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="808"
       apn="aircelwap"
       proxy="172.17.83.69"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="808"
       apn="aircelmms"
@@ -24690,25 +25195,34 @@
       mmsproxy="172.17.83.69"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="809"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="809"
       apn="aircelwap"
       proxy="192.168.35.201"
       port="8081"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="809"
       apn="aircelmms"
@@ -24716,25 +25230,34 @@
       mmsproxy="192.168.35.196"
       mmsport="8081"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="810"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="810"
       apn="aircelwap"
       proxy="172.17.83.69"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="810"
       apn="aircelmms"
@@ -24742,25 +25265,34 @@
       mmsproxy="172.17.83.69"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="811"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="811"
       apn="aircelwap"
       proxy="172.17.83.69"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="811"
       apn="aircelmms"
@@ -24768,25 +25300,34 @@
       mmsproxy="172.17.83.69"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-GPRS"
+      carrier_id = "1551"
       mcc="405"
       mnc="812"
       apn="aircelgprs"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Pocket Internet"
+      carrier_id = "1551"
       mcc="405"
       mnc="812"
       apn="aircelwap"
       proxy="172.17.83.69"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Aircel-MMS"
+      carrier_id = "1551"
       mcc="405"
       mnc="812"
       apn="aircelmms"
@@ -24794,6 +25335,8 @@
       mmsproxy="172.17.83.69"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -24803,6 +25346,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -24813,6 +25358,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -24824,6 +25371,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -24833,6 +25382,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -24843,6 +25394,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -24854,6 +25407,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -24863,6 +25418,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -24873,6 +25430,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -24884,6 +25443,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -24893,6 +25454,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -24903,6 +25466,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -24914,6 +25479,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -24923,6 +25490,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -24933,6 +25502,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -24944,6 +25515,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -24953,6 +25526,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -24963,6 +25538,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -24974,6 +25551,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -24983,6 +25562,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -24993,6 +25574,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -25004,6 +25587,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -25013,6 +25598,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -25023,6 +25610,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -25034,6 +25623,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -25043,6 +25634,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -25053,6 +25646,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -25064,6 +25659,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -25073,6 +25670,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -25083,6 +25682,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -25094,6 +25695,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25105,6 +25708,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25113,6 +25718,8 @@
       mnc="823"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25124,6 +25731,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25132,6 +25741,8 @@
       mnc="824"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25143,6 +25754,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25151,6 +25764,8 @@
       mnc="825"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25162,6 +25777,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25170,6 +25787,8 @@
       mnc="826"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25181,6 +25800,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25189,6 +25810,8 @@
       mnc="827"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25200,6 +25823,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25208,6 +25833,8 @@
       mnc="828"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25219,6 +25846,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25227,6 +25856,8 @@
       mnc="829"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25238,6 +25869,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25246,6 +25879,8 @@
       mnc="830"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25256,6 +25891,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25263,6 +25900,8 @@
       mnc="831"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25274,6 +25913,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25282,6 +25923,8 @@
       mnc="832"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25293,6 +25936,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25301,6 +25946,8 @@
       mnc="833"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25312,6 +25959,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25320,6 +25969,8 @@
       mnc="834"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25331,6 +25982,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25339,6 +25992,8 @@
       mnc="835"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25350,6 +26005,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25358,6 +26015,8 @@
       mnc="836"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25369,6 +26028,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25377,6 +26038,8 @@
       mnc="837"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25388,6 +26051,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25396,6 +26061,8 @@
       mnc="838"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25406,6 +26073,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25413,25 +26082,29 @@
       mnc="839"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Videocon MMS"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="840"
-      apn="vgprs.com"
-      mmsc="http://10.202.4.119:10021/mmsc/"
-      mmsproxy="10.202.5.145"
-      mmsport="8799"
-      type="mms"
-  />
-
-  <apn carrier="Videocon"
-      carrier_id = "2018"
-      mcc="405"
-      mnc="840"
-      apn="vinternet.com"
+      apn="jionet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
+  />
+
+  <apn carrier="Reliance Jio IMS"
+      carrier_id = "2018"
+      mcc="405"
+      mnc="840"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25443,6 +26116,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25451,6 +26126,8 @@
       mnc="841"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25462,6 +26139,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25470,6 +26149,8 @@
       mnc="842"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -25481,6 +26162,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -25489,6 +26172,8 @@
       mnc="843"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -25498,6 +26183,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -25508,6 +26195,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -25519,6 +26208,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Idea_Internet"
@@ -25527,6 +26218,8 @@
       mnc="845"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA GPRS"
@@ -25537,6 +26230,8 @@
       proxy="10.4.42.15"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -25548,6 +26243,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Idea_Internet"
@@ -25556,6 +26253,8 @@
       mnc="846"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA GPRS"
@@ -25566,6 +26265,8 @@
       proxy="10.4.42.15"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -25577,6 +26278,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Idea_Internet"
@@ -25585,6 +26288,8 @@
       mnc="847"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA GPRS"
@@ -25595,6 +26300,8 @@
       proxy="10.4.42.15"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -25606,6 +26313,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Idea_Internet"
@@ -25614,6 +26323,8 @@
       mnc="848"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA GPRS"
@@ -25624,6 +26335,8 @@
       proxy="10.4.42.15"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -25635,6 +26348,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Idea_Internet"
@@ -25643,6 +26358,8 @@
       mnc="849"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA GPRS"
@@ -25653,6 +26370,8 @@
       proxy="10.4.42.15"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -25664,6 +26383,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Idea_Internet"
@@ -25672,6 +26393,8 @@
       mnc="850"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA GPRS"
@@ -25682,6 +26405,8 @@
       proxy="10.4.42.15"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -25693,6 +26418,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Idea_Internet"
@@ -25701,6 +26428,8 @@
       mnc="851"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA GPRS"
@@ -25711,6 +26440,8 @@
       proxy="10.4.42.15"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -25722,6 +26453,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Idea_Internet"
@@ -25730,6 +26463,8 @@
       mnc="852"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA GPRS"
@@ -25740,6 +26475,8 @@
       proxy="10.4.42.15"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -25751,6 +26488,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Idea_Internet"
@@ -25759,6 +26498,8 @@
       mnc="853"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA GPRS"
@@ -25769,6 +26510,8 @@
       proxy="10.4.42.15"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -25780,531 +26523,449 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405854)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="854"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405854)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="854"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405855)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="855"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405855)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="855"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405856)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="856"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405856)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="856"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405857)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="857"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405857)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="857"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405858)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="858"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405858)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="858"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405859)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="859"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405859)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="859"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405860)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="860"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405860)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="860"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405861)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="861"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405861)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="861"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405862)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="862"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405862)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="862"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405863)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="863"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405863)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="863"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405864)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="864"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405864)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="864"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405865)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="865"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405865)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="865"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405866)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="866"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405866)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="866"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405867)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="867"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405867)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="867"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405868)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="868"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405868)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="868"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405869)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="869"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405869)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="869"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405870)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="870"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405870)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="870"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405871)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="871"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405871)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="871"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405872)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="872"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405872)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="872"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405873)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="873"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405873)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="873"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Loop Internet (405874)"
+  <apn carrier="Reliance Jio"
       carrier_id = "2018"
       mcc="405"
       mnc="874"
-      apn="www"
-      type="default,supl,fota,dun"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="jionet"
+      type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13"
   />
 
-  <apn carrier="Loop MMS (405874)"
+  <apn carrier="Reliance Jio IMS"
       carrier_id = "2018"
       mcc="405"
       mnc="874"
-      apn="mizone"
-      mmsproxy="10.0.0.10"
-      mmsport="9401"
-      mmsc="http://mms.loopmobile.in:8080/"
-      type="mms"
-      protocol="IP"
-      roaming_protocol="IP"
-      carrier_enabled="true"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -26314,6 +26975,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -26324,6 +26987,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -26335,6 +27000,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -26344,6 +27011,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -26354,6 +27023,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -26365,6 +27036,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -26374,6 +27047,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -26384,6 +27059,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -26395,6 +27072,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -26404,6 +27083,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -26414,6 +27095,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -26425,6 +27108,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -26434,6 +27119,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -26444,6 +27131,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -26455,6 +27144,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -26464,6 +27155,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -26474,6 +27167,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -26485,6 +27180,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="STEL"
@@ -26493,6 +27190,8 @@
       mnc="881"
       apn="gprs.stel.in"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="STEL"
@@ -26501,6 +27200,8 @@
       mnc="882"
       apn="gprs.stel.in"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="STEL"
@@ -26509,6 +27210,8 @@
       mnc="883"
       apn="gprs.stel.in"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="STEL"
@@ -26517,6 +27220,8 @@
       mnc="884"
       apn="gprs.stel.in"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="STEL"
@@ -26525,6 +27230,8 @@
       mnc="885"
       apn="gprs.stel.in"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="STEL"
@@ -26533,6 +27240,8 @@
       mnc="886"
       apn="gprs.stel.in"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA"
@@ -26541,6 +27250,8 @@
       mnc="908"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -26552,6 +27263,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA"
@@ -26560,6 +27273,8 @@
       mnc="909"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -26571,6 +27286,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA"
@@ -26579,6 +27296,8 @@
       mnc="910"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -26590,6 +27309,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA"
@@ -26598,6 +27319,8 @@
       mnc="911"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IDEA MMS"
@@ -26609,6 +27332,8 @@
       mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26617,6 +27342,8 @@
       mnc="912"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26625,6 +27352,8 @@
       mnc="913"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26633,6 +27362,8 @@
       mnc="914"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26641,6 +27372,8 @@
       mnc="915"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26649,6 +27382,8 @@
       mnc="916"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26657,6 +27392,8 @@
       mnc="917"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26665,6 +27402,8 @@
       mnc="918"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26673,6 +27412,8 @@
       mnc="919"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26681,6 +27422,8 @@
       mnc="920"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26689,6 +27432,8 @@
       mnc="921"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26697,6 +27442,8 @@
       mnc="922"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26705,6 +27452,8 @@
       mnc="923"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26712,6 +27461,8 @@
       mnc="924"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -26721,6 +27472,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -26731,6 +27484,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -26742,6 +27497,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -26751,6 +27508,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -26761,6 +27520,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -26772,6 +27533,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -26781,6 +27544,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -26791,6 +27556,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -26802,6 +27569,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -26811,6 +27580,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -26821,6 +27592,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -26832,6 +27605,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Internet"
@@ -26841,6 +27616,8 @@
       apn="uninor"
       authtype="1"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor Wap"
@@ -26851,6 +27628,8 @@
       proxy="10.58.10.58"
       port="8080"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Uninor MMS"
@@ -26862,6 +27641,8 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26870,6 +27651,8 @@
       mnc="930"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cheers"
@@ -26877,6 +27660,8 @@
       mnc="931"
       apn="internet"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon MMS"
@@ -26888,6 +27673,8 @@
       mmsproxy="10.202.5.145"
       mmsport="8799"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Videocon"
@@ -26896,6 +27683,8 @@
       mnc="932"
       apn="vinternet.com"
       type="default,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Mobilink WAP GPRS"
