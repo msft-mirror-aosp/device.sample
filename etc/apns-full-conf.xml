@@ -39854,15 +39854,6 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Venezuela:Digitel:MODEM:1"
-      carrier_id = "1870"
-      mcc="734"
-      mnc="01"
-      apn="gprsweb.digitel.ve"
-      type="dun"
-      authtype="1"
-  />
-
   <apn carrier="MMS"
       carrier_id = "1870"
       mcc="734"
@@ -39882,15 +39873,6 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Venezuela:Digitel:MODEM:2"
-      carrier_id = "1871"
-      mcc="734"
-      mnc="02"
-      apn="gprsweb.digitel.ve"
-      type="dun"
-      authtype="1"
-  />
-
   <apn carrier="MMS"
       carrier_id = "1871"
       mcc="734"
@@ -39908,15 +39890,6 @@
       mnc="03"
       apn="internet.digitel.ve"
       type="default,ia,supl"
-  />
-
-  <apn carrier="Venezuela:Digitel:MODEM:3"
-      carrier_id = "1872"
-      mcc="734"
-      mnc="03"
-      apn="gprsweb.digitel.ve"
-      type="dun"
-      authtype="1"
   />
 
   <apn carrier="MMS"
@@ -39936,27 +39909,8 @@
       mnc="04"
       apn="internet.movistar.ve"
       type="default,ia,supl"
-  />
-
-  <apn carrier="Movistar MMS"
-      carrier_id = "1873"
-      mcc="734"
-      mnc="04"
-      apn="mms.movistar.ve"
-      mmsproxy="200.35.64.73"
-      mmsport="9001"
-      mmsc="http://mms.movistar.com.ve:8088/mms"
-      type="mms"
-  />
-
-  <apn carrier="Movistar WAP"
-      carrier_id = "1873"
-      mcc="734"
-      mnc="04"
-      apn="wap.movistar.ve"
-      mmsproxy="200.35.64.73"
-      mmsport="9001"
-      type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="MODEM"
