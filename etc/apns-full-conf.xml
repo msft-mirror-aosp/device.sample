@@ -39939,8 +39939,10 @@
       apn="internet.movistar.com.ec"
       user="movistar"
       password="movistar"
-      authtype="1"
+      authtype="0"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Movistar MMS"
@@ -39953,8 +39955,23 @@
       mmsproxy="10.3.5.50"
       mmsport="9001"
       mmsc="http://mms.movistar.com.ec:8088/mms/"
-      authtype="1"
+      authtype="0"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Movistar EC IMS"
+      carrier_id = "1472"
+      mcc="740"
+      mnc="00"
+      apn="ims"
+      user="movistar"
+      password="movistar"
+      authtype="0"
+      type="ims,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Internet Claro"
@@ -39979,45 +39996,13 @@
       type="mms"
   />
 
-  <apn carrier="Internet Claro"
-      carrier_id = "1473"
-      mcc="740"
-      mnc="010"
-      apn="internet.claro.com.ec"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="MMS Claro"
-      carrier_id = "1473"
-      mcc="740"
-      mnc="010"
-      apn="mms.claro.com.ec"
-      user="portamms"
-      password="portamms2003"
-      mmsproxy="216.250.208.94"
-      mmsport="8799"
-      mmsc="http://iesmms.porta.com.ec/"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="CNT 3G"
+  <apn carrier="CNT Internet"
       carrier_id = "1474"
       mcc="740"
       mnc="02"
-      apn="internet3gsp.alegro.net.ec"
+      apn="internet.cnt.net.ec"
+      authtype="3"
       type="default,ia,supl"
-  />
-
-  <apn carrier="CNT MMS"
-      carrier_id = "1474"
-      mcc="740"
-      mnc="02"
-      apn="mms.alegro.net.ec"
-      mmsproxy="10.4.85.3"
-      mmsport="8080"
-      mmsc="http://mms.alegro.net.ec/mms/"
-      type="mms"
   />
 
   <apn carrier="VOX INTERNET"
