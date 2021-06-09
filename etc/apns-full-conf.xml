@@ -8023,7 +8023,6 @@
       authtype="1"
       type="default,ia,supl"
       protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="MTS MMS"
@@ -8038,6 +8037,17 @@
       mmsport="8080"
       authtype="1"
       type="mms"
+  />
+
+  <apn carrier="MTS IMS"
+      carrier_id = "1678"
+      mcc="250"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Megafon Internet"
@@ -8064,23 +8074,49 @@
       type="mms"
   />
 
+  <apn carrier="Megafon IMS"
+      carrier_id = "1016"
+      mcc="250"
+      mnc="02"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="YOTA Internet"
       carrier_id = "1022"
       mcc="250"
       mnc="11"
-      apn="yota.ru"
+      apn="internet.yota"
+      authtype="1"
       type="default,ia,supl"
   />
 
-  <apn carrier="TELE2 Internet"
+  <apn carrier="YOTA MMS"
+      carrier_id = "1022"
+      mcc="250"
+      mnc="11"
+      apn="mms.yota"
+      mmsc="http://mmsc:8002"
+      mmsproxy="10.10.10.10"
+      mmsport="8080"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Tele2 Internet"
       carrier_id = "1028"
       mcc="250"
       mnc="20"
       apn="internet.tele2.ru"
-      type="default,ia,supl"
+      type="default,ia"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="TELE2 MMS"
+  <apn carrier="Tele2 MMS"
       carrier_id = "1028"
       mcc="250"
       mnc="20"
@@ -8091,6 +8127,35 @@
       type="mms"
   />
 
+  <apn carrier="Tele2 IMS"
+      carrier_id = "1028"
+      mcc="250"
+      mnc="20"
+      apn="ims.tele2.ru"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="HOS"
+      carrier_id = "1028"
+      mcc="250"
+      mnc="20"
+      apn="hos.tele2.ru"
+      type="xcap"
+      user_visible="false"
+  />
+
+  <apn carrier="Sberbank-Telecom Internet"
+      mcc="250"
+      mnc="20"
+      apn="internet.sberbank-tele.com"
+      type="default,ia,supl"
+      mvno_match_data="FA3207FF"
+      mvno_type="gid"
+  />
+
   <apn carrier="VTB Mobile"
       carrier_id = "2448"
       mcc="250"
@@ -8099,6 +8164,25 @@
       user=""
       password=""
       type="default,ia,supl"
+  />
+
+  <apn carrier="Letai Internet"
+      mcc="250"
+      mnc="27"
+      apn="internet.letai.ru"
+      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Letai MMS"
+      mcc="250"
+      mnc="27"
+      apn="mms"
+      mmsc="http://mmsc:8002"
+      mmsproxy="mmsc"
+      mmsport="8080"
+      authtype="1"
+      type="mms"
   />
 
   <apn carrier="VODA internet"
@@ -8124,11 +8208,9 @@
       mcc="250"
       mnc="50"
       apn="internet.sberbank-tele.com"
-      user=""
-      password=""
       type="default,ia,supl"
       mvno_type="gid"
-      mvno_match_data="FA3207"
+      mvno_match_data="FA3207FF"
   />
 
   <apn carrier="Sberbank-Telecom MMS"
@@ -8143,7 +8225,7 @@
       mmsport="8080"
       type="mms"
       mvno_type="gid"
-      mvno_match_data="FA3207"
+      mvno_match_data="FA3207FF"
   />
 
   <apn carrier="Sberbank-Telecom IMS"
@@ -8185,11 +8267,19 @@
       apn="mms.beeline.ru"
       user="beeline"
       password="beeline"
-      mmsc="http://mms/"
+      mmsc="http://mms"
       mmsproxy="192.168.94.23"
       mmsport="8080"
       authtype="1"
       type="mms"
+  />
+
+  <apn carrier="Beeline IMS"
+      mcc="250"
+      mnc="99"
+      apn="ims"
+      type="ims"
+      user_visible="false"
   />
 
   <apn carrier="MTS MMS"
