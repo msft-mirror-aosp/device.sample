@@ -1245,6 +1245,14 @@
       mvno_match_data="547275554B3030656E"
   />
 
+  <apn carrier="agms"
+      carrier_id = "2351"
+      mcc="204"
+      mnc="65"
+      apn="agms"
+      type="default,ia,supl"
+  />
+
   <apn carrier="KPN Lab Internet"
       carrier_id = "1644"
       mcc="204"
@@ -3491,14 +3499,6 @@
       password="38267"
       proxy="10.0.5.19"
       port="8080"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="agms"
-      carrier_id = "2351"
-      mcc="204"
-      mnc="65"
-      apn="agms"
       type="default,ia,supl"
   />
 
