@@ -9627,27 +9627,6 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="myBlue Pix"
-      carrier_id = "1187"
-      mcc="310"
-      mnc="030"
-      apn="mmswap.centennialwireless.com"
-      mmsc="http://mms.myblue.com/servlets/mms"
-      mmsproxy="63.99.231.135"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Internet"
-      carrier_id = "1187"
-      mcc="310"
-      mnc="030"
-      apn="private.centennialwireless.com"
-      user="privuser"
-      password="priv"
-      type="default,supl"
-  />
-
   <apn carrier="itewire"
       mcc="310"
       mnc="032"
@@ -11242,8 +11221,6 @@
 
   <apn carrier="ATT Nextgenphone"
       carrier_id = "1187"
-      mcc="310"
-      mnc="410"
       apn="nxtgenphone"
       type="default,mms,supl,fota,hipri"
       mmsc="http://mmsc.mobile.att.net"
@@ -11253,10 +11230,8 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="IMS"
+  <apn carrier="ATT IMS"
       carrier_id = "1187"
-      mcc="310"
-      mnc="410"
       apn="ims"
       type="ims"
       protocol="IPV4V6"
@@ -11265,8 +11240,6 @@
 
   <apn carrier="ATT Phone"
       carrier_id = "1187"
-      mcc="310"
-      mnc="410"
       apn="phone"
       type="default,mms,supl,fota,hipri"
       mmsc="http://mmsc.mobile.att.net"
@@ -11278,8 +11251,6 @@
 
   <apn carrier="ATT WAP"
       carrier_id = "1187"
-      mcc="310"
-      mnc="410"
       apn="wap.cingular"
       proxy="wireless.cingular.com"
       port="80"
@@ -11731,8 +11702,6 @@
 
   <apn carrier="ATT Nextgenphone"
       carrier_id = "1187"
-      mcc="310"
-      mnc="560"
       apn="nxtgenphone"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
@@ -37465,4 +37434,83 @@
       type="default,supl"
   />
 
+  <apn carrier="ATT 5G NSA default"
+      carrier_id = "10021"
+      apn="enhancedphone"
+      type="default,mms,supl,fota"
+      mmsc="http://mmsc.mobile.att.net"
+      mmsc_proxy="proxy.mobile.att.net"
+      mmsc_proxy_port="80"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
+
+  <apn carrier="ATT 5G NSA IMS"
+      carrier_id = "10021"
+      apn="ims"
+      type="ims"
+      bearer_bitmask="3|9|10|11|14|15|18|20"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="ATT 5G NSA Hotspot"
+      carrier_id = "10021"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="ATT 5G NSA XCAP"
+      carrier_id = "10021"
+      apn="enhancedphone"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="ATT 5G SA Default"
+      carrier_id = "10028"
+      apn="nrphone"
+      type="default,mms,supl,fota"
+      mmsc="http://mmsc.mobile.att.net"
+      mmsc_proxy="proxy.mobile.att.net"
+      mmsc_proxy_port="80"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
+
+  <apn carrier="ATT 5G SA IMS"
+      carrier_id = "10028"
+      apn="ims"
+      type="ims"
+      bearer_bitmask="3|9|10|11|14|15|18|20"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="ATT 5G SA Hotspot"
+      carrier_id = "10028"
+      apn="nrhotspot"
+      type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="ATT 5G SA XCAP"
+      carrier_id = "10028"
+      apn="nrphone"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
 </apns>
