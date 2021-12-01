@@ -228,6 +228,7 @@
       mmsproxy="10.10.10.20"
       mmsport="8080"
       type="mms"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
   />
 
   <apn carrier="IMS"
@@ -3439,6 +3440,7 @@
       mmsport="8080"
       authtype="1"
       protocol="IPV4V6"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
   />
 
   <apn carrier="Telekom IMS"
@@ -4709,6 +4711,7 @@
       mmsport="80"
       authtype="1"
       type="mms"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
   />
 
   <apn carrier="HOS"
@@ -6376,6 +6379,7 @@
       mmsproxy="185.110.178.97"
       mmsport="9028"
       type="mms"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
   />
 
   <apn carrier="Sky IMS"
@@ -6627,15 +6631,25 @@
       mcc="238"
       mnc="06"
       apn="data.tre.dk"
-      mmsc="http://mms.3.dk/"
-      mmsproxy="mmsproxy.3.dk"
-      mmsport="8799"
-      type="default,ia,supl,mms"
+      type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
 
   <apn carrier="3 MMS"
+      carrier_id = "1466"
+      mcc="238"
+      mnc="06"
+      apn="data.tre.dk"
+      mmsc="http://mms.3.dk/"
+      mmsproxy="mmsproxy.3.dk"
+      mmsport="8799"
+      type="mms"
+      protocol="IPV4V6"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
+  />
+
+  <apn carrier="3 MMS iWLAN"
       carrier_id = "1466"
       mcc="238"
       mnc="06"
@@ -6646,6 +6660,7 @@
       type="mms"
       protocol="IPV4V6"
       network_type_bitmask="18"
+      user_visible="false"
   />
 
   <apn carrier="3 DK Ut"
@@ -6884,15 +6899,25 @@
       mcc="240"
       mnc="02"
       apn="data.tre.se"
-      mmsc="http://mms.tre.se"
-      mmsproxy="mmsproxy.tre.se"
-      mmsport="8799"
-      type="default,ia,supl,mms"
+      type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
 
   <apn carrier="3 MMS"
+      carrier_id = "1691"
+      mcc="240"
+      mnc="02"
+      apn="data.tre.se"
+      mmsc="http://mms.tre.se"
+      mmsproxy="mmsproxy.tre.se"
+      mmsport="8799"
+      type="mms"
+      protocol="IPV4V6"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+  />
+
+  <apn carrier="3 MMS iWLAN"
       carrier_id = "1691"
       mcc="240"
       mnc="02"
@@ -6903,6 +6928,7 @@
       type="mms"
       protocol="IPV4V6"
       network_type_bitmask="18"
+      user_visible="false"
   />
 
   <apn carrier="3 Ut"
@@ -7127,6 +7153,7 @@
       mmsport="9028"
       mmsc="http://185.110.178.96:38090/was"
       type="mms"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
       mvno_match_data="0C"
       mvno_type="gid"
   />
