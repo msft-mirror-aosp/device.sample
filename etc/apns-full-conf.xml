@@ -5749,6 +5749,28 @@
       type="default,supl"
   />
 
+  <apn carrier="eRate Internet"
+      carrier_id = "2524"
+      mcc="242"
+      mnc="15"
+      mvno_match_data="0E"
+      mvno_type="gid"
+      apn="internet"
+      type="default,supl,ims,ia"
+  />
+
+  <apn carrier="eRate MMS"
+      carrier_id = "2524"
+      mcc="242"
+      mnc="15"
+      mmsc="http://mms.media"
+      apn="mms"
+      mvno_match_data="0E"
+      mvno_type="gid"
+      mmsport="80"
+      type="mms"
+  />
+
   <apn carrier="Lycamobile"
       mcc="242"
       mnc="23"
