@@ -9213,6 +9213,13 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="Gibtel"
+      mcc="266"
+      mnc="01"
+      apn="www.gibtele.com"
+      type="default,ia"
+  />
+
   <apn carrier="Vodafone Net2"
       mcc="268"
       mnc="01"
