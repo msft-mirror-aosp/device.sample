@@ -3555,7 +3555,7 @@
       mcc="222"
       mnc="01"
       apn="xcap.tim.it"
-      type="ut"
+      type="xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
