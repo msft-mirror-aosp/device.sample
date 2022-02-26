@@ -4202,8 +4202,6 @@
       mcc="228"
       mnc="01"
       apn="gprs.swisscom.ch"
-      proxy="192.168.210.1"
-      port="8080"
       type="default,ia,supl"
   />
 
@@ -4215,6 +4213,15 @@
       type="ims"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Swisscom Ut"
+      carrier_id = "2366"
+      mcc="228"
+      mnc="01"
+      apn="hos"
+      type="xcap"
       user_visible="false"
   />
 
@@ -4237,15 +4244,36 @@
       type="mms"
   />
 
-  <apn carrier="Orange Internet"
+  <apn carrier="Sunrise IMS"
+      carrier_id = "1413"
+      mcc="228"
+      mnc="02"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Sunrise Ut"
+      carrier_id = "1413"
+      mcc="228"
+      mnc="02"
+      apn="xcap"
+      type="xcap"
+      user_visible="false"
+  />
+
+  <apn carrier="Salt Internet"
       carrier_id = "1414"
       mcc="228"
       mnc="03"
       apn="internet"
+      authtype="1"
       type="default,ia,supl"
   />
 
-  <apn carrier="Orange MMS"
+  <apn carrier="Salt MMS"
       carrier_id = "1414"
       mcc="228"
       mnc="03"
@@ -4253,7 +4281,28 @@
       mmsc="http://192.168.151.3:8002"
       mmsproxy="192.168.151.2"
       mmsport="8080"
+      authtype="1"
       type="mms"
+  />
+
+  <apn carrier="Salt IMS"
+      carrier_id = "1414"
+      mcc="228"
+      mnc="03"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Salt Ut"
+      carrier_id = "1414"
+      mcc="228"
+      mnc="03"
+      apn="hos"
+      type="xcap"
+      user_visible="false"
   />
 
   <apn carrier="netgprs.com"
@@ -4278,6 +4327,27 @@
       type="default,ia,supl"
       mvno_match_data="BB00"
       mvno_type="gid"
+  />
+
+  <apn carrier="upcnet"
+      mcc="228"
+      mnc="53"
+      apn="Internet.ch.upcmobile.com"
+      type="default,ia,supl"
+      mvno_type="gid"
+      mvno_match_data="75636831"
+  />
+
+  <apn carrier="upcmms"
+      mcc="228"
+      mnc="53"
+      apn="mms.ch.upcmobile.com"
+      mmsc="http://mms.ch.upcmobile.com:8080/servlets/mms"
+      mmsproxy="62.179.127.18"
+      mmsport="8080"
+      type="mms"
+      mvno_type="gid"
+      mvno_match_data="75636831"
   />
 
   <apn carrier="Lycamobile"
