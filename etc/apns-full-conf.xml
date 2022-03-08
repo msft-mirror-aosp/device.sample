@@ -8985,7 +8985,9 @@
       mcc="272"
       mnc="01"
       apn="live.vodafone.com"
+      authtype="0"
       type="default,ia,supl"
+      user_editable="false"
   />
 
   <apn carrier="Vodafone IE-MMS"
@@ -8999,18 +9001,37 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MISP"
+  <apn carrier="ut"
       carrier_id = "2387"
       mcc="272"
       mnc="01"
-      apn="hs.vodafone.ie"
-      authtype="0"
-      user="vodafone"
-      password="vodafone"
-      type="dun"
+      apn="xcap"
+      type="xcap"
+      user_visible="false"
   />
 
-  <apn carrier="3"
+  <apn carrier="Vodafone IMS"
+      carrier_id = "2387"
+      mcc="272"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      user_visible="false"
+  />
+
+  <apn carrier="Postmobile Internet"
+      mcc="272"
+      mnc="01"
+      apn="isp.postfone.ie"
+      type="default,ia,supl,mms"
+      mmsc="http://mms.postfone.ie"
+      mmsproxy="10.192.15.133"
+      mmsport="80"
+      mvno_match_data="Postmobile"
+      mvno_type="spn"
+  />
+
+  <apn carrier="Three Internet"
       carrier_id = "792"
       mcc="272"
       mnc="02"
@@ -9021,38 +9042,34 @@
       type="default,ia,supl,mms"
   />
 
-  <apn carrier="O2.ie Mobile Hotspot"
-      carrier_id = "792"
-      mcc="272"
-      mnc="02"
-      apn="Open.internet"
-      authtype="0"
-      type="dun"
-  />
-
-  <apn carrier="Meteor Data"
+  <apn carrier="eir Mobile data"
       carrier_id = "793"
       mcc="272"
       mnc="03"
-      apn="data.mymeteor.ie"
-      user="my"
-      password="wap"
-      authtype="1"
+      apn="data.myeirmobile.ie"
       type="default,ia,supl"
   />
 
-  <apn carrier="Meteor MMS"
+  <apn carrier="eir MMS"
       carrier_id = "793"
       mcc="272"
       mnc="03"
-      apn="mms.mymeteor.ie"
-      user="my"
-      password="wap"
-      authtype="1"
+      apn="mms.myeirmobile.ie"
       mmsc="http://mms.mymeteor.ie"
       mmsproxy="10.85.85.85"
       mmsport="8799"
       type="mms"
+  />
+
+  <apn carrier="eir IMS"
+      carrier_id = "793"
+      mcc="272"
+      mnc="03"
+      apn="IMS"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
   />
 
   <apn carrier="3"
@@ -9066,7 +9083,7 @@
       type="default,ia,supl,mms"
   />
 
-  <apn carrier="Tesco"
+  <apn carrier="Tesco Mobile Internet"
       carrier_id = "2154"
       mcc="272"
       mnc="11"
@@ -9074,6 +9091,7 @@
       mmsc="http://mmc1/servlets/mms"
       mmsproxy="10.1.11.19"
       mmsport="8080"
+      authtype="1"
       type="default,ia,supl,mms"
       mvno_match_data="0A"
       mvno_type="gid"
@@ -9089,6 +9107,15 @@
       mvno_type="spn"
       mvno_match_data="Lycamobile"
       type="default,ia,supl"
+  />
+
+  <apn carrier="Virgin Media IE"
+      mcc="272"
+      mnc="15"
+      apn="Internet"
+      type="default,ia,supl"
+      mvno_type="gid"
+      mvno_match_data="75696531"
   />
 
   <apn carrier="Siminn Internet"
