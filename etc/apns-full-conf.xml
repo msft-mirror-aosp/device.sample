@@ -5742,6 +5742,38 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="MobileUC IMS"
+      carrier_id = "10031"
+      mcc="234"
+      mnc="53"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="MobileUC Hotspot"
+      carrier_id = "10031"
+      mcc="234"
+      mnc="53"
+      apn="globalhotspot"
+      type="dun"
+      user_visible="false"
+  />
+
+  <apn carrier="MobileUC"
+      carrier_id = "10031"
+      mcc="234"
+      mnc="53"
+      apn="globaldata"
+      type="default,ia,mms,supl,hipri,fota"
+      mmsc="http://mms.mobileuc.global/"
+      mmsproxy="37.18.129.98"
+      mmsport="8008"
+      user_editable="false"
+  />
+
   <apn carrier="C&amp;W Guernsey Internet"
       carrier_id = "720"
       mcc="234"
@@ -17645,6 +17677,38 @@
       mnc="870"
       apn="gigsky"
       type="default,ia"
+  />
+
+ <apn carrier="MobileUC IMS"
+      carrier_id = "10030"
+      mcc="313"
+      mnc="770"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="MobileUC Hotspot"
+      carrier_id = "10030"
+      mcc="313"
+      mnc="770"
+      apn="globalhotspot"
+      type="dun"
+      user_visible="false"
+  />
+
+  <apn carrier="MobileUC"
+      carrier_id = "10030"
+      mcc="313"
+      mnc="770"
+      apn="globaldata"
+      type="default,ia,mms,supl,hipri,fota"
+      mmsc="http://mms.mobileuc.global/"
+      mmsproxy="37.18.129.98"
+      mmsport="8008"
+      user_editable="false"
   />
 
   <apn carrier="openmobile"
