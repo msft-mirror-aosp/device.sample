@@ -8152,6 +8152,58 @@
      mvno_type="imsi"
   />
 
+  <apn carrier="1and1 Internet"
+      carrier_id = "2536"
+      mcc="262"
+      mnc="03"
+      apn="internet"
+      mmsc="http://10.81.0.7:8002"
+      mmsproxy="82.113.100.5"
+      mmsport="8080"
+      type="default,ia,supl,mms"
+      mvno_match_data="26203293"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="1and1 IMS"
+      carrier_id = "2536"
+      mcc="262"
+      mnc="03"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+      mvno_match_data="26203293"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="1and1 Internet"
+      carrier_id = "2536"
+      mcc="262"
+      mnc="03"
+      apn="internet"
+      mmsc="http://10.81.0.7:8002"
+      mmsproxy="82.113.100.5"
+      mmsport="8080"
+      type="default,ia,supl,mms"
+      mvno_match_data="26203330"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="1and1 IMS"
+      carrier_id = "2536"
+      mcc="262"
+      mnc="03"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+      mvno_match_data="26203330"
+      mvno_type="imsi"
+  />
+
   <apn carrier="Telekom Internet"
       carrier_id = "3"
       mcc="262"
@@ -8263,6 +8315,84 @@
       type="default,ia,supl,mms"
       mvno_match_data="26207500"
       mvno_type="imsi"
+  />
+
+  <apn carrier="1and1 Internet"
+      carrier_id = "2536"
+      mcc="262"
+      mnc="07"
+      apn="internet"
+      mmsc="http://10.81.0.7:8002"
+      mmsproxy="82.113.100.5"
+      mmsport="8080"
+      type="default,ia,supl,mms"
+      mvno_match_data="118004"
+      mvno_type="gid"
+  />
+
+  <apn carrier="1and1 IMS"
+      carrier_id = "2536"
+      mcc="262"
+      mnc="07"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+      mvno_match_data="118004"
+      mvno_type="gid"
+  />
+
+  <apn carrier="1and1 Internet"
+      carrier_id = "2536"
+      mcc="262"
+      mnc="07"
+      apn="internet"
+      mmsc="http://10.81.0.7:8002"
+      mmsproxy="82.113.100.5"
+      mmsport="8080"
+      type="default,ia,supl,mms"
+      mvno_match_data="118006"
+      mvno_type="gid"
+  />
+
+  <apn carrier="1and1 IMS"
+      carrier_id = "2536"
+      mcc="262"
+      mnc="07"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+      mvno_match_data="118006"
+      mvno_type="gid"
+  />
+
+  <apn carrier="1and1 Internet"
+      carrier_id = "2536"
+      mcc="262"
+      mnc="07"
+      apn="internet"
+      mmsc="http://10.81.0.7:8002"
+      mmsproxy="82.113.100.5"
+      mmsport="8080"
+      type="default,ia,supl,mms"
+      mvno_match_data="250109"
+      mvno_type="gid"
+  />
+
+  <apn carrier="1and1 IMS"
+      carrier_id = "2536"
+      mcc="262"
+      mnc="07"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+      mvno_match_data="250109"
+      mvno_type="gid"
   />
 
   <apn carrier="O2 DE IMS"
@@ -38448,4 +38578,5 @@
       roaming_protocol="IPV4V6"
       user_visible="false"
   />
+
 </apns>
