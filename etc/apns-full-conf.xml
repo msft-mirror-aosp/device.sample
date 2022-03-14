@@ -32166,6 +32166,45 @@
       mvno_match_data="547275554B3030656E"
   />
 
+  <apn carrier="OptiTel"
+      carrier_id = "2535"
+      mcc="505"
+      mnc="52"
+      apn="optitel"
+      type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="OptiTel IMS"
+      carrier_id = "2535"
+      mcc="505"
+      mnc="52"
+      apn="optitel.ims"
+      type="ims"
+  />
+
+  <apn carrier="OptiTel MMS"
+      carrier_id = "2535"
+      mcc="505"
+      mnc="52"
+      apn="optitel.mms"
+      type="mms"
+      mmsc="http://mmsc.opti.tel"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="OptiTel MCX"
+      carrier_id = "2535"
+      mcc="505"
+      mnc="52"
+      apn="optitel.mcx"
+      type="mcx"
+      protocol="IP"
+      roaming_protocol="IP"
+  />
+
   <apn carrier="Telstra IMS"
       carrier_id = "1345"
       mcc="505"
