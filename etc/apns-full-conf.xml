@@ -9819,7 +9819,7 @@
       authtype="1"
       mmsc="http://mmc/"
       mmsproxy="80.95.224.46"
-      mmsport="9201"
+      mmsport="8080"
       type="mms"
   />
 
@@ -9869,41 +9869,13 @@
       type="default,ia,supl,mms"
   />
 
-  <apn carrier="Tusmobil Internet"
-      carrier_id = "1712"
+  <apn carrier="INTERNET"
       mcc="293"
       mnc="70"
-      apn="internet.tusmobil.si"
-      user="tusmobil"
-      password="internet"
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Tusmobil MMS"
-      carrier_id = "1712"
-      mcc="293"
-      mnc="70"
-      apn="mms.tusmobil.si"
-      user="tusmobil"
-      password="mms"
-      authtype="1"
-      mmsc="http://mms.tusmobil.si:8002"
-      mmsproxy="91.185.221.85"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Telemach Internet"
-      carrier_id = "2327"
-      mcc="293"
-      mnc="70"
-      apn="telemach.net"
+      apn="internet"
       mmsc="http://mms.telemach.net:8002"
       mmsproxy="91.185.221.85"
       mmsport="8080"
-      mvno_type="imsi"
-      mvno_match_data="29370029xxxxxxx"
       type="default,ia,supl,mms"
   />
 
