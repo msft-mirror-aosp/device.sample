@@ -31954,7 +31954,8 @@
       carrier_id = "1612"
       mcc="428"
       mnc="99"
-      apn="default"
+      apn="internet"
+      authtype="0"
       type="default,ia,supl"
   />
 
