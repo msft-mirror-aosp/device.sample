@@ -37633,7 +37633,7 @@
       carrier_id = "1520"
       mcc="704"
       mnc="01"
-      apn="internet.ideasclaro"
+      apn="ba.amx"
       type="default,ia,supl"
   />
 
@@ -37642,9 +37642,10 @@
       mcc="704"
       mnc="01"
       apn="mms.ideasclaro"
-      mmsproxy="216.230.133.66"
+      authtype="1"
+      mmsproxy="10.6.32.2"
       mmsport="8080"
-      mmsc="http://mms.ideasclaro.com:8002"
+      mmsc="http://10.6.32.27/servlets/mms"
       type="mms"
   />
 
@@ -37654,6 +37655,8 @@
       mnc="02"
       apn="broadband.tigo.gt"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="MMS TIGO"
@@ -37665,6 +37668,8 @@
       mmsport="8888"
       mmsc="http://mms"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Movistar INTERNET"
@@ -37676,45 +37681,8 @@
       password="movistargt"
       authtype="1"
       type="default,ia,supl"
-  />
-
-  <apn carrier="Movistar MMS"
-      carrier_id = "1522"
-      mcc="704"
-      mnc="03"
-      apn="mms.movistar.gt"
-      user="movistargt"
-      password="movistargt"
-      mmsproxy="10.12.22.1"
-      mmsport="80"
-      mmsc="http://mms.movistar.gt"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Movistar INTERNET"
-      carrier_id = "1522"
-      mcc="704"
-      mnc="030"
-      apn="internet.movistar.gt"
-      user="movistargt"
-      password="movistargt"
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Movistar MMS"
-      carrier_id = "1522"
-      mcc="704"
-      mnc="030"
-      apn="mms.movistar.gt"
-      user="movistargt"
-      password="movistargt"
-      mmsproxy="10.12.22.1"
-      mmsport="80"
-      mmsc="http://mms.movistar.gt"
-      authtype="1"
-      type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Internet CLARO"
