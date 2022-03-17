@@ -35398,16 +35398,6 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Mobinil WAP"
-      carrier_id = "675"
-      mcc="602"
-      mnc="01"
-      apn="mobinilwap"
-      proxy="62.241.155.45"
-      port="8080"
-      type="default,ia,supl"
-  />
-
   <apn carrier="Mobinil MMS"
       carrier_id = "675"
       mcc="602"
@@ -35430,19 +35420,6 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Vodafone WAP"
-      carrier_id = "2380"
-      mcc="602"
-      mnc="02"
-      apn="wap.vodafone.com.eg"
-      user="wap"
-      password="wap"
-      authtype="3"
-      proxy="163.121.178.2"
-      port="8080"
-      type="default,ia,supl"
-  />
-
   <apn carrier="Vodafone MMS"
       carrier_id = "2380"
       mcc="602"
@@ -35457,14 +35434,13 @@
       type="mms"
   />
 
-  <apn carrier="Etisalat WAP"
+  <apn carrier="Etisalat Internet"
       carrier_id = "1968"
       mcc="602"
       mnc="03"
       apn="etisalat"
-      proxy="10.71.130.29"
-      port="8080"
-      type="default,ia,supl"
+      type="default,ia"
+      protocol="IPV4V6"
   />
 
   <apn carrier="Etisalat MMS"
