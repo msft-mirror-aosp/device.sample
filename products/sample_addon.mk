@@ -4,6 +4,10 @@ PRODUCT_PACKAGES := \
 	com.example.android.platform_library \
 	libplatform_library_jni
 
+# Manually copy the optional library XML files in the system image.
+PRODUCT_COPY_FILES := \
+    device/sample/frameworks/PlatformLibrary/com.example.android.platform_library.xml:system/etc/permissions/com.example.android.platform_library.xml
+
 # name of the add-on
 PRODUCT_SDK_ADDON_NAME := platform_library
 
