@@ -11952,7 +11952,7 @@
       proxy=""
       port=""
       mmsc="http://mmsc.mobile.att.net"
-      mmsproxy="http://proxy.mobile.att.net"
+      mmsproxy="proxy.mobile.att.net"
       mmsport="80"
       type="default,ia,mms,supl"
       protocol="IPV4V6"
