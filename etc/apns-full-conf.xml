@@ -5742,6 +5742,38 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="MobileUC IMS"
+      carrier_id = "10031"
+      mcc="234"
+      mnc="53"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="MobileUC Hotspot"
+      carrier_id = "10031"
+      mcc="234"
+      mnc="53"
+      apn="globalhotspot"
+      type="dun"
+      user_visible="false"
+  />
+
+  <apn carrier="MobileUC"
+      carrier_id = "10031"
+      mcc="234"
+      mnc="53"
+      apn="globaldata"
+      type="default,ia,mms,supl,hipri,fota"
+      mmsc="http://mms.mobileuc.global/"
+      mmsproxy="37.18.129.98"
+      mmsport="8008"
+      user_editable="false"
+  />
+
   <apn carrier="C&amp;W Guernsey Internet"
       carrier_id = "720"
       mcc="234"
@@ -10599,7 +10631,7 @@
       type="mms"
   />
 
-  <!-- Need two APNs for CDMA technologies: a default,ia that is used normally -->
+  <!-- Need two APNs for CDMA technologies: a default that is used normally -->
   <!-- and a second APN to be used when DUN is required.  Even though the -->
   <!-- parameters appear the same, the profileID sent to the radio when requesting -->
   <!-- a DUN connection will be different -->
@@ -11193,7 +11225,7 @@
       type="default,ia,supl"
   />
 
-  <!-- Need two APNs for CDMA technologies: a default,ia that is used normally -->
+  <!-- Need two APNs for CDMA technologies: a default that is used normally -->
   <!-- and a second APN to be used when DUN is required.  Even though the -->
   <!-- parameters appear the same, the profileID sent to the radio when requesting -->
   <!-- a DUN connection will be different -->
@@ -11920,7 +11952,7 @@
       proxy=""
       port=""
       mmsc="http://mmsc.mobile.att.net"
-      mmsproxy="http://proxy.mobile.att.net"
+      mmsproxy="proxy.mobile.att.net"
       mmsport="80"
       type="default,ia,mms,supl"
       protocol="IPV4V6"
@@ -12420,7 +12452,7 @@
       proxy=""
       port=""
       mmsc="http://mmsc.mobile.att.net"
-      mmsproxy="http://proxy.mobile.att.net"
+      mmsproxy="proxy.mobile.att.net"
       mmsport="80"
       type="default,ia,mms,supl"
       protocol="IPV4V6"
@@ -16140,7 +16172,7 @@
       bearer_bitmask="14"
   />
 
-  <!-- Need two APNs for CDMA technologies: a default,ia that is used normally -->
+  <!-- Need two APNs for CDMA technologies: a default that is used normally -->
   <!-- and a second APN to be used when DUN is required.  Even though the -->
   <!-- parameters appear the same, the profileID sent to the radio when requesting -->
   <!-- a DUN connection will be different -->
@@ -17645,6 +17677,38 @@
       mnc="870"
       apn="gigsky"
       type="default,ia"
+  />
+
+ <apn carrier="MobileUC IMS"
+      carrier_id = "10030"
+      mcc="313"
+      mnc="770"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="MobileUC Hotspot"
+      carrier_id = "10030"
+      mcc="313"
+      mnc="770"
+      apn="globalhotspot"
+      type="dun"
+      user_visible="false"
+  />
+
+  <apn carrier="MobileUC"
+      carrier_id = "10030"
+      mcc="313"
+      mnc="770"
+      apn="globaldata"
+      type="default,ia,mms,supl,hipri,fota"
+      mmsc="http://mms.mobileuc.global/"
+      mmsproxy="37.18.129.98"
+      mmsport="8008"
+      user_editable="false"
   />
 
   <apn carrier="openmobile"
@@ -20063,7 +20127,7 @@
       carrier_id = "1354"
       mcc="400"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -20071,7 +20135,7 @@
       carrier_id = "495"
       mcc="400"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -20079,7 +20143,7 @@
       carrier_id = "1355"
       mcc="400"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -20087,7 +20151,7 @@
       carrier_id = "1356"
       mcc="400"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -20184,7 +20248,7 @@
       carrier_id = "564"
       mcc="402"
       mnc="11"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
       protocol="IPV4V6"
   />
@@ -28840,7 +28904,7 @@
       carrier_id = "452"
       mcc="412"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -28848,7 +28912,7 @@
       carrier_id = "453"
       mcc="412"
       mnc="20"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -28856,7 +28920,7 @@
       carrier_id = "455"
       mcc="412"
       mnc="40"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -28864,7 +28928,7 @@
       carrier_id = "2221"
       mcc="412"
       mnc="50"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -28872,7 +28936,7 @@
       carrier_id = "1931"
       mcc="413"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -28880,7 +28944,7 @@
       carrier_id = "1599"
       mcc="413"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -28888,7 +28952,7 @@
       carrier_id = "1600"
       mcc="413"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -28896,7 +28960,7 @@
       carrier_id = "1932"
       mcc="413"
       mnc="05"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -28904,7 +28968,7 @@
       carrier_id = "1933"
       mcc="413"
       mnc="08"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -28912,7 +28976,7 @@
       carrier_id = "1611"
       mcc="414"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -29211,7 +29275,7 @@
       carrier_id = "2166"
       mcc="418"
       mnc="08"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -29309,7 +29373,7 @@
       carrier_id = "2345"
       mcc="418"
       mnc="45"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -29317,7 +29381,7 @@
       carrier_id = "2234"
       mcc="418"
       mnc="62"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -29325,7 +29389,7 @@
       carrier_id = "2167"
       mcc="418"
       mnc="92"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -29502,7 +29566,7 @@
       carrier_id = "1877"
       mcc="421"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -29524,7 +29588,7 @@
       carrier_id = "1878"
       mcc="421"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -29556,7 +29620,7 @@
       carrier_id = "2168"
       mcc="421"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30045,7 +30109,7 @@
       carrier_id = "2347"
       mcc="428"
       mnc="88"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30053,7 +30117,7 @@
       carrier_id = "2172"
       mcc="428"
       mnc="91"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30061,7 +30125,7 @@
       carrier_id = "2173"
       mcc="428"
       mnc="98"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30069,7 +30133,7 @@
       carrier_id = "1612"
       mcc="428"
       mnc="99"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30077,7 +30141,7 @@
       carrier_id = "962"
       mcc="429"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30085,7 +30149,7 @@
       carrier_id = "1923"
       mcc="429"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30093,7 +30157,7 @@
       carrier_id = "962"
       mcc="429"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30101,7 +30165,7 @@
       carrier_id = "1924"
       mcc="429"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30285,7 +30349,7 @@
       carrier_id = "2235"
       mcc="434"
       mnc="06"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30315,7 +30379,7 @@
       carrier_id = "1724"
       mcc="436"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30323,7 +30387,7 @@
       carrier_id = "1725"
       mcc="436"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30331,7 +30395,7 @@
       carrier_id = "1726"
       mcc="436"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30339,7 +30403,7 @@
       carrier_id = "1727"
       mcc="436"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30347,7 +30411,7 @@
       carrier_id = "1728"
       mcc="436"
       mnc="05"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30355,7 +30419,7 @@
       carrier_id = "2174"
       mcc="436"
       mnc="12"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30363,7 +30427,7 @@
       carrier_id = "867"
       mcc="437"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30371,7 +30435,7 @@
       carrier_id = "2175"
       mcc="437"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30379,7 +30443,7 @@
       carrier_id = "2176"
       mcc="437"
       mnc="05"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30387,7 +30451,7 @@
       carrier_id = "2177"
       mcc="437"
       mnc="09"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30395,7 +30459,7 @@
       carrier_id = "1729"
       mcc="438"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -30403,7 +30467,7 @@
       carrier_id = "1730"
       mcc="438"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31247,7 +31311,7 @@
       carrier_id = "868"
       mcc="456"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31255,7 +31319,7 @@
       carrier_id = "869"
       mcc="456"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31263,7 +31327,7 @@
       carrier_id = "2180"
       mcc="456"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31271,7 +31335,7 @@
       carrier_id = "869"
       mcc="456"
       mnc="05"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31279,7 +31343,7 @@
       carrier_id = "869"
       mcc="456"
       mnc="06"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31287,14 +31351,14 @@
       carrier_id = "2181"
       mcc="456"
       mnc="08"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
   <apn carrier="Beeline"
       mcc="456"
       mnc="09"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31302,7 +31366,7 @@
       carrier_id = "2236"
       mcc="456"
       mnc="11"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31310,7 +31374,7 @@
       carrier_id = "871"
       mcc="456"
       mnc="18"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31318,7 +31382,7 @@
       carrier_id = "1590"
       mcc="457"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31326,7 +31390,7 @@
       carrier_id = "1591"
       mcc="457"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31334,7 +31398,7 @@
       carrier_id = "2346"
       mcc="457"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31342,7 +31406,7 @@
       carrier_id = "1592"
       mcc="457"
       mnc="08"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -31784,7 +31848,7 @@
       carrier_id = "1624"
       mcc="472"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -32166,6 +32230,45 @@
       mvno_match_data="547275554B3030656E"
   />
 
+  <apn carrier="OptiTel"
+      carrier_id = "2535"
+      mcc="505"
+      mnc="52"
+      apn="optitel"
+      type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="OptiTel IMS"
+      carrier_id = "2535"
+      mcc="505"
+      mnc="52"
+      apn="optitel.ims"
+      type="ims"
+  />
+
+  <apn carrier="OptiTel MMS"
+      carrier_id = "2535"
+      mcc="505"
+      mnc="52"
+      apn="optitel.mms"
+      type="mms"
+      mmsc="http://mmsc.opti.tel"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="OptiTel MCX"
+      carrier_id = "2535"
+      mcc="505"
+      mnc="52"
+      apn="optitel.mcx"
+      type="mcx"
+      protocol="IP"
+      roaming_protocol="IP"
+  />
+
   <apn carrier="Telstra IMS"
       carrier_id = "1345"
       mcc="505"
@@ -32509,7 +32612,7 @@
       carrier_id = "2182"
       mcc="514"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -32517,7 +32620,7 @@
       carrier_id = "2183"
       mcc="514"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -32525,7 +32628,7 @@
       carrier_id = "2268"
       mcc="514"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -32973,7 +33076,7 @@
       carrier_id = "2350"
       mcc="528"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -32981,7 +33084,7 @@
       carrier_id = "1379"
       mcc="528"
       mnc="11"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33100,7 +33203,7 @@
   <apn carrier="Digicel"
       mcc="536"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33108,7 +33211,7 @@
       carrier_id = "1649"
       mcc="537"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33167,7 +33270,7 @@
       carrier_id = "1733"
       mcc="539"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33175,7 +33278,7 @@
       carrier_id = "1734"
       mcc="539"
       mnc="43"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33183,7 +33286,7 @@
       carrier_id = "2220"
       mcc="539"
       mnc="88"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33215,7 +33318,7 @@
       carrier_id = "2185"
       mcc="540"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33223,7 +33326,7 @@
       carrier_id = "2123"
       mcc="540"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33231,7 +33334,7 @@
       carrier_id = "2239"
       mcc="541"
       mnc="00"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33239,7 +33342,7 @@
       carrier_id = "1301"
       mcc="541"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33247,7 +33350,7 @@
       carrier_id = "2219"
       mcc="541"
       mnc="05"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33279,7 +33382,7 @@
       carrier_id = "1481"
       mcc="542"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33287,7 +33390,7 @@
       carrier_id = "2186"
       mcc="542"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33319,7 +33422,7 @@
       carrier_id = "1957"
       mcc="544"
       mnc="11"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33327,7 +33430,7 @@
       carrier_id = "2240"
       mcc="545"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33335,7 +33438,7 @@
       carrier_id = "2187"
       mcc="545"
       mnc="09"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33343,7 +33446,7 @@
       carrier_id = "943"
       mcc="546"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33351,7 +33454,7 @@
       carrier_id = "1648"
       mcc="547"
       mnc="20"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33359,7 +33462,7 @@
       carrier_id = "1426"
       mcc="548"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33367,7 +33470,7 @@
       carrier_id = "1302"
       mcc="549"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33375,7 +33478,7 @@
       carrier_id = "1876"
       mcc="549"
       mnc="27"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33383,14 +33486,14 @@
       carrier_id = "1482"
       mcc="550"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
   <apn carrier="MINTA"
       mcc="551"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33398,7 +33501,7 @@
       carrier_id = "1671"
       mcc="552"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33406,7 +33509,7 @@
       carrier_id = "2188"
       mcc="552"
       mnc="80"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33748,7 +33851,7 @@
       carrier_id = "1973"
       mcc="606"
       mnc="00"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33768,7 +33871,7 @@
       carrier_id = "2006"
       mcc="606"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33776,7 +33879,7 @@
       carrier_id = "2189"
       mcc="606"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33784,7 +33887,7 @@
       carrier_id = "2348"
       mcc="606"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33792,7 +33895,7 @@
       carrier_id = "2190"
       mcc="606"
       mnc="06"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33800,7 +33903,7 @@
       carrier_id = "736"
       mcc="607"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33808,7 +33911,7 @@
       carrier_id = "737"
       mcc="607"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33816,7 +33919,7 @@
       carrier_id = "738"
       mcc="607"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33824,7 +33927,7 @@
       carrier_id = "2191"
       mcc="607"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33887,7 +33990,7 @@
       carrier_id = "1616"
       mcc="609"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33895,7 +33998,7 @@
       carrier_id = "1617"
       mcc="609"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33903,7 +34006,7 @@
       carrier_id = "1618"
       mcc="609"
       mnc="10"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33947,7 +34050,7 @@
       carrier_id = "739"
       mcc="611"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33955,7 +34058,7 @@
       carrier_id = "740"
       mcc="611"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33963,7 +34066,7 @@
       carrier_id = "2193"
       mcc="611"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33971,7 +34074,7 @@
       carrier_id = "2225"
       mcc="611"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -33979,7 +34082,7 @@
       carrier_id = "741"
       mcc="611"
       mnc="05"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34057,7 +34160,7 @@
       carrier_id = "1946"
       mcc="613"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34065,7 +34168,7 @@
       carrier_id = "1368"
       mcc="613"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34073,7 +34176,7 @@
       carrier_id = "1369"
       mcc="613"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34102,7 +34205,7 @@
       carrier_id = "1095"
       mcc="615"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34110,7 +34213,7 @@
       carrier_id = "1947"
       mcc="615"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34118,7 +34221,7 @@
       carrier_id = "1376"
       mcc="616"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34126,7 +34229,7 @@
       carrier_id = "1377"
       mcc="616"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34134,7 +34237,7 @@
       carrier_id = "1378"
       mcc="616"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34142,7 +34245,7 @@
       carrier_id = "1944"
       mcc="616"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34150,7 +34253,7 @@
       carrier_id = "1945"
       mcc="616"
       mnc="05"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34179,7 +34282,7 @@
       carrier_id = "2194"
       mcc="618"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34187,7 +34290,7 @@
       carrier_id = "2195"
       mcc="618"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34195,7 +34298,7 @@
       carrier_id = "1601"
       mcc="618"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34211,7 +34314,7 @@
       carrier_id = "2196"
       mcc="618"
       mnc="20"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34219,7 +34322,7 @@
       carrier_id = "1716"
       mcc="619"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34227,7 +34330,7 @@
       carrier_id = "1717"
       mcc="619"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34235,7 +34338,7 @@
       carrier_id = "1718"
       mcc="619"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34243,7 +34346,7 @@
       carrier_id = "1074"
       mcc="619"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34251,7 +34354,7 @@
       carrier_id = "1075"
       mcc="619"
       mnc="05"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34259,7 +34362,7 @@
       carrier_id = "1076"
       mcc="619"
       mnc="25"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34495,7 +34598,7 @@
       carrier_id = "1093"
       mcc="622"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34503,7 +34606,7 @@
       carrier_id = "1094"
       mcc="622"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34511,7 +34614,7 @@
       carrier_id = "2227"
       mcc="622"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34519,7 +34622,7 @@
       carrier_id = "2197"
       mcc="622"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34527,7 +34630,7 @@
       carrier_id = "1408"
       mcc="623"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34535,7 +34638,7 @@
       carrier_id = "1409"
       mcc="623"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34551,7 +34654,7 @@
       carrier_id = "2198"
       mcc="623"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34574,7 +34677,7 @@
       carrier_id = "1445"
       mcc="625"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34582,7 +34685,7 @@
       carrier_id = "1446"
       mcc="625"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34590,7 +34693,7 @@
       carrier_id = "1086"
       mcc="626"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34598,7 +34701,7 @@
       carrier_id = "746"
       mcc="627"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34620,7 +34723,7 @@
       carrier_id = "2199"
       mcc="627"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34628,7 +34731,7 @@
       carrier_id = "1488"
       mcc="628"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34636,7 +34739,7 @@
       carrier_id = "1489"
       mcc="628"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34644,7 +34747,7 @@
       carrier_id = "1490"
       mcc="628"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34652,7 +34755,7 @@
       carrier_id = "2200"
       mcc="628"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34660,7 +34763,7 @@
       carrier_id = "1411"
       mcc="629"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34668,7 +34771,7 @@
       carrier_id = "1412"
       mcc="629"
       mnc="10"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34705,7 +34808,7 @@
       carrier_id = "1334"
       mcc="631"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34713,7 +34816,7 @@
       carrier_id = "2201"
       mcc="631"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34721,7 +34824,7 @@
       carrier_id = "1524"
       mcc="632"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34737,7 +34840,7 @@
       carrier_id = "2241"
       mcc="632"
       mnc="07"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34745,7 +34848,7 @@
       carrier_id = "1685"
       mcc="633"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34753,7 +34856,7 @@
       carrier_id = "1686"
       mcc="633"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34761,7 +34864,7 @@
       carrier_id = "1687"
       mcc="633"
       mnc="10"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34769,7 +34872,7 @@
       carrier_id = "1688"
       mcc="634"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34777,7 +34880,7 @@
       carrier_id = "1689"
       mcc="634"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34785,7 +34888,7 @@
       carrier_id = "2202"
       mcc="634"
       mnc="07"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34793,7 +34896,7 @@
       carrier_id = "2242"
       mcc="634"
       mnc="09"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34801,7 +34904,7 @@
       carrier_id = "1682"
       mcc="635"
       mnc="10"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34809,7 +34912,7 @@
       carrier_id = "2243"
       mcc="635"
       mnc="12"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34817,7 +34920,7 @@
       carrier_id = "2203"
       mcc="635"
       mnc="13"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34825,7 +34928,7 @@
       carrier_id = "2204"
       mcc="635"
       mnc="14"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34833,7 +34936,7 @@
       carrier_id = "681"
       mcc="636"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34841,7 +34944,7 @@
       carrier_id = "2205"
       mcc="637"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34849,7 +34952,7 @@
       carrier_id = "2244"
       mcc="637"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34857,7 +34960,7 @@
       carrier_id = "2206"
       mcc="637"
       mnc="10"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34865,7 +34968,7 @@
       carrier_id = "2245"
       mcc="637"
       mnc="25"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34873,7 +34976,7 @@
       carrier_id = "1082"
       mcc="637"
       mnc="30"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34881,14 +34984,14 @@
       carrier_id = "2246"
       mcc="637"
       mnc="57"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
   <apn carrier="Nationlink Telecom"
       mcc="637"
       mnc="60"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34896,7 +34999,7 @@
       carrier_id = "2207"
       mcc="637"
       mnc="71"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34904,7 +35007,7 @@
       carrier_id = "2208"
       mcc="637"
       mnc="82"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -34912,7 +35015,7 @@
       carrier_id = "1462"
       mcc="638"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35135,7 +35238,7 @@
       carrier_id = "1373"
       mcc="642"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35143,7 +35246,7 @@
       carrier_id = "1374"
       mcc="642"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35151,7 +35254,7 @@
       carrier_id = "1375"
       mcc="642"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35159,7 +35262,7 @@
       carrier_id = "2355"
       mcc="642"
       mnc="07"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35167,7 +35270,7 @@
       carrier_id = "2211"
       mcc="642"
       mnc="08"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35175,7 +35278,7 @@
       carrier_id = "2212"
       mcc="642"
       mnc="82"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35183,7 +35286,7 @@
       carrier_id = "1634"
       mcc="643"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35191,7 +35294,7 @@
       carrier_id = "2213"
       mcc="643"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35199,7 +35302,7 @@
       carrier_id = "2381"
       mcc="643"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35207,7 +35310,7 @@
       carrier_id = "1319"
       mcc="645"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35215,7 +35318,7 @@
       carrier_id = "1320"
       mcc="645"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35223,7 +35326,7 @@
       carrier_id = "1321"
       mcc="645"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35390,7 +35493,7 @@
       carrier_id = "1879"
       mcc="648"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35398,7 +35501,7 @@
       carrier_id = "1880"
       mcc="648"
       mnc="04"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35406,7 +35509,7 @@
       carrier_id = "941"
       mcc="649"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35414,7 +35517,7 @@
       carrier_id = "2214"
       mcc="649"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35422,7 +35525,7 @@
       carrier_id = "942"
       mcc="649"
       mnc="03"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35430,7 +35533,7 @@
       carrier_id = "1625"
       mcc="650"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35438,7 +35541,7 @@
       carrier_id = "1626"
       mcc="650"
       mnc="10"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35486,7 +35589,7 @@
       carrier_id = "1091"
       mcc="653"
       mnc="10"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35494,7 +35597,7 @@
       carrier_id = "872"
       mcc="654"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35667,7 +35770,7 @@
       carrier_id = "2247"
       mcc="657"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35675,7 +35778,7 @@
       carrier_id = "570"
       mcc="702"
       mnc="67"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -35683,7 +35786,7 @@
       carrier_id = "2354"
       mcc="702"
       mnc="99"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -38101,7 +38204,7 @@
       carrier_id = "1525"
       mcc="738"
       mnc="01"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -38137,7 +38240,7 @@
       carrier_id = "2217"
       mcc="738"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -38341,7 +38444,7 @@
       carrier_id = "1083"
       mcc="746"
       mnc="02"
-      apn="default,ia"
+      apn="default"
       type="default,ia,supl"
   />
 
@@ -38499,13 +38602,13 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="ATT 5G NSA default,ia"
+  <apn carrier="ATT 5G NSA default"
       carrier_id = "10021"
       apn="enhancedphone"
       type="default,ia,mms,supl,fota"
       mmsc="http://mmsc.mobile.att.net"
-      mmsc_proxy="proxy.mobile.att.net"
-      mmsc_proxy_port="80"
+      mmsproxy="proxy.mobile.att.net"
+      mmsport="80"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_editable="false"
@@ -38544,8 +38647,8 @@
       apn="nrphone"
       type="default,ia,mms,supl,fota"
       mmsc="http://mmsc.mobile.att.net"
-      mmsc_proxy="proxy.mobile.att.net"
-      mmsc_proxy_port="80"
+      mmsproxy="proxy.mobile.att.net"
+      mmsport="80"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_editable="false"
