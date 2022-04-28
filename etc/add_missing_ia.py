@@ -16,8 +16,13 @@
 # This script help add the missing "IA" APN type to the APN entry that support "default" APN type
 import re
 with open('apns-full-conf.xml', 'r') as ifile, open('new-apns-full-conf.xml', 'w') as ofile:
-    ofile.write(re.sub("(?!.*ia)default", "default,ia", ifile.read()))
-
+    RE_TYPE = re.compile(r"^\s*type")
+    RE_IA_DEFAULT = re.compile(r"(?!.*ia)default")
+    for line in ifile:
+        if re.match(RE_TYPE, line):
+            ofile.write(re.sub(RE_IA_DEFAULT, "default,ia", line))
+        else:
+            ofile.write(line)
 
 
 
