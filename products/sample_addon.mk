@@ -32,8 +32,8 @@ PRODUCT_SDK_ADDON_STUB_DEFS := $(LOCAL_PATH)/addon_stub_defs
 # in the documentation section.
 PRODUCT_SDK_ADDON_DOC_MODULES := platform_library
 
-# This add-on extends the arm emulator/sdk product.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/sdk_phone_armv7.mk)
+# This add-on extends the default sdk product.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/sdk.mk)
 
 # Real name of the add-on. This is the name used to build the add-on.
 # Use 'lunch <PRODUCT_NAME>-userdebug; m sdk_addon' to build the add-on.
