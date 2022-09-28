@@ -33691,33 +33691,6 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Imedia"
-      carrier_id = "902"
-      mcc="604"
-      mnc="00"
-      apn="wap.meditel.ma"
-      proxy="10.8.8.8"
-      port="8080"
-      user="MEDIWAP"
-      password="MEDIWAP"
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="GPRS MMS"
-      carrier_id = "902"
-      mcc="604"
-      mnc="00"
-      apn="mms.meditel.ma"
-      user="MEDIMMS"
-      password="MEDIMMS"
-      authtype="1"
-      mmsc="http://mms.meditel.ma:8088/mms"
-      mmsproxy="10.8.8.9"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="MobileZone"
       carrier_id = "903"
       mcc="604"
