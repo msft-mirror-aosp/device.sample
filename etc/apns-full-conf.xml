@@ -2094,6 +2094,8 @@
       authtype="0"
       mmsc="http://mms.free.fr"
       type="default,ia,supl,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Free Re Int"
@@ -2112,6 +2114,8 @@
       mnc="15"
       apn="jn"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       mvno_match_data="f005"
       mvno_type="gid"
   />
@@ -2122,6 +2126,8 @@
       apn="mmsjn"
       type="mms"
       mmsc="http://mms.freepro.fr"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       mvno_match_data="f005"
       mvno_type="gid"
   />
