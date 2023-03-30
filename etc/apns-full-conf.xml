@@ -29012,7 +29012,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29453,7 +29452,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29474,7 +29472,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29495,7 +29492,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29516,7 +29512,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29537,7 +29532,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29558,7 +29552,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29579,7 +29572,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29600,7 +29592,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29621,7 +29612,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29642,7 +29632,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29663,7 +29652,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29684,7 +29672,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29705,7 +29692,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29726,7 +29712,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29747,7 +29732,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29768,7 +29752,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29789,7 +29772,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29810,7 +29792,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29831,7 +29812,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29852,7 +29832,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
@@ -29873,7 +29852,6 @@
       type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      network_type_bitmask="13"
   />
 
   <apn carrier="Reliance Jio IMS"
