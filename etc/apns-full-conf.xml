@@ -7692,7 +7692,7 @@
       carrier_id = "1746"
       mcc="255"
       mnc="01"
-      apn="mms"
+      apn="mms.umc.ua"
       mmsc="http://mmsc:8002/"
       mmsproxy="192.168.10.10"
       mmsport="8080"
@@ -7703,7 +7703,7 @@
       carrier_id = "1746"
       mcc="255"
       mnc="01"
-      apn="internet"
+      apn="www.umc.ua"
       type="default,ia,supl"
   />
 
@@ -7726,7 +7726,6 @@
       type="mms"
   />
 
-
   <apn carrier="Kyivstar MMS"
       carrier_id = "1747"
       mcc="255"
@@ -7746,9 +7745,30 @@
       mcc="255"
       mnc="03"
       apn="www.kyivstar.net"
-      user="igprs"
-      password="internet"
-      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Kyivstar Internet Prepaid"
+      carrier_id = "1747"
+      mcc="255"
+      mnc="03"
+      apn="www.ab.kyivstar.net"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Kyivstar Internet XL"
+      carrier_id = "1747"
+      mcc="255"
+      mnc="03"
+      apn="xl.kyivstar.net"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Kyivstar Internet 3G"
+      carrier_id = "1747"
+      mcc="255"
+      mnc="03"
+      apn="3g.kyivstar.net"
       type="default,ia,supl"
   />
 
@@ -7820,10 +7840,15 @@
       carrier_id = "568"
       mcc="257"
       mnc="01"
-      apn="web.velcom.by"
-      authtype="1"
-      proxy="10.200.15.15"
-      port="8080"
+      apn="vmi.velcom.by"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Velcom Internet Privet"
+      carrier_id = "568"
+      mcc="257"
+      mnc="01"
+      apn="wap.privet.by"
       type="default,ia,supl"
   />
 
@@ -7848,8 +7873,6 @@
       apn="mts"
       user="mts"
       password="mts"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
       authtype="1"
       type="default,ia,supl"
   />
@@ -7863,7 +7886,7 @@
       password="mts"
       authtype="1"
       mmsc="http://mmsc"
-      mmsproxy="192.168.192.192"
+      mmsproxy="192.168.192.168"
       mmsport="8080"
       type="mms"
   />
@@ -7889,7 +7912,7 @@
       type="mms"
   />
 
-  <apn carrier="Orange_Internet_GPRS"
+  <apn carrier="Orange Internet"
       carrier_id = "904"
       mcc="259"
       mnc="01"
@@ -8642,6 +8665,7 @@
   />
 
   <apn carrier="Vodafone Net2"
+      carrier_id = "22"
       mcc="268"
       mnc="01"
       apn="net2.vodafone.pt"
@@ -8651,18 +8675,35 @@
       mmsc="http://mms.vodafone.pt/servlets/mms"
       mmsproxy="iproxy.vodafone.pt"
       mmsport="80"
-      type="default,ia,supl,mms"
+      type="default,supl,mms,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
   />
 
-  <apn carrier="vodafone P dun"
+  <apn carrier="Vodafone Internet"
+      carrier_id = "22"
       mcc="268"
       mnc="01"
       apn="internet.vodafone.pt"
-      authtype="0"
       type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
   />
 
-  <apn carrier="PortalOptimus"
+  <apn carrier="Vodafone IMS"
+      carrier_id = "22"
+      mcc="268"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Internet"
       carrier_id = "1668"
       mcc="268"
       mnc="03"
@@ -8670,7 +8711,7 @@
       type="ia"
   />
 
-  <apn carrier="PortalOptimus"
+  <apn carrier="Internet"
       carrier_id = "1668"
       mcc="268"
       mnc="03"
@@ -8678,15 +8719,7 @@
       mmsc="http://mmsc:10021/mmsc"
       mmsproxy="62.169.66.5"
       mmsport="8799"
-      type="default,ia,supl,mms"
-  />
-
-  <apn carrier="Optimus HotSpot"
-      carrier_id = "1668"
-      mcc="268"
-      mnc="03"
-      apn="modem"
-      type="dun"
+      type="default,ia,supl,mms,dun"
   />
 
   <apn carrier="Lycamobile"
@@ -8709,7 +8742,7 @@
       type="ia"
   />
 
-  <apn carrier="tmn internet"
+  <apn carrier="internet"
       carrier_id = "1670"
       mcc="268"
       mnc="06"
@@ -8717,18 +8750,41 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="mms tmn"
+  <apn carrier="mms"
       carrier_id = "1670"
       mcc="268"
       mnc="06"
       apn="mmsc.tmn.pt"
-      user="tmn"
-      password="tmnnet"
-      authtype="1"
       mmsc="http://mmsc/"
       mmsproxy="10.111.2.16"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Vodafone Net2"
+      mcc="268"
+      mnc="89"
+      apn="net2.vodafone.pt"
+      user="vodafone"
+      password="vodafone"
+      authtype="1"
+      mmsc="http://mms.vodafone.pt/servlets/mms"
+      mmsproxy="iproxy.vodafone.pt"
+      mmsport="80"
+      type="default,ia,supl,mms,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
+
+  <apn carrier="Vodafone IMS"
+      mcc="268"
+      mnc="89"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="LUXGSM MMS"
