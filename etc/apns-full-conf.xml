@@ -7692,7 +7692,7 @@
       carrier_id = "1746"
       mcc="255"
       mnc="01"
-      apn="mms"
+      apn="mms.umc.ua"
       mmsc="http://mmsc:8002/"
       mmsproxy="192.168.10.10"
       mmsport="8080"
@@ -7703,7 +7703,7 @@
       carrier_id = "1746"
       mcc="255"
       mnc="01"
-      apn="internet"
+      apn="www.umc.ua"
       type="default,ia,supl"
   />
 
@@ -7726,7 +7726,6 @@
       type="mms"
   />
 
-
   <apn carrier="Kyivstar MMS"
       carrier_id = "1747"
       mcc="255"
@@ -7746,9 +7745,30 @@
       mcc="255"
       mnc="03"
       apn="www.kyivstar.net"
-      user="igprs"
-      password="internet"
-      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Kyivstar Internet Prepaid"
+      carrier_id = "1747"
+      mcc="255"
+      mnc="03"
+      apn="www.ab.kyivstar.net"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Kyivstar Internet XL"
+      carrier_id = "1747"
+      mcc="255"
+      mnc="03"
+      apn="xl.kyivstar.net"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Kyivstar Internet 3G"
+      carrier_id = "1747"
+      mcc="255"
+      mnc="03"
+      apn="3g.kyivstar.net"
       type="default,ia,supl"
   />
 
@@ -7820,10 +7840,15 @@
       carrier_id = "568"
       mcc="257"
       mnc="01"
-      apn="web.velcom.by"
-      authtype="1"
-      proxy="10.200.15.15"
-      port="8080"
+      apn="vmi.velcom.by"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Velcom Internet Privet"
+      carrier_id = "568"
+      mcc="257"
+      mnc="01"
+      apn="wap.privet.by"
       type="default,ia,supl"
   />
 
@@ -7848,8 +7873,6 @@
       apn="mts"
       user="mts"
       password="mts"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
       authtype="1"
       type="default,ia,supl"
   />
@@ -7863,7 +7886,7 @@
       password="mts"
       authtype="1"
       mmsc="http://mmsc"
-      mmsproxy="192.168.192.192"
+      mmsproxy="192.168.192.168"
       mmsport="8080"
       type="mms"
   />
@@ -7889,7 +7912,7 @@
       type="mms"
   />
 
-  <apn carrier="Orange_Internet_GPRS"
+  <apn carrier="Orange Internet"
       carrier_id = "904"
       mcc="259"
       mnc="01"
