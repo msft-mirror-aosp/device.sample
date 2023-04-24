@@ -8609,6 +8609,36 @@
       roaming_protocol="IPV4V6"
   />
 
+  <apn carrier="Lebara Germany"
+      mcc="262"
+      mnc="14"
+      apn="internet.lebara.de"
+      type="default,ia"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
+
+  <apn carrier="Lebara Germany IMS"
+      mcc="262"
+      mnc="14"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Lebara Germany XCAP"
+      mcc="262"
+      mnc="14"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="MVNO DE"
       carrier_id = "2461"
       mcc="262"
