@@ -2345,6 +2345,36 @@
       mvno_type="spn"
   />
 
+  <apn carrier="Lebara France"
+      mcc="208"
+      mnc="38"
+      apn="fr.lebara.mobi"
+      type="default,ia"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
+
+  <apn carrier="Lebara France"
+      mcc="208"
+      mnc="38"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      romaing_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Lebara France"
+      mcc="208"
+      mnc="38"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="Monaco Telecom"
       mcc="212"
       mnc="10"
