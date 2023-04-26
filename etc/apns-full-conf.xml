@@ -1168,6 +1168,36 @@
       user_visible="false"
   />
 
+  <apn carrier="Lebara NL"
+      mcc="204"
+      mnc="17"
+      apn="internet.lebara.nl"
+      type="default,ia"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
+
+  <apn carrier="Lebara NL"
+      mcc="204"
+      mnc="17"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Lebara NL"
+      mcc="204"
+      mnc="17"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="Ziggo mobiel internet"
       mcc="204"
       mnc="18"
