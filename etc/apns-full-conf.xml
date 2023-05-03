@@ -1026,7 +1026,7 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Telfort Mobiel Internet"
+  <apn carrier="KPN Mobiel Internet"
       carrier_id = "1644"
       mcc="204"
       mnc="12"
