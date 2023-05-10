@@ -30622,6 +30622,15 @@
       type="mms"
   />
 
+  <apn carrier="we"
+      mcc="425"
+      mnc="09"
+      apn="we"
+      type="default,ia"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
   <apn carrier="3G Portal"
       carrier_id = "796"
       mcc="425"
@@ -30677,6 +30686,15 @@
       mmsproxy="10.170.252.104"
       mmsport="9093"
       type="mms"
+  />
+
+  <apn carrier="019"
+      mcc="425"
+      mnc="19"
+      apn="019"
+      type="default,ia"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Annatel"
