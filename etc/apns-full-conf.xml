@@ -9912,29 +9912,6 @@
       type="mms"
   />
 
-  <apn carrier="Cosmofon"
-      carrier_id = "1608"
-      mcc="294"
-      mnc="02"
-      apn="Internet"
-      user="Internet"
-      password="Internet"
-      proxy="http://wap.planet.mk"
-      port="8080"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Cosmofon MMS"
-      carrier_id = "1608"
-      mcc="294"
-      mnc="02"
-      apn="mms"
-      mmsc="http://195.167.65.220:8002"
-      mmsproxy="10.10.10.20"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="Internet"
       carrier_id = "1609"
       mcc="294"
@@ -9942,8 +9919,6 @@
       apn="vipoperator"
       user="vipoperator"
       password="vipoperator"
-      proxy="78.40.0.1"
-      port="8080"
       type="default,ia,supl"
   />
 
@@ -10000,6 +9975,27 @@
       type="default,ia"
   />
 
+  <apn carrier="Telenor MMS"
+      mcc="297"
+      mnc="01"
+      apn="mms"
+      user="mms"
+      password="mms"
+      mmsc="http://mm.vor.telenor.me"
+      mmsproxy="192.168.246.5"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="Telenor Internet"
+      mcc="297"
+      mnc="01"
+      apn="internet"
+      user="gprs"
+      password="gprs"
+      type="default,ia"
+  />
+
   <apn carrier="T-Mobile Internet"
       carrier_id = "2363"
       mcc="297"
@@ -10009,6 +10005,13 @@
       password="38267"
       authtype="1"
       type="default,ia,supl"
+  />
+
+  <apn carrier="m:tel"
+      mcc="297"
+      mnc="03"
+      apn="mtelinternet"
+      type="default,ia"
   />
 
   <apn carrier="TELUS"
