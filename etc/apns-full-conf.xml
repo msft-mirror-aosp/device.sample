@@ -34015,33 +34015,15 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Data"
+  <apn carrier="Spark Internet"
       carrier_id = "968"
       mcc="530"
       mnc="05"
-      apn="Internet"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Content"
-      carrier_id = "968"
-      mcc="530"
-      mnc="05"
-      apn="Internet"
-      proxy="210.55.11.73"
-      port="80"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="MMS"
-      carrier_id = "968"
-      mcc="530"
-      mnc="05"
-      apn="Internet"
+      apn="internet"
       mmsc="http://lsmmsc.xtra.co.nz"
       mmsproxy="210.55.11.73"
-      mmsport="80"
-      type="mms"
+      mmsport="8080"
+      type="default,ia,supl,mms"
   />
 
   <apn carrier="Default"
