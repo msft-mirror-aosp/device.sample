@@ -22079,6 +22079,7 @@
       apn="orangeweb"
       user="orange"
       password="orange"
+      authtype="1"
       type="default,ia,supl"
   />
 
@@ -22103,6 +22104,25 @@
       user="orange"
       password="orange"
       authtype="1"
+      type="dun"
+  />
+
+  <apn carrier="SFR Internet"
+      carrier_id = "743"
+      mcc="340"
+      mnc="02"
+      apn="internet.sfr"
+      mmsc="http://mmsc.only.fr:9091"
+      mmsproxy="mmsc.only.fr"
+      mmsport="9091"
+      type="default,ia,hipri,mms,supl"
+  />
+
+  <apn carrier="Modem"
+      carrier_id = "743"
+      mcc="340"
+      mnc="02"
+      apn="web.sfr"
       type="dun"
   />
 
@@ -22138,35 +22158,13 @@
       type="default,ia,mms,supl"
   />
 
-  <apn carrier="Lime Internet Postpaid"
-      mcc="342"
-      mnc="60"
-      apn="internet"
-      user=""
-      password=""
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      mcc="342"
-      mnc="60"
-      apn="multimedia"
-      user=""
-      password=""
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier='Barbado:Lime:Internet'
+  <apn carrier="Barbados:Lime:Internet"
       carrier_id = "1360"
-      mcc='342'
-      mnc='600'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='default,ia'
+      mcc="342"
+      mnc="600"
+      apn="internet"
+      authtype="1"
+      type="default,ia,dun"
   />
 
   <apn carrier="Barbados:Lime:Mms"
@@ -22181,45 +22179,13 @@
       type="mms"
   />
 
-  <apn carrier='Barbado:Lime:Modem'
-      carrier_id = "1360"
-      mcc='342'
-      mnc='600'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='dun'
-  />
-
-  <apn carrier="Lime Internet Postpaid"
-      mcc="344"
-      mnc="92"
-      apn="internet"
-      user=""
-      password=""
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      mcc="344"
-      mnc="92"
-      apn="multimedia"
-      user=""
-      password=""
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier='Antigua:Lime:Internet'
+  <apn carrier="Antigua:Lime:Internet"
       carrier_id = "1325"
-      mcc='344'
-      mnc='920'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='default,ia'
+      mcc="344"
+      mnc="920"
+      apn="internet"
+      authtype="1"
+      type="default,ia,dun"
   />
 
   <apn carrier='Antigua:Lime:Mms'
@@ -22234,55 +22200,13 @@
       type='mms'
   />
 
-  <apn carrier='Antigua:Lime:Modem'
-      carrier_id = "1325"
-      mcc='344'
-      mnc='920'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='dun'
-  />
-
-  <apn carrier="Lime Internet Postpaid"
-      mcc="346"
-      mnc="14"
-      apn="internet"
-      user=""
-      password=""
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      mcc="346"
-      mnc="14"
-      apn="multimedia"
-      user=""
-      password=""
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
   <apn carrier='Cayman Islands:Lime:Internet'
       carrier_id = "1587"
       mcc='346'
       mnc='140'
       apn='internet'
       authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='default,ia'
-  />
-
-  <apn carrier='Cayman Islands:Lime:Modem'
-      carrier_id = "1587"
-      mcc='346'
-      mnc='140'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='dun'
+      type='default,ia,dun'
   />
 
   <apn carrier='Cayman Islands:Mms'
@@ -22324,7 +22248,7 @@
       mnc='77'
       apn='wap.digicelbvi.com'
       authtype='1'
-      type='default,ia'
+      type='default,ia,dun'
   />
 
   <apn carrier='Bvi:Digicel:Mms'
@@ -22341,28 +22265,13 @@
       password='wapbvi'
   />
 
-  <apn carrier='Bvi:Digicel:Modem'
-      carrier_id = "2356"
-      mcc='348'
-      mnc='77'
-      apn='wap.digicelbvi.com'
-      port='8080'
-      authtype='1'
-      proxy='172.16.7.12'
-      mmsc='http://wapdigicel.com'
-      type='dun'
-      user='wapbvi'
-      password='wapbvi'
-  />
-
-  <apn carrier='Bvi:Lime:Internet'
+  <apn carrier="Bvi:Lime:Internet"
       carrier_id = "2289"
-      mcc='348'
-      mnc='170'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='default,ia'
+      mcc="348"
+      mnc="170"
+      apn="internet"
+      authtype="1"
+      type="default,ia,dun"
   />
 
   <apn carrier='Bvi:Lime:Mms'
@@ -22377,45 +22286,13 @@
       type='mms'
   />
 
-  <apn carrier='Bvi:Lime:Modem'
-      carrier_id = "2289"
-      mcc='348'
-      mnc='170'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='dun'
-  />
-
-  <apn carrier="Lime Internet Postpaid"
-      mcc="352"
-      mnc="11"
-      apn="internet"
-      user=""
-      password=""
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      mcc="352"
-      mnc="11"
-      apn="multimedia"
-      user=""
-      password=""
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier='Grenada:Lime:Internet'
+  <apn carrier="Grenada:Lime:Internet"
       carrier_id = "2223"
-      mcc='352'
-      mnc='110'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='default,ia'
+      mcc="352"
+      mnc="110"
+      apn="internet"
+      authtype="1"
+      type="default,ia,dun"
   />
 
   <apn carrier='Grenada:Lime:Mms'
@@ -22430,45 +22307,13 @@
       type='mms'
   />
 
-  <apn carrier='Grenada:Lime:Modem'
-      carrier_id = "2223"
-      mcc='352'
-      mnc='110'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='dun'
-  />
-
-  <apn carrier="Lime Internet Postpaid"
-      mcc="354"
-      mnc="86"
-      apn="internet"
-      user=""
-      password=""
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      mcc="354"
-      mnc="86"
-      apn="multimedia"
-      user=""
-      password=""
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier='Monserrat:Lime:Internet'
+  <apn carrier="Monserrat:Lime:Internet"
       carrier_id = "2292"
-      mcc='354'
-      mnc='860'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='default,ia'
+      mcc="354"
+      mnc="860"
+      apn="internet"
+      authtype="1"
+      type="default,ia,dun"
   />
 
   <apn carrier='Monserrat:Lime:Mms'
@@ -22483,44 +22328,12 @@
       type='mms'
   />
 
-  <apn carrier='Monserrat:Lime:Modem'
-      carrier_id = "2292"
-      mcc='354'
-      mnc='860'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='dun'
-  />
-
-  <apn carrier="Lime Internet Postpaid"
+  <apn carrier="St Kitts And Nevis:Lime:Internet"
       mcc="356"
-      mnc="11"
+      mnc="110"
       apn="internet"
-      user=""
-      password=""
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      mcc="356"
-      mnc="11"
-      apn="multimedia"
-      user=""
-      password=""
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier='St Kitts And Nevis:Lime:Internet'
-      mcc='356'
-      mnc='110'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='default,ia'
+      authtype="1"
+      type="default,ia,dun"
   />
 
   <apn carrier='St Kitts And Nevis:Lime:Mms'
@@ -22534,44 +22347,13 @@
       type='mms'
   />
 
-  <apn carrier='St Kitts And Nevis:Lime:Modem'
-      mcc='356'
-      mnc='110'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='dun'
-  />
-
-  <apn carrier="Lime Internet Postpaid"
-      mcc="358"
-      mnc="11"
-      apn="internet"
-      user=""
-      password=""
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      mcc="358"
-      mnc="11"
-      apn="multimedia"
-      user=""
-      password=""
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier='St Lucia:Lime:Internet'
+  <apn carrier="St Lucia:Lime:Internet"
       carrier_id = "2293"
-      mcc='358'
-      mnc='110'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='default,ia'
+      mcc="358"
+      mnc="110"
+      apn="internet"
+      authtype="1"
+      type="default,ia,dun"
   />
 
   <apn carrier='St Lucia:Lime:Mms'
@@ -22586,45 +22368,13 @@
       type='mms'
   />
 
-  <apn carrier='St Lucia:Lime:Modem'
-      carrier_id = "2293"
-      mcc='358'
-      mnc='110'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='dun'
-  />
-
-  <apn carrier="Lime Internet Postpaid"
-      mcc="360"
-      mnc="11"
-      apn="internet"
-      user=""
-      password=""
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      mcc="360"
-      mnc="11"
-      apn="multimedia"
-      user=""
-      password=""
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier='St Vincent:Lime:Internet'
+  <apn carrier="St Vincent:Lime:Internet"
       carrier_id = "2294"
-      mcc='360'
-      mnc='110'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='default,ia'
+      mcc="360"
+      mnc="110"
+      apn="internet"
+      authtype="1"
+      type="default,ia,dun"
   />
 
   <apn carrier='St Vincent:Lime:Mms'
@@ -22639,23 +22389,13 @@
       type='mms'
   />
 
-  <apn carrier='St Vincent:Lime:Modem'
-      carrier_id = "2294"
-      mcc='360'
-      mnc='110'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='dun'
-  />
-
   <apn carrier='Curacao:Digicel:Internet'
       carrier_id = "1332"
       mcc='362'
       mnc='69'
       apn='web.digicelcuracao.com'
       authtype='1'
-      type='default,ia'
+      type='default,ia,dun'
   />
 
   <apn carrier='Curacao:Digicel:Mms'
@@ -22668,18 +22408,6 @@
       mmsproxy='172.16.7.12'
       mmsport='9201'
       type='mms'
-  />
-
-  <apn carrier='Curacao:Digicel:Modem'
-      carrier_id = "1332"
-      mcc='362'
-      mnc='69'
-      apn='wap'
-      port='8080'
-      authtype='1'
-      proxy='172.16.7.12'
-      mmsc='http://wapdigicel.com'
-      type='dun'
   />
 
   <apn carrier="INTERNET Aruba"
@@ -22748,35 +22476,13 @@
       type="ims"
   />
 
-  <apn carrier="Lime Internet Postpaid"
-      mcc="365"
-      mnc="84"
-      apn="internet"
-      user=""
-      password=""
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      mcc="365"
-      mnc="84"
-      apn="multimedia"
-      user=""
-      password=""
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier='Anguilla:Lime:Internet'
+  <apn carrier="Anguilla:Lime:Internet"
       carrier_id = "2295"
-      mcc='365'
-      mnc='840'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='default,ia'
+      mcc="365"
+      mnc="840"
+      apn="internet"
+      authtype="1"
+      type="default,ia,dun"
   />
 
   <apn carrier='Anguilla:Lime:Mms'
@@ -22791,45 +22497,13 @@
       type='mms'
   />
 
-  <apn carrier='Anguilla:Lime:Modem'
-      carrier_id = "2295"
-      mcc='365'
-      mnc='840'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='dun'
-  />
-
-  <apn carrier="Lime Internet Postpaid"
-      mcc="366"
-      mnc="11"
-      apn="internet"
-      user=""
-      password=""
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      mcc="366"
-      mnc="11"
-      apn="multimedia"
-      user=""
-      password=""
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier='Dominica:Lime:Internet'
+  <apn carrier="Dominica:Lime:Internet"
       carrier_id = "2290"
-      mcc='366'
-      mnc='110'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='default,ia'
+      mcc="366"
+      mnc="110"
+      apn="internet"
+      authtype="1"
+      type="default,ia,dun"
   />
 
   <apn carrier='Dominica:Lime:Mms'
@@ -22842,16 +22516,6 @@
       mmsproxy='10.20.5.34'
       mmsport='8799'
       type='mms'
-  />
-
-  <apn carrier='Dominica:Lime:Modem'
-      carrier_id = "2290"
-      mcc='366'
-      mnc='110'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='dun'
   />
 
   <apn carrier="Internet"
@@ -22874,68 +22538,36 @@
       type="mms"
   />
 
-  <apn carrier="Orange Internet (LTE)"
-      carrier_id = "658"
+  <apn carrier="Altice"
       mcc="370"
       mnc="01"
-      apn="orangeinternet"
-      type="ia,default,ia,supl"
-  />
-
-  <apn carrier="Orange net (3G)"
-      carrier_id = "658"
-      mcc="370"
-      mnc="01"
-      apn="orangenet.com.do"
+      apn="altice"
       type="default,ia,supl"
   />
 
-  <apn carrier="Orange MMS"
-      carrier_id = "658"
+  <apn carrier="Internet Móvil Claro"
+      carrier_id = "1467"
       mcc="370"
-      mnc="01"
-      apn="orangeworld"
-      user="orange"
-      password="orange"
-      mmsproxy="172.16.126.70"
-      mmsport="8080"
-      mmsc="http://mms.orange.com.do/servlets/mms"
+      mnc="02"
+      apn="internet.ideasclaro.com.do"
+      type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Internet Móvil Claro"
-      carrier_id = "1467"
-      mcc="370"
-      mnc="02"
-      apn="internet.ideasclaro.com.do"
-      type="default,ia,supl"
   />
 
   <apn carrier="MMS"
       carrier_id = "1467"
       mcc="370"
       mnc="02"
-      apn="internet.ideasclaro.com.do"
+      apn="mms.ideasclaro.com.do"
       mmsc="http://mms.ideasclaro.com.do/mms/wapenc"
+      mmsproxy="190.80.147.8"
+      mmsport="8080"
       type="mms"
-  />
-
-  <apn carrier="Internet Móvil Claro"
-      carrier_id = "1467"
-      mcc="370"
-      mnc="020"
-      apn="internet.ideasclaro.com.do"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="MMS"
-      carrier_id = "1467"
-      mcc="370"
-      mnc="020"
-      apn="internet.ideasclaro.com.do"
-      mmsc="http://mms.ideasclaro.com.do/mms/wapenc"
-      type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      authtype="1"
   />
 
   <apn carrier="Viva Edge (GSM)"
@@ -22993,20 +22625,6 @@
       mmsproxy='172.20.200.12'
       mmsport='9201'
       type='mms'
-      user='wapha'
-      password='wap01ha'
-  />
-
-  <apn carrier='Haiti:Digicel:Modem'
-      carrier_id = "1532"
-      mcc='372'
-      mnc='02'
-      apn='wap.digicelha.com'
-      port='8080'
-      authtype='1'
-      proxy='172.20.200.12'
-      mmsc='http://wapdigicel.com'
-      type='dun'
       user='wapha'
       password='wap01ha'
   />
@@ -23340,34 +22958,13 @@
       type="mms"
   />
 
-  <apn carrier="Lime Internet Postpaid"
-      mcc="376"
-      mnc="35"
-      apn="internet"
-      user=""
-      password=""
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      mcc="376"
-      mnc="35"
-      apn="multimedia"
-      user=""
-      password=""
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier='Turks And Caicos:Lime:Internet'
+  <apn carrier="Turks And Caicos:Lime:Internet"
       carrier_id = "2291"
-      mcc='376'
-      mnc='350'
-      apn='internet'
-      authtype='1'
-      type='default,ia'
+      mcc="376"
+      mnc="350"
+      apn="internet"
+      authtype="1"
+      type="default,ia,dun"
   />
 
   <apn carrier='Turks And Caicos:Lime:Mms'
@@ -23380,16 +22977,6 @@
       mmsproxy='10.20.5.34'
       mmsport='8799'
       type='mms'
-  />
-
-  <apn carrier='Turks And Caicos:Lime:Modem'
-      carrier_id = "2291"
-      mcc='376'
-      mnc='350'
-      apn='internet'
-      authtype='1'
-      mmsc='http://www.time4lime.com/'
-      type='dun'
   />
 
   <apn carrier="Azercell"
