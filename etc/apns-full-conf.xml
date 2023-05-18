@@ -1531,7 +1531,7 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Mobistar MMS"
+  <apn carrier="Orange MMS"
       carrier_id = "1366"
       mcc="206"
       mnc="10"
@@ -1542,12 +1542,22 @@
       type="mms"
   />
 
-  <apn carrier="Mobistar Internet"
+  <apn carrier="Orange Internet"
       carrier_id = "1366"
       mcc="206"
       mnc="10"
       apn="mworld.be"
       type="default,ia,supl"
+  />
+
+  <apn carrier="Orange B IMS"
+      carrier_id = "1366"
+      mcc="206"
+      mnc="10"
+      apn="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="netgprs.com"
@@ -1561,7 +1571,6 @@
       mvno_match_data="BE-Transatel"
       mvno_type="spn"
   />
-
 
   <apn carrier="netgprs.com"
       carrier_id = "2271"
@@ -1639,12 +1648,13 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Orange World"
+  <apn carrier="Orange LTE"
       carrier_id = "32"
       mcc="208"
       mnc="01"
       apn=""
       type="ia"
+      protocol="IPV6"
   />
 
   <apn carrier="Orange World"
@@ -1652,62 +1662,47 @@
       mcc="208"
       mnc="01"
       apn="orange"
-      user="orange"
-      password="orange"
-      authtype="1"
-      type="default,ia,supl"
+      mmsc="http://mms.orange.fr"
+      type="default,supl,xcap,mms,dun"
+      protocol="IPV6"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
+      user_editable="false"
   />
 
   <apn carrier="Orange IMS"
       carrier_id = "32"
       mcc="208"
       mnc="01"
-      apn="IMS"
+      apn="ims"
       type="ims"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
   />
 
-  <apn carrier="Orange MMS"
-      carrier_id = "32"
-      mcc="208"
-      mnc="01"
-      apn="orange.acte"
-      user="orange"
-      password="orange"
-      mmsc="http://mms.orange.fr"
-      mmsproxy="192.168.10.200"
-      mmsport="8080"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Orange Entreprise"
+  <apn carrier="Orange Entreprises"
       carrier_id = "32"
       mcc="208"
       mnc="01"
       apn="orange-mib"
-      proxy="172.16.2.8"
-      port="8000"
       user="orange"
       password="orange"
-      authtype="2"
-      type="default,ia"
+      authtype="3"
+      type="default,ia,supl"
   />
 
-  <apn carrier="Orange Internet"
+  <apn carrier="Orange WiFi MMS"
       carrier_id = "32"
       mcc="208"
       mnc="01"
-      apn="orange.fr"
-      authtype="0"
-      user="orange"
-      password="orange"
-      type="dun"
+      apn="vowifiorange"
+      mmsc="http://mms.orange.fr"
+      type="mms,xcap"
+      network_type_bitmask="18"
+      user_visible="false"
   />
 
-  <apn carrier="Carrefour WAP"
+  <apn carrier="Carrefour"
       carrier_id = "2133"
       mcc="208"
       mnc="01"
@@ -1738,21 +1733,19 @@
       mvno_type="gid"
   />
 
-  <apn carrier="NRJWEB"
-      carrier_id = "2005"
+  <apn carrier="RSO WEB"
       mcc="208"
       mnc="01"
       apn="ofnew.fr"
       user="orange"
       password="orange"
-      authtype="1"
+      authtype="0"
       type="default,ia,supl"
       mvno_match_data="4E"
       mvno_type="gid"
   />
 
-  <apn carrier="NRJMMS"
-      carrier_id = "2005"
+  <apn carrier="RSO MMS"
       mcc="208"
       mnc="01"
       apn="orange.acte"
@@ -1761,24 +1754,35 @@
       mmsc="http://mms.orange.fr"
       mmsproxy="192.168.10.200"
       mmsport="8080"
-      authtype="1"
+      authtype="0"
       type="mms"
       mvno_match_data="4E"
       mvno_type="gid"
   />
 
+  <apn carrier="Orange World"
+      mcc="208"
+      mnc="01"
+      apn="orange"
+      user="orange"
+      password="orange"
+      authtype="1"
+      type="default,ia"
+      mvno_type="spn"
+      mvno_match_data="Digimium"
+  />
+
   <apn carrier="Coriolis"
-      carrier_id = "2135"
       mcc="208"
       mnc="01"
       apn="coriolis"
+      authtype="1"
       type="default,ia,supl"
-      mvno_match_data="208011511"
-      mvno_type="imsi"
+      mvno_match_data="Coriolis"
+      mvno_type="spn"
   />
 
   <apn carrier="Coriolis MMS"
-      carrier_id = "2135"
       mcc="208"
       mnc="01"
       apn="mmscoriolis"
@@ -1786,8 +1790,8 @@
       mmsproxy="10.12.0.1"
       mmsport="9028"
       type="mms"
-      mvno_match_data="208011511"
-      mvno_type="imsi"
+      mvno_match_data="Coriolis"
+      mvno_type="spn"
   />
 
   <apn carrier="Monaco Telecom"
@@ -1800,6 +1804,17 @@
       mvno_type="gid"
   />
 
+  <apn carrier="楽天(rakuten.jp)"
+      mcc="208"
+      mnc="01"
+      apn="rakuten.jp"
+      type="default,ia"
+      user_visible="true"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="iccid"
+      mvno_match_data="8981090"
+  />
 
   <apn carrier="SFR webphone"
       carrier_id = "27"
@@ -2486,12 +2501,14 @@
       mvno_match_data="FIBRACAT"
   />
 
-  <apn carrier="Orange Internet Móvil"
-      carrier_id = "2369"
+  <apn carrier="Orange LTE"
+      carrier_id = "678"
       mcc="214"
       mnc="03"
       apn=""
       type="ia"
+      mvno_match_data="Orange"
+      mvno_type="spn"
   />
 
   <apn carrier="Orange Internet Móvil"
@@ -2504,7 +2521,8 @@
       authtype="1"
       mvno_type="spn"
       mvno_match_data="Orange"
-      type="default,ia"
+      type="default"
+      user_editable="false"
   />
 
   <apn carrier="Orange MMS"
@@ -2521,20 +2539,59 @@
       mvno_type="spn"
       mvno_match_data="Orange"
       type="mms"
+      user_editable="false"
   />
 
   <apn carrier="Orange Internet PC"
-      carrier_id = "2369"
+      carrier_id = "678"
       mcc="214"
       mnc="03"
       apn="internet"
-      authtype="0"
+      authtype="1"
       user="orange"
       password="orange"
       type="dun"
+      mvno_type="spn"
+      mvno_match_data="Orange"
+      user_visible="false"
+  />
+
+  <apn carrier="Orange IMS"
+      carrier_id = "678"
+      mcc="214"
+      mnc="03"
+      apn="ims"
+      authtype="1"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="Orange"
+      mvno_type="spn"
+      user_visible="false"
+  />
+
+  <apn carrier="X by Orange Internet"
+      mcc="214"
+      mnc="03"
+      apn="x"
+      authtype="1"
+      type="default,ia"
+      mvno_match_data="X"
+      mvno_type="spn"
+  />
+
+  <apn carrier="X by Orange Internet PC"
+      mcc="214"
+      mnc="03"
+      apn="x"
+      authtype="1"
+      type="dun"
+      mvno_match_data="X"
+      mvno_type="spn"
   />
 
   <apn carrier="Euskaltel Internet"
+      carrier_id = "1909"
       mcc="214"
       mnc="03"
       apn="internet.euskaltel.mobi"
@@ -2547,6 +2604,7 @@
   />
 
   <apn carrier="Euskaltel MMS"
+      carrier_id = "1909"
       mcc="214"
       mnc="03"
       apn="euskaltelmms.euskaltel.mobi"
@@ -2655,6 +2713,16 @@
       mvno_match_data="Ibercom"
   />
 
+  <apn carrier="Jazztel LTE"
+      carrier_id = "1974"
+      mcc="214"
+      mnc="03"
+      apn=""
+      type="ia"
+      mvno_type="spn"
+      mvno_match_data="JAZZTEL"
+  />
+
   <apn carrier="jazzinternet"
       carrier_id = "1974"
       mcc="214"
@@ -2662,7 +2730,7 @@
       apn="jazzinternet"
       mvno_type="spn"
       mvno_match_data="JAZZTEL"
-      type="default,ia,supl"
+      type="default,supl,dun"
   />
 
   <apn carrier="MMS"
@@ -2681,6 +2749,30 @@
       type="mms"
   />
 
+  <apn carrier="JAZZTEL IMS"
+      carrier_id = "1974"
+      mcc="214"
+      mnc="03"
+      apn="ims"
+      authtype="1"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="JAZZTEL"
+      mvno_type="spn"
+      user_visible="false"
+  />
+
+  <apn carrier="simyo LTE"
+      carrier_id = "2125"
+      mcc="214"
+      mnc="03"
+      apn=""
+      type="ia"
+      mvno_type="spn"
+      mvno_match_data="simyo"
+  />
+
   <apn carrier="internet simyo"
       carrier_id = "2125"
       mcc="214"
@@ -2691,7 +2783,7 @@
       password = "orange"
       mvno_type="spn"
       mvno_match_data="simyo"
-      type="default,ia,supl"
+      type="default,supl,dun"
   />
 
   <apn carrier="simyo MMS"
@@ -2708,6 +2800,103 @@
       mvno_type="spn"
       mvno_match_data="simyo"
       type="mms"
+  />
+
+  <apn carrier="simyo IMS"
+      carrier_id = "2125"
+      mcc="214"
+      mnc="03"
+      apn="ims"
+      authtype="1"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="simyo"
+      mvno_type="spn"
+      user_visible="false"
+  />
+
+  <apn carrier="Republica Movil Internet"
+      mcc="214"
+      mnc="03"
+      apn="orangeworld"
+      type="default,ia,supl,dun"
+      mvno_match_data="Republica Movil"
+      mvno_type="spn"
+  />
+
+ <apn carrier="diainternet"
+      mcc="214"
+      mnc="03"
+      apn="diainternet"
+      type="default,ia,supl,dun"
+      mvno_match_data="MovilDIA"
+      mvno_type="spn"
+  />
+
+  <apn carrier="diamms"
+      mcc="214"
+      mnc="03"
+      apn="diamms"
+      mmsc="http://mms.orange.es"
+      mmsproxy="172.22.188.25"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="MovilDIA"
+      mvno_type="spn"
+  />
+
+  <apn carrier="MASMOVIL"
+      carrier_id = "2300"
+      mcc="214"
+      mnc="03"
+      apn="internetmas"
+      type="default,ia,supl,dun"
+      mvno_type="spn"
+      mvno_match_data="MASMOVIL"
+  />
+
+  <apn carrier="MMS MASMOVIL"
+      carrier_id = "2300"
+      mcc="214"
+      mnc="03"
+      apn="masvidamms"
+      user="masvidamms"
+      password=" MMSmasvida "
+      mmsc="http://mms.orange.es"
+      mmsproxy="172.22.188.25"
+      mmsport="8080"
+      authtype="2"
+      type="mms"
+      mvno_type="spn"
+      mvno_match_data="MASMOVIL"
+  />
+
+  <apn carrier="LCR"
+      mcc="214"
+      mnc="03"
+      apn="lcrinternet"
+      type="default,ia,supl,dun"
+      mvno_match_data="LCR"
+      mvno_type="spn"
+  />
+
+  <apn carrier="Llamaya Internet"
+      mcc="214"
+      mnc="03"
+      apn="moreinternet"
+      type="default,ia"
+      mvno_match_data="LlamaYA"
+      mvno_type="spn"
+  />
+
+  <apn carrier="youmobile"
+      mcc="214"
+      mnc="03"
+      apn="youinternet"
+      type="default,ia,supl,dun"
+      mvno_match_data="YOU Mobile"
+      mvno_type="spn"
   />
 
   <apn carrier="Yoigo Internet"
@@ -3097,8 +3286,10 @@
       authtype="1"
       user="orange"
       password = "orange"
-      type="default,ia,supl"
-  />
+      type="default,ia,supl,dun"
+      mvno_type="spn"
+      mvno_match_data="simyo"
+    />
 
   <apn carrier="simyo MMS"
       carrier_id = "2125"
@@ -3112,6 +3303,8 @@
       mmsproxy="172.22.188.25"
       mmsport="8080"
       type="mms"
+      mvno_type="spn"
+      mvno_match_data="simyo"
   />
 
   <apn carrier="jazzinternet"
@@ -3127,7 +3320,7 @@
       mcc="214"
       mnc="21"
       apn="jazzinternet"
-      type="default,ia,supl"
+      type="default,ia,supl,dun"
   />
 
   <apn carrier="MMS"
@@ -4310,14 +4503,6 @@
       type="mms"
   />
 
-  <apn carrier="Orange LTE"
-      carrier_id = "1011"
-      mcc="226"
-      mnc="10"
-      apn=""
-      type="ia"
-  />
-
   <apn carrier="Orange MMS"
       carrier_id = "1011"
       mcc="226"
@@ -4338,8 +4523,7 @@
       mcc="226"
       mnc="10"
       apn="net"
-      authtype="3"
-      type="default,ia,supl"
+      type="default,ia"
   />
 
   <apn carrier="Orange IMS"
@@ -4349,7 +4533,7 @@
       apn="ims"
       type="ims"
       protocol="IPV6"
-      roaming_protocol="IPV4V6"
+      roaming_protocol="IPV6"
       user_visible="false"
   />
 
@@ -8359,11 +8543,12 @@
       carrier_id = "1659"
       mcc="260"
       mnc="03"
-      apn="Internet"
+      apn="internetipv6"
       user="internet"
       password="internet"
-      authtype="1"
+      authtype="0"
       type="default,ia,supl"
+      protocol="IPV6"
   />
 
   <apn carrier="Orange MMS"
@@ -8376,8 +8561,29 @@
       mmsc="http://mms.orange.pl"
       mmsproxy="192.168.6.104"
       mmsport="8080"
-      authtype="1"
+      authtype="0"
       type="mms"
+      user_editable="false"
+  />
+
+  <apn carrier="Orange PL Ut"
+      carrier_id = "1659"
+      mcc="260"
+      mnc="03"
+      apn="hos"
+      type="xcap"
+      user_visible="false"
+  />
+
+  <apn carrier="Orange IMS"
+      carrier_id = "1659"
+      mcc="260"
+      mnc="03"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
   />
 
   <apn carrier="Play Internet"
@@ -22090,7 +22296,7 @@
       apn="orangewap"
       user="orange"
       password="orange"
-      mmsc="http://193.251.160.246/servlets/mms"
+      mmsc="http://mms.orangecaraibe.com/servlets/mms"
       mmsproxy="10.0.0.10"
       mmsport="8082"
       type="mms"
@@ -38315,16 +38521,6 @@
       type="mms"
   />
 
-  <apn carrier="Orange World re"
-      carrier_id = "1676"
-      mcc="647"
-      mnc="00"
-      apn="orangerun"
-      user="orange"
-      password="orange"
-      type="default,ia,supl"
-  />
-
   <apn carrier="Orange RE"
       carrier_id = "1676"
       mcc="647"
@@ -38332,7 +38528,7 @@
       apn="orangerun"
       user="orange"
       password="orange"
-      type="default,ia"
+      type="default,ia,supl"
   />
 
   <apn carrier="Orange MMS Réunion"
