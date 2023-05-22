@@ -9985,6 +9985,14 @@
       protocol="IPV4V6"
   />
 
+  <apn carrier="Netgsm Internet"
+      mcc="286"
+      mnc="13"
+      apn="internet"
+      type="default,ia,supl"
+      protocol="IPV4V6"
+  />
+
   <apn carrier="Tele Internet"
       carrier_id = "735"
       mcc="290"
