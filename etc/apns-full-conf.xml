@@ -477,51 +477,17 @@
       user_visible="false"
   />
 
-  <apn carrier="EHRPD - VZW Roaming Internet"
-      carrier_id = "1839"
-      mcc="204"
-      mnc="04"
-      apn="VZWINTERNET"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      network_type_bitmask="14"
-      mvno_type="gid"
-      mvno_match_data="BAE0000000000000"
-      profile_id="0"
-      modem_cognitive="true"
-      max_conns="1023"
-      max_conns_time="300"
-  />
-
   <apn carrier="LTE - VZW Roaming Internet"
       carrier_id = "1839"
       mcc="204"
       mnc="04"
       apn="VZWINTERNET"
-      type="default,ia,dun"
+      type="default,ia"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       mvno_type="gid"
       mvno_match_data="BAE0000000000000"
       profile_id="0"
-      modem_cognitive="true"
-      max_conns="1023"
-      max_conns_time="300"
-  />
-
-  <apn carrier="EHRPD - VZW Roaming FOTA"
-      carrier_id = "1839"
-      mcc="204"
-      mnc="04"
-      apn="VZWADMIN"
-      type="fota"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      network_type_bitmask="14"
-      mvno_type="gid"
-      mvno_match_data="BAE0000000000000"
-      profile_id="3"
       modem_cognitive="true"
       max_conns="1023"
       max_conns_time="300"
@@ -543,37 +509,21 @@
       max_conns_time="300"
   />
 
-  <apn carrier="LTE - VZW Roaming IMS"
+  <apn carrier="Verizon IMS"
       carrier_id = "1839"
       mcc="204"
       mnc="04"
       apn="IMS"
       type="ims,ia"
       protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
+      roaming_protocol="IPV6"
       mvno_type="gid"
       mvno_match_data="BAE0000000000000"
       profile_id="2"
       modem_cognitive="true"
-      max_conns="1023"
+      max_conns="20"
       max_conns_time="300"
-  />
-
-  <apn carrier="EHRPD - VZW Roaming IMS"
-      carrier_id = "1839"
-      mcc="204"
-      mnc="04"
-      apn="IMS"
-      type="ims,ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      network_type_bitmask="14"
-      mvno_type="gid"
-      mvno_match_data="BAE0000000000000"
-      profile_id="2"
-      modem_cognitive="true"
-      max_conns="1023"
-      max_conns_time="300"
+      user_visible="false"
   />
 
   <apn carrier="LTE - VZW Roaming CBS"
@@ -585,24 +535,6 @@
       mmsc="http://mms.vtext.com/servlets/mms"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="BAE0000000000000"
-      profile_id="4"
-      modem_cognitive="true"
-      max_conns="1023"
-      max_conns_time="300"
-  />
-
-  <apn carrier="EHRPD - VZW Roaming CBS"
-      carrier_id = "1839"
-      mcc="204"
-      mnc="04"
-      apn="VZWAPP"
-      type="cbs,mms"
-      mmsc="http://mms.vtext.com/servlets/mms"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      network_type_bitmask="14"
       mvno_type="gid"
       mvno_match_data="BAE0000000000000"
       profile_id="4"
@@ -11481,10 +11413,10 @@
       carrier_id = "1781"
       mcc="310"
       mnc="020"
-      apn="union.wap.com"
-      proxy="166.230.4.83"
-      port="8799"
+      apn="smart.com"
       type="default,ia,hipri,dun,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Union Wireless MMS"
@@ -11492,10 +11424,10 @@
       mcc="310"
       mnc="020"
       apn="union.mms.com"
-      mmsc="http://mmsc/01"
-      mmsproxy="166.230.4.83"
-      mmsport="8799"
+      mmsc="http://mms.unionwireless.com"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <!-- Need two APNs for CDMA technologies: a default that is used normally -->
@@ -12037,42 +11969,6 @@
       type="mms"
   />
 
-  <apn carrier="Internet"
-      carrier_id = "1779"
-      mcc="310"
-      mnc="090"
-      apn="isp"
-      type="default,ia,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="MMS"
-      carrier_id = "1779"
-      mcc="310"
-      mnc="090"
-      apn="mms"
-      mmsc="http://mms.edgemobile.net/mmsc"
-      mmsproxy="12.108.12.13"
-      mmsport="3128"
-      type="mms"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="Edge MMS Prepay"
-      carrier_id = "1779"
-      mcc="310"
-      mnc="090"
-      apn="ppmms"
-      mmsc="http://mms.edgemobile.net/mmsc"
-      mmsproxy="12.108.12.13"
-      mmsport="3128"
-      type="mms"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
   <apn carrier="PLATMMS"
       carrier_id = "1170"
       mcc="310"
@@ -12169,49 +12065,6 @@
       user_editable="false"
   />
 
-  <apn carrier="internet"
-      carrier_id = "1964"
-      mcc="310"
-      mnc="150"
-      apn="ndo"
-      user=""
-      password=""
-      proxy=""
-      port=""
-      mmsc="http://mmsc.aiowireless.net"
-      mmsproxy="proxy.aiowireless.net"
-      mmsport="80"
-      type="default,ia,mms,fota,hipri,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-
-  <apn carrier="T-Mobile US 160"
-      carrier_id = "1"
-      mcc="310"
-      mnc="160"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 160 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="160"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      protocol="IP"
-      type="dun"
-      mtu="1440"
-  />
-
   <apn carrier="MetroPCS 160"
       carrier_id = "1949"
       mcc="310"
@@ -12235,42 +12088,6 @@
       roaming_protocol="IP"
       mvno_match_data="6D"
       mvno_type="gid"
-  />
-
-  <apn carrier="IMS"
-      carrier_id = "1187"
-      mcc="310"
-      mnc="170"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-
-  <apn carrier="DataConnect"
-      carrier_id = "1187"
-      mcc="310"
-      mnc="170"
-      apn="isp.cingular"
-      type="default,ia,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="Cingular MMS"
-      carrier_id = "1187"
-      mcc="310"
-      mnc="170"
-      apn="wap.cingular"
-      user="WAP@CINGULARGPRS.COM"
-      password="CINGULAR1"
-      mmsc="http://mmsc.cingular.com"
-      mmsproxy="66.209.11.32"
-      mmsport="8080"
-      type="mms"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="WCW-INTERNET"
@@ -12297,31 +12114,6 @@
       type="mms"
   />
 
-  <apn carrier="T-Mobile US 200"
-      carrier_id = "1"
-      mcc="310"
-      mnc="200"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 200 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="200"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      mtu="1440"
-      protocol="IP"
-      type="dun"
-  />
-
   <apn carrier="MetroPCS 200"
       carrier_id = "1949"
       mcc="310"
@@ -12345,31 +12137,6 @@
       roaming_protocol="IP"
       mvno_match_data="6D"
       mvno_type="gid"
-  />
-
-  <apn carrier="T-Mobile US 210"
-      carrier_id = "1"
-      mcc="310"
-      mnc="210"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 210 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="210"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      mtu="1440"
-      protocol="IP"
-      type="dun"
   />
 
   <apn carrier="MetroPCS 210"
@@ -12397,31 +12164,6 @@
       mvno_type="gid"
   />
 
-  <apn carrier="T-Mobile US 220"
-      carrier_id = "1"
-      mcc="310"
-      mnc="220"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 220 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="220"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      mtu="1440"
-      protocol="IP"
-      type="dun"
-  />
-
   <apn carrier="MetroPCS 220"
       carrier_id = "1949"
       mcc="310"
@@ -12447,31 +12189,6 @@
       mvno_type="gid"
   />
 
-  <apn carrier="T-Mobile US 230"
-      carrier_id = "1"
-      mcc="310"
-      mnc="230"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 230 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="230"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      mtu="1440"
-      protocol="IP"
-      type="dun"
-  />
-
   <apn carrier="MetroPCS 230"
       carrier_id = "1949"
       mcc="310"
@@ -12495,31 +12212,6 @@
       roaming_protocol="IP"
       mvno_match_data="6D"
       mvno_type="gid"
-  />
-
-  <apn carrier="T-Mobile US 240"
-      carrier_id = "1"
-      mcc="310"
-      mnc="240"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 240 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="240"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      mtu="1440"
-      protocol="IP"
-      type="dun"
   />
 
   <apn carrier="MetroPCS 240"
@@ -12580,31 +12272,6 @@
       user_visible="false"
   />
 
-  <apn carrier="T-Mobile US 250"
-      carrier_id = "1"
-      mcc="310"
-      mnc="250"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 250 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="250"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      mtu="1440"
-      protocol="IP"
-      type="dun"
-  />
-
   <apn carrier="MetroPCS 250"
       carrier_id = "1949"
       mcc="310"
@@ -12628,64 +12295,6 @@
       roaming_protocol="IP"
       mvno_match_data="6D"
       mvno_type="gid"
-  />
-
-  <apn carrier="T-Mobile GPRS"
-      carrier_id = "1"
-      mcc="310"
-      mnc="260"
-      apn="fast.t-mobile.com"
-      type="default,supl,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile MMS"
-      carrier_id = "1"
-      mcc="310"
-      mnc="260"
-      apn="TMUS"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="mms"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|12|13|14|15|16|17"
-  />
-
-  <apn carrier="T-Mobile MMS"
-      carrier_id = "1"
-      mcc="310"
-      mnc="260"
-      apn="TMUS"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="mms"
-      protocol="IPV6"
-      roaming_protocol="IPV6"
-      bearer="18"
-  />
-
-  <apn carrier="T-Mobile IMS"
-      carrier_id = "1"
-      mcc="310"
-      mnc="260"
-      apn="ims"
-      type="ims"
-      modem_cognitive="true"
-      protocol="IPV6"
-      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|12|13|14|15|16|17"
-  />
-
-  <apn carrier="T-Mobile IMS"
-      carrier_id = "1"
-      mcc="310"
-      mnc="260"
-      apn="ims"
-      type="ims"
-      modem_cognitive="true"
-      protocol="IPV6"
-      roaming_protocol="IPV6"
-      bearer="18"
   />
 
   <apn carrier="Google Fi - Tm"
@@ -12802,31 +12411,6 @@
       mvno_match_data="2AC9"
   />
 
-  <apn carrier="T-Mobile US 270"
-      carrier_id = "1"
-      mcc="310"
-      mnc="270"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 270 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="270"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      protocol="IP"
-      type="dun"
-      mtu="1440"
-  />
-
   <apn carrier="MetroPCS 270"
       carrier_id = "1949"
       mcc="310"
@@ -13513,39 +13097,6 @@
       mvno_match_data="DEFF"
       mvno_type="gid"
       user_visible="false"
-  />
-
-  <apn carrier="agms"
-      carrier_id = "1187"
-      mcc="310"
-      mnc="280"
-      apn="agms"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="T-Mobile US 300"
-      carrier_id = "1"
-      mcc="310"
-      mnc="300"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 300 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="300"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      protocol="IP"
-      type="dun"
-      mtu="1440"
   />
 
   <apn carrier="MetroPCS 300"
@@ -13594,31 +13145,6 @@
       roaming_protocol="IPV4V6"
       mvno_type="gid"
       mvno_match_data="547275554B3030656E"
-  />
-
-  <apn carrier="T-Mobile US 310"
-      carrier_id = "1"
-      mcc="310"
-      mnc="310"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 310 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="310"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      protocol="IP"
-      type="dun"
-      mtu="1440"
   />
 
   <apn carrier="MetroPCS 310"
@@ -13844,31 +13370,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       network_type_bitmask="13"
-  />
-
-  <apn carrier="Cingular 380 ATT"
-      carrier_id = "1187"
-      mcc="310"
-      mnc="380"
-      apn="proxy"
-      mmsc="http://mmsc.cingular.com/"
-      mmsproxy="wireless.cingular.com"
-      type="default,ia,supl,mms"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="AWS MMS"
-      carrier_id = "1187"
-      mcc="310"
-      mnc="380"
-      apn="proxy"
-      mmsc="http://mmsc.mymmode.com"
-      mmsproxy="10.250.250.55"
-      mmsport="8080"
-      type="mms"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="AGMS Global"
@@ -14570,21 +14071,6 @@
       user_visible="false"
   />
 
-  <apn carrier="Defense Mobile"
-      carrier_id = "2029"
-      mcc="310"
-      mnc="410"
-      apn="PRODATA"
-      mmsc="http://mmsc.mobile.att.net"
-      mmsproxy="proxy.mobile.att.net"
-      mmsport="80"
-      type="default,ia,mms,supl"
-      protocol="IP"
-      mtusize="1410"
-      mvno_type="gid"
-      mvno_match_data="60FF"
-  />
-
   <apn carrier="Tracfone AT&amp;T"
       carrier_id = "10000"
       mcc="310"
@@ -14801,27 +14287,6 @@
       type="mms"
   />
 
-  <apn carrier="DataConnect"
-      carrier_id = "1893"
-      mcc="310"
-      mnc="470"
-      apn="isp.cingular"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="MediaNet"
-      carrier_id = "1893"
-      mcc="310"
-      mnc="470"
-      apn="wap.cingular"
-      user="WAP@CINGULARGPRS.COM"
-      password="CINGULAR1"
-      mmsc="http://mmsc.cingular.com"
-      mmsproxy="66.209.11.32"
-      mmsport="8080"
-      type="default,ia,supl,mms"
-  />
-
   <apn carrier="nTelos Ota"
       carrier_id = "1893"
       mcc="310"
@@ -14896,52 +14361,6 @@
       network_type_bitmask="7"
   />
 
-  <apn carrier="DataConnect"
-      carrier_id = "1195"
-      mcc="310"
-      mnc="480"
-      apn="isp.cingular"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="MediaNet"
-      carrier_id = "1195"
-      mcc="310"
-      mnc="480"
-      apn="wap.cingular"
-      user="WAP@CINGULARGPRS.COM"
-      password="CINGULAR1"
-      mmsc="http://mmsc.cingular.com"
-      mmsproxy="66.209.11.32"
-      mmsport="8080"
-      type="default,ia,supl,mms"
-  />
-
-  <apn carrier="T-Mobile US 490"
-      carrier_id = "1"
-      mcc="310"
-      mnc="490"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 490 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="490"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      protocol="IP"
-      type="dun"
-      mtu="1440"
-  />
-
   <apn carrier="MetroPCS 490"
       carrier_id = "1949"
       mcc="310"
@@ -14967,53 +14386,6 @@
       mvno_type="gid"
   />
 
-  <apn carrier="GoodCall Picture Message"
-      carrier_id = "1"
-      mcc="310"
-      mnc="490"
-      apn="good.call"
-      mmsc="http://mms.suncom.net:8088/mms"
-      mmsproxy="66.150.33.125"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Suncom MMS"
-      carrier_id = "1"
-      mcc="310"
-      mnc="490"
-      apn="mms"
-      mmsc="http://mms.suncom.net:8088/mms"
-      mmsproxy="66.150.33.125"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="T-Mobile US 530"
-      carrier_id = "1"
-      mcc="310"
-      mnc="530"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 530 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="530"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      protocol="IP"
-      type="dun"
-      mtu="1440"
-  />
-
   <apn carrier="MetroPCS 530"
       carrier_id = "1949"
       mcc="310"
@@ -15037,29 +14409,6 @@
       roaming_protocol="IP"
       mvno_match_data="6D"
       mvno_type="gid"
-  />
-
-  <apn carrier="IMS"
-      carrier_id = "1187"
-      mcc="310"
-      mnc="560"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="DobsonMMS"
-      carrier_id = "1187"
-      mcc="310"
-      mnc="560"
-      apn="dobsoncellularwap"
-      mmsc="http://mmsc"
-      mmsproxy="172.23.1.252"
-      mmsport="8799"
-      type="mms"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cellular One Smartphone"
@@ -15166,42 +14515,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       network_type_bitmask="13"
-  />
-
-  <apn carrier="CellularOne MMS"
-      carrier_id = "1"
-      mcc="310"
-      mnc="590"
-      apn="cellular1wap"
-      mmsc="http://mmsc"
-      mmsproxy="172.23.1.252"
-      mmsport="8799"
-      type="mms"
-  />
-
-  <apn carrier="T-Mobile US 590"
-      carrier_id = "1"
-      mcc="310"
-      mnc="590"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 590 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="590"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      protocol="IP"
-      type="dun"
-      mtu="1440"
   />
 
   <apn carrier="MetroPCS 590"
@@ -15335,30 +14648,6 @@
       type="mms"
   />
 
-  <apn carrier="T-Mobile US 640"
-      carrier_id = "1"
-      mcc="310"
-      mnc="640"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 640 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="640"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      protocol="IP"
-      type="dun"
-  />
-
   <apn carrier="MetroPCS 640"
       carrier_id = "1949"
       mcc="310"
@@ -15382,31 +14671,6 @@
       roaming_protocol="IP"
       mvno_match_data="6D"
       mvno_type="gid"
-  />
-
-  <apn carrier="T-Mobile US 660"
-      carrier_id = "1"
-      mcc="310"
-      mnc="660"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 660 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="660"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      protocol="IP"
-      type="dun"
-      mtu="1440"
   />
 
   <apn carrier="MetroPCS 660"
@@ -15580,31 +14844,6 @@
       mmsproxy="209.4.229.31"
       mmsport="9401"
       type="mms"
-  />
-
-  <apn carrier="T-Mobile US 800"
-      carrier_id = "1"
-      mcc="310"
-      mnc="800"
-      apn="fast.t-mobile.com"
-      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms,ia"
-      protocol="IPV6"
-      roaming_protocol="IP"
-      mtu="1440"
-  />
-
-  <apn carrier="T-Mobile US 800 DUN"
-      carrier_id = "1"
-      mcc="310"
-      mnc="800"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      protocol="IP"
-      type="dun"
-      mtu="1440"
   />
 
   <apn carrier="MetroPCS 800"
@@ -15867,16 +15106,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       network_type_bitmask="13"
-  />
-  <apn carrier="WOW_WAP"
-      carrier_id = "1828"
-      mcc="310"
-      mnc="910"
-      apn="wap.firstcellular.com"
-      mmsc="mms.firstcellular.net/mmsc"
-      mmsproxy="10.101.1.5"
-      mmsport="3128"
-      type="default,ia,supl,mms"
   />
 
   <apn carrier="jamesvalley"
@@ -18217,23 +17446,6 @@
       type="mms"
   />
 
-  <apn carrier="Farmers GPRS"
-      carrier_id = "1835"
-      mcc="311"
-      mnc="210"
-      apn="internet.farmerswireless.com"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Farmers MMS"
-      carrier_id = "1835"
-      mcc="311"
-      mnc="210"
-      apn="mms.farmers.com"
-      mmsc="172.16.0.37:8514"
-      type="mms"
-  />
-
   <apn carrier="U.S. Cellular"
       carrier_id = "1952"
       mcc="311"
@@ -19591,102 +18803,67 @@
       network_type_bitmask="13"
   />
 
-  <!-- Need two APNs for CDMA technologies: a default that is used normally -->
-  <!-- and a second APN to be used when DUN is required.  Even though the -->
-  <!-- parameters appear the same, the profileID sent to the radio when requesting -->
-  <!-- a DUN connection will be different -->
-  <!-- bearer 4, 5, 6, 7, 8, 12 -->
-  <apn carrier="Verizon"
-      carrier_id = "1839"
-      mcc="311"
-      mnc="480"
-      apn="internet"
-      authtype="3"
-      type="default,ia,mms,supl,fota,cbs"
-      mmsc="http://mms.vtext.com/servlets/mms"
-      protocol="IPV4V6"
-      network_type_bitmask="4|5|6|7|12"
-      user_visible="false"
-  />
-  <!-- bearer 4, 5, 6, 7, 8, 12 -->
-  <apn carrier="Verizon"
-      carrier_id = "1839"
-      mcc="311"
-      mnc="480"
-      apn="internet"
-      authtype="3"
-      type="default,ia,mms,supl,fota,cbs,dun"
-      mmsc="http://mms.vtext.com/servlets/mms"
-      protocol="IPV4V6"
-      network_type_bitmask="4|5|6|7|12"
-      profile_id="1"
-      user_visible="false"
-  />
-
-  <!-- bearer 1, 2, 3, 9, 10, 11, 13, 14, 15 -->
-  <apn carrier="Verizon"
-      carrier_id = "1839"
+  <apn carrier="LTE - Verizon Internet"
       mcc="311"
       mnc="480"
       apn="VZWINTERNET"
-      type="default,ia,dun,supl"
+      type="default,ia,supl"
       protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      network_type_bitmask="1|2|3|8|9|10|13|14|15"
       profile_id="0"
       modem_cognitive="true"
-      max_conns="1023"
+      max_conns="20"
       max_conns_time="300"
   />
 
-  <!-- bearer 1, 2, 3, 9, 10, 11, 13, 14, 15 -->
-  <apn carrier="Verizon"
-      carrier_id = "1839"
+  <apn carrier="Verizon Emergency"
+      mcc="311"
+      mnc="480"
+      apn="vzwemergency"
+      type="emergency"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      profile_id="1000"
+      max_conns="20"
+      max_conns_time="300"
+  />
+
+  <apn carrier="LTE - Verizon FOTA"
       mcc="311"
       mnc="480"
       apn="VZWADMIN"
       type="fota"
       protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      network_type_bitmask="1|2|3|8|9|10|13|14|15"
       profile_id="3"
       modem_cognitive="true"
-      max_conns="1023"
+      max_conns="20"
       max_conns_time="300"
       user_visible="false"
   />
 
-  <!-- bearer 1, 2, 3, 9, 10, 11, 13, 14, 15 -->
-  <apn carrier="Verizon"
-      carrier_id = "1839"
+  <apn carrier="Verizon IMS"
+      apn="IMS"
       mcc="311"
       mnc="480"
-      apn="IMS"
       type="ims,ia"
       protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      network_type_bitmask="1|2|3|8|9|10|13|14|15"
+      roaming_protocol="IPV6"
+      max_conns="20"
+      max_conns_time="300"
       profile_id="2"
       modem_cognitive="true"
-      max_conns="1023"
-      max_conns_time="300"
       user_visible="false"
   />
 
-  <!-- bearer 1, 2, 3, 9, 10, 11, 13, 14, 15 -->
-  <apn carrier="Verizon"
-      carrier_id = "1839"
+  <apn carrier="LTE - Verizon CBS"
       mcc="311"
       mnc="480"
       apn="VZWAPP"
       type="cbs,mms"
-      mmsc="http://mms.vtext.com/servlets/mms"
+      mmsc="http://mms.vzwreseller.com/servlets/mms"
       protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      network_type_bitmask="1|2|3|8|9|10|13|14|15"
       profile_id="4"
       modem_cognitive="true"
-      max_conns="1023"
+      max_conns="20"
       max_conns_time="300"
       user_visible="false"
   />
@@ -19697,7 +18874,7 @@
       mnc="500"
       apn="wap"
       mmsc="http://mmsc.ctc.csky.us:6672"
-      mmsproxy="09.4.229.46"
+      mmsproxy="9.4.229.46"
       mmsport="9201"
   />
 
@@ -41756,6 +40933,30 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="T-Mobile US LTE"
+      carrier_id = "1"
+      apn="fast.t-mobile.com"
+      mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+      type="default,supl,mms,ia,xcap"
+      protocol="IPV6"
+  />
+
+  <apn carrier="TMobile Tethering APN"
+      carrier_id = "1"
+      apn="pcweb.tmobile.com"
+      type="dun"
+      protocol="IPV6"
+      user_visible="false"
+  />
+
+  <apn carrier="T-Mobile IMS"
+      carrier_id = "1"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      user_visible="false"
+  />
+
   <apn carrier="ATT Nxtgenphone"
       carrier_id = "1187"
       apn="nxtgenphone"
@@ -41818,7 +41019,7 @@
       user_visible="false"
   />
 
-  <apn carrier="mht"
+  <apn carrier="Cricket Hotspot"
       carrier_id = "1779"
       apn="mht"
       type="dun"
@@ -41833,7 +41034,7 @@
       type="xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      user_editable="false"
+      user_visible="false"
   />
 
   <apn carrier="Pure Talk internet"
