@@ -6460,6 +6460,39 @@
       type="mms"
   />
 
+  <apn carrier="Lebara UK"
+      carrier_id="2564"
+      mcc="234"
+      mnc="87"
+      apn="uk.lebara.mobi"
+      type="default,ia"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
+
+  <apn carrier="Lebara UK"
+      carrier_id="2564"
+      mcc="234"
+      mnc="87"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      romaing_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Lebara UK"
+      carrier_id="2564"
+      mcc="234"
+      mnc="87"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="3hotspot"
       carrier_id = "1505"
       mcc="235"
