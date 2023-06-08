@@ -4561,6 +4561,8 @@
       mnc="02"
       apn="xcap"
       type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       user_visible="false"
   />
 
