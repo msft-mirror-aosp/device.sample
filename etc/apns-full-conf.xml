@@ -5862,6 +5862,7 @@
       authtype="1"
       type="emergency"
       protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="EE IMS"
@@ -5981,6 +5982,7 @@
       mvno_match_data="B3"
       type="emergency"
       protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="BT IMS"
@@ -6037,6 +6039,7 @@
       mvno_match_data="C3"
       type="emergency"
       protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="BT IMS"
@@ -6087,6 +6090,7 @@
       authtype="1"
       type="emergency"
       protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="EE IMS"
