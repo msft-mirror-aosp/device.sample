@@ -9138,7 +9138,7 @@
       mcc="262"
       mnc="23"
       apn="internet"
-      type="default,supl"
+      type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
