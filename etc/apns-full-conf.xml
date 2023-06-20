@@ -1623,6 +1623,15 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="Orange MCX"
+      carrier_id="32"
+      mcc="208"
+      mnc="01"
+      apn="orange-teamconnect"
+      type="cbs,mcx"
+      user_visible="false"
+  />
+
   <apn carrier="Orange WiFi MMS"
       carrier_id = "32"
       mcc="208"
