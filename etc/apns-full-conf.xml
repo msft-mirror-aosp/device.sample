@@ -5320,6 +5320,37 @@
       type="mms"
   />
 
+  <apn carrier="Spitfire Data"
+      carrier_id = "1495"
+      mcc="234"
+      mnc="05"
+      apn="spitfire1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Spitfire MMS"
+      carrier_id = "1495"
+      mcc="234"
+      mnc="05"
+      apn="mms"
+      user="mms"
+      password="mms"
+      authtype="1"
+      mmsc="http://mms.spitfire.co.uk/mms"
+      mmsproxy="87.224.55.90"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="Spitfire IMS"
+      carrier_id = "1495"
+      mcc="234"
+      mnc="05"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+  />
+
   <apn carrier="BT One Phone Internet"
       carrier_id = "2103"
       mcc="234"
