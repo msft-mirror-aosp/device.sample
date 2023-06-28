@@ -1623,6 +1623,15 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="Orange MCX"
+      carrier_id="32"
+      mcc="208"
+      mnc="01"
+      apn="orange-teamconnect"
+      type="cbs,mcx"
+      user_visible="false"
+  />
+
   <apn carrier="Orange WiFi MMS"
       carrier_id = "32"
       mcc="208"
@@ -5318,6 +5327,37 @@
       mmsproxy="82.132.254.1"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Spitfire Data"
+      carrier_id = "1495"
+      mcc="234"
+      mnc="05"
+      apn="spitfire1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Spitfire MMS"
+      carrier_id = "1495"
+      mcc="234"
+      mnc="05"
+      apn="mms"
+      user="mms"
+      password="mms"
+      authtype="1"
+      mmsc="http://mms.spitfire.co.uk/mms"
+      mmsproxy="87.224.55.90"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="Spitfire IMS"
+      carrier_id = "1495"
+      mcc="234"
+      mnc="05"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
   />
 
   <apn carrier="BT One Phone Internet"
@@ -12440,7 +12480,7 @@
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -12475,23 +12515,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="20FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -12526,23 +12554,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="21FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -12577,23 +12593,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="22FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -12628,23 +12632,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="23FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -12679,23 +12671,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="24FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -12730,23 +12710,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="25FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -12781,23 +12749,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="26FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -12832,23 +12788,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="27FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -12883,23 +12827,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="28FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -12934,23 +12866,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="29FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -12985,23 +12905,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="30FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13036,23 +12944,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="DDFF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="280"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13080,18 +12976,6 @@
       mnc="280"
       apn="resellermht"
       type="dun"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="DEFF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="280"
-      apn="ereseller"
-      type="xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       mvno_match_data="DEFF"
@@ -13409,7 +13293,7 @@
       mcc="310"
       mnc="410"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13444,23 +13328,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="410"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="21FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="410"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13495,23 +13367,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="410"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="22FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="410"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13546,23 +13406,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="410"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="23FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="410"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13597,23 +13445,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="410"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="24FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="410"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13648,23 +13484,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="410"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="25FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="410"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13699,23 +13523,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="410"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="26FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="410"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13750,23 +13562,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="410"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="27FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="410"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13801,23 +13601,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="410"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="28FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="410"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13852,23 +13640,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="410"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="29FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="410"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13896,18 +13672,6 @@
       mnc="410"
       apn="resellermht"
       type="dun"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="30FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="410"
-      apn="ereseller"
-      type="xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       mvno_match_data="30FF"
@@ -13916,10 +13680,10 @@
   />
 
   <apn carrier="Dish-ATT internet"
-      apn="ereseller"
       mcc="310"
       mnc="410"
-      type="default,ia,mms,supl"
+      apn="ereseller"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13955,10 +13719,10 @@
   />
 
   <apn carrier="Dish-ATT internet"
-      apn="ereseller"
       mcc="310"
       mnc="410"
-      type="default,ia,mms,supl"
+      apn="ereseller"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -13994,10 +13758,10 @@
   />
 
   <apn carrier="Dish-ATT internet"
-      apn="ereseller"
       mcc="310"
       mnc="410"
-      type="default,ia,mms,supl"
+      apn="ereseller"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -14033,10 +13797,10 @@
   />
 
   <apn carrier="Dish-ATT internet"
-      apn="ereseller"
       mcc="310"
       mnc="410"
-      type="default,ia,mms,supl"
+      apn="ereseller"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -14068,98 +13832,6 @@
       roaming_protocol="IPV4V6"
       mvno_type="gid"
       mvno_match_data="3448"
-      user_visible="false"
-  />
-
-  <apn carrier="Tracfone AT&amp;T"
-      carrier_id = "10000"
-      mcc="310"
-      mnc="410"
-      apn="ereseller"
-      user=""
-      password=""
-      proxy=""
-      port=""
-      mmsc="http://mmsc.mobile.att.net"
-      mmsproxy="proxy.mobile.att.net"
-      mmsport="80"
-      type="default,ia,mms,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="DDFF"
-      mvno_type="gid"
-      user_editable="false"
-  />
-
-  <apn carrier="Tracfone AT&amp;T IMS"
-      carrier_id = "10000"
-      mcc="310"
-      mnc="410"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="DDFF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
-  <apn carrier="Tracfone AT&amp;T Hotspot"
-      carrier_id = "10000"
-      mcc="310"
-      mnc="410"
-      apn="resellermht"
-      type="dun"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="DDFF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
-  <apn carrier="Tracfone AT&amp;T"
-      carrier_id = "10000"
-      mcc="310"
-      mnc="410"
-      apn="ereseller"
-      user=""
-      password=""
-      proxy=""
-      port=""
-      mmsc="http://mmsc.mobile.att.net"
-      mmsproxy="proxy.mobile.att.net"
-      mmsport="80"
-      type="default,ia,mms,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="DEFF"
-      mvno_type="gid"
-      user_editable="false"
-  />
-
-  <apn carrier="Tracfone AT&amp;T IMS"
-      carrier_id = "10000"
-      mcc="310"
-      mnc="410"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="DEFF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
-  <apn carrier="Tracfone AT&amp;T Hotspot"
-      carrier_id = "10000"
-      mcc="310"
-      mnc="410"
-      apn="resellermht"
-      type="dun"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="DEFF"
-      mvno_type="gid"
       user_visible="false"
   />
 
@@ -15286,7 +14958,7 @@
       mcc="310"
       mnc="950"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -15321,23 +14993,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="950"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="20FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="950"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -15372,23 +15032,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="950"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="21FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="950"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -15423,23 +15071,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="950"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="22FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="950"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -15474,23 +15110,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="950"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="23FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="950"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -15525,23 +15149,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="950"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="24FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="950"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -15576,23 +15188,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="950"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="25FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="950"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -15627,23 +15227,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="950"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="26FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="950"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -15678,23 +15266,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="950"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="27FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="950"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -15729,23 +15305,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="950"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="28FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="950"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -15780,23 +15344,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="310"
-      mnc="950"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="29FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="310"
       mnc="950"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -15831,14 +15383,41 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
+  <apn carrier="Tracfone AT&amp;T"
       mcc="310"
       mnc="950"
       apn="ereseller"
-      type="xcap"
+      mmsc="http://mmsc.mobile.att.net"
+      mmsproxy="proxy.mobile.att.net"
+      mmsport="80"
+      type="default,ia,mms,supl,fota,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      mvno_match_data="30FF"
+      mvno_match_data="DEFF"
+      mvno_type="gid"
+      user_editable="false"
+  />
+
+  <apn carrier="Tracfone AT&amp;T IMS"
+      mcc="310"
+      mnc="950"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="DEFF"
+      mvno_type="gid"
+      user_visible="false"
+  />
+
+  <apn carrier="Tracfone AT&amp;T Hotspot"
+      mcc="310"
+      mnc="950"
+      apn="resellermht"
+      type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="DEFF"
       mvno_type="gid"
       user_visible="false"
   />
@@ -16757,7 +16336,7 @@
       mcc="311"
       mnc="180"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -16792,23 +16371,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="311"
-      mnc="180"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="21FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="311"
       mnc="180"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -16843,23 +16410,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="311"
-      mnc="180"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="22FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="311"
       mnc="180"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -16894,23 +16449,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="311"
-      mnc="180"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="23FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="311"
       mnc="180"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -16945,23 +16488,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="311"
-      mnc="180"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="24FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="311"
       mnc="180"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -16996,23 +16527,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="311"
-      mnc="180"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="25FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="311"
       mnc="180"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -17047,23 +16566,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="311"
-      mnc="180"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="26FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="311"
       mnc="180"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -17098,23 +16605,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="311"
-      mnc="180"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="27FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="311"
       mnc="180"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -17149,23 +16644,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="311"
-      mnc="180"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="28FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="311"
       mnc="180"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -17200,23 +16683,11 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      mcc="311"
-      mnc="180"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="29FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
   <apn carrier="internet"
       mcc="311"
       mnc="180"
       apn="ereseller"
-      type="default,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -17244,18 +16715,6 @@
       mnc="180"
       apn="resellermht"
       type="dun"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="30FF"
-      mvno_type="gid"
-      user_visible="false"
-  />
-
-  <apn carrier="XCAP"
-      mcc="311"
-      mnc="180"
-      apn="ereseller"
-      type="xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       mvno_match_data="30FF"
@@ -17264,10 +16723,10 @@
   />
 
   <apn carrier="Dish-ATT internet"
-      apn="ereseller"
       mcc="311"
       mnc="180"
-      type="default,ia,mms,supl"
+      apn="ereseller"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -17303,10 +16762,10 @@
   />
 
   <apn carrier="Dish-ATT internet"
-      apn="ereseller"
       mcc="311"
       mnc="180"
-      type="default,ia,mms,supl"
+      apn="ereseller"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -17342,10 +16801,10 @@
   />
 
   <apn carrier="Dish-ATT internet"
-      apn="ereseller"
       mcc="311"
       mnc="180"
-      type="default,ia,mms,supl"
+      apn="ereseller"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -17381,10 +16840,10 @@
   />
 
   <apn carrier="Dish-ATT internet"
-      apn="ereseller"
       mcc="311"
       mnc="180"
-      type="default,ia,mms,supl"
+      apn="ereseller"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -40987,17 +40446,6 @@
       user_visible="false"
   />
 
-  <apn carrier="ATT Phone"
-      carrier_id = "1187"
-      apn="phone"
-      type="default,ia,mms,supl,fota,hipri"
-      mmsc="http://mmsc.mobile.att.net"
-      mmsproxy="proxy.mobile.att.net"
-      mmsport="80"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
   <apn carrier="Cricket internet"
       carrier_id = "1779"
       apn="endo"
@@ -41040,7 +40488,7 @@
   <apn carrier="Pure Talk internet"
       carrier_id = "2025"
       apn="ereseller"
-      type="default,ia,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -41065,21 +40513,12 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
-  />
-
-  <apn carrier="XCAP"
-      carrier_id = "2025"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="false"
   />
 
   <apn carrier="Airvoice internet"
       carrier_id = "2027"
       apn="ereseller"
-      type="default,ia,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -41104,21 +40543,12 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
-  />
-
-  <apn carrier="XCAP"
-      carrier_id = "2027"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="false"
   />
 
   <apn carrier="Ztar internet"
       carrier_id = "2028"
       apn="ereseller"
-      type="default,ia,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -41143,21 +40573,12 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
-  />
-
-  <apn carrier="XCAP"
-      carrier_id = "2028"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="false"
   />
 
   <apn carrier="Kore internet"
       carrier_id = "2031"
       apn="ereseller"
-      type="default,ia,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -41182,15 +40603,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
-  />
-
-  <apn carrier="XCAP"
-      carrier_id = "2031"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="false"
   />
 
   <apn carrier="ATT FirstNet-Phone"
@@ -41218,6 +40630,15 @@
       carrier_id = "2119"
       apn="firstnet-hotspot"
       type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="XCAP"
+      carrier_id = "2119"
+      apn="ereseller"
+      type="xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
@@ -41265,7 +40686,7 @@
   <apn carrier="Dish-ATT internet"
       carrier_id = "2525"
       apn="ereseller"
-      type="default,ia,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -41292,19 +40713,10 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      carrier_id = "2525"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="false"
-  />
-
   <apn carrier="Dish-ATT internet"
       carrier_id = "2526"
       apn="ereseller"
-      type="default,ia,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -41331,19 +40743,10 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      carrier_id = "2526"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="false"
-  />
-
   <apn carrier="Dish-ATT internet"
       carrier_id = "2527"
       apn="ereseller"
-      type="default,ia,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -41370,19 +40773,10 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      carrier_id = "2527"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="false"
-  />
-
   <apn carrier="Dish-ATT internet"
       carrier_id = "2534"
       apn="ereseller"
-      type="default,ia,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -41409,19 +40803,10 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      carrier_id = "2534"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="false"
-  />
-
   <apn carrier="Dish-ATT internet"
       carrier_id = "2538"
       apn="ereseller"
-      type="default,ia,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -41448,19 +40833,10 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      carrier_id = "2538"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="false"
-  />
-
   <apn carrier="Dish-ATT internet"
       carrier_id = "2539"
       apn="ereseller"
-      type="default,ia,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -41487,19 +40863,40 @@
       user_visible="false"
   />
 
-  <apn carrier="XCAP"
-      carrier_id = "2539"
+  <apn carrier="Tracfone AT&amp;T"
+      carrier_id = "10000"
       apn="ereseller"
-      type="xcap"
+      mmsc="http://mmsc.mobile.att.net"
+      mmsproxy="proxy.mobile.att.net"
+      mmsport="80"
+      type="default,ia,mms,supl,fota,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_editable="false"
+  />
+
+  <apn carrier="Tracfone AT&amp;T IMS"
+      carrier_id = "10000"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Tracfone AT&amp;T Hotspot"
+      carrier_id = "10000"
+      apn="resellermht"
+      type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Red Pocket-ATT internet"
       carrier_id = "10012"
       apn="ereseller"
-      type="default,ia,mms,supl,fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -41524,15 +40921,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
-  />
-
-  <apn carrier="XCAP"
-      carrier_id = "10012"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="false"
   />
 
   <apn carrier="ATT 5G NSA default"
@@ -41578,7 +40966,7 @@
   <apn carrier="Consumer Cellular internet"
       carrier_id = "10022"
       apn="ereseller"
-      type="default,ia,mms,supl.fota"
+      type="default,ia,mms,supl,fota,xcap"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
@@ -41603,15 +40991,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
-  />
-
-  <apn carrier="XCAP"
-      carrier_id = "10022"
-      apn="ereseller"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="false"
   />
 
   <apn carrier="ATT 5G SA Default"
