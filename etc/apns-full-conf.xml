@@ -2316,6 +2316,21 @@
       mvno_type="spn"
   />
 
+  <apn carrier="DataPro"
+      mcc="208"
+      mnc="28"
+      apn="datapro"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="MmsPro"
+      mcc="208"
+      mnc="28"
+      apn="mmspro"
+      mmsc="http://100.101.102.103:8080"
+      type="mms"
+  />
+
   <apn carrier="Lebara France"
       mcc="208"
       mnc="38"
