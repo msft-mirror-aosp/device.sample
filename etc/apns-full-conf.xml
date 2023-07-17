@@ -4233,6 +4233,16 @@
       mmsport="80"
   />
 
+  <apn carrier="Italia Power"
+      mcc="222"
+      mnc="54"
+      apn="italiapower.it"
+      authtype="1"
+      type="default,ia,supl"
+      mvno_match_data="Italia Power"
+      mvno_type="spn"
+  />
+
   <apn carrier="Plintron"
       mcc="222"
       mnc="54"
