@@ -1487,6 +1487,7 @@
       mcc="206"
       mnc="10"
       apn="ims"
+      type="ims"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
