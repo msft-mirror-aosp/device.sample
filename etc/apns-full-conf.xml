@@ -41118,4 +41118,42 @@
       user_visible="false"
   />
 
+  <apn carrier="Cricket internet"
+      carrier_id = "10029"
+      apn="endo"
+      type="default,mms,supl,fota"
+      mmsc="http://mmsc.aiowireless.net"
+      mmsproxy="proxy.aiowireless.net"
+      mmsport="80"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
+
+  <apn carrier="IMS"
+      carrier_id = "10029"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Cricket Hotspot"
+      carrier_id = "10029"
+      apn="mht"
+      type="dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="XCAP"
+      carrier_id = "10029"
+      apn="endo"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
 </apns>
