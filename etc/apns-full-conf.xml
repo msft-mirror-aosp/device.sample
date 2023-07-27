@@ -30711,8 +30711,8 @@
       carrier_id = "1611"
       mcc="414"
       mnc="01"
-      apn="default"
-      type="default,ia,supl"
+      apn="mptnet"
+      type="default,ia"
   />
 
   <apn carrier="Ooredoo Internet"
@@ -30720,6 +30720,13 @@
       mcc="414"
       mnc="05"
       apn="Internet"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Telenor INTERNET"
+      mcc="414"
+      mnc="06"
+      apn="internet"
       type="default,ia,supl"
   />
 
