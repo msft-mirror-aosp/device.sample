@@ -38363,21 +38363,19 @@
       user="movistar@datos"
       password="movistar"
       authtype="1"
-      type="default,ia,supl"
+      type="default,ia,supl,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Movistar MMS"
+  <apn carrier="IMS"
       carrier_id = "1929"
       mcc="716"
       mnc="06"
-      apn="mms.movistar.pe"
-      user="movistar@mms"
-      password="movistar"
-      mmsproxy="200.4.196.118"
-      mmsport="8080"
-      mmsc="http://mmsc.telefonicamovistar.com.pe:8088/mms/"
-      authtype="1"
-      type="mms"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="CLARO DATOS"
@@ -38388,7 +38386,9 @@
       user="claro"
       password="claro"
       authtype="1"
-      type="default,ia,supl"
+      type="default,ia,supl,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="CLARO MMS"
@@ -38403,6 +38403,18 @@
       mmsc="http://claro/servlets/mms"
       authtype="1"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Claro PE IMS"
+      carrier_id = "1647"
+      mcc="716"
+      mnc="10"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Bitel - Internet"
@@ -38436,33 +38448,18 @@
       mnc="17"
       apn="entel.pe"
       authtype="0"
-      type="default,ia,dun"
+      type="default,ia,supl,xcap"
       protocol="IP"
   />
 
-  <apn carrier="Entel MMS"
+  <apn carrier="Entel PE IMS"
       carrier_id = "1930"
       mcc="716"
       mnc="17"
-      apn="mms.entel.pe"
-      mmsc="http://mms.entel.pe"
-      mmsproxy="10.0.215.74"
-      mmsport="8080"
-      authtype="0"
-      type="mms"
-      protocol="IP"
-  />
-
-  <apn carrier="Entel Location"
-      carrier_id = "1930"
-      mcc="716"
-      mnc="17"
-      apn="location.entel.pe"
-      port="7275"
-      server="http://location.entel.pe"
-      authtype="0"
-      type="supl"
-      protocol="IP"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Servicio_WEB"
