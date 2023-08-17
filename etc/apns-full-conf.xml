@@ -12276,6 +12276,39 @@
       mvno_type="gid"
   />
 
+  <apn carrier="Qlink"
+      mcc="310"
+      mnc="240"
+      apn="qlink"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      mmsport="80"
+      type="default,ia,mms,supl"
+      mvno_type="gid"
+      mvno_match_data="514C"
+  />
+
+  <apn carrier="Tello"
+      mcc="310"
+      mnc="240"
+      apn="tello"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      mmsport="80"
+      type="default,ia,mms,supl"
+      mvno_type="gid"
+      mvno_match_data="6941"
+  />
+
+  <apn carrier="iWireless"
+      mcc="310"
+      mnc="240"
+      apn="iwireless"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      mmsport="80"
+      type="default,ia,mms,supl"
+      mvno_type="gid"
+      mvno_match_data="6957"
+  />
+
   <apn carrier="MetroPCS 240"
       carrier_id = "1949"
       mcc="310"
@@ -12334,6 +12367,18 @@
       user_visible="false"
   />
 
+  <apn carrier="Consumer Cellular"
+      carrier_id = "2023"
+      mcc="310"
+      mnc="240"
+      apn="wholesale"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      mmsport="80"
+      type="default,ia,mms,supl,hipri"
+      mvno_type="gid"
+      mvno_match_data="2AC9"
+  />
+
   <apn carrier="MetroPCS 250"
       carrier_id = "1949"
       mcc="310"
@@ -12357,6 +12402,39 @@
       roaming_protocol="IP"
       mvno_match_data="6D"
       mvno_type="gid"
+  />
+
+  <apn carrier="Qlink"
+      mcc="310"
+      mnc="260"
+      apn="qlink"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      mmsport="80"
+      type="default,ia,mms,supl"
+      mvno_type="gid"
+      mvno_match_data="514C"
+  />
+
+  <apn carrier="Tello"
+      mcc="310"
+      mnc="260"
+      apn="tello"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      mmsport="80"
+      type="default,ia,mms,supl"
+      mvno_type="gid"
+      mvno_match_data="6941"
+  />
+
+  <apn carrier="iWireless"
+      mcc="310"
+      mnc="260"
+      apn="iwireless"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      mmsport="80"
+      type="default,ia,mms,supl"
+      mvno_type="gid"
+      mvno_match_data="6957"
   />
 
   <apn carrier="Google Fi - Tm"
