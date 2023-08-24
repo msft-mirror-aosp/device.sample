@@ -12591,7 +12591,7 @@
       mvno_type="gid"
   />
 
-  <apn carrier="internet"
+  <apn carrier="Reach"
       mcc="310"
       mnc="280"
       apn="ereseller"
@@ -15069,7 +15069,7 @@
       network_type_bitmask="13"
   />
 
-  <apn carrier="internet"
+  <apn carrier="Reach"
       mcc="310"
       mnc="950"
       apn="ereseller"
@@ -40700,7 +40700,7 @@
 
   <apn carrier="XCAP"
       carrier_id = "2119"
-      apn="ereseller"
+      apn="firstnet-phone"
       type="xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
