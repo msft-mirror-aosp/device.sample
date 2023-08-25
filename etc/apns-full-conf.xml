@@ -40926,6 +40926,28 @@
       user_visible="false"
   />
 
+  <apn carrier="SSi Mobile"
+      carrier_id = "2567"
+      apn="ssi992.ssimicro.com"
+      type="default,supl,ia,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mms.ssimicro.com"
+      mmsproxy="mms.ssimicro.com"
+      mmsport="80"
+  />
+
+  <apn carrier="Eeyou Mobility"
+      carrier_id = "2568"
+      apn="apn.em.com"
+      type="default,supl,ia,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mms.eeyoumobility.com"
+      mmsproxy="mms.eeyoumobility.com"
+      mmsport="80"
+  />
+
   <apn carrier="Tracfone AT&amp;T"
       carrier_id = "10000"
       apn="ereseller"
