@@ -2753,15 +2753,6 @@
       user_visible="false"
   />
 
-  <apn carrier="Republica Movil Internet"
-      mcc="214"
-      mnc="03"
-      apn="orangeworld"
-      type="default,ia,supl,dun"
-      mvno_match_data="Republica Movil"
-      mvno_type="spn"
-  />
-
  <apn carrier="diainternet"
       mcc="214"
       mnc="03"
