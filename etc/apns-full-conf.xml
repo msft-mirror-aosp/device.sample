@@ -41108,6 +41108,6 @@
       type="xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      user_editable="false"
+      user_visible="false"
   />
 </apns>
