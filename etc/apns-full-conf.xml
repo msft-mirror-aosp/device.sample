@@ -21410,31 +21410,6 @@
       type="mms"
   />
 
-  <apn carrier="INTERNET Aruba"
-      carrier_id = "2163"
-      mcc="363"
-      mnc="020"
-      apn="web.digicelaruba.com"
-      user=""
-      password=""
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="MMS Digicel"
-      carrier_id = "2163"
-      mcc="363"
-      mnc="020"
-      apn="wap"
-      user=""
-      password=""
-      mmsproxy="172.16.7.12"
-      mmsport="8080"
-      mmsc="http://mms.digicelgroup.com"
-      authtype="1"
-      type="mms"
-  />
-
   <apn carrier="Be Aliv"
       carrier_id = "2130"
       mcc="364"
@@ -35183,14 +35158,12 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="PNG WAP"
+  <apn carrier="Digicel PNG LTE"
       carrier_id = "1651"
       mcc="537"
       mnc="03"
-      apn="wap.digicelpng.com"
-      proxy="10.149.83.116"
-      port="8080"
-      type="default,ia,supl"
+      apn="lte"
+      type="default,ia"
   />
 
   <apn carrier="PNG WEB"
@@ -35198,19 +35171,7 @@
       mcc="537"
       mnc="03"
       apn="internet.digicelpng.com"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Papua New Guinea:Digicel:Modem"
-      carrier_id = "1651"
-      mcc="537"
-      mnc="03"
-      apn="wap.digicel.com.pg"
-      type="dun"
-      authtype="1"
-      mmsc="http://wapdigicel.com"
-      proxy="10.149.122.12"
-      port="8080"
+      type="default,ia"
   />
 
   <apn carrier="PNG MMS"
@@ -35254,20 +35215,8 @@
       carrier_id = "2220"
       mcc="539"
       mnc="88"
-      apn="default"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Tonga:Digicel:Modem"
-      carrier_id = "2220"
-      mcc="539"
-      mnc="88"
-      apn="wap"
-      type="dun"
-      authtype="1"
-      mmsc="http://wapdigicel.com"
-      proxy="172.16.7.12"
-      port="8080"
+      apn="web.digicelpacific.com"
+      type="default,ia"
   />
 
   <apn carrier="Tonga:Digicel:Mms"
@@ -35318,20 +35267,8 @@
       carrier_id = "2219"
       mcc="541"
       mnc="05"
-      apn="default"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Vanatu:Digicel:Modem"
-      carrier_id = "2219"
-      mcc="541"
-      mnc="05"
-      apn="wap"
-      type="dun"
-      authtype="1"
-      mmsc="http://wapdigicel.com"
-      proxy="172.16.7.12"
-      port="8080"
+      apn="web.digicelpacific.com"
+      type="default,ia"
   />
 
   <apn carrier="Vanatu:Digicel:Mms"
@@ -35358,20 +35295,8 @@
       carrier_id = "2186"
       mcc="542"
       mnc="02"
-      apn="default"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Fiji:Digicel:Modem"
-      carrier_id = "2186"
-      mcc="542"
-      mnc="02"
-      apn="wap"
-      type="dun"
-      authtype="1"
-      mmsc="http://wapdigicel.com"
-      proxy="172.16.7.12"
-      port="8080"
+      apn="web.digicelpacific.com"
+      type="default,ia"
   />
 
   <apn carrier="Fiji:Digicel:Mms"
@@ -37906,28 +37831,16 @@
       type='default,ia'
   />
 
-  <apn carrier='Honduras:Digicel:Mms'
+  <apn carrier="Honduras:Digicel:Mms"
       carrier_id = "2248"
-      mcc='708'
-      mnc='04'
-      apn='wap.digicelhn.com'
-      authtype='1'
-      mmsc='http://mms.digicelsv.com/servlets/mms'
-      mmsproxy='172.26.5.12'
-      mmsport='9201'
-      type='mms'
-  />
-
-  <apn carrier='Honduras:Digicel:Modem'
-      carrier_id = "2248"
-      mcc='708'
-      mnc='04'
-      apn='wap.digicelhn.com'
-      port='8080'
-      authtype='1'
-      proxy='172.26.5.12'
-      mmsc='http://www.digicelive.com'
-      type='dun'
+      mcc="708"
+      mnc="04"
+      apn="wap.digicelhn.com"
+      authtype="1"
+      mmsc="http://172.026.005.132/servlets/mms"
+      mmsproxy="172.26.5.12"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="INTERNET TIGO"
@@ -37958,16 +37871,16 @@
       type='default,ia'
   />
 
-  <apn carrier='Honduras:Digicel:Mms:2'
+  <apn carrier="Honduras:Digicel:Mms:2"
       carrier_id = "2248"
-      mcc='708'
-      mnc='040'
-      apn='wap.digicelhn.com'
-      authtype='1'
-      mmsc='http://mms.digicelsv.com/servlets/mms'
-      mmsproxy='172.26.5.12'
-      mmsport='9201'
-      type='mms'
+      mcc="708"
+      mnc="040"
+      apn="wap.digicelhn.com"
+      authtype="1"
+      mmsc="http://172.026.005.132/servlets/mms"
+      mmsproxy="172.26.5.12"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="Enitel WEB"
@@ -39973,22 +39886,8 @@
       carrier_id = "1525"
       mcc="738"
       mnc="01"
-      apn="default"
+      apn="web.digicelgy.com"
       type="default,ia,supl"
-  />
-
-  <apn carrier="Guyana:Digicel:Modem"
-      carrier_id = "1525"
-      mcc="738"
-      mnc="01"
-      apn="wap.digicelgy.com"
-      type="dun"
-      user="wap"
-      password="wap"
-      authtype="1"
-      mmsc="http://www.digicelive.com"
-      proxy="172.20.6.12"
-      port="8080"
   />
 
   <apn carrier="Guyana:Digicel:Mms"
@@ -40236,20 +40135,6 @@
       mmsproxy='172.20.6.12'
       mmsport='9201'
       type='mms'
-      user='wap'
-      password='wap'
-  />
-
-  <apn carrier='Suriname:Digicel:Modem'
-      carrier_id = "1084"
-      mcc='746'
-      mnc='03'
-      apn='wap.digicelsr.com'
-      port='8080'
-      authtype='1'
-      proxy='172.20.6.12'
-      mmsc='http://wapdigicel.com'
-      type='dun'
       user='wap'
       password='wap'
   />
