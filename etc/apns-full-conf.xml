@@ -32549,6 +32549,7 @@
       apn="IMS"
       type="ims"
       protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="SKT LTE INTERNET"
@@ -32562,15 +32563,6 @@
       mmsport="9093"
       server="*"
       protocol="IPV4V6"
-  />
-
-  <apn carrier="LG uplus IA"
-      carrier_id = "1892"
-      mcc="450"
-      mnc="06"
-      apn=""
-      type="ia"
-      protocol="IPV4V6"
       roaming_protocol="IP"
   />
 
@@ -32579,7 +32571,7 @@
       mcc="450"
       mnc="06"
       apn="IMS"
-      type="ims"
+      type="ia,ims"
       mmsc="http://omammsc.uplus.co.kr:9084"
       protocol="IPV4V6"
   />
@@ -32611,6 +32603,7 @@
       apn="IMS"
       type="ims"
       protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="KT"
@@ -32620,7 +32613,7 @@
       apn="lte.ktfwing.com"
       type="default,ia,mms,supl,fota,cbs"
       mmsc="http://mmsc.ktfwing.com:9082"
-      port="80"
+      protocol="IPV4V6"
       server="*"
   />
 
