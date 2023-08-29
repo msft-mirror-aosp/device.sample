@@ -10184,6 +10184,41 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="Swisscom Services"
+      mcc="295"
+      mnc="01"
+      apn="gprs.swisscom.ch"
+      proxy="192.168.210.1"
+      port="8080"
+      type="default,ia"
+  />
+
+  <apn carrier="Internet"
+      mcc="295"
+      mnc="02"
+      apn="internet-ofl"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="MMS"
+      mcc="295"
+      mnc="02"
+      apn="mms-ofl"
+      mmsc="http://192.168.151.3:8002"
+      mmsproxy="192.168.151.2"
+      mmsport="8080"
+      type="mms"
+  />
+
+ <apn carrier="FL1"
+      mcc="295"
+      mnc="05"
+      apn="fl1"
+      user="gprs@a1plus.at"
+      password="fl1"
+      type="default,ia"
+  />
+
   <apn carrier="EMnify"
       carrier_id = "2326"
       mcc="295"
