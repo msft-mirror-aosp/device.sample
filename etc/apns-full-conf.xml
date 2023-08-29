@@ -9683,6 +9683,20 @@
       type="mms"
   />
 
+  <apn carrier="GO postpaid"
+      mcc="278"
+      mnc="21"
+      apn="rtgsurfing"
+      type="default,ia"
+  />
+
+  <apn carrier="GO prepaid"
+      mcc="278"
+      mnc="21"
+      apn="gointernet"
+      type="default,ia"
+  />
+
   <apn carrier="Cyta"
       carrier_id = "1447"
       mcc="280"
