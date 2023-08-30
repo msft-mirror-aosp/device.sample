@@ -10016,6 +10016,27 @@
       protocol="IPV4V6"
   />
 
+  <apn carrier="FT"
+      mcc="288"
+      mnc="01"
+      apn="internet"
+      type="default,ia"
+  />
+
+  <apn carrier="Hey"
+      mcc="288"
+      mnc="02"
+      apn="gprs.fo"
+      type="default,ia"
+  />
+
+  <apn carrier="Tosa"
+      mcc="288"
+      mnc="03"
+      apn="chili"
+      type="default,ia"
+  />
+
   <apn carrier="Tele Internet"
       carrier_id = "735"
       mcc="290"
