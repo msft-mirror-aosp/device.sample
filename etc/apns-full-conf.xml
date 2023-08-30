@@ -20126,16 +20126,7 @@
       mcc="330"
       mnc="110"
       apn="lte.claropr.com"
-      type="default,ia"
-      authtype="1"
-  />
-
-  <apn carrier="Puerto Rico:Claro:Banda Ancha"
-      carrier_id = "1955"
-      mcc="330"
-      mnc="110"
-      apn="lte.claropr.com"
-      type="dun"
+      type="default,ia,dun"
       authtype="1"
   />
 
