@@ -32149,8 +32149,6 @@
       mcc="432"
       mnc="35"
       apn="mtnirancell"
-      proxy="10.131.26.138"
-      port="8080"
       type="default,ia,supl"
   />
 
