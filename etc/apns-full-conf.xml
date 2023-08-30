@@ -9698,6 +9698,27 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="One Telecommunications"
+      mcc="276"
+      mnc="01"
+      apn="internet.t"
+      type="default,ia"
+  />
+
+  <apn carrier="Vodafone"
+      mcc="276"
+      mnc="02"
+      apn="vodafoneweb"
+      type="default,ia,dun"
+  />
+
+  <apn carrier="ALBTelecom"
+      mcc="276"
+      mnc="03"
+      apn="internet"
+      type="default,ia"
+  />
+
   <apn carrier="Vodafone MT"
       carrier_id = "2368"
       mcc="278"
