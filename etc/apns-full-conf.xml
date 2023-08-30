@@ -4952,6 +4952,16 @@
       user_visible="false"
   />
 
+  <apn carrier="A1 HOS"
+      carrier_id = "14"
+      mcc="232"
+      mnc="01"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="T-Mobile LTE"
       mcc="232"
       mnc="03"
