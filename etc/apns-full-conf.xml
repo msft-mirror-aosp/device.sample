@@ -3832,6 +3832,22 @@
       type="mms"
   />
 
+  <apn carrier="Vala"
+      mcc="221"
+      mnc="01"
+      apn="vala-int"
+      type="default,ia"
+  />
+
+  <apn carrier="IPKO Telekom"
+      mcc="221"
+      mnc="02"
+      apn="IPKO"
+      proxy="213.229.249.40"
+      port="8080"
+      type="default,ia"
+  />
+
   <apn carrier="TIM WAP"
       carrier_id = "33"
       mcc="222"
