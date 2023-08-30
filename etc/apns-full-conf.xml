@@ -40262,18 +40262,6 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Paraguay:Voxx:Modem"
-      carrier_id = "1672"
-      mcc="744"
-      mnc="01"
-      apn="vox.wap"
-      type="dun"
-      authtype="1"
-      mmsproxy="172.24.97.29"
-      mmsc="http://www.vox.com.py/"
-      port="8080"
-  />
-
   <apn carrier="VOX MMS"
       carrier_id = "1672"
       mcc="744"
@@ -40293,24 +40281,9 @@
       mcc="744"
       mnc="02"
       apn="igprs.claro.com.py"
-      user="ctigprs"
-      password="ctigprs999"
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="MMS GPRS PY"
-      carrier_id = "1673"
-      mcc="744"
-      mnc="02"
-      apn="mms.ctimovil.com.py"
-      user="ctimms"
-      password="ctimms999"
-      mmsproxy="170.51.255.240"
-      mmsport="8080"
-      mmsc="http://mms.ctimovil.com.py"
-      authtype="1"
-      type="mms"
+      mmsc="http://mms.claro.com.py"
+      authtype="0"
+      type="default,ia,supl,mms"
   />
 
   <apn carrier="TIGO PY"
