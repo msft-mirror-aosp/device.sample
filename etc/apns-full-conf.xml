@@ -39875,30 +39875,34 @@
       type="mms"
   />
 
-  <apn carrier='Movistar INTERNET'
-      mcc='732'
-      mnc='12'
-      apn='internet.movistar.com.co'
-      authtype='1'
-      type='default,ia, dun'
-      user='movistar'
-      password='movistar'
+  <apn carrier="Movistar INTERNET"
+      mcc="732"
+      mnc="12"
+      apn="internet.movistar.com.co"
+      authtype="1"
+      type="default,ia"
+      user="movistar"
+      password="movistar"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier='Movistar MMS'
-      mcc='732'
-      mnc='12'
-      apn='mms.movistar.com.co'
-      authtype='1'
-      mmsc='http://mms.movistar.com.co'
-      mmsproxy='192.168.222.7'
-      mmsport='9001'
-      type='mms'
-      user='movistar'
-      password='movistar'
+  <apn carrier="Movistar MMS"
+      mcc="732"
+      mnc="12"
+      apn="mms.movistar.com.co"
+      authtype="1"
+      mmsc="http://mms.movistar.com.co"
+      mmsproxy="192.168.222.7"
+      mmsport="9001"
+      type="mms"
+      user="movistar"
+      password="movistar"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="COMCEL"
+  <apn carrier="Web Claro CO"
       carrier_id = "1442"
       mcc="732"
       mnc="101"
@@ -39906,10 +39910,12 @@
       user="COMCELWEB"
       password="COMCELWEB"
       authtype="1"
-      type="default,ia,supl"
+      type="default,ia,supl,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="MMS Comcel 3GSM"
+  <apn carrier="MMS Claro CO"
       carrier_id = "1442"
       mcc="732"
       mnc="101"
@@ -39921,6 +39927,18 @@
       mmsc="http://www.comcel.com.co/mms/"
       authtype="1"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="IMS Claro CO"
+      carrier_id = "1442"
+      mcc="732"
+      mnc="101"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Webbing"
@@ -39933,15 +39951,14 @@
       mvno_match_data="536E617065"
   />
 
-  <apn carrier="TIGO WEB"
+  <apn carrier="Tigo Web"
       carrier_id = "624"
       mcc="732"
       mnc="103"
       apn="web.colombiamovil.com.co"
-      user=""
-      password=""
-      authtype="1"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TIGO Multimedia"
@@ -39956,19 +39973,6 @@
       mmsc="http://mms.ola.com.co"
       authtype="1"
       type="mms"
-  />
-
-  <apn carrier="Internet ETB"
-      carrier_id = "2218"
-      mcc="732"
-      mnc="103"
-      apn="moviletb.net.co"
-      type="default,ia,dun"
-      user="etb"
-      password="etb"
-      authtype="0"
-      mvno_match_data="ETB MOVI"
-      mvno_type="spn"
   />
 
   <apn carrier="Internet ETB"
@@ -40008,15 +40012,14 @@
       mvno_type="spn"
   />
 
-  <apn carrier="TIGO WEB"
+  <apn carrier="Tigo Web"
       carrier_id = "624"
       mcc="732"
       mnc="111"
       apn="web.colombiamovil.com.co"
-      user=""
-      password=""
-      authtype="1"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TIGO Multimedia"
@@ -40079,6 +40082,8 @@
       password="movistar"
       authtype="1"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Movistar MMS"
@@ -40093,6 +40098,29 @@
       mmsc="http://mms.movistar.com.co"
       authtype="1"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Movistar CO IMS"
+      carrier_id = "625"
+      mcc="732"
+      mnc="123"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Movistar CO Ut"
+      carrier_id = "625"
+      mcc="732"
+      mnc="123"
+      apn="hos"
+      type="xcap"
+      protocol="IP"
+      roaming_protocol="IP"
+      user_visible="false"
   />
 
   <apn carrier="Virgin Mobile"
