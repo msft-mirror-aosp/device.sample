@@ -34681,7 +34681,7 @@
       mmsport="8080"
   />
 
-  <apn carrier="indosatgprs"
+  <apn carrier="Internet"
       carrier_id = "1537"
       mcc="510"
       mnc="01"
@@ -34704,16 +34704,7 @@
       type="mms"
   />
 
-  <apn carrier="AXIS-SNS"
-      carrier_id = "788"
-      mcc="510"
-      mnc="08"
-      apn="AXIS"
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="AXISwap"
+  <apn carrier="AXIS"
       carrier_id = "788"
       mcc="510"
       mnc="08"
@@ -34740,24 +34731,22 @@
       authtype="1"
   />
 
-  <apn carrier="internet"
+  <apn carrier="Smartfren4G"
+      carrier_id = "1978"
+      mcc="510"
+      mnc="09"
+      apn="Smartfren4G"
+      user="smartfren"
+      password="smartfren"
+      type="default,ia"
+      authtype="3"
+  />
+
+  <apn carrier="Internet"
       carrier_id = "787"
       mcc="510"
       mnc="10"
       apn="internet"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="TSEL-WAP"
-      carrier_id = "787"
-      mcc="510"
-      mnc="10"
-      apn="telkomsel"
-      user="wap"
-      password="wap123"
-      authtype="1"
-      proxy="10.1.89.130"
-      port="8000"
       type="default,ia,supl"
   />
 
@@ -34798,25 +34787,12 @@
       type="mms"
   />
 
-  <apn carrier="Indosat-SNS"
+  <apn carrier="Internet"
       carrier_id = "789"
       mcc="510"
       mnc="21"
       apn="indosatgprs"
       authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Indosat GPRS"
-      carrier_id = "789"
-      mcc="510"
-      mnc="21"
-      apn="indosatgprs"
-      user="indosat"
-      password="indosat"
-      authtype="1"
-      proxy="10.19.19.19"
-      port="8080"
       type="default,ia,supl"
   />
 
@@ -34834,13 +34810,15 @@
       type="mms"
   />
 
-  <apn carrier="3-SNS"
-      carrier_id = "1966"
+  <apn carrier="Smartfren4G"
+      carrier_id = "1978"
       mcc="510"
-      mnc="89"
-      apn="3gprs"
-      authtype="1"
-      type="default,ia,supl"
+      mnc="28"
+      apn="Smartfren4G"
+      user="smartfren"
+      password="smartfren"
+      type="default,ia"
+      authtype="3"
   />
 
   <apn carrier="3GPRS"
