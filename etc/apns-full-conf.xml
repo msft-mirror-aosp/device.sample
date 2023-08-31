@@ -34931,16 +34931,6 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="myGlobe Connect"
-      carrier_id = "1653"
-      mcc="515"
-      mnc="02"
-      apn="www.globe.com.ph"
-      proxy="203.177.42.214"
-      port="8080"
-      type="default,ia,supl"
-  />
-
   <apn carrier="myGlobe MMS"
       carrier_id = "1653"
       mcc="515"
@@ -34952,29 +34942,11 @@
       type="mms"
   />
 
-  <apn carrier="SMARTLTE"
-      carrier_id = "1654"
-      mcc="515"
-      mnc="03"
-      apn="smartlte"
-      type="default,ia,supl"
-  />
-
   <apn carrier="SMART INTERNET"
       carrier_id = "1654"
       mcc="515"
       mnc="03"
       apn="internet"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Smart GPRS"
-      carrier_id = "1654"
-      mcc="515"
-      mnc="03"
-      apn="Smart1"
-      proxy="10.102.61.46"
-      port="8080"
       type="default,ia,supl"
   />
 
@@ -34990,32 +34962,6 @@
   />
 
   <apn carrier="Sun Internet"
-      carrier_id = "1655"
-      mcc="515"
-      mnc="05"
-      apn="minternet"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="SUN WAP GPRS"
-      carrier_id = "1655"
-      mcc="515"
-      mnc="05"
-      apn="wap"
-      proxy="202.138.159.78"
-      port="8080"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Sun SBW"
-      carrier_id = "1655"
-      mcc="515"
-      mnc="05"
-      apn="fbband"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Sun Streaming"
       carrier_id = "1655"
       mcc="515"
       mnc="05"
