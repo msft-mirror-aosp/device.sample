@@ -34940,27 +34940,8 @@
       type="mms"
   />
 
-  <apn carrier="CAT3G INTERNET"
-      carrier_id = "1096"
-      mcc="520"
-      mnc="00"
-      apn="internet"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="CAT3G MMS"
-      carrier_id = "1096"
-      mcc="520"
-      mnc="00"
-      apn="catmms"
-      mmsc="http://mms.cat3g.com:8002/"
-      mmsproxy="10.4.7.39"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="TRUE-H INTERNET"
-      carrier_id = "2336"
+      carrier_id = "1997"
       mcc="520"
       mnc="00"
       apn="internet"
@@ -34968,12 +34949,10 @@
       password="true"
       authtype="1"
       type="default,ia,supl"
-      mvno_match_data="01"
-      mvno_type="gid"
   />
 
   <apn carrier="TRUE-H MMS"
-      carrier_id = "2336"
+      carrier_id = "1997"
       mcc="520"
       mnc="00"
       apn="hmms"
@@ -34984,8 +34963,28 @@
       mmsproxy="10.4.7.39"
       mmsport="8080"
       type="mms"
-      mvno_match_data="01"
-      mvno_type="gid"
+  />
+
+  <apn carrier="TRUE IMS"
+      carrier_id = "1997"
+      mcc="520"
+      mnc="00"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="TRUE UT"
+      carrier_id = "1997"
+      mcc="520"
+      mnc="00"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="AIS Internet"
@@ -35008,6 +35007,28 @@
       type="mms"
   />
 
+  <apn carrier="AIS IMS"
+      carrier_id = "1097"
+      mcc="520"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="AIS UT"
+      carrier_id = "1097"
+      mcc="520"
+      mnc="01"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
+  />
+
   <apn carrier="AIS Internet"
       carrier_id = "1098"
       mcc="520"
@@ -35015,6 +35036,7 @@
       apn="internet"
       authtype="0"
       type="default,ia,supl"
+      protocol="IPV4V6"
   />
 
   <apn carrier="AIS MMS"
@@ -35026,6 +35048,28 @@
       mmsproxy="203.170.229.34"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="AIS IMS"
+      carrier_id = "1098"
+      mcc="520"
+      mnc="03"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="AIS UT"
+      carrier_id = "1098"
+      mcc="520"
+      mnc="03"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
   />
 
   <apn carrier="TRUE-H INTERNET"
@@ -35051,6 +35095,28 @@
       mmsproxy="10.4.7.39"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="TRUE IMS"
+      carrier_id = "1997"
+      mcc="520"
+      mnc="04"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="TRUE UT"
+      carrier_id = "1997"
+      mcc="520"
+      mnc="04"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="dtac Internet"
@@ -35072,6 +35138,28 @@
       type="mms"
   />
 
+  <apn carrier="dtac IMS"
+      carrier_id = "1897"
+      mcc="520"
+      mnc="05"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="dtac UT"
+      carrier_id = "1897"
+      mcc="520"
+      mnc="05"
+      apn="XCAP"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="TOT 3G Internet"
       carrier_id = "1723"
       mcc="520"
@@ -35091,6 +35179,28 @@
       type="mms"
   />
 
+  <apn carrier="TOT IMS"
+      carrier_id = "1723"
+      mcc="520"
+      mnc="15"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="TOT UT"
+      carrier_id = "1723"
+      mcc="520"
+      mnc="15"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
+  />
+
   <apn carrier="dtac MMS"
       carrier_id = "1896"
       mcc="520"
@@ -35108,6 +35218,69 @@
       mnc="18"
       apn="www.dtac.co.th"
       type="default,ia,supl"
+  />
+
+  <apn carrier="dtac IMS"
+      carrier_id = "1896"
+      mcc="520"
+      mnc="18"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="dtac UT"
+      carrier_id = "1896"
+      mcc="520"
+      mnc="18"
+      apn="XCAP"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="dtac Internet"
+      carrier_id = "2413"
+      mcc="520"
+      mnc="47"
+      apn="www.dtac.co.th"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="dtac MMS"
+      carrier_id = "2413"
+      mcc="520"
+      mnc="47"
+      apn="mms"
+      mmsc="http://mms2.dtac.co.th:8002/"
+      mmsproxy="10.10.10.10"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="dtac IMS"
+      carrier_id = "2413"
+      mcc="520"
+      mnc="47"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="dtac UT"
+      carrier_id = "2413"
+      mcc="520"
+      mnc="47"
+      apn="XCAP"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="TRUE INTERNET"
