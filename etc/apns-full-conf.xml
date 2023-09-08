@@ -6536,82 +6536,49 @@
       type="default,ia,supl,mms,xcap"
   />
 
-  <apn carrier="DK TDC"
-      carrier_id = "1463"
-      mcc="238"
-      mnc="01"
-      apn="internet"
-      authtype="0"
-      type="default,ia,supl,fota,dun"
-  />
-
-  <apn carrier="DK TDC mms"
-      carrier_id = "1463"
-      mcc="238"
-      mnc="01"
-      apn="mms"
-      authtype="0"
-      mmsc="http://192.168.241.114:8002"
-      mmsproxy="194.182.251.15"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="TDC Internet"
+      carrier_id = "1463"
       mcc="238"
       mnc="01"
       apn="internet"
       type="default,ia,supl"
-      mvno_match_data="2380101xxxxxxxx"
-      mvno_type="imsi"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TDC MMS"
+      carrier_id = "1463"
       mcc="238"
       mnc="01"
       apn="mms"
       mmsc="http://mmsc.tdc.dk:8002"
-      mmsproxy="194.182.251.15"
+      mmsproxy="inetproxy.tdc.dk"
       mmsport="8080"
       type="mms"
-      mvno_match_data="2380101xxxxxxxx"
-      mvno_type="imsi"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Telmore Internet"
-      carrier_id = "2284"
+  <apn carrier="TDC Ut"
+      carrier_id = "1463"
       mcc="238"
       mnc="01"
-      apn="internet"
-      type="default,ia,supl"
-      mvno_type="spn"
-      mvno_match_data="TELMORE"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
-  <apn carrier="Telmore MMS"
-      carrier_id = "2284"
+  <apn carrier="TDC IMS"
+      carrier_id = "1463"
       mcc="238"
       mnc="01"
-      apn="mms"
-      mmsproxy="194.182.251.15"
-      mmsport="8080"
-      mmsc="http://192.168.241.114:8002"
-      type="mms"
-      mvno_type="spn"
-      mvno_match_data="TELMORE"
-  />
-
-  <apn carrier="TELMORE WAP"
-      carrier_id = "2284"
-      mcc="238"
-      mnc="01"
-      apn="wap"
-      proxy="194.182.251.15"
-      port="8080"
-      authtype="0"
-      type="default,ia"
-      mvno_type="spn"
-      mvno_match_data="TELMORE"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Telenor Internet"
@@ -6633,6 +6600,28 @@
       type="mms"
   />
 
+  <apn carrier="Telenor IMS"
+      carrier_id = "1464"
+      mcc="238"
+      mnc="02"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Telenor Ut"
+      carrier_id = "1464"
+      mcc="238"
+      mnc="02"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="3"
       carrier_id = "1466"
       mcc="238"
@@ -6643,7 +6632,40 @@
       mmsport="8799"
       type="default,ia,supl,mms"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="3 MMS"
+      carrier_id = "1466"
+      mcc="238"
+      mnc="06"
+      apn="services"
+      mmsc="http://mms.3.dk/"
+      mmsproxy="mmsproxy.3.dk"
+      mmsport="8799"
+      type="mms"
+      protocol="IPV4V6"
+      network_type_bitmask="18"
+  />
+
+  <apn carrier="3 DK Ut"
+      carrier_id = "1466"
+      mcc="238"
+      mnc="06"
+      apn="services"
+      type="xcap"
+      protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="3 DK IMS"
+      mcc="238"
+      mnc="06"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Lycamobile"
@@ -6658,15 +6680,17 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Telia SurfPort"
+  <apn carrier="Internet"
       carrier_id = "656"
       mcc="238"
       mnc="20"
       apn="www.internet.mtelia.dk"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Telia MMS"
+  <apn carrier="MMS"
       carrier_id = "656"
       mcc="238"
       mnc="20"
@@ -6675,68 +6699,82 @@
       mmsproxy="193.209.134.131"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Call me Internet"
-      carrier_id = "2285"
+  <apn carrier="Telia IMS"
+      carrier_id = "656"
       mcc="238"
       mnc="20"
-      apn="webSP"
-      type="default,ia,supl"
-      mvno_type="spn"
-      mvno_match_data="Call me"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
-  <apn carrier="Call me MMS"
-      carrier_id = "2285"
+  <apn carrier="Telia Ut"
+      carrier_id = "656"
       mcc="238"
       mnc="20"
-      apn="mmsSP"
-      mmsproxy="193.209.134.131"
-      mmsport="8080"
-      mmsc="http://mms.telia.dk"
-      type="mms"
-      mvno_type="spn"
-      mvno_match_data="Call me"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
-  <apn carrier="DLG Tele GPRS"
-      carrier_id = "2286"
-      mcc="238"
-      mnc="20"
-      apn="webSP"
-      type="default,ia,supl"
-      mvno_type="spn"
-      mvno_match_data="DLG Tele"
-  />
-
-  <apn carrier="DLG Tele MMS"
-      carrier_id = "2286"
-      mcc="238"
-      mnc="20"
-      apn="mmsSP"
-      mmsproxy="193.209.134.131"
-      mmsport="8080"
-      mmsc="http://mms.telia.dk"
-      type="mms"
-      mvno_type="spn"
-      mvno_match_data="DLG Tele"
-  />
-
-  <apn carrier="Orange DE"
+  <apn carrier="Internet"
       carrier_id = "656"
       mcc="238"
       mnc="30"
-      apn="web.orange.dk"
-      user=""
-      password=""
+      apn="www.internet.mtelia.dk"
+      type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="MMS"
+      carrier_id = "656"
+      mcc="238"
+      mnc="30"
+      apn="www.mms.mtelia.dk"
+      mmsc="http://mms.telia.dk"
+      mmsproxy="193.209.134.131"
+      mmsport="8080"
+      type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Telia IMS"
+      carrier_id = "656"
+      mcc="238"
+      mnc="30"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Telia Ut"
+      carrier_id = "656"
+      mcc="238"
+      mnc="30"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Telenor Internet"
       carrier_id = "657"
       mcc="238"
       mnc="77"
-      apn="Internet"
+      apn="internet"
       type="default,ia,supl"
   />
 
@@ -6753,21 +6791,39 @@
 
   <apn carrier="Telia MMS"
       carrier_id = "1690"
-      mcc="240"
-      mnc="01"
       apn="mms.telia.se"
       mmsc="http://mmss"
       mmsproxy="193.209.134.132"
       mmsport="80"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Telia"
       carrier_id = "1690"
-      mcc="240"
-      mnc="01"
       apn="online.telia.se"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Telia IMS"
+      carrier_id = "1690"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Telia Ut"
+      carrier_id = "1690"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Halebop Internet"
@@ -6776,8 +6832,10 @@
       mnc="01"
       apn="halebop.telia.se"
       type="default,ia,supl"
-      mvno_match_data="240017xxxxxxxxx"
-      mvno_type="imsi"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="halebop"
+      mvno_type="spn"
   />
 
   <apn carrier="Halebop MMS"
@@ -6789,8 +6847,36 @@
       mmsproxy="193.209.134.132"
       mmsport="80"
       type="mms"
-      mvno_match_data="240017xxxxxxxxx"
-      mvno_type="imsi"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="halebop"
+      mvno_type="spn"
+  />
+
+  <apn carrier="Halebop IMS"
+      carrier_id = "2287"
+      mcc="240"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="spn"
+      mvno_match_data="halebop"
+      user_visible="false"
+  />
+
+  <apn carrier="Halebop Ut"
+      carrier_id = "2287"
+      mcc="240"
+      mnc="01"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="spn"
+      mvno_match_data="halebop"
+      user_visible="false"
   />
 
   <apn carrier="3"
@@ -6803,7 +6889,42 @@
       mmsport="8799"
       type="default,ia,supl,mms"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="3 MMS"
+      carrier_id = "1691"
+      mcc="240"
+      mnc="02"
+      apn="services"
+      mmsc="http://mms.tre.se"
+      mmsproxy="mmsproxy.tre.se"
+      mmsport="8799"
+      type="mms"
+      protocol="IPV4V6"
+      network_type_bitmask="18"
+  />
+
+  <apn carrier="3 Ut"
+      carrier_id = "1691"
+      mcc="240"
+      mnc="02"
+      apn="services"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="3 IMS"
+      carrier_id = "1691"
+      mcc="240"
+      mnc="02"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="3"
@@ -6816,94 +6937,20 @@
       mmsport="8799"
       type="default,ia,supl,mms"
       protocol="IPV4V6"
-      roaming_protocol="IP"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Tele2 Internet"
+      carrier_id = "1694"
       mcc="240"
       mnc="05"
       apn="4g.tele2.se"
-      type="default,ia,supl"
-      mvno_match_data="Tele2"
-      mvno_type="spn"
-  />
-
-  <apn carrier="Tele2 MMS"
-      mcc="240"
-      mnc="05"
-      apn="4g.tele2.se"
+      type="default,ia,supl,mms"
       mmsc="http://mmsc.tele2.se"
-      mmsproxy="130.244.202.30"
+      mmsproxy="mmsproxy.tele2.se"
       mmsport="8080"
-      type="mms"
+      protocol="IPV4V6"
       mvno_match_data="Tele2"
-      mvno_type="spn"
-  />
-
-  <apn carrier="Tele2 Internet 3G"
-      mcc="240"
-      mnc="05"
-      apn="internet.tele2.se"
-      type="default,ia,supl"
-      mvno_match_data="Tele2"
-      mvno_type="spn"
-  />
-
-  <apn carrier="Tele2 MMS 3G"
-      mcc="240"
-      mnc="05"
-      apn="internet.tele2.se"
-      mmsc="http://mmsc.tele2.se"
-      mmsproxy="130.244.202.30"
-      mmsport="8080"
-      type="mms"
-      mvno_match_data="Tele2"
-      mvno_type="spn"
-  />
-
-  <apn carrier="Telia MMS"
-      carrier_id = "1690"
-      mcc="240"
-      mnc="05"
-      apn="mms.telia.se"
-      mmsc="http://mmss"
-      mmsproxy="193.209.134.132"
-      mmsport="80"
-      type="mms"
-      mvno_match_data="Telia"
-      mvno_type="spn"
-  />
-
-  <apn carrier="Telia"
-      carrier_id = "1690"
-      mcc="240"
-      mnc="05"
-      apn="online.telia.se"
-      type="default,ia,supl"
-      mvno_match_data="Telia"
-      mvno_type="spn"
-  />
-
-  <apn carrier="Halebop Internet"
-      carrier_id = "2287"
-      mcc="240"
-      mnc="05"
-      apn="halebop.telia.se"
-      type="default,ia,supl"
-      mvno_match_data="Halebop"
-      mvno_type="spn"
-  />
-
-  <apn carrier="Halebop MMS"
-      carrier_id = "2287"
-      mcc="240"
-      mnc="05"
-      apn="mms.telia.se"
-      mmsc="http://mmss"
-      mmsproxy="193.209.134.132"
-      mmsport="80"
-      type="mms"
-      mvno_match_data="Halebop"
       mvno_type="spn"
   />
 
@@ -6913,6 +6960,8 @@
       mnc="06"
       apn="internet"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="MMS"
@@ -6924,54 +6973,61 @@
       type="mms"
   />
 
+  <apn carrier="Vimla IMS"
+      carrier_id = "1695"
+      mcc="240"
+      mnc="06"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Vimla Ut"
+      carrier_id = "1695"
+      mcc="240"
+      mnc="06"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="Tele2 Internet"
-      carrier_id = "1696"
-      mcc="240"
-      mnc="07"
-      apn="4g.tele2.se"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Tele2 MMS"
-      carrier_id = "1696"
-      mcc="240"
-      mnc="07"
-      apn="4g.tele2.se"
-      mmsc="http://mmsc.tele2.se"
-      mmsproxy="130.244.202.30"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Tele2 Internet 3G"
       carrier_id = "1696"
       mcc="240"
       mnc="07"
       apn="internet.tele2.se"
-      type="default,ia,supl"
+      type="default,ia,supl,mms"
+      mmsc="http://mmsc.tele2.se"
+      mmsproxy="mmsproxy.tele2.se"
+      mmsport="8080"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Tele2 MMS 3G"
+  <apn carrier="Tele2 IMS"
       carrier_id = "1696"
       mcc="240"
       mnc="07"
-      apn="internet.tele2.se"
-      mmsc="http://mmsc.tele2.se"
-      mmsproxy="130.244.202.30"
-      mmsport="8080"
-      type="mms"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
-  <apn carrier="Tele2 Internet"
+  <apn carrier="Tele2 XCAP"
+      carrier_id = "1696"
       mcc="240"
       mnc="07"
-      apn="internet.tele2.no"
-      user="wap"
-      password="wap"
-      type="default,ia,supl"
-      authtype="1"
-      mvno_match_data="2400768xxxxxxxx"
-      mvno_type="imsi"
+      apn="HOS"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Tele2 MMS"
@@ -6986,15 +7042,43 @@
       mvno_type="imsi"
   />
 
-  <apn carrier="Tele2 IMS"
-      carrier_id = "1696"
+  <apn carrier="Tele2 Internet"
       mcc="240"
       mnc="07"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_visible="false"
+      apn="internet.tele2.no"
+      user="wap"
+      password="wap"
+      type="default,ia,supl"
+      authtype="1"
+      mvno_match_data="2400768xxxxxxxx"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Tele2 Web"
+      mcc="240"
+      mnc="07"
+      apn="internet.tele2.at"
+      type="default,ia,supl"
+      mvno_match_data="2400764xxxxxxxx"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Tele2 Web"
+      mcc="240"
+      mnc="07"
+      apn="internet.tele2.at"
+      type="default,ia,supl"
+      mvno_match_data="2400765xxxxxxxx"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Tele2 Internet"
+      mcc="240"
+      mnc="07"
+      apn="internet.tele2.nl"
+      type="default,ia,supl"
+      mvno_match_data="4E4C"
+      mvno_type="gid"
   />
 
   <apn carrier="Jump"
@@ -7025,12 +7109,78 @@
       mvno_match_data="240075610"
   />
 
+ <apn carrier="Sky IMS"
+      mcc="240"
+      mnc="07"
+      apn="IMS"
+      type="ims"
+      mvno_type="gid"
+      mvno_match_data="0C"
+      user_visible="false"
+  />
+
+  <apn carrier="Sky MMS"
+      mcc="240"
+      mnc="07"
+      apn="mms.mobile.sky"
+      mmsproxy="185.110.178.97"
+      mmsport="9028"
+      mmsc="http://185.110.178.96:38090/was"
+      type="mms"
+      mvno_match_data="0C"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Sky MMS VoWiFi"
+      mcc="240"
+      mnc="07"
+      apn="wifi.mms.mobile.sky"
+      type="mms"
+      mmsc="http://185.110.178.96:38090/was"
+      mmsproxy="185.110.178.97"
+      mmsport="9028"
+      network_type_bitmask="18"
+      mvno_type="gid"
+      mvno_match_data="0C"
+      user_visible="false"
+  />
+
+  <apn carrier="Sky Internet"
+      mcc="240"
+      mnc="07"
+      apn="mobile.sky"
+      type="default,ia,supl"
+      mvno_match_data="0C"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Sky Ut"
+      mcc="240"
+      mnc="07"
+      apn="ut.mobile.sky"
+      type="xcap"
+      mvno_type="gid"
+      mvno_match_data="0C"
+      user_visible="false"
+  />
+
+  <apn carrier="Sberbank-Telecom Internet"
+      mcc="240"
+      mnc="07"
+      apn="internet.sberbank-tele.com"
+      type="default,ia,supl"
+      mvno_match_data="FA3207FF"
+      mvno_type="gid"
+  />
+
   <apn carrier="Telenor Mobilsurf"
       carrier_id = "1695"
       mcc="240"
       mnc="08"
       apn="services.telenor.se"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Telenor MMS"
@@ -7042,6 +7192,28 @@
       mmsproxy="172.30.253.241"
       mmsport="8799"
       type="mms"
+  />
+
+  <apn carrier="Telenor IMS"
+      carrier_id = "1695"
+      mcc="240"
+      mnc="08"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Telenor Ut"
+      carrier_id = "1695"
+      mcc="240"
+      mnc="08"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Com4"
@@ -7084,69 +7256,25 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Halebop Internet"
-      mcc="240"
-      mnc="017"
-      apn="halebop.telia.se"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Halebop MMS"
-      mcc="240"
-      mnc="017"
-      apn="mms.telia.se"
-      user="mms"
-      password="telia"
-      mmsc="http://mmss"
-      mmsproxy="193.209.134.132"
-      mmsport="9201"
-      type="mms"
-  />
-
   <apn carrier="Tele2 Internet"
       carrier_id = "1696"
       mcc="240"
       mnc="24"
       apn="4g.tele2.se"
-      type="default,ia,supl"
-      mvno_match_data="Tele2"
-      mvno_type="spn"
-  />
-
-  <apn carrier="Tele2 MMS"
-      carrier_id = "1696"
-      mcc="240"
-      mnc="24"
-      apn="4g.tele2.se"
+      type="default,ia,supl,mms"
       mmsc="http://mmsc.tele2.se"
-      mmsproxy="130.244.202.30"
+      mmsproxy="mmsproxy.tele2.se"
       mmsport="8080"
-      type="mms"
+      protocol="IPV4V6"
       mvno_match_data="Tele2"
       mvno_type="spn"
   />
 
-  <apn carrier="Tele2 Internet 3G"
-      carrier_id = "1696"
+  <apn carrier="netmore"
       mcc="240"
-      mnc="24"
-      apn="internet.tele2.se"
+      mnc="40"
+      apn="data.rewicom.net"
       type="default,ia,supl"
-      mvno_match_data="Tele2"
-      mvno_type="spn"
-  />
-
-  <apn carrier="Tele2 MMS 3G"
-      carrier_id = "1696"
-      mcc="240"
-      mnc="24"
-      apn="internet.tele2.se"
-      mmsc="http://mmsc.tele2.se"
-      mmsproxy="130.244.202.30"
-      mmsport="8080"
-      type="mms"
-      mvno_match_data="Tele2"
-      mvno_type="spn"
   />
 
   <apn carrier="Goodspeed"
@@ -7159,41 +7287,36 @@
       mvno_match_data="C5"
   />
 
-  <apn carrier="Ventelo Internett"
-      carrier_id = "2333"
-      mcc="242"
-      mnc="01"
-      apn="internet.ventelo.no"
-      type="default,ia,supl"
-      mvno_match_data="24201700xxxxxxx"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Ventelo MMS"
-      carrier_id = "2333"
-      mcc="242"
-      mnc="01"
-      apn="mms.ventelo.no"
-      user="ventelo"
-      password="1111"
-      mmsc="http://mmsc/"
-      mmsproxy="10.10.10.11"
-      mmsport="8080"
-      type="mms"
-      authtype="1"
-      mvno_match_data="24201700xxxxxxx"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Telenor"
+  <apn carrier="Telenor LTE"
       carrier_id = "958"
       mcc="242"
       mnc="01"
-      apn="telenor"
+      apn=""
+      type="ia"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Telenor Smart"
+      carrier_id = "958"
+      mcc="242"
+      mnc="01"
+      apn="telenor.smart"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Telenor MMS"
+      carrier_id = "958"
+      mcc="242"
+      mnc="01"
+      apn="telenor.mms"
       mmsc="http://mmsc"
-      mmsproxy="10.10.10.11"
+      mmsproxy="mms-proxy.telenor.no"
       mmsport="8080"
-      type="default,ia,supl,mms"
+      type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Telenor IMS"
@@ -7207,41 +7330,60 @@
       user_visible="false"
   />
 
-  <apn carrier="NetCom"
+  <apn carrier="Telenor Ut"
+      carrier_id = "958"
+      mcc="242"
+      mnc="01"
+      apn="hos"
+      type="xcap"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
+  />
+
+  <apn carrier="Telia"
       carrier_id = "959"
       mcc="242"
       mnc="02"
-      apn="netcom"
-      mmsc="http://mm/"
-      mmsproxy="212.169.66.4"
-      mmsport="8080"
-      type="default,ia,supl,mms"
-  />
-
-  <apn carrier="Chess MMS"
-      carrier_id = "2334"
-      mcc="242"
-      mnc="02"
-      apn="netcom"
-      user="mms"
-      password="netcom"
-      mmsproxy="212.169.66.4"
-      mmsport="8080"
-      mmsc="http://mm/"
-      type="mms"
-      authtype="1"
-      mvno_match_data="2420256xxxxxxxx"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Chess Internett"
-      carrier_id = "2334"
-      mcc="242"
-      mnc="02"
-      apn="netcom"
+      apn="telia"
       type="default,ia,supl"
-      mvno_match_data="2420256xxxxxxxx"
-      mvno_type="imsi"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Telia MMS"
+      carrier_id = "959"
+      mcc="242"
+      mnc="02"
+      apn="mms"
+      mmsc="http://mm/"
+      mmsproxy="212.169.66.4"
+      mmsport="8080"
+      type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Telia IMS"
+      carrier_id = "959"
+      mcc="242"
+      mnc="02"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Telia Ut"
+      carrier_id = "959"
+      mcc="242"
+      mnc="02"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Tele2 Internet"
@@ -7255,23 +7397,51 @@
       type="default,ia,supl,mms"
   />
 
-  <apn carrier="NwN Internet"
+  <apn carrier="OneCall Internet"
       carrier_id = "1900"
       mcc="242"
       mnc="05"
       apn="internet"
+      authtype="1"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="NwN MMS"
+  <apn carrier="OneCall MMS"
       carrier_id = "1900"
       mcc="242"
       mnc="05"
       apn="mms"
-      mmsc="http://mms.nwn.no"
-      mmsproxy="188.149.250.10"
+      mmsc="http://mmsc/"
+      mmsproxy="10.100.100.100"
       mmsport="80"
+      authtype="1"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="IMS"
+      carrier_id = "1900"
+      mcc="242"
+      mnc="05"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Ut"
+      carrier_id = "1900"
+      mcc="242"
+      mnc="05"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Com4"
@@ -7298,6 +7468,8 @@
       mmsproxy="185.83.167.222"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="eRate Internet"
@@ -7322,6 +7494,15 @@
       type="mms"
   />
 
+  <apn carrier="ICE IMS"
+      mcc="242"
+      mnc="14"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      user_visible="false"
+  />
+
   <apn carrier="Lycamobile"
       mcc="242"
       mnc="23"
@@ -7340,6 +7521,7 @@
       mnc="03"
       apn="internet"
       type="default,ia,supl"
+      protocol="IPV4V6"
   />
 
   <apn carrier="DNA MMS"
@@ -7353,33 +7535,14 @@
       type="mms"
   />
 
-  <apn carrier="DNA Internet"
-      carrier_id = "682"
-      mcc="244"
-      mnc="04"
-      apn="internet"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="DNA MMS"
-      carrier_id = "682"
-      mcc="244"
-      mnc="04"
-      apn="mms"
-      user="dna"
-      password="mms"
-      mmsc="http://mmsc.dnafinland.fi/"
-      mmsproxy="10.1.1.2"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="Elisa Internet"
       carrier_id = "1475"
       mcc="244"
       mnc="05"
       apn="internet"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Elisa MMS"
@@ -7391,6 +7554,30 @@
       mmsproxy="213.161.41.57"
       mmsport="80"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Elisa IMS"
+      carrier_id = "1475"
+      mcc="244"
+      mnc="05"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
+  />
+
+  <apn carrier="Elisa Ut"
+      carrier_id = "1475"
+      mcc="244"
+      mnc="05"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
   />
 
   <apn carrier="Saunalahti Internet"
@@ -7443,6 +7630,7 @@
       mnc="12"
       apn="internet"
       type="default,ia,supl"
+      protocol="IPV4V6"
   />
 
   <apn carrier="DNA MMS"
@@ -7456,46 +7644,26 @@
       type="mms"
   />
 
-  <apn carrier="DNA Pro Internet"
+  <apn carrier="DNA IMS"
       carrier_id = "1904"
       mcc="244"
       mnc="12"
-      apn="dnapro.fi"
-      authtype="1"
-      type="default,ia,supl"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
   />
 
-  <apn carrier="DNA Pro MMS"
+  <apn carrier="DNA ut"
       carrier_id = "1904"
       mcc="244"
       mnc="12"
-      apn="mms.dnapro.fi"
-      mmsc="http://mmsc.dnapro.fi/"
-      mmsproxy="10.1.1.21"
-      mmsport="8080"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="TDC Internet Finland"
-      carrier_id = "1904"
-      mcc="244"
-      mnc="12"
-      apn="inet.tdc.fi"
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="TDC MMS Finland"
-      carrier_id = "1904"
-      mcc="244"
-      mnc="12"
-      apn="mms.tdc.fi"
-      mmsc="http://mmsc.tdc.fi"
-      mmsproxy="10.1.12.2"
-      mmsport="8080"
-      authtype="1"
-      type="mms"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="DNA Internet"
@@ -7504,6 +7672,7 @@
       mnc="13"
       apn="internet"
       type="default,ia,supl"
+      protocol="IPV4V6"
   />
 
   <apn carrier="DNA MMS"
@@ -7519,12 +7688,46 @@
       type="mms"
   />
 
+  <apn carrier="DNA IMS"
+      carrier_id = "1904"
+      mcc="244"
+      mnc="13"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
+  />
+
+  <apn carrier="DNA Ut"
+      carrier_id = "1904"
+      mcc="244"
+      mnc="13"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Alcom"
+      mcc="244"
+      mnc="14"
+      apn="internet"
+      mmsc="http://mms.amt.aland.fi"
+      mmsproxy="194.110.177.70"
+      mmsport="8080"
+      authtype="1"
+      type="default,ia,mms,supl"
+  />
+
   <apn carrier="Saunalahti Internet"
       carrier_id = "1479"
       mcc="244"
       mnc="21"
       apn="internet.saunalahti"
       type="default,ia,supl"
+      protocol="IPV4V6"
   />
 
   <apn carrier="Saunalahti MMS"
@@ -7538,23 +7741,49 @@
       type="mms"
   />
 
-  <apn carrier="SONERA Internet"
+  <apn carrier="Telia Internet"
       carrier_id = "1480"
       mcc="244"
       mnc="91"
       apn="internet"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="SONERA MMS"
+  <apn carrier="Telia MMS"
       carrier_id = "1480"
       mcc="244"
       mnc="91"
-      apn="wap.sonera.net"
-      mmsc="http://mms.sonera.fi:8002"
+      apn="mms"
+      mmsc="http://mms/"
       mmsproxy="195.156.25.33"
-      mmsport="80"
+      mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Telia IMS"
+      carrier_id = "1480"
+      mcc="244"
+      mnc="91"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Telia Ut"
+      carrier_id = "1480"
+      mcc="244"
+      mnc="91"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Omnitel MMS"
@@ -7569,6 +7798,8 @@
       mmsport="8080"
       authtype="1"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Omnitel Internet"
@@ -7580,13 +7811,35 @@
       password="omni"
       authtype="1"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Omnitel IMS"
+      mcc="246"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Omnitel Ut"
+      mcc="246"
+      mnc="01"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Bite Internet"
       carrier_id = "893"
       mcc="246"
       mnc="02"
-      apn="wap"
+      apn="internet"
       type="default,ia,supl"
   />
 
@@ -7595,12 +7848,11 @@
       mcc="246"
       mnc="02"
       apn="mms"
-      user="mms@mms"
-      password="mms"
-      mmsc="http://mmsc/servlets/mms"
+      user=""
+      password=""
+      mmsc="http://mmsc"
       mmsproxy="192.168.150.2"
       mmsport="8080"
-      authtype="1"
       type="mms"
   />
 
@@ -7610,7 +7862,7 @@
       mnc="03"
       apn="internet.tele2.lt"
       mmsc="http://mmsc.tele2.lt/"
-      mmsproxy="193.12.40.29"
+      mmsproxy="mmsproxy.tele2.lt"
       mmsport="8080"
       type="default,ia,supl,mms"
   />
@@ -7620,16 +7872,31 @@
       mcc="247"
       mnc="01"
       apn="internet.lmt.lv"
-      type="default,ia,supl"
+      mmsc="http://mmsc.lmt.lv/mmsc"
+      type="default,ia,supl,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="LMT MMS"
+  <apn carrier="LMT IMS"
       carrier_id = "898"
       mcc="247"
       mnc="01"
-      apn="internet.lmt.lv"
-      mmsc="http://mmsc.lmt.lv/mmsc"
-      type="mms"
+      apn="IMS"
+      type="ims"
+      protocol="IPV6"
+      user_visible="false"
+  />
+
+  <apn carrier="LMT Ut"
+      carrier_id = "898"
+      mcc="247"
+      mnc="01"
+      apn="hos"
+      type="xcap"
+      protocol="IPV6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="Tele2 LV Internet"
@@ -7648,7 +7915,7 @@
       user="wap"
       password="wap"
       mmsc="http://mmsc.tele2.lv/"
-      mmsproxy="193.12.40.38"
+      mmsproxy="mmsproxy.tele2.lv"
       mmsport="8080"
       authtype="1"
       type="mms"
@@ -7667,23 +7934,41 @@
       mcc="247"
       mnc="05"
       apn="mms"
-      user="mms@mms"
-      password="mms"
-      mmsc="http://mmsc/servlets/mms"
+      user=""
+      password=""
+      mmsc="http://mmsc"
       mmsproxy="192.168.150.2"
       mmsport="8080"
-      authtype="1"
       type="mms"
   />
 
-  <apn carrier="Bite LV WAP"
-      carrier_id = "2037"
+  <apn carrier="LMT Internet"
       mcc="247"
-      mnc="05"
-      apn="wap"
-      proxy="213.226.131.133"
-      port="8080"
-      type="default,ia,supl"
+      mnc="10"
+      apn="internet.lmt.lv"
+      mmsc="http://mmsc.lmt.lv/mmsc"
+      type="default,ia,supl,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="LMT IMS"
+      mcc="247"
+      mnc="10"
+      apn="IMS"
+      type="ims"
+      protocol="IPV6"
+      user_visible="false"
+  />
+
+  <apn carrier="LMT Ut"
+      mcc="247"
+      mnc="10"
+      apn="hos"
+      type="xcap"
+      protocol="IPV6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
   <apn carrier="EMT Internet"
@@ -7692,6 +7977,8 @@
       mnc="01"
       apn="internet.emt.ee"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="EMT MMS"
@@ -7703,19 +7990,33 @@
       mmsproxy="217.71.32.82"
       mmsport="8080"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="EMT WAP"
+  <apn carrier="EMT IMS"
       carrier_id = "667"
       mcc="248"
       mnc="01"
-      apn="wap.emt.ee"
-      proxy="217.71.32.236"
-      port="8080"
-      type="default,ia,supl"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
   />
 
-  <apn carrier="Send"
+  <apn carrier="EMT Ut"
+      carrier_id = "667"
+      mcc="248"
+      mnc="01"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+ <apn carrier="Send"
       carrier_id = "2332"
       mcc="248"
       mnc="01"
@@ -7724,6 +8025,8 @@
       mmsproxy="217.71.32.82"
       mmsport="8080"
       type="default,ia,supl,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       mvno_match_data="248010x2"
       mvno_type="imsi"
   />
@@ -7737,7 +8040,54 @@
       mmsproxy="217.71.32.82"
       mmsport="8080"
       type="default,ia,supl,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       mvno_match_data="248010x3"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Send"
+      carrier_id = "2332"
+      mcc="248"
+      mnc="01"
+      apn="send.ee"
+      mmsc="http://mms.emt.ee/servlets/mms"
+      mmsproxy="217.71.32.82"
+      mmsport="8080"
+      type="default,ia,supl,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="2480101601"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Send"
+      carrier_id = "2332"
+      mcc="248"
+      mnc="01"
+      apn="send.ee"
+      mmsc="http://mms.emt.ee/servlets/mms"
+      mmsproxy="217.71.32.82"
+      mmsport="8080"
+      type="default,ia,supl,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="248010241"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Send"
+      carrier_id = "2332"
+      mcc="248"
+      mnc="01"
+      apn="send.ee"
+      mmsc="http://mms.emt.ee/servlets/mms"
+      mmsproxy="217.71.32.82"
+      mmsport="8080"
+      type="default,ia,supl,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_match_data="2480104"
       mvno_type="imsi"
   />
 
@@ -7747,6 +8097,8 @@
       mnc="02"
       apn="internet"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Elisa MMS"
@@ -7760,14 +8112,25 @@
       type="mms"
   />
 
-  <apn carrier="Elisa WAP"
+  <apn carrier="Elisa IMS"
       carrier_id = "668"
       mcc="248"
       mnc="02"
-      apn="wap"
-      proxy="194.204.2.6"
-      port="8000"
-      type="default,ia,supl"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      user_visible="false"
+  />
+
+  <apn carrier="Elisa Ut"
+      carrier_id = "668"
+      mcc="248"
+      mnc="02"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
   />
 
   <apn carrier="Tele2 Internet"
@@ -7784,18 +8147,7 @@
       mnc="03"
       apn="mms.tele2.ee"
       mmsc="http://mmsc.tele2.ee"
-      mmsproxy="193.12.40.6"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Smart/Ultra MMS"
-      carrier_id = "669"
-      mcc="248"
-      mnc="03"
-      apn="internet.tele2.ee"
-      mmsc="http://mmsc.tele2.ee"
-      mmsproxy="193.12.40.6"
+      mmsproxy="mmsproxy.tele2.ee"
       mmsport="8080"
       type="mms"
   />
