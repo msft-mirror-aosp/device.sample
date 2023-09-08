@@ -1528,6 +1528,7 @@
       password="orange"
       authtype="3"
       type="default,ia,supl"
+      user_editable="false"
   />
 
   <apn carrier="Orange MCX"
