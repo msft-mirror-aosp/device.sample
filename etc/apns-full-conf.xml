@@ -39738,6 +39738,16 @@
       mvno_match_data="Surf"
   />
 
+  <apn carrier="Surf IMS"
+      mcc="724"
+      mnc="17"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      mvno_type="spn"
+      mvno_match_data="Surf"
+  />
+
   <apn carrier="LIGUE 4G Internet"
       mcc="724"
       mnc="18"
