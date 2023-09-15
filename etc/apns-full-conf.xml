@@ -41447,6 +41447,14 @@
       mmsport="80"
   />
 
+  <apn carrier="DENT"
+      carrier_id="2583"
+      apn="global.telcoequity"
+      type="default"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
   <apn carrier="Tracfone AT&amp;T"
       carrier_id = "10000"
       apn="ereseller"
