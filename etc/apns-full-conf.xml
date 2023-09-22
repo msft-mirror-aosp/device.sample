@@ -202,14 +202,6 @@
       max_conns_time="300"
   />
 
-  <apn carrier="Cosmote Wireless Internet"
-      carrier_id = "747"
-      mcc="202"
-      mnc="01"
-      apn=""
-      type="ia"
-  />
-
   <apn carrier="Cosmote Internet"
       carrier_id = "747"
       mcc="202"
@@ -228,6 +220,7 @@
       mmsproxy="10.10.10.20"
       mmsport="8080"
       type="mms"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
   />
 
   <apn carrier="IMS"
@@ -255,7 +248,7 @@
       user_visible="false"
   />
 
-  <apn carrier="Vf Mobile Internet"
+  <apn carrier="Vf Mobile LTE"
       carrier_id = "2399"
       mcc="202"
       mnc="05"
@@ -268,7 +261,7 @@
       mcc="202"
       mnc="05"
       apn="internet.vodafone.gr"
-      type="default,ia,supl"
+      type="default,supl"
       user="user"
       password="pass"
   />
@@ -945,14 +938,6 @@
       carrier_id = "2386"
       mcc="204"
       mnc="16"
-      apn=""
-      type="ia"
-  />
-
-  <apn carrier="T-Mobile Internet"
-      carrier_id = "2386"
-      mcc="204"
-      mnc="16"
       apn="smartsites.t-mobile"
       authtype="1"
       type="default,ia,supl"
@@ -1114,14 +1099,6 @@
       carrier_id = "2386"
       mcc="204"
       mnc="20"
-      apn=""
-      type="ia"
-  />
-
-  <apn carrier="T-Mobile Internet"
-      carrier_id = "2386"
-      mcc="204"
-      mnc="20"
       apn="smartsites.t-mobile"
       authtype="1"
       type="default,ia,supl"
@@ -1224,6 +1201,16 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="Proximus LTE"
+      carrier_id = "1365"
+      mcc="206"
+      mnc="01"
+      apn=""
+      type="ia"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
   <apn carrier="Proximus MMS"
       carrier_id = "1365"
       mcc="206"
@@ -1243,7 +1230,7 @@
       mcc="206"
       mnc="01"
       apn="internet.proximus.be"
-      type="default,ia,supl"
+      type="default,supl"
       authtype="1"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -1266,16 +1253,6 @@
       mnc="01"
       apn="ims"
       type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="Proximus LTE"
-      carrier_id = "1365"
-      mcc="206"
-      mnc="01"
-      apn=""
-      type="ia"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
@@ -1456,14 +1433,6 @@
   />
 
   <apn carrier="BASE Internet"
-      carrier_id = "1367"
-      mcc="206"
-      mnc="20"
-      apn=""
-      type="ia"
-  />
-
-  <apn carrier="BASE WAP"
       carrier_id = "1367"
       mcc="206"
       mnc="20"
@@ -1809,7 +1778,7 @@
       mvno_type="imsi"
   />
 
-  <apn carrier="SFR webphone"
+  <apn carrier="SFR LTE"
       carrier_id = "27"
       mcc="208"
       mnc="10"
@@ -1827,7 +1796,7 @@
       mmsc="http://mms1"
       mmsproxy="10.151.0.1"
       mmsport="8080"
-      type="default,ia,mms,supl,xcap"
+      type="default,mms,supl,xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
@@ -1969,7 +1938,7 @@
       mmsc="http://mmsdebitel"
       mmsproxy="10.143.156.3"
       mmsport="8080"
-      type="default,ia,supl,mms"
+      type="default,supl,mms"
       mvno_match_data="4C"
       mvno_type="gid"
   />
@@ -2880,14 +2849,6 @@
       carrier_id = "679"
       mcc="214"
       mnc="04"
-      apn=""
-      type="ia"
-  />
-
-  <apn carrier="Internet"
-      carrier_id = "679"
-      mcc="214"
-      mnc="04"
       apn="internet"
       type="default,ia,supl"
   />
@@ -3259,14 +3220,6 @@
       carrier_id = "1974"
       mcc="214"
       mnc="21"
-      apn=""
-      type="ia"
-  />
-
-  <apn carrier="jazzinternet"
-      carrier_id = "1974"
-      mcc="214"
-      mnc="21"
       apn="jazzinternet"
       type="default,ia,supl,dun"
   />
@@ -3420,14 +3373,6 @@
       user_visible="false"
   />
 
-  <apn carrier="T-Mobile H"
-      carrier_id = "2401"
-      mcc="216"
-      mnc="30"
-      apn=""
-      type="ia"
-  />
-
   <apn carrier="Telekom HU NET"
       carrier_id = "2401"
       mcc="216"
@@ -3439,6 +3384,7 @@
       mmsport="8080"
       authtype="1"
       protocol="IPV4V6"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
   />
 
   <apn carrier="Telekom IMS"
@@ -3600,14 +3546,6 @@
       user_visible="false"
   />
 
-  <apn carrier="T-Mobile"
-      carrier_id = "2365"
-      mcc="219"
-      mnc="01"
-      apn=""
-      type="ia"
-  />
-
   <apn carrier="T-Mobile IMS"
       carrier_id = "2365"
       mcc="219"
@@ -3673,14 +3611,6 @@
       mmsproxy="mmsproxy.tele2.hr"
       mmsport="8080"
       type="default,ia,supl,mms"
-  />
-
-  <apn carrier="A1 LTE IA"
-      carrier_id = "1530"
-      mcc="219"
-      mnc="10"
-      apn=""
-      type="ia"
   />
 
   <apn carrier="A1 internet"
@@ -4079,7 +4009,7 @@
       mcc="222"
       mnc="10"
       apn="mobile.vodafone.it"
-      type="default,ia,supl"
+      type="default,supl"
   />
 
   <apn carrier="IMS Vodafone"
@@ -4301,14 +4231,6 @@
       carrier_id = "2391"
       mcc="226"
       mnc="01"
-      apn=""
-      type="ia"
-  />
-
-  <apn carrier="Vodafone live!"
-      carrier_id = "2391"
-      mcc="226"
-      mnc="01"
       apn="live.vodafone.com"
       user="live"
       password="vodafone"
@@ -4343,7 +4265,7 @@
       mcc="226"
       mnc="03"
       apn="broadband"
-      type="default,ia,supl"
+      type="default,supl"
   />
 
   <apn carrier="Telekom Romania MMS"
@@ -4426,7 +4348,7 @@
       mcc="226"
       mnc="06"
       apn="broadband"
-      type="default,ia,supl"
+      type="default,supl"
   />
 
   <apn carrier="Telekom Romania MMS"
@@ -4666,15 +4588,6 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="T-Mobile CZ"
-      carrier_id = "2394"
-      mcc="230"
-      mnc="01"
-      apn=""
-      type="ia"
-      protocol="IPV4V6"
-  />
-
   <apn carrier="T-Mobile IMS"
       carrier_id = "2394"
       mcc="230"
@@ -4709,6 +4622,7 @@
       mmsport="80"
       authtype="1"
       type="mms"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
   />
 
   <apn carrier="HOS"
@@ -4810,20 +4724,20 @@
       user_visible="false"
   />
 
-  <apn carrier="Orange Internet"
-      carrier_id = "1713"
-      mcc="231"
-      mnc="01"
-      apn="internet"
-      type="default,ia,supl"
-  />
-
   <apn carrier="Orange LTE"
       carrier_id = "1713"
       mcc="231"
       mnc="01"
       apn=""
       type="ia"
+  />
+
+  <apn carrier="Orange Internet"
+      carrier_id = "1713"
+      mcc="231"
+      mnc="01"
+      apn="internet"
+      type="default,supl"
   />
 
   <apn carrier="Orange MMS"
@@ -4965,13 +4879,6 @@
       type="xcap"
       protocol="IPV4V6"
       user_visible="false"
-  />
-
-  <apn carrier="T-Mobile LTE"
-      mcc="232"
-      mnc="03"
-      apn=""
-      type="ia"
   />
 
   <apn carrier="T-Mobile A Internet"
@@ -6376,6 +6283,7 @@
       mmsproxy="185.110.178.97"
       mmsport="9028"
       type="mms"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
   />
 
   <apn carrier="Sky IMS"
@@ -6581,12 +6489,20 @@
       user_visible="false"
   />
 
+  <apn carrier="Telenor LTE"
+      carrier_id = "1464"
+      mcc="238"
+      mnc="02"
+      apn=""
+      type="ia"
+  />
+
   <apn carrier="Telenor Internet"
       carrier_id = "1464"
       mcc="238"
       mnc="02"
       apn="Internet"
-      type="default,ia,supl"
+      type="default,supl"
   />
 
   <apn carrier="Telenor MMS"
@@ -6627,15 +6543,25 @@
       mcc="238"
       mnc="06"
       apn="data.tre.dk"
-      mmsc="http://mms.3.dk/"
-      mmsproxy="mmsproxy.3.dk"
-      mmsport="8799"
-      type="default,ia,supl,mms"
+      type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
 
   <apn carrier="3 MMS"
+      carrier_id = "1466"
+      mcc="238"
+      mnc="06"
+      apn="data.tre.dk"
+      mmsc="http://mms.3.dk/"
+      mmsproxy="mmsproxy.3.dk"
+      mmsport="8799"
+      type="mms"
+      protocol="IPV4V6"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
+  />
+
+  <apn carrier="3 MMS iWLAN"
       carrier_id = "1466"
       mcc="238"
       mnc="06"
@@ -6646,6 +6572,7 @@
       type="mms"
       protocol="IPV4V6"
       network_type_bitmask="18"
+      user_visible="false"
   />
 
   <apn carrier="3 DK Ut"
@@ -6884,15 +6811,25 @@
       mcc="240"
       mnc="02"
       apn="data.tre.se"
-      mmsc="http://mms.tre.se"
-      mmsproxy="mmsproxy.tre.se"
-      mmsport="8799"
-      type="default,ia,supl,mms"
+      type="default,ia,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
 
   <apn carrier="3 MMS"
+      carrier_id = "1691"
+      mcc="240"
+      mnc="02"
+      apn="data.tre.se"
+      mmsc="http://mms.tre.se"
+      mmsproxy="mmsproxy.tre.se"
+      mmsport="8799"
+      type="mms"
+      protocol="IPV4V6"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+  />
+
+  <apn carrier="3 MMS iWLAN"
       carrier_id = "1691"
       mcc="240"
       mnc="02"
@@ -6903,6 +6840,7 @@
       type="mms"
       protocol="IPV4V6"
       network_type_bitmask="18"
+      user_visible="false"
   />
 
   <apn carrier="3 Ut"
@@ -7127,6 +7065,7 @@
       mmsport="9028"
       mmsc="http://185.110.178.96:38090/was"
       type="mms"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
       mvno_match_data="0C"
       mvno_type="gid"
   />
@@ -7303,7 +7242,7 @@
       apn="telenor.smart"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-      type="default,ia,supl"
+      type="default,supl"
   />
 
   <apn carrier="Telenor MMS"
@@ -8732,15 +8671,7 @@
       user_visible="false"
   />
 
-  <apn carrier="Internet"
-      carrier_id = "2367"
-      mcc="260"
-      mnc="02"
-      apn=""
-      type="ia"
-  />
-
-  <apn carrier="T-mobile.pl"
+  <apn carrier="T-Mobile Internet"
       carrier_id = "2367"
       mcc="260"
       mnc="02"
@@ -9006,7 +8937,7 @@
       user_visible="false"
   />
 
-  <apn carrier="Vodafone DE"
+  <apn carrier="Vodafone DE LTE"
       carrier_id = "2397"
       mcc="262"
       mnc="02"
@@ -9020,7 +8951,7 @@
       mcc="262"
       mnc="02"
       apn="web.vodafone.de"
-      type="default,ia,supl,xcap"
+      type="default,supl,xcap"
       authtype="3"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
@@ -9569,7 +9500,7 @@
       user_visible="false"
   />
 
-  <apn carrier="Vodafone D2 LTE"
+  <apn carrier="Vodafone DE LTE"
       carrier_id = "2147"
       mcc="262"
       mnc="09"
@@ -9730,10 +9661,12 @@
   />
 
   <apn carrier="Vodafone Net2"
+      carrier_id = "22"
       mcc="268"
       mnc="01"
       apn=""
       type="ia"
+      protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone Net2"
@@ -9779,14 +9712,6 @@
       carrier_id = "1668"
       mcc="268"
       mnc="03"
-      apn=""
-      type="ia"
-  />
-
-  <apn carrier="Internet"
-      carrier_id = "1668"
-      mcc="268"
-      mnc="03"
       apn="umts"
       mmsc="http://mmsc:10021/mmsc"
       mmsproxy="62.169.66.5"
@@ -9819,7 +9744,7 @@
       mcc="268"
       mnc="06"
       apn="internet"
-      type="default,ia,supl"
+      type="default,supl"
   />
 
   <apn carrier="mms"
@@ -10672,14 +10597,6 @@
       mmsproxy="91.185.221.85"
       mmsport="8080"
       type="default,ia,supl,mms"
-  />
-
-  <apn carrier="T-Mobile MK Internet"
-      carrier_id = "2396"
-      mcc="294"
-      mnc="01"
-      apn=""
-      type="ia"
   />
 
   <apn carrier="T-Mobile MK Internet"
@@ -12732,18 +12649,6 @@
       mcc="310"
       mnc="160"
       apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
-      mvno_type="gid"
-  />
-
-  <apn carrier="MetroPCS 160"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="160"
-      apn="fast.metropcs.com"
       mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
       type="default,ia,supl,mms"
       protocol="IPV6"
@@ -12781,34 +12686,10 @@
       mcc="310"
       mnc="200"
       apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
-      mvno_type="gid"
-  />
-
-  <apn carrier="MetroPCS 200"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="200"
-      apn="fast.metropcs.com"
       mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
       type="default,ia,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
-      mvno_match_data="6D"
-      mvno_type="gid"
-  />
-
-  <apn carrier="MetroPCS 210"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="210"
-      apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
       mvno_match_data="6D"
       mvno_type="gid"
   />
@@ -12831,34 +12712,10 @@
       mcc="310"
       mnc="220"
       apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
-      mvno_type="gid"
-  />
-
-  <apn carrier="MetroPCS 220"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="220"
-      apn="fast.metropcs.com"
       mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
       type="default,ia,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
-      mvno_match_data="6D"
-      mvno_type="gid"
-  />
-
-  <apn carrier="MetroPCS 230"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="230"
-      apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
       mvno_match_data="6D"
       mvno_type="gid"
   />
@@ -12907,18 +12764,6 @@
       type="default,ia,mms,supl"
       mvno_type="gid"
       mvno_match_data="6957"
-  />
-
-  <apn carrier="MetroPCS 240"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="240"
-      apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
-      mvno_type="gid"
   />
 
   <apn carrier="MetroPCS 240"
@@ -12984,18 +12829,6 @@
       mcc="310"
       mnc="250"
       apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
-      mvno_type="gid"
-  />
-
-  <apn carrier="MetroPCS 250"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="250"
-      apn="fast.metropcs.com"
       mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
       type="default,ia,supl,mms"
       protocol="IPV6"
@@ -13068,18 +12901,6 @@
       network_type_bitmask="13|20"
       user_editable="false"
       user_visible="false"
-  />
-
-  <apn carrier="MetroPCS 260"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="260"
-      apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D38"
-      mvno_type="gid"
   />
 
   <apn carrier="MetroPCS 260"
@@ -13149,18 +12970,6 @@
       type="default,ia,mms,supl,hipri"
       mvno_type="gid"
       mvno_match_data="2AC9"
-  />
-
-  <apn carrier="MetroPCS 270"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="270"
-      apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
-      mvno_type="gid"
   />
 
   <apn carrier="MetroPCS 270"
@@ -13688,18 +13497,6 @@
       mcc="310"
       mnc="300"
       apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
-      mvno_type="gid"
-  />
-
-  <apn carrier="MetroPCS 300"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="300"
-      apn="fast.metropcs.com"
       mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
       type="default,ia,supl,mms"
       protocol="IPV6"
@@ -13729,18 +13526,6 @@
       roaming_protocol="IPV4V6"
       mvno_type="gid"
       mvno_match_data="547275554B3030656E"
-  />
-
-  <apn carrier="MetroPCS 310"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="310"
-      apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
-      mvno_type="gid"
   />
 
   <apn carrier="MetroPCS 310"
@@ -14738,34 +14523,10 @@
       mcc="310"
       mnc="490"
       apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
-      mvno_type="gid"
-  />
-
-  <apn carrier="MetroPCS 490"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="490"
-      apn="fast.metropcs.com"
       mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
       type="default,ia,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
-      mvno_match_data="6D"
-      mvno_type="gid"
-  />
-
-  <apn carrier="MetroPCS 530"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="530"
-      apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
       mvno_match_data="6D"
       mvno_type="gid"
   />
@@ -14894,18 +14655,6 @@
       mcc="310"
       mnc="590"
       apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
-      mvno_type="gid"
-  />
-
-  <apn carrier="MetroPCS 590"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="590"
-      apn="fast.metropcs.com"
       mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
       type="default,ia,supl,mms"
       protocol="IPV6"
@@ -15025,34 +14774,10 @@
       mcc="310"
       mnc="640"
       apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
-      mvno_type="gid"
-  />
-
-  <apn carrier="MetroPCS 640"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="640"
-      apn="fast.metropcs.com"
       mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
       type="default,ia,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
-      mvno_match_data="6D"
-      mvno_type="gid"
-  />
-
-  <apn carrier="MetroPCS 660"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="660"
-      apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
       mvno_match_data="6D"
       mvno_type="gid"
   />
@@ -15216,18 +14941,6 @@
       mmsproxy="209.4.229.31"
       mmsport="9401"
       type="mms"
-  />
-
-  <apn carrier="MetroPCS 800"
-      carrier_id = "1949"
-      mcc="310"
-      mnc="800"
-      apn="fast.metropcs.com"
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_match_data="6D"
-      mvno_type="gid"
   />
 
   <apn carrier="MetroPCS 800"
@@ -21658,6 +21371,14 @@
       type="dun"
   />
 
+  <apn carrier="SFR LTE"
+      carrier_id = "743"
+      mcc="340"
+      mnc="02"
+      apn=""
+      type="ia"
+  />
+
   <apn carrier="SFR Internet"
       carrier_id = "743"
       mcc="340"
@@ -21666,7 +21387,7 @@
       mmsc="http://mmsc.only.fr:9091"
       mmsproxy="mmsc.only.fr"
       mmsport="9091"
-      type="default,ia,hipri,mms,supl"
+      type="default,hipri,mms,supl"
   />
 
   <apn carrier="Modem"
@@ -31792,12 +31513,20 @@
       type="default,ia,supl,mms"
   />
 
+  <apn carrier="STC LTE"
+      carrier_id = "1683"
+      mcc="420"
+      mnc="01"
+      apn=""
+      type="ia"
+  />
+
   <apn carrier="STC Internet"
       carrier_id = "1683"
       mcc="420"
       mnc="01"
       apn="jawalnet.com.sa"
-      type="default,ia,supl,xcap"
+      type="default,supl,xcap"
   />
 
   <apn carrier="STC"
@@ -32045,12 +31774,20 @@
       user_visible="false"
   />
 
+  <apn carrier="du LTE"
+      carrier_id = "1970"
+      mcc="424"
+      mnc="03"
+      apn=""
+      type="ia"
+  />
+
   <apn carrier="du Internet"
       carrier_id = "1970"
       mcc="424"
       mnc="03"
       apn="du"
-      type="default,ia,supl"
+      type="default,supl"
   />
 
   <apn carrier="du IMS"
@@ -32967,16 +32704,6 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="SKT IA"
-      carrier_id = "1891"
-      mcc="450"
-      mnc="05"
-      apn=""
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
-  />
-
   <apn carrier="SKT IMS"
       carrier_id = "1891"
       mcc="450"
@@ -33016,19 +32743,9 @@
       mcc="450"
       mnc="06"
       apn="internet.lguplus.co.kr"
-      type="default,ia,mms,supl,fota,cbs"
+      type="default,mms,supl,fota,cbs"
       mmsc="http://omammsc.uplus.co.kr:9084"
       protocol="IPV4V6"
-  />
-
-  <apn carrier="KT IA"
-      carrier_id = "1890"
-      mcc="450"
-      mnc="08"
-      apn=""
-      type="ia"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
   />
 
   <apn carrier="KT IMS"
@@ -38348,6 +38065,14 @@
       mvno_type="gid"
   />
 
+  <apn carrier="SFR LTE"
+      carrier_id = "1008"
+      mcc="647"
+      mnc="10"
+      apn=""
+      type="ia"
+  />
+
   <apn carrier="SFR webphone"
       carrier_id = "1008"
       mcc="647"
@@ -38356,7 +38081,7 @@
       mmsport="8080"
       mmsproxy="10.0.224.145"
       mmsc="http://mms"
-      type="default,ia,supl,hipri,mms"
+      type="default,supl,hipri,mms"
   />
 
   <apn carrier="MMS"
