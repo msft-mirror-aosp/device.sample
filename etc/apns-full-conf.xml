@@ -1525,9 +1525,6 @@
       mcc="208"
       mnc="01"
       apn="orange-mib"
-      user="orange"
-      password="orange"
-      authtype="3"
       type="default,ia,supl"
       user_editable="false"
   />
