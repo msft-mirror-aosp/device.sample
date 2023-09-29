@@ -39623,6 +39623,16 @@
       roaming_protocol="IPV4V6"
   />
 
+  <apn carrier="Unifique"
+      carrier_id = "548"
+      mcc="724"
+      mnc="29"
+      apn="unifique.br"
+      type="default,ims,supl,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
   <apn carrier="Oi Internet"
       carrier_id = "1389"
       mcc="724"
