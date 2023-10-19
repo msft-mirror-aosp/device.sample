@@ -12893,7 +12893,7 @@
       protocol="IPV6"
       roaming_protocol="IP"
       mvno_match_data="31026097"
-      mvno_type="IMSI"
+      mvno_type="imsi"
       user_editable="false"
       user_visible="false"
   />
@@ -12907,7 +12907,7 @@
       protocol="IPV6"
       roaming_protocol="IP"
       mvno_match_data="31026097"
-      mvno_type="IMSI"
+      mvno_type="imsi"
       network_type_bitmask="13|20"
       user_editable="false"
       user_visible="false"
