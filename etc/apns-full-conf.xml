@@ -2348,7 +2348,7 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      romaing_protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       user_visible="false"
   />
 
@@ -6419,7 +6419,7 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      romaing_protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       user_visible="false"
   />
 
