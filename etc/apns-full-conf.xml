@@ -7438,7 +7438,6 @@
       apn="mms"
       mvno_match_data="0E"
       mvno_type="gid"
-      mmsport="80"
       type="mms"
   />
 
@@ -12639,7 +12638,6 @@
       apn="home.cww.com"
       type="default,ia,supl,mms,ims,cbs"
       mmsc="http://mms.cwwmms.com/cww/mms.php"
-      mmsport="80"
       network_type_bitmask="4|5|6|7|12"
   />
 
@@ -12747,7 +12745,6 @@
       mnc="240"
       apn="qlink"
       mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      mmsport="80"
       type="default,ia,mms,supl"
       mvno_type="gid"
       mvno_match_data="514C"
@@ -12758,7 +12755,6 @@
       mnc="240"
       apn="tello"
       mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      mmsport="80"
       type="default,ia,mms,supl"
       mvno_type="gid"
       mvno_match_data="6941"
@@ -12769,7 +12765,6 @@
       mnc="240"
       apn="iwireless"
       mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      mmsport="80"
       type="default,ia,mms,supl"
       mvno_type="gid"
       mvno_match_data="6957"
@@ -12827,7 +12822,6 @@
       mnc="240"
       apn="wholesale"
       mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      mmsport="80"
       type="default,ia,mms,supl,hipri"
       mvno_type="gid"
       mvno_match_data="2AC9"
@@ -12851,7 +12845,6 @@
       mnc="260"
       apn="qlink"
       mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      mmsport="80"
       type="default,ia,mms,supl"
       mvno_type="gid"
       mvno_match_data="514C"
@@ -12862,7 +12855,6 @@
       mnc="260"
       apn="tello"
       mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      mmsport="80"
       type="default,ia,mms,supl"
       mvno_type="gid"
       mvno_match_data="6941"
@@ -12873,7 +12865,6 @@
       mnc="260"
       apn="iwireless"
       mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      mmsport="80"
       type="default,ia,mms,supl"
       mvno_type="gid"
       mvno_match_data="6957"
@@ -31961,7 +31952,6 @@
       mnc="10"
       apn="uwap.orange.co.il"
       mmsc="http://192.168.220.15/servlets/mms"
-      mmsport="8080"
       type="default,ia,supl,mms"
   />
 
@@ -32268,7 +32258,6 @@
       mcc="432"
       mnc="14"
       apn="MCI-GPRS"
-      mmsport="38090"
       mmsc="http://192.168.193.134"
       type="mms"
   />
@@ -32286,7 +32275,6 @@
       mcc="432"
       mnc="19"
       apn="MCI-GPRS"
-      mmsport="38090"
       mmsc="http://192.168.193.134"
       type="mms"
   />
@@ -32361,7 +32349,6 @@
       mcc="432"
       mnc="93"
       apn="MCI-GPRS"
-      mmsport="38090"
       mmsc="http://192.168.193.134"
       type="mms"
   />
