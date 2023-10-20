@@ -3842,7 +3842,6 @@
       mnc="01"
       apn="supl.iusacellgsm.mx"
       server="http://supl.iusacell.com"
-      port="7275"
       type="supl"
       mvno_type="spn"
       mvno_match_data="IUSACELL"
@@ -3875,7 +3874,6 @@
       mnc="01"
       apn="supl.iusacellgsm.mx"
       server="http://supl.iusacell.com"
-      port="7275"
       type="supl"
       mvno_type="spn"
       mvno_match_data="UNEFON"
@@ -38119,7 +38117,6 @@
       user="internet"
       password="internet"
       authtype="1"
-      port="8080"
       type="default,ia,supl"
   />
 
@@ -38411,7 +38408,6 @@
       mcc="630"
       mnc="01"
       apn="vodanet"
-      port="8080"
       type="default,ia"
   />
 
