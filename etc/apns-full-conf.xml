@@ -19983,20 +19983,6 @@
       protocol="IPV4V6"
   />
 
-  <apn carrier="Blue Wireless"
-      carrier_id = "2261"
-      mcc="312"
-      mnc="570"
-      apn="Blue Hotspot"
-      server="*"
-      mmsport="8514"
-      user="%M@dun.bluehandset.com"
-      password="wirelessblue"
-      mmsc="http://mms.blueunlimited.com"
-      type="default,ia,dun,mms"
-      protocol="IPV4V6"
-  />
-
   <apn carrier="GigSky"
       carrier_id="2459"
       mcc="312"
@@ -37886,7 +37872,7 @@
       carrier_id = "1515"
       mcc="620"
       mnc="01"
-      apn="mtn mms"
+      apn="mms"
       type="mms"
       authtype="0"
       mmsproxy="172.17.3.7"
@@ -37948,7 +37934,7 @@
       carrier_id = "2108"
       mcc="620"
       mnc="06"
-      apn="mms/airtel mms"
+      apn="airtelmms.com"
       type="mms"
       authtype="0"
       mmsproxy="100.1.201.172"
@@ -38584,14 +38570,6 @@
       mmsport="8080"
       mmsc="http://10.4.16.22/servlets/mms"
       type="default,ia,supl,mms"
-  />
-
-  <apn carrier="Yu WAP"
-      carrier_id = "2209"
-      mcc="639"
-      mnc="05"
-      apn="Yu internet"
-      type="default,ia,supl"
   />
 
   <apn carrier="Yu mms"
