@@ -9880,6 +9880,8 @@
       mnc="03"
       apn="data.myeirmobile.ie"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="eir MMS"
