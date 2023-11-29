@@ -11054,6 +11054,30 @@
       mvno_match_data="MTS"
   />
 
+<apn carrier="Bell IoT CC"
+      carrier_id ="576"
+      mcc="302"
+      mnc="690"
+      apn="mnet.bell.ca.ioe"
+      type="default,ia,supl"
+      authtype="2"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="41"
+  />
+
+    <apn carrier="Bell IoT MC"
+      carrier_id ="576"
+      mcc="302"
+      mnc="690"
+      apn="inet.bell.ca.m2m"
+      type="default,ia,supl"
+      authtype="2"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="43"
+  />
+
   <apn carrier="Rogers LTE"
       carrier_id = "1403"
       mcc="302"
