@@ -12196,7 +12196,7 @@
       apn="VZWINTERNET"
       mvno_type="spn"
       mvno_match_data="itewire"
-      type="default,ia,mms,dun,supl"
+      type="default,ia,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       network_type_bitmask="14"
@@ -12208,7 +12208,7 @@
       apn="VZWINTERNET"
       mvno_type="spn"
       mvno_match_data="itewire"
-      type="default,ia,mms,dun,supl"
+      type="default,ia,dun,supl"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       network_type_bitmask="13"
@@ -31394,7 +31394,7 @@
       mnc="11"
       apn="ymdata"
       authtype="0"
-      type="default,ia,mms,supl,fota,cbs,dun"
+      type="default,ia,supl,fota,cbs,dun"
       protocol="IPV4V6"
   />
 
