@@ -31369,17 +31369,6 @@
       mmsport="3130"
   />
 
-  <apn carrier="YemenMobile"
-      carrier_id = "2349"
-      mcc="421"
-      mnc="03"
-      apn="ymobile"
-      user="ymobile"
-      password="ymobile"
-      authtype="3"
-      type="default,ia,supl"
-  />
-
   <apn carrier="HiTS-UNITEL"
       carrier_id = "2168"
       mcc="421"
@@ -31402,7 +31391,7 @@
       carrier_id = "2349"
       mcc="421"
       mnc="11"
-      apn="ymims"
+      apn="ims"
       authtype="0"
       type="ims"
       protocol="IPV4V6"
