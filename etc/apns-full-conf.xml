@@ -41398,6 +41398,13 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="Telekom"
+      mcc="901"
+      mnc="40"
+      apn="internet.m2mportal.de"
+      type="default"
+  />
+
   <apn carrier="EMnify"
       mcc="901"
       mnc="43"
