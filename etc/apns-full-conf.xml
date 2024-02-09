@@ -32309,6 +32309,18 @@
       roaming_protocol="IP"
   />
 
+  <apn carrier="TONE mobile"
+      mcc="440"
+      mnc="10"
+      apn="tone.ne.jp"
+      type="default"
+      user="tone"
+      password="tone"
+      authtype="2"
+      mvno_type="spn"
+      mvno_match_data="docomo"
+  />
+
   <apn carrier="楽天(rakuten.jp)"
       carrier_id="2429"
       mcc="440"
