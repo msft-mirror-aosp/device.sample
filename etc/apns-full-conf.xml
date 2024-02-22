@@ -9985,8 +9985,8 @@
       mnc="03"
       apn="IMS"
       type="ims"
-      protocol="IPV6"
-      roaming_protocol="IPV6"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       user_visible="false"
   />
 
