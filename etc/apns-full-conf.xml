@@ -8749,6 +8749,7 @@
       mnc="03"
       apn="hos"
       type="xcap"
+      protocol="IPV4V6"
       user_visible="false"
   />
 
