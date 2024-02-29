@@ -1719,7 +1719,8 @@
       mcc="208"
       mnc="09"
       apn="pda.newcomobile.com"
-      type="default,ia,supl"
+      mmsc="http://mms.bealiv.com"
+      type="default,ia,supl,mms"
       mvno_match_data="208090021"
       mvno_type="imsi"
   />
@@ -21440,7 +21441,8 @@
       mcc="364"
       mnc="49"
       apn="pda.newcomobile.com"
-      type="default,ia,supl"
+      mmsc="http://mms.bealiv.com"
+      type="default,ia,supl,mms"
   />
 
   <apn carrier="Be Aliv IMS"
