@@ -1719,7 +1719,8 @@
       mcc="208"
       mnc="09"
       apn="pda.newcomobile.com"
-      type="default,ia,supl"
+      mmsc="http://mms.bealiv.com"
+      type="default,ia,supl,mms"
       mvno_match_data="208090021"
       mvno_type="imsi"
   />
@@ -21440,7 +21441,8 @@
       mcc="364"
       mnc="49"
       apn="pda.newcomobile.com"
-      type="default,ia,supl"
+      mmsc="http://mms.bealiv.com"
+      type="default,ia,supl,mms"
   />
 
   <apn carrier="Be Aliv IMS"
@@ -32328,6 +32330,18 @@
       type="default,supl"
       protocol="IP"
       roaming_protocol="IP"
+  />
+
+  <apn carrier="TONE mobile"
+      mcc="440"
+      mnc="10"
+      apn="tone.ne.jp"
+      type="default"
+      user="tone"
+      password="tone"
+      authtype="2"
+      mvno_type="spn"
+      mvno_match_data="docomo"
   />
 
   <apn carrier="楽天(rakuten.jp)"
