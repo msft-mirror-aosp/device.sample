@@ -21438,6 +21438,42 @@
       type='mms'
   />
 
+  <apn carrier="SETAR Internet"
+      carrier_id = "493"
+      mcc="363"
+      mnc="01"
+      apn="internet.setar.aw"
+      type="default,fota,supl,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="true"
+  />
+
+  <apn carrier="SETAR MMS"
+      carrier_id = "493"
+      mcc="363"
+      mnc="01"
+      apn="mms.setar.aw"
+      type="mms"
+      mmsc="http://mms.setar.aw"
+      mmsproxy="201.229.65.204"
+      mmsport="8081"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
+
+  <apn carrier="SETAR IMS"
+      carrier_id = "493"
+      mcc="363"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="INTERNET Aruba"
       carrier_id = "2163"
       mcc="363"
