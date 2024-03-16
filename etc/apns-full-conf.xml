@@ -31556,6 +31556,16 @@
       user_visible="false"
   />
 
+  <apn carrier="Webbing"
+      mcc="424"
+      mnc="02"
+      apn="wbdata"
+      type="default,ia,dun"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+  />
+
   <apn carrier="du LTE"
       carrier_id = "1970"
       mcc="424"
