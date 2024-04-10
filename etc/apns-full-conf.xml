@@ -4423,17 +4423,6 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Swisscom MMS"
-      carrier_id = "2366"
-      mcc="228"
-      mnc="01"
-      apn="event.swisscom.ch"
-      mmsc="http://mms.natel.ch:8079"
-      mmsproxy="192.168.210.2"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="Swisscom Services"
       carrier_id = "2366"
       mcc="228"
