@@ -41536,14 +41536,6 @@
       protocol="IPV6"
   />
 
-  <apn carrier="TMobile Tethering APN"
-      carrier_id = "1"
-      apn="pcweb.tmobile.com"
-      type="dun"
-      protocol="IPV6"
-      user_visible="false"
-  />
-
   <apn carrier="T-Mobile IMS"
       carrier_id = "1"
       apn="ims"
