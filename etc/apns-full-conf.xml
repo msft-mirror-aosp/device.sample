@@ -4423,17 +4423,6 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Swisscom MMS"
-      carrier_id = "2366"
-      mcc="228"
-      mnc="01"
-      apn="event.swisscom.ch"
-      mmsc="http://mms.natel.ch:8079"
-      mmsproxy="192.168.210.2"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="Swisscom Services"
       carrier_id = "2366"
       mcc="228"
@@ -41545,14 +41534,6 @@
       mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
       type="default,supl,mms,ia,xcap"
       protocol="IPV6"
-  />
-
-  <apn carrier="TMobile Tethering APN"
-      carrier_id = "1"
-      apn="pcweb.tmobile.com"
-      type="dun"
-      protocol="IPV6"
-      user_visible="false"
   />
 
   <apn carrier="T-Mobile IMS"
