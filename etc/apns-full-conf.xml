@@ -21053,7 +21053,7 @@
       type="mms"
   />
 
-  <apn carrier="Orange World Caraïbe"
+  <apn carrier="Orange World"
       carrier_id = "742"
       mcc="340"
       mnc="01"
@@ -21061,7 +21061,7 @@
       user="orange"
       password="orange"
       authtype="1"
-      type="default,ia,supl"
+      type="default,ia,supl,dun"
   />
 
   <apn carrier="Orange MMS Caraïbe"
@@ -21071,10 +21071,30 @@
       apn="orangewap"
       user="orange"
       password="orange"
-      mmsc="http://mms.orangecaraibe.com/servlets/mms"
+      mmsc="http://193.251.160.246/servlets/mms"
       mmsproxy="10.0.0.10"
       mmsport="8082"
       type="mms"
+  />
+
+  <apn carrier="Orange IMS Caraïbe"
+      carrier_id = "742"
+      mcc="340"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Orange CA Ut"
+      carrier_id = "742"
+      mcc="340"
+      mnc="01"
+      apn="orangeut"
+      type="xcap"
+      user_visible="false"
   />
 
   <apn carrier="Orangeweb"
