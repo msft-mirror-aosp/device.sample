@@ -34977,7 +34977,7 @@
       user_visible="false"
   />
 
-  <apn carrier="台灣之星(T Star) (Internet )"
+  <apn carrier="台灣大哥大TS (Internet)"
       carrier_id = "1886"
       mcc="466"
       mnc="89"
@@ -34986,7 +34986,7 @@
       protocol="IPV4V6"
   />
 
-  <apn carrier="台灣之星(T Star) (MMS)"
+  <apn carrier="台灣大哥大TS (MMS)"
       carrier_id = "1886"
       mcc="466"
       mnc="89"
@@ -34998,7 +34998,7 @@
       protocol="IPV4V6"
   />
 
-  <apn carrier="台灣之星(T Star) (IMS)"
+  <apn carrier="台灣大哥大TS (IMS)"
       carrier_id = "1886"
       mcc="466"
       mnc="89"
