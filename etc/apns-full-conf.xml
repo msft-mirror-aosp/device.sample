@@ -1669,6 +1669,16 @@
       mvno_match_data="536E617065"
   />
 
+  <apn carrier="Webbing"
+      mcc="208"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+   />
+
   <apn carrier="SFR LTE"
       carrier_id = "27"
       mcc="208"
@@ -5405,6 +5415,16 @@
       mvno_type="gid"
       mvno_match_data="536E617065"
   />
+
+  <apn carrier="Webbing"
+      mcc="234"
+      mnc="10"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+   />
 
   <apn carrier="o2 Mobile Web"
       carrier_id = "1492"
@@ -19011,6 +19031,16 @@
       mvno_match_data="536E617065"
   />
 
+  <apn carrier="Webbing"
+      mcc="311"
+      mnc="588"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+   />
+
   <apn carrier="U.S. Cellular"
       mcc="311"
       mnc="589"
@@ -31547,6 +31577,16 @@
       mvno_match_data="536E617065"
   />
 
+  <apn carrier="Webbing"
+      mcc="424"
+      mnc="02"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+   />
+
   <apn carrier="du LTE"
       carrier_id = "1970"
       mcc="424"
@@ -33015,6 +33055,16 @@
       mvno_match_data="536E617065"
   />
 
+  <apn carrier="Webbing"
+      mcc="454"
+      mnc="00"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+   />
+
   <apn carrier="csl"
       carrier_id = "759"
       mcc="454"
@@ -33620,6 +33670,26 @@
       roaming_protocol="IPV4V6"
   />
 
+  <apn carrier="Webbing"
+      mcc="454"
+      mnc="12"
+      apn="wbdata"
+      type="default,ia,dun"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+  />
+
+  <apn carrier="Webbing"
+      mcc="454"
+      mnc="12"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+   />
+
   <apn carrier="csl IMS"
       carrier_id = "765"
       mcc="454"
@@ -34089,6 +34159,14 @@
       mnc="35"
       apn="wbdata"
       type="default,ia,dun"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Webbing"
+      mcc="454"
+      mnc="35"
+      apn="ims"
+      type="ims"
       protocol="IPV4V6"
   />
 
@@ -40556,6 +40634,16 @@
       mvno_match_data="536E617065"
   />
 
+  <apn carrier="Webbing"
+      mcc="724"
+      mnc="54"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+   />
+
   <apn carrier="Internet Movil"
       carrier_id = "1427"
       mcc="730"
@@ -40768,6 +40856,16 @@
       mvno_type="gid"
       mvno_match_data="536E617065"
   />
+
+  <apn carrier="Webbing"
+      mcc="732"
+      mnc="101"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+   />
 
   <apn carrier="Tigo Web"
       carrier_id = "624"
@@ -41452,6 +41550,14 @@
       protocol="IPV4V6"
   />
 
+  <apn carrier="Webbing"
+      mcc="901"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+   />
+
   <apn carrier="CIOT Vodafone"
       mcc="901"
       mnc="28"
@@ -41470,6 +41576,16 @@
       mvno_type="gid"
       mvno_match_data="536E617065"
   />
+
+  <apn carrier="Webbing"
+      mcc="901"
+      mnc="31"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+   />
 
   <apn carrier="mobiledata"
       mcc="901"
@@ -41499,6 +41615,27 @@
       apn="bicsapn"
       type="default,ia,supl"
   />
+
+  <apn carrier="Webbing"
+      mcc="901"
+      mnc="61"
+      apn="wbdata"
+      type="default,ia,dun"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+  />
+
+  <apn carrier="Webbing"
+      mcc="901"
+      mnc="61"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      mvno_type="gid"
+      mvno_match_data="536E617065"
+   />
+
 
   <apn carrier="Verizon IA"
       mcc="999"
