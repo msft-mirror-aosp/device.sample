@@ -32409,8 +32409,6 @@
       user="tone"
       password="tone"
       authtype="2"
-      mvno_type="spn"
-      mvno_match_data="docomo"
   />
 
   <apn carrier="楽天(rakuten.jp)"
