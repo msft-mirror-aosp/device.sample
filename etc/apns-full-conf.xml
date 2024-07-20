@@ -21104,17 +21104,6 @@
       user_visible="false"
   />
 
-  <apn carrier="Orangeweb"
-      carrier_id = "742"
-      mcc="340"
-      mnc="01"
-      apn="orangeweb"
-      user="orange"
-      password="orange"
-      authtype="1"
-      type="dun"
-  />
-
   <apn carrier="SFR LTE"
       carrier_id = "743"
       mcc="340"
@@ -32420,8 +32409,6 @@
       user="tone"
       password="tone"
       authtype="2"
-      mvno_type="spn"
-      mvno_match_data="docomo"
   />
 
   <apn carrier="楽天(rakuten.jp)"
