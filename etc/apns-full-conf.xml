@@ -10788,17 +10788,6 @@
       mvno_type="gid"
   />
 
-  <apn carrier="TELUS Tether"
-      carrier_id = "1404"
-      mcc="302"
-      mnc="220"
-      apn="isp.telus.com"
-      server="*"
-      type="dun"
-      mvno_match_data="5455"
-      mvno_type="gid"
-  />
-
   <apn carrier="Koodo"
       carrier_id = "2020"
       mcc="302"
