@@ -10820,6 +10820,8 @@
       mmsport="8799"
       mvno_type="gid"
       mvno_match_data="4D4F"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Tethered Mobile Internet"
@@ -10830,6 +10832,18 @@
       type="dun"
       mvno_type="gid"
       mvno_match_data="4D4F"
+      protocol="IP"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="IMS"
+      carrier_id = "2089"
+      mcc="302"
+      mnc="220"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TELUS ISP"
