@@ -10775,17 +10775,6 @@
       mvno_type="gid"
   />
 
-  <apn carrier="Koodo Tether"
-      carrier_id = "2020"
-      mcc="302"
-      mnc="220"
-      apn="sp.koodo.com"
-      server="*"
-      type="dun"
-      mvno_match_data="4B4F"
-      mvno_type="gid"
-  />
-
   <apn carrier="Mobile Internet"
       carrier_id = "2053"
       mcc="302"
