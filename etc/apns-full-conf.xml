@@ -3942,6 +3942,23 @@
       mvno_match_data="Kena Mobile R"
   />
 
+  <apn carrier="Kena Mobile Web"
+      mcc="222"
+      mnc="07"
+      apn="web.kenamobile.it"
+      type="default,ia"
+  />
+
+  <apn carrier="Kena Mobile MMS"
+      mcc="222"
+      mnc="07"
+      apn="mms.kenamobile.it"
+      type="mms"
+      mmsc="http://mms.kenamobile.it"
+      mmsproxy="10.248.1.12"
+      mmsport="80"
+  />
+
   <apn carrier="FW WEB"
       carrier_id = "2416"
       mcc="222"
@@ -3961,23 +3978,6 @@
       mmsproxy="85.18.189.217"
       mmsport="8080"
       type="mms"
-  />
-
-  <apn carrier="Kena Mobile Web"
-      mcc="222"
-      mnc="07"
-      apn="web.kenamobile.it"
-      type="default,ia"
-  />
-
-  <apn carrier="Kena Mobile MMS"
-      mcc="222"
-      mnc="07"
-      apn="mms.kenamobile.it"
-      type="mms"
-      mmsc="http://mms.kenamobile.it"
-      mmsproxy="10.248.1.12"
-      mmsport="80"
   />
 
   <apn carrier="Vodafone LTE"
@@ -6703,43 +6703,6 @@
       type="mms"
   />
 
-  <apn carrier="Telia MMS"
-      carrier_id = "1690"
-      apn="mms.telia.se"
-      mmsc="http://mmss"
-      mmsproxy="193.209.134.132"
-      mmsport="80"
-      type="mms"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="Telia"
-      carrier_id = "1690"
-      apn="online.telia.se"
-      type="default,ia,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="Telia IMS"
-      carrier_id = "1690"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_visible="false"
-  />
-
-  <apn carrier="Telia Ut"
-      carrier_id = "1690"
-      apn="hos"
-      type="xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_visible="false"
-  />
-
   <apn carrier="Halebop Internet"
       carrier_id = "2287"
       mcc="240"
@@ -7398,6 +7361,15 @@
       roaming_protocol="IPV4V6"
   />
 
+  <apn carrier="ICE IMS"
+      mcc="242"
+      mnc="14"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      user_visible="false"
+  />
+
   <apn carrier="eRate Internet"
       carrier_id = "2524"
       mcc="242"
@@ -7417,15 +7389,6 @@
       mvno_match_data="0E"
       mvno_type="gid"
       type="mms"
-  />
-
-  <apn carrier="ICE IMS"
-      mcc="242"
-      mnc="14"
-      apn="ims"
-      type="ims"
-      protocol="IPV6"
-      user_visible="false"
   />
 
   <apn carrier="Lycamobile"
@@ -12004,27 +11967,6 @@
       network_type_bitmask="13"
   />
 
-  <apn carrier="Union Wireless Data"
-      carrier_id = "1781"
-      mcc="310"
-      mnc="020"
-      apn="smart.com"
-      type="default,ia,hipri,dun,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="Union Wireless MMS"
-      carrier_id = "1781"
-      mcc="310"
-      mnc="020"
-      apn="union.mms.com"
-      mmsc="http://mms.unionwireless.com"
-      type="mms"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
   <!-- Need two APNs for CDMA technologies: a default that is used normally -->
   <!-- and a second APN to be used when DUN is required.  Even though the -->
   <!-- parameters appear the same, the profileID sent to the radio when requesting -->
@@ -12040,6 +11982,7 @@
       protocol="IPV4V6"
       network_type_bitmask="4|5|6|7|12"
   />
+
   <!-- bearer 4, 5, 6, 7, 8, 12 -->
   <apn carrier="Verizon"
       mcc="310"
@@ -12112,6 +12055,27 @@
       modem_cognitive="true"
       max_conns="1023"
       max_conns_time="300"
+  />
+
+  <apn carrier="Union Wireless Data"
+      carrier_id = "1781"
+      mcc="310"
+      mnc="020"
+      apn="smart.com"
+      type="default,ia,hipri,dun,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Union Wireless MMS"
+      carrier_id = "1781"
+      mcc="310"
+      mnc="020"
+      apn="union.mms.com"
+      mmsc="http://mms.unionwireless.com"
+      type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier=" ALU Test-SIM Internet"
@@ -17213,6 +17177,20 @@
       mtu="1422"
   />
 
+  <!-- bearer 4, 5, 6, 7, 8, 12 -->
+  <apn carrier="U.S. Cellular"
+      carrier_id = "1952"
+      mcc="311"
+      mnc="220"
+      mmsc="http://mmsc1.uscc.net/mmsc/MMS"
+      type="default,ia,mms,dun,hipri,fota"
+      authtype="3"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="4|5|6|7|12"
+      mtu="1422"
+  />
+
   <apn carrier="U.S. Cellular"
       mcc="311"
       mnc="221"
@@ -17234,20 +17212,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       network_type_bitmask="13"
-  />
-
-  <!-- bearer 4, 5, 6, 7, 8, 12 -->
-  <apn carrier="U.S. Cellular"
-      carrier_id = "1952"
-      mcc="311"
-      mnc="220"
-      mmsc="http://mmsc1.uscc.net/mmsc/MMS"
-      type="default,ia,mms,dun,hipri,fota"
-      authtype="3"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      network_type_bitmask="4|5|6|7|12"
-      mtu="1422"
   />
 
   <!-- bearer 4, 5, 6, 7, 8, 12 -->
@@ -20278,12 +20242,6 @@
       mvno_match_data="NeWWW"
   />
 
-  <apn carrier="travelfy"
-      carrier_id="2472"
-      apn="travelfy"
-      type="default,ia,supl"
-  />
-
   <apn carrier="Megacable"
       carrier_id="2473"
       mcc="334"
@@ -20915,6 +20873,44 @@
       type="mms"
   />
 
+  <apn carrier="Lime Internet Postpaid"
+      carrier_id = "2224"
+      mcc="338"
+      mnc="18"
+      apn="internet"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Lime Postpaid MMS"
+      carrier_id = "2224"
+      mcc="338"
+      mnc="18"
+      apn="multimedia"
+      mmsproxy="10.20.5.34"
+      mmsport="8799"
+      mmsc="http://mmsc"
+      type="mms"
+  />
+
+  <apn carrier="Lime Internet Prepaid"
+      carrier_id = "2224"
+      mcc="338"
+      mnc="18"
+      apn="ppinternet"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Lime Prepaid MMS"
+      carrier_id = "2224"
+      mcc="338"
+      mnc="18"
+      apn="ppmms"
+      mmsproxy="10.20.5.34"
+      mmsport="8799"
+      mmsc="http://mmsc"
+      type="mms"
+  />
+
   <apn carrier="INTERNET Digicel"
       carrier_id = "1577"
       mcc="338"
@@ -20931,82 +20927,6 @@
       mmsproxy="172.16.7.12"
       mmsport="8080"
       mmsc="http://mms.digicelgroup.com"
-      type="mms"
-  />
-
-  <apn carrier="Lime Internet Postpaid"
-      carrier_id = "2224"
-      mcc="338"
-      mnc="18"
-      apn="internet"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      carrier_id = "2224"
-      mcc="338"
-      mnc="18"
-      apn="multimedia"
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier="Lime Internet Prepaid"
-      carrier_id = "2224"
-      mcc="338"
-      mnc="18"
-      apn="ppinternet"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Prepaid MMS"
-      carrier_id = "2224"
-      mcc="338"
-      mnc="18"
-      apn="ppmms"
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier="Lime Internet Postpaid"
-      carrier_id = "2224"
-      mcc="338"
-      mnc="180"
-      apn="internet"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Postpaid MMS"
-      carrier_id = "2224"
-      mcc="338"
-      mnc="180"
-      apn="multimedia"
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
-      type="mms"
-  />
-
-  <apn carrier="Lime Internet Prepaid"
-      carrier_id = "2224"
-      mcc="338"
-      mnc="180"
-      apn="ppinternet"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Lime Prepaid MMS"
-      carrier_id = "2224"
-      mcc="338"
-      mnc="180"
-      apn="ppmms"
-      mmsproxy="10.20.5.34"
-      mmsport="8799"
-      mmsc="http://mmsc"
       type="mms"
   />
 
@@ -21032,6 +20952,44 @@
       mmsport="8080"
       mmsc="http://mms.ideasclaro.com.jm/mms/wapenc"
       authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Lime Internet Postpaid"
+      carrier_id = "2224"
+      mcc="338"
+      mnc="180"
+      apn="internet"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Lime Postpaid MMS"
+      carrier_id = "2224"
+      mcc="338"
+      mnc="180"
+      apn="multimedia"
+      mmsproxy="10.20.5.34"
+      mmsport="8799"
+      mmsc="http://mmsc"
+      type="mms"
+  />
+
+  <apn carrier="Lime Internet Prepaid"
+      carrier_id = "2224"
+      mcc="338"
+      mnc="180"
+      apn="ppinternet"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Lime Prepaid MMS"
+      carrier_id = "2224"
+      mcc="338"
+      mnc="180"
+      apn="ppmms"
+      mmsproxy="10.20.5.34"
+      mmsport="8799"
+      mmsc="http://mmsc"
       type="mms"
   />
 
@@ -21679,252 +21637,6 @@
       type="mms"
   />
 
-  <apn carrier="Bmobile internet"
-      mcc="374"
-      mnc="120"
-      apn="internet"
-      user=""
-      password=""
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Bmobile mms"
-      mcc="374"
-      mnc="120"
-      apn="mms"
-      user=""
-      password=""
-      mmsproxy="192.168.210.104"
-      mmsport="8080"
-      mmsc="http://192.168.210.104/mmrelay.app"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Bmobile internet"
-      mcc="374"
-      mnc="121"
-      apn="internet"
-      user=""
-      password=""
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Bmobile mms"
-      mcc="374"
-      mnc="121"
-      apn="mms"
-      user=""
-      password=""
-      mmsproxy="192.168.210.104"
-      mmsport="8080"
-      mmsc="http://192.168.210.104/mmrelay.app"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Bmobile internet"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="122"
-      apn="internet"
-      user=""
-      password=""
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Bmobile mms"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="122"
-      apn="mms"
-      user=""
-      password=""
-      mmsproxy="192.168.210.104"
-      mmsport="8080"
-      mmsc="http://192.168.210.104/mmrelay.app"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Bmobile internet"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="123"
-      apn="internet"
-      user=""
-      password=""
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Bmobile mms"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="123"
-      apn="mms"
-      user=""
-      password=""
-      mmsproxy="192.168.210.104"
-      mmsport="8080"
-      mmsc="http://192.168.210.104/mmrelay.app"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Bmobile internet"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="124"
-      apn="internet"
-      user=""
-      password=""
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Bmobile mms"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="124"
-      apn="mms"
-      user=""
-      password=""
-      mmsproxy="192.168.210.104"
-      mmsport="8080"
-      mmsc="http://192.168.210.104/mmrelay.app"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Bmobile internet"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="125"
-      apn="internet"
-      user=""
-      password=""
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Bmobile mms"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="125"
-      apn="mms"
-      user=""
-      password=""
-      mmsproxy="192.168.210.104"
-      mmsport="8080"
-      mmsc="http://192.168.210.104/mmrelay.app"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Bmobile internet"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="126"
-      apn="internet"
-      user=""
-      password=""
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Bmobile mms"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="126"
-      apn="mms"
-      user=""
-      password=""
-      mmsproxy="192.168.210.104"
-      mmsport="8080"
-      mmsc="http://192.168.210.104/mmrelay.app"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Bmobile internet"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="127"
-      apn="internet"
-      user=""
-      password=""
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Bmobile mms"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="127"
-      apn="mms"
-      user=""
-      password=""
-      mmsproxy="192.168.210.104"
-      mmsport="8080"
-      mmsc="http://192.168.210.104/mmrelay.app"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Bmobile internet"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="128"
-      apn="internet"
-      user=""
-      password=""
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Bmobile mms"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="128"
-      apn="mms"
-      user=""
-      password=""
-      mmsproxy="192.168.210.104"
-      mmsport="8080"
-      mmsc="http://192.168.210.104/mmrelay.app"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Bmobile internet"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="129"
-      apn="internet"
-      user=""
-      password=""
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Bmobile mms"
-      carrier_id = "1739"
-      mcc="374"
-      mnc="129"
-      apn="mms"
-      user=""
-      password=""
-      mmsproxy="192.168.210.104"
-      mmsport="8080"
-      mmsc="http://192.168.210.104/mmrelay.app"
-      authtype="1"
-      type="mms"
-  />
-
   <apn carrier="INTERNET Trinidad"
       carrier_id = "1740"
       mcc="374"
@@ -21946,6 +21658,252 @@
       mmsproxy="172.20.6.12"
       mmsport="8080"
       mmsc="http://mmc.digiceltt.com/servlets/mms"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Bmobile internet"
+      mcc="374"
+      mnc="120"
+      apn="internet"
+      user=""
+      password=""
+      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Bmobile mms"
+      mcc="374"
+      mnc="120"
+      apn="mms"
+      user=""
+      password=""
+      mmsproxy="192.168.210.104"
+      mmsport="8080"
+      mmsc="http://192.168.210.104/mmrelay.app"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Bmobile internet"
+      mcc="374"
+      mnc="121"
+      apn="internet"
+      user=""
+      password=""
+      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Bmobile mms"
+      mcc="374"
+      mnc="121"
+      apn="mms"
+      user=""
+      password=""
+      mmsproxy="192.168.210.104"
+      mmsport="8080"
+      mmsc="http://192.168.210.104/mmrelay.app"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Bmobile internet"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="122"
+      apn="internet"
+      user=""
+      password=""
+      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Bmobile mms"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="122"
+      apn="mms"
+      user=""
+      password=""
+      mmsproxy="192.168.210.104"
+      mmsport="8080"
+      mmsc="http://192.168.210.104/mmrelay.app"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Bmobile internet"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="123"
+      apn="internet"
+      user=""
+      password=""
+      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Bmobile mms"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="123"
+      apn="mms"
+      user=""
+      password=""
+      mmsproxy="192.168.210.104"
+      mmsport="8080"
+      mmsc="http://192.168.210.104/mmrelay.app"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Bmobile internet"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="124"
+      apn="internet"
+      user=""
+      password=""
+      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Bmobile mms"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="124"
+      apn="mms"
+      user=""
+      password=""
+      mmsproxy="192.168.210.104"
+      mmsport="8080"
+      mmsc="http://192.168.210.104/mmrelay.app"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Bmobile internet"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="125"
+      apn="internet"
+      user=""
+      password=""
+      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Bmobile mms"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="125"
+      apn="mms"
+      user=""
+      password=""
+      mmsproxy="192.168.210.104"
+      mmsport="8080"
+      mmsc="http://192.168.210.104/mmrelay.app"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Bmobile internet"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="126"
+      apn="internet"
+      user=""
+      password=""
+      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Bmobile mms"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="126"
+      apn="mms"
+      user=""
+      password=""
+      mmsproxy="192.168.210.104"
+      mmsport="8080"
+      mmsc="http://192.168.210.104/mmrelay.app"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Bmobile internet"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="127"
+      apn="internet"
+      user=""
+      password=""
+      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Bmobile mms"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="127"
+      apn="mms"
+      user=""
+      password=""
+      mmsproxy="192.168.210.104"
+      mmsport="8080"
+      mmsc="http://192.168.210.104/mmrelay.app"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Bmobile internet"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="128"
+      apn="internet"
+      user=""
+      password=""
+      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Bmobile mms"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="128"
+      apn="mms"
+      user=""
+      password=""
+      mmsproxy="192.168.210.104"
+      mmsport="8080"
+      mmsc="http://192.168.210.104/mmrelay.app"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Bmobile internet"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="129"
+      apn="internet"
+      user=""
+      password=""
+      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Bmobile mms"
+      carrier_id = "1739"
+      mcc="374"
+      mnc="129"
+      apn="mms"
+      user=""
+      password=""
+      mmsproxy="192.168.210.104"
+      mmsport="8080"
+      mmsc="http://192.168.210.104/mmrelay.app"
       authtype="1"
       type="mms"
   />
@@ -33598,6 +33556,16 @@
       user_visible="false"
   />
 
+  <apn carrier="csl IMS"
+      carrier_id = "765"
+      mcc="454"
+      mnc="10"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+  />
+
   <apn carrier="CMHK UT"
       carrier_id = "767"
       mcc="454"
@@ -33661,16 +33629,6 @@
       mvno_type="gid"
       mvno_match_data="536E617065"
    />
-
-  <apn carrier="csl IMS"
-      carrier_id = "765"
-      mcc="454"
-      mnc="10"
-      apn="ims"
-      type="ims"
-      protocol="IPV6"
-      roaming_protocol="IPV6"
-  />
 
   <apn carrier="CMHK MMS"
       carrier_id = "767"
@@ -34545,16 +34503,6 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="中国电信 (China Telecom) SOS"
-      carrier_id = "2237"
-      mcc="460"
-      mnc="03"
-      apn="sos"
-      type="emergency"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
   <apn carrier="中国移动 (China Mobile) NET"
       carrier_id = "1435"
       mcc="460"
@@ -34586,6 +34534,16 @@
       mnc="02"
       apn="ims"
       type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="中国电信 (China Telecom) SOS"
+      carrier_id = "2237"
+      mcc="460"
+      mnc="03"
+      apn="sos"
+      type="emergency"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
@@ -35308,6 +35266,67 @@
       type="default,ia,supl,mms"
   />
 
+  <apn carrier="DiGi MMS"
+      carrier_id = "1630"
+      mcc="502"
+      mnc="16"
+      apn="digimms"
+      user="mms"
+      password="mms"
+      mmsc="http://mms.digi.com.my/servlets/mms"
+      mmsproxy="203.92.128.160"
+      mmsport="80"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="DiGi Internet"
+      carrier_id = "1630"
+      mcc="502"
+      mnc="16"
+      apn="diginet"
+      authtype="1"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Maxis Internet &amp; MMS"
+      carrier_id = "1631"
+      mcc="502"
+      mnc="17"
+      apn="unet"
+      mmsproxy="202.75.133.49"
+      mmsport="80"
+      mmsc="http://172.16.74.100:10021/mmsc"
+      authtype="1"
+      type="default,ia,supl,mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="U Mobile Internet &amp; MMS"
+      carrier_id = "1632"
+      mcc="502"
+      mnc="18"
+      apn="my3g"
+      mmsproxy="10.30.5.11"
+      mmsport="8080"
+      mmsc="http://10.30.3.11/servlets/mms"
+      authtype="1"
+      type="default,ia,supl,mms"
+  />
+
+  <apn carrier="Celcom Internet &amp; MMS"
+      carrier_id = "1633"
+      mcc="502"
+      mnc="19"
+      apn="celcom3g"
+      mmsproxy="10.128.1.242"
+      mmsport="8080"
+      mmsc="http://mms.celcom.net.my"
+      authtype="0"
+      type="default,ia,supl,mms"
+  />
+
   <apn carrier="Maxis Internet &amp; MMS"
       mcc="502"
       mnc="142"
@@ -35395,67 +35414,6 @@
       mmsproxy="10.128.1.242"
       mmsport="8080"
       mmsc="http://mms.celcom.net.my"
-      type="default,ia,supl,mms"
-  />
-
-  <apn carrier="DiGi MMS"
-      carrier_id = "1630"
-      mcc="502"
-      mnc="16"
-      apn="digimms"
-      user="mms"
-      password="mms"
-      mmsc="http://mms.digi.com.my/servlets/mms"
-      mmsproxy="203.92.128.160"
-      mmsport="80"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="DiGi Internet"
-      carrier_id = "1630"
-      mcc="502"
-      mnc="16"
-      apn="diginet"
-      authtype="1"
-      type="default,ia,supl"
-  />
-
-  <apn carrier="Maxis Internet &amp; MMS"
-      carrier_id = "1631"
-      mcc="502"
-      mnc="17"
-      apn="unet"
-      mmsproxy="202.75.133.49"
-      mmsport="80"
-      mmsc="http://172.16.74.100:10021/mmsc"
-      authtype="1"
-      type="default,ia,supl,mms"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="U Mobile Internet &amp; MMS"
-      carrier_id = "1632"
-      mcc="502"
-      mnc="18"
-      apn="my3g"
-      mmsproxy="10.30.5.11"
-      mmsport="8080"
-      mmsc="http://10.30.3.11/servlets/mms"
-      authtype="1"
-      type="default,ia,supl,mms"
-  />
-
-  <apn carrier="Celcom Internet &amp; MMS"
-      carrier_id = "1633"
-      mcc="502"
-      mnc="19"
-      apn="celcom3g"
-      mmsproxy="10.128.1.242"
-      mmsport="8080"
-      mmsc="http://mms.celcom.net.my"
-      authtype="0"
       type="default,ia,supl,mms"
   />
 
@@ -39831,21 +39789,6 @@
       mvno_match_data="02"
   />
 
-  <apn carrier="Servicio_WEB"
-      carrier_id="2249"
-      mcc="722"
-      mnc="010"
-      apn="internet.movil"
-      user="internet"
-      password="internet"
-      authtype="1"
-      type="default,ia"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="01"
-  />
-
   <apn carrier="Movistar INTERNET"
       carrier_id = "1337"
       mcc="722"
@@ -39885,26 +39828,19 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Claro AR"
-      carrier_id = "1338"
+  <apn carrier="Servicio_WEB"
+      carrier_id="2249"
       mcc="722"
-      mnc="310"
-      apn="igprs.claro.com.ar"
-      mmsc="http://mms.claro.com.ar"
-      type="default,ia,supl,mms,xcap"
+      mnc="010"
+      apn="internet.movil"
+      user="internet"
+      password="internet"
+      authtype="1"
+      type="default,ia"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="Claro AR IMS"
-      carrier_id = "1338"
-      mcc="722"
-      mnc="310"
-      apn="ims"
-      type="ims"
-      authtype="0"
-      protocol="IPV6"
-      roaming_protocol="IPV6"
+      mvno_type="gid"
+      mvno_match_data="01"
   />
 
   <apn carrier="Personal Datos"
@@ -39940,6 +39876,28 @@
       type="ims"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Claro AR"
+      carrier_id = "1338"
+      mcc="722"
+      mnc="310"
+      apn="igprs.claro.com.ar"
+      mmsc="http://mms.claro.com.ar"
+      type="default,ia,supl,mms,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Claro AR IMS"
+      carrier_id = "1338"
+      mcc="722"
+      mnc="310"
+      apn="ims"
+      type="ims"
+      authtype="0"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
   />
 
   <apn carrier="Personal Datos"
@@ -40627,33 +40585,6 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Internet WOM"
-      carrier_id="1430"
-      mcc="730"
-      mnc="09"
-      apn="internet"
-      type="default,ia"
-      user=""
-      password=""
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="false"
-  />
-
-  <apn carrier="IMS"
-      carrier_id="1430"
-      mcc="730"
-      mnc="09"
-      apn="ims"
-      type="ims"
-      user=""
-      password=""
-      protocol="IP"
-      roaming_protocol="IP"
-      user_editable="false"
-      user_visible="false"
-  />
-
   <apn carrier="Movistar INTERNET"
       carrier_id = "1428"
       mcc="730"
@@ -40740,6 +40671,33 @@
       mmsport="9028"
       authtype="0"
       type="mms"
+  />
+
+  <apn carrier="Internet WOM"
+      carrier_id="1430"
+      mcc="730"
+      mnc="09"
+      apn="internet"
+      type="default,ia"
+      user=""
+      password=""
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
+
+  <apn carrier="IMS"
+      carrier_id="1430"
+      mcc="730"
+      mnc="09"
+      apn="ims"
+      type="ims"
+      user=""
+      password=""
+      protocol="IP"
+      roaming_protocol="IP"
+      user_editable="false"
+      user_visible="false"
   />
 
   <apn carrier="Internet Movil"
@@ -41699,6 +41657,43 @@
       user_visible="false"
   />
 
+  <apn carrier="Telia MMS"
+      carrier_id = "1690"
+      apn="mms.telia.se"
+      mmsc="http://mmss"
+      mmsproxy="193.209.134.132"
+      mmsport="80"
+      type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Telia"
+      carrier_id = "1690"
+      apn="online.telia.se"
+      type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Telia IMS"
+      carrier_id = "1690"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Telia Ut"
+      carrier_id = "1690"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="Cricket internet"
       carrier_id = "1779"
       apn="endo"
@@ -41919,6 +41914,12 @@
       apn="hos"
       type="xcap"
       user_visible="false"
+  />
+
+  <apn carrier="travelfy"
+      carrier_id="2472"
+      apn="travelfy"
+      type="default,ia,supl"
   />
 
   <apn carrier="Liberty Internet"
