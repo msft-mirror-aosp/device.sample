@@ -29475,6 +29475,21 @@
       type="mms"
   />
 
+  <apn carrier="Rcell IMS"
+      carrier_id = "2646"
+      mcc="417"
+      mnc="50"
+      apn="ims"
+      type="ims"
+  />
+   <apn carrier="Rcell Internet"
+      carrier_id = "2646"
+      mcc="417"
+      mnc="50"
+      apn="internet"
+      type="default"
+  />
+
   <apn carrier="Asiacell Internet"
       carrier_id = "1969"
       mcc="418"
