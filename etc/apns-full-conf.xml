@@ -39698,6 +39698,13 @@
       type="default,ia,supl"
   />
 
+<apn carrier="Sparkle"
+      mcc="901"
+      mnc="78"
+      apn="ep05.tis.com"
+      type="default,ia,supl"
+  />
+
   <apn carrier="Verizon IA"
       mcc="999"
       mnc="480"
