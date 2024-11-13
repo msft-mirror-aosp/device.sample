@@ -1,0 +1,7 @@
+prebuilt_etc {
+    name: "apns-full-conf.xml",
+    src: "apns-full-conf.xml",
+    filename: "apns-conf.xml",
+    product_specific: true,
+    no_full_install: true,
+}
