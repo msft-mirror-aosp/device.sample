@@ -1509,15 +1509,6 @@
       user_visible="false"
   />
 
-  <apn carrier="Orange Entreprises"
-      carrier_id = "32"
-      mcc="208"
-      mnc="01"
-      apn="orange-mib"
-      type="default,ia,supl"
-      user_editable="false"
-  />
-
   <apn carrier="Orange MCX"
       carrier_id="32"
       mcc="208"
