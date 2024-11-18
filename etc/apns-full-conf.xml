@@ -29909,12 +29909,10 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Jawwal WAP"
+  <apn carrier="Jawwal internet"
       mcc="425"
       mnc="05"
-      apn="wap"
-      proxy="213.244.118.129"
-      port="8080"
+      apn="internet"
       type="default,ia,supl"
   />
 
