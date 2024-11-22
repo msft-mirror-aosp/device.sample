@@ -913,7 +913,7 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="KPN Mobiel Internet"
+  <apn carrier="Telfort Mobiel Internet"
       carrier_id = "1644"
       mcc="204"
       mnc="12"
