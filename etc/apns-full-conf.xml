@@ -1509,15 +1509,6 @@
       user_visible="false"
   />
 
-  <apn carrier="Orange Entreprises"
-      carrier_id = "32"
-      mcc="208"
-      mnc="01"
-      apn="orange-mib"
-      type="default,ia,supl"
-      user_editable="false"
-  />
-
   <apn carrier="Orange MCX"
       carrier_id="32"
       mcc="208"
@@ -2431,7 +2422,7 @@
       authtype="1"
       mvno_type="spn"
       mvno_match_data="Orange"
-      type="default"
+      type="default,supl,ia"
       user_editable="false"
   />
 
@@ -2617,17 +2608,18 @@
       mvno_match_data="JAZZTEL"
   />
 
-  <apn carrier="jazzinternet"
+  <apn carrier="JAZZTEL internet"
       carrier_id = "1974"
       mcc="214"
       mnc="03"
       apn="jazzinternet"
       mvno_type="spn"
       mvno_match_data="JAZZTEL"
-      type="default,supl,dun"
+      type="default,supl,dun,ia"
+      user_editable="false"
   />
 
-  <apn carrier="MMS"
+  <apn carrier="JAZZTEL MMS"
       carrier_id = "1974"
       mcc="214"
       mnc="03"
@@ -2641,6 +2633,7 @@
       mvno_type="spn"
       mvno_match_data="JAZZTEL"
       type="mms"
+      user_editable="false"
   />
 
   <apn carrier="JAZZTEL IMS"
@@ -2677,7 +2670,8 @@
       password = "orange"
       mvno_type="spn"
       mvno_match_data="simyo"
-      type="default,supl,dun"
+      type="default,supl,dun,ia"
+      user_editable="false"
   />
 
   <apn carrier="simyo MMS"
@@ -2694,6 +2688,7 @@
       mvno_type="spn"
       mvno_match_data="simyo"
       type="mms"
+      user_editable="false"
   />
 
   <apn carrier="simyo IMS"
@@ -3168,6 +3163,7 @@
       type="default,ia,supl,dun"
       mvno_type="spn"
       mvno_match_data="simyo"
+      user_editable="false"
     />
 
   <apn carrier="simyo MMS"
@@ -3176,12 +3172,15 @@
       mnc="19"
       apn="orangemms"
       authtype="1"
+      user="orange"
+      password="orange"
       mmsc="http://mms.orange.es"
       mmsproxy="172.22.188.25"
       mmsport="8080"
       type="mms"
       mvno_type="spn"
       mvno_match_data="simyo"
+      user_editable="false"
   />
 
   <apn carrier="jazzinternet"
@@ -34072,23 +34071,35 @@
       roaming_protocol="IP"
   />
 
-  <apn carrier="VF AU PXT"
+  <apn carrier="Pivotel MMS"
       carrier_id = "492"
       mcc="505"
       mnc="88"
-      apn="live.vodafone.com"
-      mmsc="http://pxt.vodafone.net.au/pxtsend"
-      mmsproxy="10.202.2.60"
-      mmsport="8080"
+      apn="mms"
+      mmsc="http://mmsc.pivotel.com.au:8002"
+      mmsproxy="203.105.216.88"
+      mmsport="8088"
       type="mms"
   />
 
-  <apn carrier="VF Internet"
+  <apn carrier="Pivotel Internet"
       carrier_id = "492"
       mcc="505"
       mnc="88"
-      apn="vfinternet.au"
+      apn="internet"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Pivotel IMS"
+      carrier_id = "492"
+      mcc="505"
+      mnc="88"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Optus Internet"
