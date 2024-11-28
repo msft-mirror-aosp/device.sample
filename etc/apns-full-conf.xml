@@ -29356,6 +29356,21 @@
       type="mms"
   />
 
+  <apn carrier="Rcell IMS"
+      carrier_id = "2646"
+      mcc="417"
+      mnc="50"
+      apn="ims"
+      type="ims"
+  />
+   <apn carrier="Rcell Internet"
+      carrier_id = "2646"
+      mcc="417"
+      mnc="50"
+      apn="internet"
+      type="default"
+  />
+
   <apn carrier="Asiacell Internet"
       carrier_id = "1969"
       mcc="418"
@@ -29908,12 +29923,10 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Jawwal WAP"
+  <apn carrier="Jawwal internet"
       mcc="425"
       mnc="05"
-      apn="wap"
-      proxy="213.244.118.129"
-      port="8080"
+      apn="internet"
       type="default,ia,supl"
   />
 
