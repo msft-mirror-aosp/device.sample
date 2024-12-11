@@ -10835,6 +10835,8 @@
       mnc="220"
       apn="ims"
       type="ims"
+      mvno_type="gid"
+      mvno_match_data="4D4F"
       protocol="IPV6"
       roaming_protocol="IPV4V6"
   />
