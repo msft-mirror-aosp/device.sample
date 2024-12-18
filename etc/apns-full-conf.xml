@@ -823,6 +823,23 @@
       roaming_protocol="IPV4V6"
   />
 
+ <apn carrier="Tata Move"
+      mcc="204"
+      mnc="07"
+      apn="move.dataxs.mobi"
+      type="default,supl,dun"
+  />
+
+ <apn carrier="IMS"
+      mcc="204"
+      mnc="07"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
+  />
+
   <apn carrier="KPN Mobiel Internet"
       carrier_id = "1644"
       mcc="204"
@@ -913,7 +930,7 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="KPN Mobiel Internet"
+  <apn carrier="Telfort Mobiel Internet"
       carrier_id = "1644"
       mcc="204"
       mnc="12"
@@ -1509,15 +1526,6 @@
       user_visible="false"
   />
 
-  <apn carrier="Orange Entreprises"
-      carrier_id = "32"
-      mcc="208"
-      mnc="01"
-      apn="orange-mib"
-      type="default,ia,supl"
-      user_editable="false"
-  />
-
   <apn carrier="Orange MCX"
       carrier_id="32"
       mcc="208"
@@ -1651,26 +1659,6 @@
       mvno_type="iccid"
       mvno_match_data="8981090"
   />
-
-  <apn carrier="Webbing"
-      mcc="208"
-      mnc="01"
-      apn="wbdata"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-  />
-
-  <apn carrier="Webbing"
-      mcc="208"
-      mnc="01"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-   />
 
   <apn carrier="SFR LTE"
       carrier_id = "27"
@@ -2451,7 +2439,7 @@
       authtype="1"
       mvno_type="spn"
       mvno_match_data="Orange"
-      type="default"
+      type="default,supl,ia"
       user_editable="false"
   />
 
@@ -2637,17 +2625,18 @@
       mvno_match_data="JAZZTEL"
   />
 
-  <apn carrier="jazzinternet"
+  <apn carrier="JAZZTEL internet"
       carrier_id = "1974"
       mcc="214"
       mnc="03"
       apn="jazzinternet"
       mvno_type="spn"
       mvno_match_data="JAZZTEL"
-      type="default,supl,dun"
+      type="default,supl,dun,ia"
+      user_editable="false"
   />
 
-  <apn carrier="MMS"
+  <apn carrier="JAZZTEL MMS"
       carrier_id = "1974"
       mcc="214"
       mnc="03"
@@ -2661,6 +2650,7 @@
       mvno_type="spn"
       mvno_match_data="JAZZTEL"
       type="mms"
+      user_editable="false"
   />
 
   <apn carrier="JAZZTEL IMS"
@@ -2697,7 +2687,8 @@
       password = "orange"
       mvno_type="spn"
       mvno_match_data="simyo"
-      type="default,supl,dun"
+      type="default,supl,dun,ia"
+      user_editable="false"
   />
 
   <apn carrier="simyo MMS"
@@ -2714,6 +2705,7 @@
       mvno_type="spn"
       mvno_match_data="simyo"
       type="mms"
+      user_editable="false"
   />
 
   <apn carrier="simyo IMS"
@@ -3188,6 +3180,7 @@
       type="default,ia,supl,dun"
       mvno_type="spn"
       mvno_match_data="simyo"
+      user_editable="false"
     />
 
   <apn carrier="simyo MMS"
@@ -3196,12 +3189,15 @@
       mnc="19"
       apn="orangemms"
       authtype="1"
+      user="orange"
+      password="orange"
       mmsc="http://mms.orange.es"
       mmsproxy="172.22.188.25"
       mmsport="8080"
       type="mms"
       mvno_type="spn"
       mvno_match_data="simyo"
+      user_editable="false"
   />
 
   <apn carrier="jazzinternet"
@@ -5399,26 +5395,6 @@
       mvno_match_data="Jump"
   />
 
-  <apn carrier="Webbing"
-      mcc="234"
-      mnc="10"
-      apn="wbdata"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-  />
-
-  <apn carrier="Webbing"
-      mcc="234"
-      mnc="10"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-   />
-
   <apn carrier="o2 Mobile Web"
       carrier_id = "1492"
       mcc="234"
@@ -5725,6 +5701,23 @@
       mvno_type="spn"
       mvno_match_data="Lycamobile"
       type="default,ia,supl"
+  />
+
+  <apn carrier="Tata Move UK"
+      mcc="234"
+      mnc="27"
+      apn="move.dataxs.mobi"
+      type="default,supl,dun"
+  />
+
+  <apn carrier="IMS"
+      mcc="234"
+      mnc="27"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
   />
 
   <apn carrier="EE Internet"
@@ -6530,21 +6523,12 @@
       mcc="238"
       mnc="06"
       apn="data.tre.dk"
-      type="default,ia,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="3 MMS"
-      carrier_id = "1466"
-      mcc="238"
-      mnc="06"
-      apn="data.tre.dk"
       mmsc="http://mms.3.dk/"
       mmsproxy="mmsproxy.3.dk"
       mmsport="8799"
-      type="mms"
+      type="default,ia,supl,mms"
       protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|12|13|14|15|17|20"
   />
 
@@ -6761,21 +6745,12 @@
       mcc="240"
       mnc="02"
       apn="data.tre.se"
-      type="default,ia,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="3 MMS"
-      carrier_id = "1691"
-      mcc="240"
-      mnc="02"
-      apn="data.tre.se"
       mmsc="http://mms.tre.se"
       mmsproxy="mmsproxy.tre.se"
       mmsport="8799"
-      type="mms"
+      type="default,ia,supl,mms"
       protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|12|13|14|15|17|20"
   />
 
@@ -10749,41 +10724,59 @@
       mmsport="8799"
       mvno_match_data="5455"
       mvno_type="gid"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
   />
 
-  <apn carrier="TELUS Tether"
+  <apn carrier="TELUS ISP"
       carrier_id = "1404"
       mcc="302"
       mnc="220"
       apn="isp.telus.com"
-      server="*"
       type="dun"
       mvno_match_data="5455"
       mvno_type="gid"
+      protocol="IP"
+      roaming_protocol="IP"
   />
 
-  <apn carrier="Koodo"
+  <apn carrier="IMS"
+        carrier_id = "1404"
+        mcc="302"
+        mnc="220"
+        apn="ims"
+        type="ims"
+        mvno_match_data="5455"
+        mvno_type="gid"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="KOODO SP"
       carrier_id = "2020"
       mcc="302"
       mnc="220"
       apn="sp.koodo.com"
-      type="default,ia,mms,supl"
+      type="default,ia,mms,supl,dun"
       mmsc="http://aliasredirect.net/proxy/koodo/mmsc"
       mmsproxy="mmscproxy.mobility.ca"
       mmsport="8799"
       mvno_match_data="4B4F"
       mvno_type="gid"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
   />
 
-  <apn carrier="Koodo Tether"
+  <apn carrier="IMS"
       carrier_id = "2020"
       mcc="302"
       mnc="220"
-      apn="sp.koodo.com"
-      server="*"
-      type="dun"
+      apn="ims"
+      type="ims"
       mvno_match_data="4B4F"
       mvno_type="gid"
+      protocol="IPV6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Mobile Internet"
@@ -10820,6 +10813,8 @@
       mmsport="8799"
       mvno_type="gid"
       mvno_match_data="4D4F"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
   />
 
   <apn carrier="Tethered Mobile Internet"
@@ -10830,6 +10825,20 @@
       type="dun"
       mvno_type="gid"
       mvno_match_data="4D4F"
+      protocol="IP"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="IMS"
+      carrier_id = "2089"
+      mcc="302"
+      mnc="220"
+      apn="ims"
+      type="ims"
+      mvno_type="gid"
+      mvno_match_data="4D4F"
+      protocol="IPV6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="TELUS ISP"
@@ -17330,26 +17339,6 @@
       mtu="1422"
   />
 
-  <apn carrier="Webbing"
-      mcc="311"
-      mnc="588"
-      apn="wbdata"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-  />
-
-  <apn carrier="Webbing"
-      mcc="311"
-      mnc="588"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-   />
-
   <apn carrier="U.S. Cellular"
       mcc="311"
       mnc="589"
@@ -18212,6 +18201,56 @@
       mnc="870"
       apn="gigsky"
       type="default,ia"
+  />
+
+  <apn carrier="mobi LTE"
+      carrier_id = "2464"
+      mcc="313"
+      mnc="460"
+      apn="4g.mobi.net"
+      type="default,supl,ia,dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="mobi MMS"
+      carrier_id = "2464"
+      mcc="313"
+      mnc="460"
+      apn="mms.mobi.net"
+      mmsc="http://mms.mobi.net"
+      type="mms"
+  />
+
+  <apn carrier="mobi IMS"
+      carrier_id = "2464"
+      mcc="313"
+      mnc="460"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13|18|20"
+  />
+
+  <apn carrier="mobi XCAP"
+      carrier_id = "2464"
+      mcc="313"
+      mnc="460"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      network_type_bitmask="13|18|20"
+  />
+
+  <apn carrier="mobi OTA"
+      carrier_id = "2464"
+      mcc="313"
+      mnc="460"
+      apn="ota.mobi.net"
+      type="fota"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="MobileUC IMS"
@@ -29393,6 +29432,21 @@
       type="mms"
   />
 
+  <apn carrier="Rcell IMS"
+      carrier_id = "2646"
+      mcc="417"
+      mnc="50"
+      apn="ims"
+      type="ims"
+  />
+   <apn carrier="Rcell Internet"
+      carrier_id = "2646"
+      mcc="417"
+      mnc="50"
+      apn="internet"
+      type="default"
+  />
+
   <apn carrier="Asiacell Internet"
       carrier_id = "1969"
       mcc="418"
@@ -29854,26 +29908,6 @@
       user_visible="false"
   />
 
-  <apn carrier="Webbing"
-      mcc="424"
-      mnc="02"
-      apn="wbdata"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-  />
-
-  <apn carrier="Webbing"
-      mcc="424"
-      mnc="02"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-   />
-
   <apn carrier="du LTE"
       carrier_id = "1970"
       mcc="424"
@@ -29965,12 +29999,10 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Jawwal WAP"
+  <apn carrier="Jawwal internet"
       mcc="425"
       mnc="05"
-      apn="wap"
-      proxy="213.244.118.129"
-      port="8080"
+      apn="internet"
       type="default,ia,supl"
   />
 
@@ -30337,6 +30369,25 @@
       mnc="04"
       apn="default"
       type="default,ia,supl"
+  />
+
+  <apn carrier="shatelmobile"
+     mcc="432"
+     mnc="08"
+     apn="shatelmobile"
+     type="default,ia,supl"
+     protocol="IPV4V6"
+     roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="shatelmobile"
+     mcc="432"
+     mnc="08"
+     apn="SHM-IMS"
+     type="ims"
+     user_visible="false"
+     protocol="IPV4V6"
+     roaming_protocol="IPV4V6"
   />
 
   <apn carrier="MCI-GPRS"
@@ -31338,26 +31389,6 @@
       mvno_match_data="547275554B3030656E"
   />
 
-  <apn carrier="Webbing"
-      mcc="454"
-      mnc="00"
-      apn="wbdata"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-  />
-
-  <apn carrier="Webbing"
-      mcc="454"
-      mnc="00"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-   />
-
   <apn carrier="csl"
       carrier_id = "759"
       mcc="454"
@@ -31973,26 +32004,6 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Webbing"
-      mcc="454"
-      mnc="12"
-      apn="wbdata"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-  />
-
-  <apn carrier="Webbing"
-      mcc="454"
-      mnc="12"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-   />
-
   <apn carrier="CMHK MMS"
       carrier_id = "767"
       mcc="454"
@@ -32445,22 +32456,6 @@
       type="default,ia,supl,mms"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="Webbing"
-      mcc="454"
-      mnc="35"
-      apn="wbdata"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-  />
-
-  <apn carrier="Webbing"
-      mcc="454"
-      mnc="35"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
   />
 
   <apn carrier="SmarTone Macau"
@@ -34165,23 +34160,35 @@
       roaming_protocol="IP"
   />
 
-  <apn carrier="VF AU PXT"
+  <apn carrier="Pivotel MMS"
       carrier_id = "492"
       mcc="505"
       mnc="88"
-      apn="live.vodafone.com"
-      mmsc="http://pxt.vodafone.net.au/pxtsend"
-      mmsproxy="10.202.2.60"
-      mmsport="8080"
+      apn="mms"
+      mmsc="http://mmsc.pivotel.com.au:8002"
+      mmsproxy="203.105.216.88"
+      mmsport="8088"
       type="mms"
   />
 
-  <apn carrier="VF Internet"
+  <apn carrier="Pivotel Internet"
       carrier_id = "492"
       mcc="505"
       mnc="88"
-      apn="vfinternet.au"
+      apn="internet"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Pivotel IMS"
+      carrier_id = "492"
+      mcc="505"
+      mnc="88"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Optus Internet"
@@ -38917,26 +38924,6 @@
       type="ims"
   />
 
-  <apn carrier="Webbing"
-      mcc="724"
-      mnc="54"
-      apn="wbdata"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-  />
-
-  <apn carrier="Webbing"
-      mcc="724"
-      mnc="54"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-   />
-
   <apn carrier="Internet Movil"
       carrier_id = "1427"
       mcc="730"
@@ -39139,26 +39126,6 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
-
-  <apn carrier="Webbing"
-      mcc="732"
-      mnc="101"
-      apn="wbdata"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-  />
-
-  <apn carrier="Webbing"
-      mcc="732"
-      mnc="101"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-   />
 
   <apn carrier="Tigo Web"
       carrier_id = "624"
@@ -39835,22 +39802,6 @@
       type="default,ia,supl,mms"
   />
 
-  <apn carrier="Webbing"
-      mcc="901"
-      mnc="01"
-      apn="wbdata"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-  />
-
-  <apn carrier="Webbing"
-      mcc="901"
-      mnc="01"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-   />
-
   <apn carrier="CIOT Vodafone"
       mcc="901"
       mnc="28"
@@ -39859,26 +39810,6 @@
       password="vodafone"
       type="default,ia"
   />
-
-  <apn carrier="Webbing"
-      mcc="901"
-      mnc="31"
-      apn="wbdata"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-  />
-
-  <apn carrier="Webbing"
-      mcc="901"
-      mnc="31"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-   />
 
   <apn carrier="mobiledata"
       mcc="901"
@@ -39901,6 +39832,23 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="Tata Move IOT"
+      mcc="901"
+      mnc="54"
+      apn="move.dataxs.mobi"
+      type="default,supl,dun"
+  />
+
+  <apn carrier="IMS"
+      mcc="901"
+      mnc="54"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      user_visible="false"
+  />
+
   <apn carrier="BICS Internet"
       carrier_id = "2132"
       mcc="901"
@@ -39909,26 +39857,12 @@
       type="default,ia,supl"
   />
 
-  <apn carrier="Webbing"
+<apn carrier="Sparkle"
       mcc="901"
-      mnc="61"
-      apn="wbdata"
-      type="default,ia,dun"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
+      mnc="78"
+      apn="ep05.tis.com"
+      type="default,ia,supl"
   />
-
-  <apn carrier="Webbing"
-      mcc="901"
-      mnc="61"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      mvno_type="gid"
-      mvno_match_data="536E617065"
-   />
-
 
   <apn carrier="Verizon IA"
       mcc="999"
@@ -40665,6 +40599,35 @@
       type="ims"
       user_visible="false"
   />
+
+  <apn carrier="Webbing"
+      carrier_id = "2631"
+      apn="wbdata"
+      type="default,ia,dun"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Webbing"
+      carrier_id = "2631"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+   />
+
+  <apn carrier="Webbing"
+      carrier_id = "2631"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV4V6"
+   />
+
+  <apn carrier="Webbing"
+      carrier_id = "2631"
+      apn="sos"
+      type="emergency"
+      protocol="IPV4V6"
+   />
+
 
   <apn carrier="Tracfone AT&amp;T"
       carrier_id = "10000"
