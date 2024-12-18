@@ -33,7 +33,7 @@ android_app {
     sdk_version: "current",
 
     // Also link against our own custom library.
-    libs: ["com.example.android.platform_library"],
+    libs: ["com.example.android.platform_library.stubs"],
     uses_libs: ["com.example.android.platform_library"],
 
     optimize: {
