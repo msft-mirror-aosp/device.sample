@@ -6225,6 +6225,8 @@
       apn="mobile.sky"
       authtype="0"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="MMS"
@@ -6235,6 +6237,8 @@
       mmsproxy="185.110.178.97"
       mmsport="9028"
       type="mms"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|12|13|14|15|17|20"
   />
 
@@ -6243,6 +6247,8 @@
       mnc="57"
       apn="IMS"
       type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       user_visible="false"
   />
 
@@ -6251,6 +6257,8 @@
       mnc="57"
       apn="ut.mobile.sky"
       type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       user_visible="false"
   />
 
@@ -6263,6 +6271,8 @@
       mmsproxy="185.110.178.97"
       mmsport="9028"
       network_type_bitmask="18"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       user_visible="false"
   />
 
@@ -6951,6 +6961,8 @@
       type="ims"
       mvno_type="gid"
       mvno_match_data="0C"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       user_visible="false"
   />
 
@@ -6965,6 +6977,8 @@
       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|12|13|14|15|17|20"
       mvno_match_data="0C"
       mvno_type="gid"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Sky MMS VoWiFi"
@@ -6978,6 +6992,8 @@
       network_type_bitmask="18"
       mvno_type="gid"
       mvno_match_data="0C"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       user_visible="false"
   />
 
@@ -6988,6 +7004,8 @@
       type="default,ia,supl"
       mvno_match_data="0C"
       mvno_type="gid"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Sky Ut"
@@ -6997,6 +7015,8 @@
       type="xcap"
       mvno_type="gid"
       mvno_match_data="0C"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       user_visible="false"
   />
 
