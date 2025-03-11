@@ -19330,6 +19330,32 @@
       mvno_match_data="IENTC"
   />
 
+  <apn carrier="Izzi"
+      carrier_id="2488"
+      mcc="334"
+      mnc="160"
+      apn="mvne.izzi.mx"
+      type="default,ia,supl,xcap,dun"
+      user=""
+      password=""
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="spn"
+      mvno_match_data="izzi"
+  />
+
+  <apn carrier="Izzi"
+      carrier_id="2488"
+      mcc="334"
+      mnc="160"
+      apn="ims"
+      type="ims"
+      user=""
+      password=""
+      mvno_type="spn"
+      mvno_match_data="izzi"
+  />
+
   <apn carrier="Internet Mexico"
       carrier_id = "2652"
       mcc="334"
