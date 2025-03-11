@@ -18256,56 +18256,6 @@
       type="default,ia"
   />
 
-  <apn carrier="mobi LTE"
-      carrier_id = "2464"
-      mcc="313"
-      mnc="460"
-      apn="4g.mobi.net"
-      type="default,supl,ia,dun"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="mobi MMS"
-      carrier_id = "2464"
-      mcc="313"
-      mnc="460"
-      apn="mms.mobi.net"
-      mmsc="http://mms.mobi.net"
-      type="mms"
-  />
-
-  <apn carrier="mobi IMS"
-      carrier_id = "2464"
-      mcc="313"
-      mnc="460"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      network_type_bitmask="13|18|20"
-  />
-
-  <apn carrier="mobi XCAP"
-      carrier_id = "2464"
-      mcc="313"
-      mnc="460"
-      apn="hos"
-      type="xcap"
-      protocol="IPV4V6"
-      network_type_bitmask="13|18|20"
-  />
-
-  <apn carrier="mobi OTA"
-      carrier_id = "2464"
-      mcc="313"
-      mnc="460"
-      apn="ota.mobi.net"
-      type="fota"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
   <apn carrier="MobileUC IMS"
       carrier_id = "10030"
       mcc="313"
@@ -40352,6 +40302,47 @@
       apn="hos"
       type="xcap"
       user_visible="false"
+  />
+
+  <apn carrier="mobi LTE"
+      carrier_id = "2464"
+      apn="4g.mobi.net"
+      type="default,supl,ia,dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="mobi MMS"
+      carrier_id = "2464"
+      apn="mms.mobi.net"
+      mmsc="http://mms.mobi.net"
+      type="mms"
+  />
+
+  <apn carrier="mobi IMS"
+      carrier_id = "2464"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13|18|20"
+  />
+
+  <apn carrier="mobi XCAP"
+      carrier_id = "2464"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13|18|20"
+  />
+
+  <apn carrier="mobi OTA"
+      carrier_id = "2464"
+      apn="ota.mobi.net"
+      type="fota"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="travelfy"
