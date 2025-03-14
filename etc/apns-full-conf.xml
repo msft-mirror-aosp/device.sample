@@ -8621,6 +8621,27 @@
       type="mms"
   />
 
+  <apn carrier="IDC Internet"
+      carrier_id = "2447"
+      mcc="259"
+      mnc="15"
+      apn="internet"
+      type="default"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
+/>
+
+  <apn carrier="IDC IMS"
+      carrier_id = "2447"
+      mcc="259"
+      mnc="15"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
+      user_visible="false"
+  />
+
   <apn carrier="Plus Internet"
       carrier_id = "1658"
       mcc="260"
