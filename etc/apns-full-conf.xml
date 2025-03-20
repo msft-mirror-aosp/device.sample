@@ -37336,9 +37336,21 @@
       user="orange"
       password="orange"
       type="default,ia,supl"
+      protocol="IPV6"
+      user_editable="false"
   />
 
-  <apn carrier="Orange MMS Réunion"
+  <apn carrier="Orange RE IMS"
+      carrier_id = "1676"
+      mcc="647"
+      mnc="00"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="Orange RE MMS"
       carrier_id = "1676"
       mcc="647"
       mnc="00"
