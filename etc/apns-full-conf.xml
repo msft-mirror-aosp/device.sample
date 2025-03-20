@@ -2471,7 +2471,7 @@
       type="dun"
       mvno_type="spn"
       mvno_match_data="Orange"
-      user_visible="false"
+      user_editable="false"
   />
 
   <apn carrier="Orange IMS"
