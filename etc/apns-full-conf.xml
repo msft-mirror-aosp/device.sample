@@ -29714,6 +29714,14 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="Omnnea"
+      carrier_id = "2167"
+      mcc="418"
+      mnc="92"
+      apn="ims"
+      type="ims"
+  />
+
   <apn carrier="MI"
       carrier_id = "1585"
       mcc="419"
