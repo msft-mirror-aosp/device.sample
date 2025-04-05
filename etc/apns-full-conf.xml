@@ -10697,9 +10697,9 @@
       mcc="295"
       mnc="01"
       apn="gprs.swisscom.ch"
-      proxy="192.168.210.1"
-      port="8080"
-      type="default,ia"
+      type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Internet"
