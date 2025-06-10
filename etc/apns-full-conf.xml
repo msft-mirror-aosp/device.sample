@@ -35175,16 +35175,6 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="SH Data Prepaid"
-      carrier_id = "1707"
-      mcc="525"
-      mnc="05"
-      apn="shppd"
-      type="default,ia,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
   <apn carrier="SH IMS"
       carrier_id = "1707"
       mcc="525"
