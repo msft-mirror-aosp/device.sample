@@ -41026,6 +41026,16 @@
       user_visible="false"
   />
 
+  <!-- FirstNet Pacific (10013) override parent (2119)to disable MMS -->
+  <apn carrier="FirstNet Pacific-Phone"
+      carrier_id = "10013"
+      apn="firstnet-phone"
+      type="default,supl,fota"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
+
   <apn carrier="ATT 5G NSA default"
       carrier_id = "10021"
       apn="enhancedphone"
