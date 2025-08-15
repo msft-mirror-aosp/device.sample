@@ -38740,6 +38740,16 @@
       type="xcap"
   />
 
+  <apn carrier="Vivo Emergency"
+    carrier_id="530"
+    mcc="724"
+    mnc="06"
+    apn="ims.sos"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+    type="emergency"
+  />
+
   <apn carrier="SCTL MMS"
       carrier_id = "1388"
       mcc="724"
@@ -38812,6 +38822,16 @@
       type="xcap"
   />
 
+  <apn carrier="Vivo Emergency"
+    carrier_id="530"
+    mcc="724"
+    mnc="10"
+    apn="ims.sos"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+    type="emergency"
+  />
+
   <apn carrier="Vivo MMS"
       carrier_id = "530"
       mcc="724"
@@ -38859,6 +38879,16 @@
       protocol="IPV4V6"
       roaming_protocol="IP"
       type="xcap"
+  />
+
+  <apn carrier="Vivo Emergency"
+    carrier_id="530"
+    mcc="724"
+    mnc="11"
+    apn="ims.sos"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+    type="emergency"
   />
 
   <apn carrier='Sercomtel:Dados'
@@ -39045,6 +39075,16 @@
       protocol="IPV4V6"
       roaming_protocol="IP"
       type="xcap"
+  />
+
+  <apn carrier="Vivo Emergency"
+    carrier_id="530"
+    mcc="724"
+    mnc="23"
+    apn="ims.sos"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+    type="emergency"
   />
 
   <apn carrier="Oi Internet"
