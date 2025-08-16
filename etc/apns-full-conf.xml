@@ -4626,6 +4626,25 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="npls internet"
+      carrier_id = "2677"
+      mcc="228"
+      mnc="74"
+      apn="internet"
+      type="default,supl,fota,ia,dun,xcap"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="npls ims"
+      carrier_id = "2677"
+      mcc="228"
+      mnc="74"
+      apn="ims"
+      type="ims"
+      user_visible="false"
+      protocol="IPV4V6"
+  />
+
   <apn carrier="T-Mobile IMS"
       carrier_id = "2394"
       mcc="230"
@@ -38740,6 +38759,16 @@
       type="xcap"
   />
 
+  <apn carrier="Vivo Emergency"
+    carrier_id="530"
+    mcc="724"
+    mnc="06"
+    apn="ims.sos"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+    type="emergency"
+  />
+
   <apn carrier="SCTL MMS"
       carrier_id = "1388"
       mcc="724"
@@ -38812,6 +38841,16 @@
       type="xcap"
   />
 
+  <apn carrier="Vivo Emergency"
+    carrier_id="530"
+    mcc="724"
+    mnc="10"
+    apn="ims.sos"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+    type="emergency"
+  />
+
   <apn carrier="Vivo MMS"
       carrier_id = "530"
       mcc="724"
@@ -38859,6 +38898,16 @@
       protocol="IPV4V6"
       roaming_protocol="IP"
       type="xcap"
+  />
+
+  <apn carrier="Vivo Emergency"
+    carrier_id="530"
+    mcc="724"
+    mnc="11"
+    apn="ims.sos"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+    type="emergency"
   />
 
   <apn carrier='Sercomtel:Dados'
@@ -39045,6 +39094,16 @@
       protocol="IPV4V6"
       roaming_protocol="IP"
       type="xcap"
+  />
+
+  <apn carrier="Vivo Emergency"
+    carrier_id="530"
+    mcc="724"
+    mnc="23"
+    apn="ims.sos"
+    protocol="IPV4V6"
+    roaming_protocol="IP"
+    type="emergency"
   />
 
   <apn carrier="Oi Internet"
@@ -41024,6 +41083,16 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
+  />
+
+  <!-- FirstNet Pacific (10013) override parent (2119)to disable MMS -->
+  <apn carrier="FirstNet Pacific-Phone"
+      carrier_id = "10013"
+      apn="firstnet-phone"
+      type="default,supl,fota"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
   />
 
   <apn carrier="ATT 5G NSA default"
