@@ -12961,26 +12961,6 @@
       mvno_match_data="514C"
   />
 
-  <apn carrier="Tello"
-      mcc="310"
-      mnc="240"
-      apn="tello"
-      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      type="default,ia,mms,supl"
-      mvno_type="gid"
-      mvno_match_data="6941"
-  />
-
-  <apn carrier="iWireless"
-      mcc="310"
-      mnc="240"
-      apn="iwireless"
-      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      type="default,ia,mms,supl"
-      mvno_type="gid"
-      mvno_match_data="6957"
-  />
-
   <apn carrier="MetroPCS 240"
       carrier_id = "1949"
       mcc="310"
@@ -13027,17 +13007,6 @@
       user_visible="false"
   />
 
-  <apn carrier="Consumer Cellular"
-      carrier_id = "2023"
-      mcc="310"
-      mnc="240"
-      apn="wholesale"
-      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      type="default,ia,mms,supl,hipri"
-      mvno_type="gid"
-      mvno_match_data="2AC9"
-  />
-
   <apn carrier="MetroPCS 250"
       carrier_id = "1949"
       mcc="310"
@@ -13059,26 +13028,6 @@
       type="default,ia,mms,supl"
       mvno_type="gid"
       mvno_match_data="514C"
-  />
-
-  <apn carrier="Tello"
-      mcc="310"
-      mnc="260"
-      apn="tello"
-      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      type="default,ia,mms,supl"
-      mvno_type="gid"
-      mvno_match_data="6941"
-  />
-
-  <apn carrier="iWireless"
-      mcc="310"
-      mnc="260"
-      apn="iwireless"
-      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      type="default,ia,mms,supl"
-      mvno_type="gid"
-      mvno_match_data="6957"
   />
 
   <apn carrier="Google Fi - Tm"
@@ -13164,21 +13113,6 @@
       mmsc="http://mms.tracfone.com"
       mvno_type="gid"
       mvno_match_data="ddff"
-  />
-
-  <apn carrier="Consumer Cellular"
-      carrier_id = "2023"
-      mcc="310"
-      mnc="260"
-      apn="wholesale"
-      user=""
-      password=""
-      proxy=""
-      port=""
-      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
-      type="default,ia,mms,supl,hipri"
-      mvno_type="gid"
-      mvno_match_data="2AC9"
   />
 
   <apn carrier="MetroPCS 270"
@@ -40571,6 +40505,21 @@
       user_visible="false"
   />
 
+  <apn carrier="Google Nest"
+      carrier_id = "2070"
+      apn="wireless.nestlabs.com"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Google Nest"
+      carrier_id = "2070"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+  />
+
   <apn carrier="ATT FirstNet-Phone"
       carrier_id = "2119"
       apn="firstnet-phone"
@@ -40952,6 +40901,50 @@
     user_visible="false"
   />
 
+  <apn carrier="iWireless"
+      carrier_id = "2576"
+      apn="iwireless"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="iWireless"
+      carrier_id = "2576"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="iWireless"
+      carrier_id = "2576"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Tello"
+      carrier_id = "2578"
+      apn="tello"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Tello"
+      carrier_id = "2578"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Tello"
+      carrier_id = "2578"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+  />
+
   <apn carrier="DENT"
       carrier_id="2583"
       apn="global.telcoequity"
@@ -41062,6 +41055,28 @@
       user_visible="false"
   />
 
+  <apn carrier="Nova Labs / Helium TMO"
+      carrier_id = "2629"
+      apn="helium-mobile"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl"
+      protocol="IPV4V6"
+  />
+
+    <apn carrier="Nova Labs / Helium TMO"
+      carrier_id = "2629"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Nova Labs / Helium TMO"
+      carrier_id = "2629"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+  />
+
   <apn carrier="Webbing"
       carrier_id = "2631"
       apn="wbdata"
@@ -41098,6 +41113,53 @@
       protocol="IPV4V6"
    />
 
+  <apn carrier="Comcast"
+      carrier_id = "2683"
+      apn="internet.cb"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,mms,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+   />
+
+  <apn carrier="Comcast"
+      carrier_id = "2683"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+   />
+
+  <apn carrier="Comcast"
+      carrier_id = "2683"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+   />
+
+  <apn carrier="Spectrum"
+      carrier_id = "2687"
+      apn="wholesale"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+   />
+
+  <apn carrier="Spectrum"
+      carrier_id = "2687"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+   />
+
+  <apn carrier="Spectrum"
+      carrier_id = "2687"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+   />
+
   <apn carrier="Tracfone AT&amp;T"
       carrier_id = "10000"
       apn="ereseller"
@@ -41126,6 +41188,61 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
+  />
+
+  <apn carrier="Tracfone TMO"
+      carrier_id = "10001"
+      apn="wap.tracfone"
+      type="default,ia,mms,supl"
+      mmsc="http://TF.mmsmvno.com/mms/wapenc"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Tracfone TMO"
+      carrier_id = "10001"
+      apn="web.omwtoday.com"
+      type="default,ia,mms,supl"
+      mmsc="http://TF.mmsmvno.com/mms/wapenc"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Tracfone TMO"
+      carrier_id = "10001"
+      apn="tracfone-wfm"
+      type="default,ia,mms,supl"
+      mmsc="http://TF.mmsmvno.com/mms/wapenc"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Tracfone TMO"
+      carrier_id = "10001"
+      apn="simple"
+      type="default,ia,mms,supl"
+      mmsc="http://TF.mmsmvno.com/mms/wapenc"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Tracfone TMO"
+      carrier_id = "10001"
+      apn="multibrand"
+      type="default,ia,mms,supl"
+      mmsc="http://TF.mmsmvno.com/mms/wapenc"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Tracfone TMO"
+      carrier_id = "10001"
+      apn="iot.tracfone"
+      type="default,ia,mms,supl"
+      mmsc="http://TF.mmsmvno.com/mms/wapenc"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Tracfone TMO"
+      carrier_id = "10001"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
   />
 
   <apn carrier="Red Pocket-ATT internet"
@@ -41236,6 +41353,36 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
+  />
+
+  <apn carrier="Consumer Cellular"
+      carrier_id = "10023"
+      apn="wholesale"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Consumer Cellular"
+      carrier_id = "10023"
+      apn="iot.consumer"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Consumer Cellular"
+      carrier_id = "10023"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Consumer Cellular"
+      carrier_id = "10023"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
   />
 
   <apn carrier="ATT 5G SA Default"
