@@ -40520,6 +40520,76 @@
       protocol="IPV4V6"
   />
 
+  <apn carrier="Plintron TMO"
+      carrier_id = "2071"
+      apn="wholesale"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Plintron TMO"
+      carrier_id = "2071"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Plintron TMO"
+      carrier_id = "2071"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="PWG"
+      carrier_id = "2073"
+      apn="pwg"
+      mmsc="http://pwg.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="PWG"
+      carrier_id = "2073"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="PWG"
+      carrier_id = "2073"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Ultra"
+      carrier_id = "2083"
+      apn="wholesale"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Ultra"
+      carrier_id = "2083"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Ultra"
+      carrier_id = "2083"
+      apn="SOS"
+      authtype="1"
+      type="emergency"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
   <apn carrier="ATT FirstNet-Phone"
       carrier_id = "2119"
       apn="firstnet-phone"
@@ -41285,6 +41355,38 @@
       user_editable="false"
   />
 
+  <apn carrier="Google Fi - Tm"
+      carrier_id = "10014"
+      apn="h2g2"
+      mmsc="http://mmsc1.g-mms.com/mms/wapenc"
+      type="default,ia,mms,supl,cbs,fota"
+      protocol="IPV6"
+      roaming_protocol="IP"
+      user_editable="false"
+      user_visible="false"
+  />
+
+  <apn carrier="Google Fi - Tm"
+      carrier_id = "10014"
+      apn="h2g2-t"
+      type="dun"
+      protocol="IPV6"
+      roaming_protocol="IP"
+      user_editable="false"
+      user_visible="false"
+  />
+
+  <apn carrier="Google Fi - Tm"
+      carrier_id = "10014"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="13|20"
+      user_editable="false"
+      user_visible="false"
+  />
+
   <apn carrier="ATT 5G NSA default"
       carrier_id = "10021"
       apn="enhancedphone"
@@ -41462,5 +41564,14 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
+  />
+
+  <apn carrier="Ultra"
+      carrier_id = "10040"
+      apn="iot.ultra"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 </apns>
