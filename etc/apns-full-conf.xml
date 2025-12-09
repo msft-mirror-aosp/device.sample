@@ -30469,6 +30469,32 @@
       roaming_protocol="IPV4V6"
   />
 
+  <apn carrier="XPhone"
+      mcc="425"
+      mnc="21"
+      apn="internet"
+      type="default,ia,supl"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="XPhone IMS"
+      mcc="425"
+      mnc="21"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="XPhone UT"
+      mcc="425"
+      mnc="21"
+      apn="xcap"
+      type="xcap"
+      protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="Annatel"
       carrier_id = "2454"
       mcc="425"
