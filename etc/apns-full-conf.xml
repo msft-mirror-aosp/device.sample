@@ -1654,6 +1654,55 @@
       mvno_match_data="8981090"
   />
 
+  <apn carrier="1and1 Internet"
+      mcc="208"
+      mnc="01"
+      apn="internet"
+      type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mvno_type="iccid"
+      mvno_match_data="894936"
+  />
+
+  <apn carrier="1and1 MMS"
+      mcc="208"
+      mnc="01"
+      apn="mms"
+      mmsc="http://mms.1und1-mobilfunk.de/"
+      mmsproxy="2a00:0fbc:2200:c999:0109:1f87:2:1"
+      mmsport="80"
+      type="mms"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      mvno_type="iccid"
+      mvno_match_data="894936"
+  />
+
+  <apn carrier="1and1 IMS"
+      mcc="208"
+      mnc="01"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+      mvno_type="iccid"
+      mvno_match_data="894936"
+  />
+
+  <apn carrier="1and1 XCAP"
+      mcc="208"
+      mnc="01"
+      apn="hos"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+      mvno_type="iccid"
+      mvno_match_data="894936"
+  />
+
   <apn carrier="SFR LTE"
       carrier_id = "27"
       mcc="208"
