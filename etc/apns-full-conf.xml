@@ -35682,6 +35682,32 @@
       type="default,ia,supl"
   />
 
+  <apn carrier="Vodafone Mobile"
+      carrier_id = "2550"
+      mcc="547"
+      mnc="15"
+      apn="internet"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Vodacard/Nomad"
+      carrier_id = "2550"
+      mcc="547"
+      mnc="15"
+      apn="nomad"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="IMS"
+      carrier_id = "2550"
+      mcc="547"
+      mnc="15"
+      apn="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      type="ims"
+  />
+
   <apn carrier="Vini"
       carrier_id = "1648"
       mcc="547"
