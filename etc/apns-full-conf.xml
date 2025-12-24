@@ -35097,6 +35097,8 @@
       mnc="05"
       apn="www.dtac.co.th"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="dtac MMS"
@@ -35190,6 +35192,8 @@
       mnc="18"
       apn="www.dtac.co.th"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="dtac IMS"
@@ -35220,6 +35224,8 @@
       mnc="47"
       apn="www.dtac.co.th"
       type="default,ia,supl"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="dtac MMS"
