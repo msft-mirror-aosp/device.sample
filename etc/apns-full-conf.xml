@@ -18581,6 +18581,28 @@
       user_visible="false"
   />
 
+  <apn carrier="TextNow"
+      carrier_id="2663"
+      mcc="314"
+      mnc="730"
+      apn="textnow.static"
+      type="default,ia,supl,hipri,fota,dun,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="false"
+  />
+
+  <apn carrier="TextNow IMS"
+      carrier_id="2663"
+      mcc="314"
+      mnc="730"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
   <apn carrier="openmobile"
       mcc="330"
       mnc="000"
