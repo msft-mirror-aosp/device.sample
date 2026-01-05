@@ -13199,6 +13199,43 @@
       user_visible="false"
   />
 
+  <apn carrier="Optimum internet"
+      carrier_id = "2655"
+      mcc="310"
+      mnc="240"
+      apn="optimum"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl,hipri"
+      protocol="IPV4V6"
+      mvno_match_data="6784"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Optimum tethering"
+      carrier_id = "2655"
+      mcc="310"
+      mnc="240"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+      mvno_match_data="6784"
+      mvno_type="gid"
+      user_editable="false"
+      user_visible="false"
+  />
+
+  <apn carrier="IMS"
+      carrier_id = "2655"
+      mcc="310"
+      mnc="240"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6784"
+      mvno_type="gid"
+      user_editable="false"
+      user_visible="false"
+  />
+
   <apn carrier="MetroPCS 250"
       carrier_id = "1949"
       mcc="310"
