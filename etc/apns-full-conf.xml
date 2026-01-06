@@ -1353,6 +1353,15 @@
      mvno_type="gid"
   />
 
+  <apn carrier="eSIM Go"
+      mcc="206"
+      mnc="01"
+      apn="data.esim"
+      mvno_type="gid"
+      mvno_match_data="0409"
+      type="default,ia,supl,dun"
+  />
+
   <apn carrier="Telenet Internet"
       carrier_id = "2150"
       mcc="206"
@@ -1484,6 +1493,15 @@
       mnc="28"
       apn="bicsapn"
       type="default,ia,supl"
+  />
+
+  <apn carrier="eSIM Go"
+      mcc="206"
+      mnc="28"
+      apn="data.esim"
+      mvno_type="gid"
+      mvno_match_data="0409"
+      type="default,ia,supl,dun"
   />
 
   <apn carrier="Unleashed"
@@ -1828,6 +1846,15 @@
       type="mms"
       mvno_match_data="208090036"
       mvno_type="imsi"
+  />
+
+  <apn carrier="eSIM Go"
+      mcc="208"
+      mnc="09"
+      apn="data.esim"
+      mvno_type="gid"
+      mvno_match_data="0409"
+      type="default,ia,supl,dun"
   />
 
   <apn carrier="SFR LTE"
@@ -5300,6 +5327,15 @@
       user_visible="false"
   />
 
+  <apn carrier="eSIM Go"
+      mcc="232"
+      mnc="10"
+      apn="data.esim"
+      mvno_type="gid"
+      mvno_match_data="0409"
+      type="default,ia,supl,dun"
+  />
+
   <apn carrier="data.bob"
       carrier_id = "14"
       mcc="232"
@@ -6516,6 +6552,15 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       user_visible="false"
+  />
+
+  <apn carrier="eSIM Go"
+      mcc="234"
+      mnc="57"
+      apn="data.esim"
+      mvno_type="gid"
+      mvno_match_data="0409"
+      type="default,ia,supl,dun"
   />
 
   <apn carrier="3G HSDPA"
@@ -10298,6 +10343,15 @@
      user_visible="false"
   />
 
+  <apn carrier="eSIM Go"
+      mcc="272"
+      mnc="25"
+      apn="data.esim"
+      mvno_type="gid"
+      mvno_match_data="0409"
+      type="default,ia,supl,dun"
+  />
+
   <apn carrier="Siminn Internet"
       carrier_id = "1565"
       mcc="274"
@@ -13141,6 +13195,43 @@
       mvno_match_data="4276"
       mvno_type="gid"
       network_type_bitmask="13|20"
+      user_editable="false"
+      user_visible="false"
+  />
+
+  <apn carrier="Optimum internet"
+      carrier_id = "2655"
+      mcc="310"
+      mnc="240"
+      apn="optimum"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      type="default,ia,mms,supl,hipri"
+      protocol="IPV4V6"
+      mvno_match_data="6784"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Optimum tethering"
+      carrier_id = "2655"
+      mcc="310"
+      mnc="240"
+      apn="hotspot"
+      type="dun"
+      protocol="IPV4V6"
+      mvno_match_data="6784"
+      mvno_type="gid"
+      user_editable="false"
+      user_visible="false"
+  />
+
+  <apn carrier="IMS"
+      carrier_id = "2655"
+      mcc="310"
+      mnc="240"
+      apn="ims"
+      type="ims"
+      mvno_match_data="6784"
+      mvno_type="gid"
       user_editable="false"
       user_visible="false"
   />
