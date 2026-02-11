@@ -5416,6 +5416,14 @@
       mvno_match_data="Plintron"
   />
 
+  <apn carrier="aicall"
+      mcc="232"
+      mnc="29"
+      apn="aicall.at"
+      protocol="IPV4V6"
+      type="default,ia,supl"
+  />
+
   <apn carrier="UBIQUISYS"
       carrier_id = "1491"
       mcc="234"
