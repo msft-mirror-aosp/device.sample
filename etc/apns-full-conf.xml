@@ -1722,18 +1722,17 @@
   />
 
   <apn carrier="Nexera"
+      carrier_id = "2642"
       mcc="208"
       mnc="04"
       apn="wordnet.com"
-      user=""
-      password=""
-      authtype="0"
       type="default"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Nexera"
+      carrier_id = "2642"
       mcc="208"
       mnc="04"
       apn="apnmms.com"
