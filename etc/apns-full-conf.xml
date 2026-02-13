@@ -31268,6 +31268,46 @@
       roaming_protocol="IP"
   />
 
+  <apn carrier="M-Air"
+      mcc="440"
+      mnc="09"
+      apn="m-air.jp"
+      authtype="0"
+      type="default,ia,supl"
+      protocol="IP"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="JP SIM"
+      mcc="440"
+      mnc="09"
+      apn="jpsim.net"
+      authtype="0"
+      type="default,ia,supl"
+      protocol="IP"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="FASTAPN"
+      mcc="440"
+      mnc="09"
+      apn="fastapn.net"
+      authtype="0"
+      type="default,ia,supl"
+      protocol="IP"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="NIPPON SIM"
+      mcc="440"
+      mnc="09"
+      apn="nipponsim.jp"
+      authtype="0"
+      type="default,ia,supl"
+      protocol="IP"
+      roaming_protocol="IP"
+  />
+
   <apn carrier="docomo"
       mcc="440"
       mnc="10"
