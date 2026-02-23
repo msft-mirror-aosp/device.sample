@@ -34724,7 +34724,7 @@
       mcc="505"
       mnc="88"
       apn="mms"
-      mmsc="http://mmsc.pivotel.com.au:8002"
+      mmsc="http://mmsc.pivotel.com.au"
       mmsproxy="203.105.216.88"
       mmsport="8088"
       type="mms"
@@ -34735,7 +34735,7 @@
       mcc="505"
       mnc="88"
       apn="internet"
-      type="default,ia,supl"
+      type="default,ia,supl,dun,fota"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
@@ -34746,6 +34746,16 @@
       mnc="88"
       apn="ims"
       type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Pivotel HOS"
+      carrier_id = "492"
+      mcc="505"
+      mnc="88"
+      apn="hos"
+      type="xcap"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
   />
