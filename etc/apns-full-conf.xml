@@ -3953,6 +3953,34 @@
       type="mms"
   />
 
+  <apn carrier="Sat-Trakt Internet"
+      mcc="220"
+      mnc="12"
+      apn="stnet"
+      type="default,ia,supl"
+  />
+
+  <apn carrier="Sat-Trakt IMS"
+      mcc="220"
+      mnc="12"
+      apn="ims"
+      type="ims"
+      user_visible="false"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Sat-Trakt MMS"
+      mcc="220"
+      mnc="12"
+      apn="mms"
+      mmsc="http://mms.core.sattrakt.net:8002"
+      mmsproxy="proxy.mms.core.sattrakt.net"
+      mmsport="8080"
+      type="mms"
+      user_editable="true"
+  />
+
   <apn carrier="Vala"
       mcc="221"
       mnc="01"
