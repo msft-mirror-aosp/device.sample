@@ -1,0 +1,12 @@
+{
+  "presubmit": [
+    {
+      "name": "TelephonyProviderTests",
+      "options": [
+        {
+          "include-filter": "com.android.providers.telephony.ApnValidationTest"
+        }
+      ]
+    }
+  ]
+}

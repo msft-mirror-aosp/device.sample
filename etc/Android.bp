@@ -25,3 +25,8 @@ prebuilt_etc {
     product_specific: true,
     no_full_install: true,
 }
+
+filegroup {
+    name: "sample_apns_conf",
+    srcs: ["apns-full-conf.xml"],
+}
