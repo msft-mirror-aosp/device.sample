@@ -41173,6 +41173,141 @@
       user_visible="false"
   />
 
+  <apn carrier="internet"
+      carrier_id = "2517"
+      apn="internet"
+      protocol="IPV4V6"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      authtype="0"
+  />
+
+  <apn carrier="hotspot"
+      carrier_id = "2517"
+      apn="hotspot"
+      protocol="IPV4V6"
+      type="dun"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ota"
+      carrier_id = "2517"
+      apn="ota"
+      protocol="IPV4V6"
+      type="fota"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ims"
+      carrier_id = "2517"
+      apn="ims"
+      protocol="IPV4V6"
+      type="ims"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="xcap"
+      carrier_id = "2517"
+      apn="xcap"
+      protocol="IPV4V6"
+      type="xcap,mms"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mms.mnc340.mcc313.pub.3gppnetwork.org/mmsc"
+      authtype="0"
+      user_visible="false"
+  />
+
+  <apn carrier="internet"
+      carrier_id = "2520"
+      apn="internet"
+      protocol="IPV4V6"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      authtype="0"
+  />
+
+  <apn carrier="hotspot"
+      carrier_id = "2520"
+      apn="hotspot"
+      protocol="IPV4V6"
+      type="dun"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ota"
+      carrier_id = "2520"
+      apn="ota"
+      protocol="IPV4V6"
+      type="fota"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ims"
+      carrier_id = "2520"
+      apn="ims"
+      protocol="IPV4V6"
+      type="ims"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="xcap"
+      carrier_id = "2520"
+      apn="xcap"
+      protocol="IPV4V6"
+      type="xcap,mms"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mms.mnc340.mcc313.pub.3gppnetwork.org/mmsc"
+      authtype="0"
+      user_visible="false"
+  />
+
+  <apn carrier="internet"
+      carrier_id = "2521"
+      apn="internet"
+      protocol="IPV4V6"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      authtype="0"
+  />
+
+  <apn carrier="hotspot"
+      carrier_id = "2521"
+      apn="hotspot"
+      protocol="IPV4V6"
+      type="dun"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ota"
+      carrier_id = "2521"
+      apn="ota"
+      protocol="IPV4V6"
+      type="fota"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ims"
+      carrier_id = "2521"
+      apn="ims"
+      protocol="IPV4V6"
+      type="ims"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="xcap"
+      carrier_id = "2521"
+      apn="xcap"
+      protocol="IPV4V6"
+      type="xcap,mms"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mms.mnc340.mcc313.pub.3gppnetwork.org/mmsc"
+      authtype="0"
+      user_visible="false"
+  />
+
   <apn carrier="Dish-ATT internet"
       carrier_id = "2525"
       apn="ereseller"
@@ -41260,6 +41395,51 @@
       type="dun"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="internet"
+      carrier_id = "2528"
+      apn="internet"
+      protocol="IPV4V6"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      authtype="0"
+  />
+
+  <apn carrier="hotspot"
+      carrier_id = "2528"
+      apn="hotspot"
+      protocol="IPV4V6"
+      type="dun"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ota"
+      carrier_id = "2528"
+      apn="ota"
+      protocol="IPV4V6"
+      type="fota"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ims"
+      carrier_id = "2528"
+      apn="ims"
+      protocol="IPV4V6"
+      type="ims"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="xcap"
+      carrier_id = "2528"
+      apn="xcap"
+      protocol="IPV4V6"
+      type="xcap,mms"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mms.mnc340.mcc313.pub.3gppnetwork.org/mmsc"
+      authtype="0"
       user_visible="false"
   />
 
@@ -41557,6 +41737,246 @@
       apn="ims"
       type="ims"
       user_visible="false"
+  />
+
+  <apn carrier="internet"
+      carrier_id = "2613"
+      apn="internet"
+      protocol="IPV4V6"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      authtype="0"
+  />
+
+  <apn carrier="hotspot"
+      carrier_id = "2613"
+      apn="hotspot"
+      protocol="IPV4V6"
+      type="dun"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ota"
+      carrier_id = "2613"
+      apn="ota"
+      protocol="IPV4V6"
+      type="fota"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="internet"
+      carrier_id = "2616"
+      apn="internet"
+      protocol="IPV4V6"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      authtype="0"
+  />
+
+  <apn carrier="hotspot"
+      carrier_id = "2616"
+      apn="hotspot"
+      protocol="IPV4V6"
+      type="dun"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ota"
+      carrier_id = "2616"
+      apn="ota"
+      protocol="IPV4V6"
+      type="fota"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="internet"
+      carrier_id = "2617"
+      apn="internet"
+      protocol="IPV4V6"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      authtype="0"
+  />
+
+  <apn carrier="hotspot"
+      carrier_id = "2617"
+      apn="hotspot"
+      protocol="IPV4V6"
+      type="dun"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ota"
+      carrier_id = "2617"
+      apn="ota"
+      protocol="IPV4V6"
+      type="fota"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="internet"
+      carrier_id = "2618"
+      apn="internet"
+      protocol="IPV4V6"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      authtype="0"
+  />
+
+  <apn carrier="hotspot"
+      carrier_id = "2618"
+      apn="hotspot"
+      protocol="IPV4V6"
+      type="dun"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ota"
+      carrier_id = "2618"
+      apn="ota"
+      protocol="IPV4V6"
+      type="fota"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="internet"
+      carrier_id = "2619"
+      apn="internet"
+      protocol="IPV4V6"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      authtype="0"
+  />
+
+  <apn carrier="hotspot"
+      carrier_id = "2619"
+      apn="hotspot"
+      protocol="IPV4V6"
+      type="dun"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ota"
+      carrier_id = "2619"
+      apn="ota"
+      protocol="IPV4V6"
+      type="fota"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ims"
+      carrier_id = "2619"
+      apn="ims"
+      protocol="IPV4V6"
+      type="ims"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="xcap"
+      carrier_id = "2619"
+      apn="xcap"
+      protocol="IPV4V6"
+      type="xcap,mms"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mms.mnc340.mcc313.pub.3gppnetwork.org/mmsc"
+      authtype="0"
+      user_visible="false"
+  />
+
+  <apn carrier="internet"
+      carrier_id = "2620"
+      apn="internet"
+      protocol="IPV4V6"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      authtype="0"
+  />
+
+  <apn carrier="hotspot"
+      carrier_id = "2620"
+      apn="hotspot"
+      protocol="IPV4V6"
+      type="dun"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ota"
+      carrier_id = "2620"
+      apn="ota"
+      protocol="IPV4V6"
+      type="fota"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="internet"
+      carrier_id = "2621"
+      apn="internet"
+      protocol="IPV4V6"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      authtype="0"
+  />
+
+  <apn carrier="hotspot"
+      carrier_id = "2621"
+      apn="hotspot"
+      protocol="IPV4V6"
+      type="dun"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ota"
+      carrier_id = "2621"
+      apn="ota"
+      protocol="IPV4V6"
+      type="fota"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ims"
+      carrier_id = "2621"
+      apn="ims"
+      protocol="IPV4V6"
+      type="ims"
+      roaming_protocol="IPV4V6"
+      user_visible="false"
+  />
+
+  <apn carrier="xcap"
+      carrier_id = "2621"
+      apn="xcap"
+      protocol="IPV4V6"
+      type="xcap,mms"
+      roaming_protocol="IPV4V6"
+      mmsc="http://mms.mnc340.mcc313.pub.3gppnetwork.org/mmsc"
+      authtype="0"
+      user_visible="false"
+  />
+
+  <apn carrier="internet"
+      carrier_id = "2622"
+      apn="internet"
+      protocol="IPV4V6"
+      type="default,supl"
+      roaming_protocol="IPV4V6"
+      authtype="0"
+  />
+
+  <apn carrier="hotspot"
+      carrier_id = "2622"
+      apn="hotspot"
+      protocol="IPV4V6"
+      type="dun"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="ota"
+      carrier_id = "2622"
+      apn="ota"
+      protocol="IPV4V6"
+      type="fota"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Nova Labs / Helium TMO"
